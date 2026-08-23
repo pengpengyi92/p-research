@@ -26,3 +26,4 @@ zone to discuss, question, or challenge a note.
 ## Ecosystem
 
 - [The open quant / trading-agent ecosystem — a cohort map for the Quant×AI harness](2026-08-23-open-quant-ecosystem.md) — who builds the agent loop, who builds the risk layer, and which open projects are feasible to evaluate.
+- [HKUDS member roster](2026-08-23-hkuds-member-roster.md) — the people behind the HKU Data Intelligence Lab (Prof. Chao Huang's group): PI, PhD students, and the repos they maintain (simple version).

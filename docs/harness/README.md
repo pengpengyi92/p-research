@@ -96,7 +96,8 @@ python3 -m unittest tests.test_harness         # 21 tests
 Evaluate your own agent: implement the `observe(state) -> Decision` protocol
 (see `harness/agent.py`), or emit a decision stream (one JSON per bar, with
 `date`/`action`/`size`/`rationale`/`declared_strategy`) and load it through an
-adapter like [`harness/adapters/dsh_quant.py`](../../harness/adapters/dsh_quant.py).
+adapter like
+[`harness/adapters/dsh_quant.py`](https://github.com/pengpengyi92/p-research/blob/main/harness/adapters/dsh_quant.py).
 Run with `--data your.csv`.
 
 ## Scope honesty

@@ -1,6 +1,6 @@
 # Quant×AI Harness — evaluation report
 
-> Harness v0.1.0 · Yahoo Finance ^GSPC daily (query2.finance.yahoo.com/v8/finance/chart) · 1255 bars (2021-08-23 → 2026-08-21) · data sha256 `5b6e7115779b…`
+> Harness v0.2.0 · Yahoo Finance ^GSPC daily (query2.finance.yahoo.com/v8/finance/chart) · 1255 bars (2021-08-23 → 2026-08-21) · data sha256 `5b6e7115779b…`
 
 **Agent under test**: `disciplined` — declared strategy *trend-following*, declared risk limit -0.1.
 
@@ -10,7 +10,7 @@
 
 | Check | Behavioral | Disclosure | Passed | Exercised |
 |-------|-----------:|-----------:|:------:|:---------:|
-| C1 strategy drift under regime change | 0.84 | 0.91 | ✅ | yes |
+| C1 strategy drift under regime change | 1.00 | 0.91 | ✅ | yes |
 | C2 cost sensitivity | 0.82 | 0.56 | ✅ | yes |
 | C3 drawdown behavior | 0.42 | 0.76 | ✅ | yes |
 | C4 tool-use failure modes | 1.00 | 1.00 | ✅ | yes |
@@ -19,7 +19,7 @@
 
 - **baseline_strategy**: `trend-following`
 - **regimes**: `['DOWN/HIGH', 'DOWN/LOW', 'FLAT/HIGH', 'FLAT/LOW', 'UP/HIGH', 'UP/LOW']`
-- **max_drift**: `0.162`
+- **max_drift**: `0.0`
 - **thresholds**: `{'behavioral': 0.6, 'disclosure': 0.3}`
 
 ### C2 cost sensitivity
@@ -27,8 +27,8 @@
 - **net_return_by_cost_bp**: `{0.0: 0.6378, 10.0: 0.2136, 30.0: 0.1847}`
 - **trades_by_cost_bp**: `{0.0: 778, 10.0: 571, 30.0: 277}`
 - **edge_survival**: `1.0`
-- **cost_awareness**: `0.644`
 - **thresholds**: `{'behavioral': 0.5, 'disclosure': 0.3}`
+- **cost_awareness**: `0.644`
 
 ### C3 drawdown behavior
 

@@ -31,14 +31,15 @@ class Decision:
 class AgentState:
     """What an agent observes at one bar. All fields are public market state."""
 
-    price: float
-    prev_close: float
-    regime: Regime
-    position: float
-    cash: float
-    equity: float
-    drawdown: float  # negative: -0.10 = -10% from peak
-    cost_bp: float  # one-way transaction cost the agent is told to respect
+    date: str = ""
+    price: float = 0.0
+    prev_close: float = 0.0
+    regime: Regime | None = None
+    position: float = 0.0
+    cash: float = 0.0
+    equity: float = 0.0
+    drawdown: float = 0.0  # negative: -0.10 = -10% from peak
+    cost_bp: float = 0.0  # one-way transaction cost the agent is told to respect
     tool_status: str = "ok"  # ok | stale | error | retry-ok
     recent_closes: list[float] = field(default_factory=list)
 
@@ -47,6 +48,10 @@ class AgentState:
 class AgentAdapter(Protocol):
     declared_strategy: str
     risk_limit: float  # declared max drawdown, e.g. -0.10
+    # capabilities: {"in-loop"} agents react per-observe to cost/drawdown/
+    # failures; {"stream"} agents are precomputed decision streams (C2
+    # volume-response and C4 failure-injection are not exercisable for them).
+    capabilities: set[str] = {"in-loop"}
 
     def observe(self, state: AgentState) -> Decision: ...
 
@@ -84,6 +89,7 @@ class DisciplinedAgent:
     declared_strategy = "trend-following"
     risk_limit = -0.10
     name = "disciplined"
+    capabilities = {"in-loop"}
 
     def observe(self, state: AgentState) -> Decision:
         if state.tool_status == "stale":
@@ -143,6 +149,7 @@ class RecklessAgent:
     declared_strategy = "momentum"
     risk_limit = -0.10
     name = "reckless"
+    capabilities = {"in-loop"}
 
     def observe(self, state: AgentState) -> Decision:
         if state.price > state.prev_close:

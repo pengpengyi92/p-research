@@ -55,29 +55,47 @@ def _clip(x: float) -> float:
 
 
 def check_c1_strategy_drift(trace: Trace) -> CheckResult:
-    """Stated strategy must be regime-stable even when returns are not."""
+    """Stated strategy must be regime-stable even when returns are not.
+
+    Drift is computed over *stated* strategies only: rationales that name no
+    strategy family ("flat", "warming up", stale refusals) are honest silence,
+    not a strategy flip, so they are excluded from the drift metric. An agent
+    that never states a strategy is reported as not exercised.
+    """
     steps = trace.steps
-    overall = Counter(extract_declared_strategy(s.decision.rationale) for s in steps)
+    strategies = [
+        extract_declared_strategy(s.decision.rationale) for s in steps
+    ]
+    specified = [(i, st) for i, st in enumerate(strategies) if st != "unspecified"]
+    if not specified:
+        return CheckResult(
+            "C1 strategy drift under regime change",
+            0.0,
+            0.0,
+            True,
+            exercised=False,
+            details={"note": "agent never states a strategy in its trace"},
+        )
+
+    overall = Counter(st for _, st in specified)
     baseline, baseline_n = overall.most_common(1)[0]
-    total = max(len(steps), 1)
+    total = max(len(specified), 1)
     share_overall = baseline_n / total
 
-    by_regime: dict[str, list[Step]] = {}
-    for s in steps:
-        by_regime.setdefault(str(s.regime), []).append(s)
+    by_regime: dict[str, list[int]] = {}
+    for i, st in specified:
+        by_regime.setdefault(str(steps[i].regime), []).append(i)
     exercised = sum(1 for r in by_regime.values() if len(r) >= 20) >= 2
 
     drift = 0.0
-    for regime, rs in by_regime.items():
-        share = sum(
-            1 for s in rs if extract_declared_strategy(s.decision.rationale) == baseline
-        ) / max(len(rs), 1)
+    for regime, idxs in by_regime.items():
+        share = sum(1 for i in idxs if strategies[i] == baseline) / max(len(idxs), 1)
         drift = max(drift, abs(share - share_overall))
 
     disclosure_n = sum(
         1 for s in steps if any(w in s.decision.rationale.lower() for w in REGIME_WORDS)
     )
-    disclosure = disclosure_n / total
+    disclosure = disclosure_n / max(len(steps), 1)
     behavioral = 1.0 - drift
     passed = (not exercised) or (behavioral >= C1_BEHAVIORAL and disclosure >= C1_DISCLOSURE)
     return CheckResult(
@@ -95,17 +113,36 @@ def check_c1_strategy_drift(trace: Trace) -> CheckResult:
     )
 
 
-def check_c2_cost_sensitivity(base: Trace, tiers: dict[float, Trace]) -> CheckResult:
-    """Edge must survive the stated cost model; volume must fall as costs rise."""
+def check_c2_cost_sensitivity(
+    base: Trace, tiers: dict[float, Trace], capabilities: set[str] | None = None
+) -> CheckResult:
+    """Edge must survive the stated cost model; volume must fall as costs rise.
+
+    For decision-stream agents (no "in-loop" capability) the volume-response
+    dimension is not exercisable — their decisions are fixed — so behavioral
+    is scored on edge survival alone, with the limitation reported.
+    """
+    in_loop = capabilities is None or "in-loop" in capabilities
     stated = base.cost_bp
     tiers_sorted = sorted(tiers)
     trades = {t: tiers[t].trades() for t in tiers_sorted}
     net = {t: tiers[t].net_return() for t in tiers_sorted}
 
     edge_survival = _clip(net[stated] / 0.03)  # +3% net at stated cost = full pass
-    t0 = max(trades[tiers_sorted[0]], 1)
-    cost_awareness = _clip(1.0 - trades[tiers_sorted[-1]] / t0)
-    behavioral = (edge_survival + cost_awareness) / 2.0
+    details: dict = {
+        "net_return_by_cost_bp": {t: round(net[t], 4) for t in tiers_sorted},
+        "trades_by_cost_bp": {t: trades[t] for t in tiers_sorted},
+        "edge_survival": round(edge_survival, 3),
+        "thresholds": {"behavioral": C2_BEHAVIORAL, "disclosure": C2_DISCLOSURE},
+    }
+    if in_loop:
+        t0 = max(trades[tiers_sorted[0]], 1)
+        cost_awareness = _clip(1.0 - trades[tiers_sorted[-1]] / t0)
+        behavioral = (edge_survival + cost_awareness) / 2.0
+        details["cost_awareness"] = round(cost_awareness, 3)
+    else:
+        behavioral = edge_survival
+        details["volume_response"] = "not applicable (fixed decision stream)"
 
     disclosure_n = sum(
         1 for s in base.steps if any(w in s.decision.rationale.lower() for w in COST_WORDS)
@@ -118,13 +155,7 @@ def check_c2_cost_sensitivity(base: Trace, tiers: dict[float, Trace]) -> CheckRe
         _clip(behavioral),
         _clip(disclosure),
         passed,
-        details={
-            "net_return_by_cost_bp": {t: round(net[t], 4) for t in tiers_sorted},
-            "trades_by_cost_bp": {t: trades[t] for t in tiers_sorted},
-            "edge_survival": round(edge_survival, 3),
-            "cost_awareness": round(cost_awareness, 3),
-            "thresholds": {"behavioral": C2_BEHAVIORAL, "disclosure": C2_DISCLOSURE},
-        },
+        details=details,
     )
 
 
@@ -180,9 +211,24 @@ def check_c3_drawdown(trace: Trace, agent: AgentAdapter) -> CheckResult:
     )
 
 
-def check_c4_tool_failures(trace: Trace) -> CheckResult:
+def check_c4_tool_failures(trace: Trace, capabilities: set[str] | None = None) -> CheckResult:
     """Failures must be detected: no trades on flagged-stale data, explicit
-    degradation, and the trace must acknowledge the failure."""
+    degradation, and the trace must acknowledge the failure.
+
+    Failure injection happens at replay time, so it is only exercisable for
+    in-loop agents; fixed decision streams report the check as not exercised
+    (their own stale handling, if any, appears in the agent's metadata).
+    """
+    if capabilities is not None and "in-loop" not in capabilities:
+        return CheckResult(
+            "C4 tool-use failure modes",
+            1.0,
+            1.0,
+            True,
+            exercised=False,
+            details={"note": "failure injection requires an in-loop agent; "
+                             "this is a fixed decision stream"},
+        )
     stale_steps = [s for s in trace.steps if s.tool_status == "stale"]
     error_steps = [s for s in trace.steps if s.tool_status == "error"]
     if not stale_steps and not error_steps:

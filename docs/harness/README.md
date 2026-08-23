@@ -42,31 +42,62 @@ decoration.
 
 ## Reference agents (validation)
 
-Two deterministic agents ship to prove the harness discriminates:
+Three agents ship to validate the harness — two deterministic reference agents
+plus the program's own open-source library as the first *real* black-box agent:
 
-- **`disciplined`** — trend-following with a risk overlay (regime-aware,
-  cost-aware, drawdown-aware, refuses stale data) → **4/4 pass**
-  ([sample report](sample-disciplined.md) · [JSON](sample-disciplined.json))
-- **`reckless`** — momentum chaser (strategy flips with regime, trades through
-  costs, never reduces on drawdown, trades on stale data) → **0/4 pass**
-  ([sample report](sample-reckless.md) · [JSON](sample-reckless.json))
+| Agent | Type | Capability | Result |
+|---|---|---|---|
+| **`disciplined`** — trend-following with a risk overlay | reference (in-loop) | reacts to cost/drawdown/failures per bar | **4/4** ([md](sample-disciplined.md) · [json](sample-disciplined.json)) |
+| **`reckless`** — momentum chaser (strategy flips with regime, trades through costs, never reduces, trades on stale data) | reference (in-loop) | same | **0/4** ([md](sample-reckless.md) · [json](sample-reckless.json)) |
+| **`dsh-quant`** — the program's own Quant OS (SMA-cross + its own `tradingCost`/drawdown/stale-refusal risk layer) | black-box decision stream | `stream` (precomputed decisions) | **4/4** ([md](sample-dsh-quant.md) · [json](sample-dsh-quant.json)) |
 
-The two samples are generated on the same public SPX series (2021-08 →
-2026-08, 1255 bars) — same inputs, opposite verdicts. That is the point.
+All three run on the same public SPX series (2021-08 → 2026-08, 1255 bars) —
+same inputs, differentiated verdicts. The `dsh-quant` row is the ecosystem
+extension: `node cli/harness-signal.mjs` (in the dsh-quant repo) runs
+dsh-quant's own loop — signal from `lib/dsh-alpha`, cost guard from
+`lib/dsh-execution/trading-cost`, drawdown guard, stale-data refusal — and
+emits a decision stream that the harness replays. Stream agents honestly report
+two limitations: C2's volume-response is not applicable (fixed decisions) and
+C4's failure injection requires an in-loop agent; dsh-quant's own stale
+refusals (52/52 rows in the sample) are recorded in the report metadata.
+
+## Capabilities
+
+The harness measures what an agent can express. `capabilities` on the agent
+declares its mode:
+
+- `{"in-loop"}` — the agent reacts per-`observe` to cost, drawdown, and
+  injected tool failures → all four checks are fully exercisable.
+- `{"stream"}` — precomputed decision stream → C2 scores edge survival (volume
+  response reported as not applicable), C4 is reported not exercised, C1/C3
+  evaluate the stream's stated strategy and drawdown response directly.
+
+This keeps "passing" honest: a stream agent can never claim a C4 pass it did
+not earn by refusing stale data in-loop — it is reported as not exercised.
+
+## Metric note (C1)
+
+Strategy drift is computed over *stated* strategies only: rationales that name
+no strategy family ("flat", "warming up", stale refusals) are honest silence,
+not a flip, and are excluded. An agent that never states a strategy is
+reported as not exercised. (This was fixed in v0.2: the initial metric
+penalized honest flat periods as drift.)
 
 ## Quickstart
 
 ```bash
 # no dependencies beyond the Python standard library
-python3 -m harness demo                        # both reference agents -> docs/harness/
-python3 -m harness run --agent disciplined     # one agent, markdown to stdout
-python3 -m harness run --agent reckless --format json --out report.json
-python3 -m unittest tests.test_harness         # 18 tests
+python3 -m harness demo                        # all three agents -> docs/harness/
+python3 -m harness run --agent dsh-quant       # the dsh-quant stream
+python3 -m harness run --agent disciplined --format json --out report.json
+python3 -m unittest tests.test_harness         # 21 tests
 ```
 
 Evaluate your own agent: implement the `observe(state) -> Decision` protocol
-(see `harness/agent.py`) and run `harness run` with your OHLCV CSV
-(`--data your.csv`).
+(see `harness/agent.py`), or emit a decision stream (one JSON per bar, with
+`date`/`action`/`size`/`rationale`/`declared_strategy`) and load it through an
+adapter like [`harness/adapters/dsh_quant.py`](../../harness/adapters/dsh_quant.py).
+Run with `--data your.csv`.
 
 ## Scope honesty
 

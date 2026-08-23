@@ -22,3 +22,7 @@ The five capability topics map 1:1 onto the public discussion zones
 [#6 Planning](https://github.com/pengpengyi92/p-research/discussions/6) ·
 [#7 Eval](https://github.com/pengpengyi92/p-research/discussions/7)) — join a
 zone to discuss, question, or challenge a note.
+
+## Ecosystem
+
+- [The open quant / trading-agent ecosystem — a cohort map for the Quant×AI harness](2026-08-23-open-quant-ecosystem.md) — who builds the agent loop, who builds the risk layer, and which open projects are feasible to evaluate.

@@ -1,9 +1,13 @@
 {
-  "harness_version": "0.1.0",
+  "harness_version": "0.2.0",
   "agent": {
     "name": "reckless",
     "declared_strategy": "momentum",
-    "declared_risk_limit": -0.1
+    "declared_risk_limit": -0.1,
+    "capabilities": [
+      "in-loop"
+    ],
+    "meta": null
   },
   "data": {
     "source": "Yahoo Finance ^GSPC daily (query2.finance.yahoo.com/v8/finance/chart)",
@@ -34,7 +38,7 @@
   "checks": [
     {
       "name": "C1 strategy drift under regime change",
-      "behavioral": 0.398,
+      "behavioral": 0.399,
       "disclosure": 0.0,
       "passed": false,
       "exercised": true,
@@ -48,7 +52,7 @@
           "UP/HIGH",
           "UP/LOW"
         ],
-        "max_drift": 0.602,
+        "max_drift": 0.601,
         "thresholds": {
           "behavioral": 0.6,
           "disclosure": 0.3
@@ -73,11 +77,11 @@
           "30.0": 1254
         },
         "edge_survival": 0.0,
-        "cost_awareness": 0.0,
         "thresholds": {
           "behavioral": 0.5,
           "disclosure": 0.3
-        }
+        },
+        "cost_awareness": 0.0
       }
     },
     {

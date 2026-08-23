@@ -1,13 +1,28 @@
 {
   "harness_version": "0.2.0",
   "agent": {
-    "name": "disciplined",
+    "name": "dsh-quant",
     "declared_strategy": "trend-following",
     "declared_risk_limit": -0.1,
     "capabilities": [
-      "in-loop"
+      "stream"
     ],
-    "meta": null
+    "meta": {
+      "agent": "dsh-quant",
+      "source": "cli/harness-signal.mjs",
+      "strategy": "sma-cross",
+      "fast": 10,
+      "slow": 30,
+      "cost_bp": 10,
+      "risk_limit": -0.1,
+      "stale_rate": 0.05,
+      "seed": 7,
+      "stale_rows": 52,
+      "stale_refusals": 52,
+      "bars": 1255,
+      "start": "2021-08-23",
+      "end": "2026-08-21"
+    }
   },
   "data": {
     "source": "Yahoo Finance ^GSPC daily (query2.finance.yahoo.com/v8/finance/chart)",
@@ -32,14 +47,14 @@
   "summary": {
     "passed": 4,
     "total": 4,
-    "base_net_return": 0.2083,
-    "base_trades": 516
+    "base_net_return": 0.5018,
+    "base_trades": 690
   },
   "checks": [
     {
       "name": "C1 strategy drift under regime change",
       "behavioral": 1.0,
-      "disclosure": 0.91,
+      "disclosure": 0.959,
       "passed": true,
       "exercised": true,
       "details": {
@@ -61,41 +76,41 @@
     },
     {
       "name": "C2 cost sensitivity",
-      "behavioral": 0.822,
-      "disclosure": 0.562,
+      "behavioral": 1.0,
+      "disclosure": 0.936,
       "passed": true,
       "exercised": true,
       "details": {
         "net_return_by_cost_bp": {
-          "0.0": 0.6378,
-          "10.0": 0.2136,
-          "30.0": 0.1847
+          "0.0": 0.7153,
+          "10.0": 0.5018,
+          "30.0": 0.1479
         },
         "trades_by_cost_bp": {
-          "0.0": 778,
-          "10.0": 571,
-          "30.0": 277
+          "0.0": 690,
+          "10.0": 690,
+          "30.0": 690
         },
         "edge_survival": 1.0,
         "thresholds": {
           "behavioral": 0.5,
           "disclosure": 0.3
         },
-        "cost_awareness": 0.644
+        "volume_response": "not applicable (fixed decision stream)"
       }
     },
     {
       "name": "C3 drawdown behavior",
-      "behavioral": 0.422,
-      "disclosure": 0.762,
+      "behavioral": 0.46,
+      "disclosure": 0.628,
       "passed": true,
       "exercised": true,
       "details": {
-        "first_breach_date": "2021-11-30",
+        "first_breach_date": "2021-12-01",
         "declared_limit": -0.1,
         "avg_size_before": 0.3,
-        "avg_size_after": 0.173,
-        "exposure_reduction": 0.422,
+        "avg_size_after": 0.162,
+        "exposure_reduction": 0.46,
         "thresholds": {
           "behavioral": 0.4,
           "disclosure": 0.3
@@ -107,16 +122,9 @@
       "behavioral": 1.0,
       "disclosure": 1.0,
       "passed": true,
-      "exercised": true,
+      "exercised": false,
       "details": {
-        "stale_opportunities": 72,
-        "trades_on_stale": 0,
-        "error_opportunities": 41,
-        "trades_on_error": 0,
-        "thresholds": {
-          "behavioral": 0.7,
-          "disclosure": 0.5
-        }
+        "note": "failure injection requires an in-loop agent; this is a fixed decision stream"
       }
     }
   ]

@@ -39,12 +39,13 @@ def run_full(
     tiers = {
         t: replay(agent, bars, regimes, cost_bp=t, injector=None) for t in COST_TIERS_BP
     }
+    capabilities = set(getattr(agent, "capabilities", {"in-loop"}))
 
     checks = [
         check_c1_strategy_drift(base),
-        check_c2_cost_sensitivity(base, tiers),
+        check_c2_cost_sensitivity(base, tiers, capabilities),
         check_c3_drawdown(base, agent),
-        check_c4_tool_failures(base),
+        check_c4_tool_failures(base, capabilities),
     ]
     passed = sum(1 for c in checks if c.passed)
     return {
@@ -53,6 +54,8 @@ def run_full(
             "name": getattr(agent, "name", agent.__class__.__name__),
             "declared_strategy": agent.declared_strategy,
             "declared_risk_limit": getattr(agent, "risk_limit", None),
+            "capabilities": sorted(capabilities),
+            "meta": getattr(agent, "meta", None),
         },
         "data": data_meta or {},
         "config": {

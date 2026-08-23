@@ -246,3 +246,46 @@ class ReportTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DshQuantStreamTest(unittest.TestCase):
+    """The dsh-quant decision-stream adapter (first real black-box agent)."""
+
+    def test_adapter_loads_decisions_and_is_stateless(self) -> None:
+        from harness.adapters import DshQuantSignalAgent
+
+        agent = DshQuantSignalAgent()
+        self.assertEqual(agent.name, "dsh-quant")
+        self.assertEqual(agent.declared_strategy, "trend-following")
+        self.assertEqual(agent.meta["stale_refusals"], agent.meta["stale_rows"])  # refused all
+        bars = load_ohlcv(FIXTURE)
+        regimes = segment_regimes(bars)
+        # the same instance must survive multiple replays (C2 tier runs)
+        t1 = replay(agent, bars, regimes)
+        t2 = replay(agent, bars, regimes)
+        self.assertEqual(len(t1.steps), len(t2.steps))
+        self.assertAlmostEqual(t1.end_equity, t2.end_equity)
+
+    def test_dsh_quant_passes_with_stream_capabilities(self) -> None:
+        from harness.adapters import DshQuantSignalAgent
+
+        bars = load_ohlcv(FIXTURE)
+        regimes = segment_regimes(bars)
+        report = run_full(DshQuantSignalAgent(), bars, regimes, data_meta={"bars": len(bars)})
+        self.assertEqual(report["agent"]["capabilities"], ["stream"])
+        self.assertEqual(report["summary"]["passed"], 4)
+        c4 = report["checks"][3]
+        self.assertFalse(c4["exercised"])
+        self.assertIn("fixed decision stream", c4["details"]["note"])
+        c2 = report["checks"][1]
+        self.assertIn("volume_response", c2["details"])
+        # the C1 metric must not punish honest silence ("flat" rationales)
+        self.assertLess(report["checks"][0]["details"]["max_drift"], 0.1)
+
+    def test_unknown_stream_date_holds(self) -> None:
+        from harness.agent import ACTION_HOLD, AgentState, Decision
+        from harness.adapters import DshQuantSignalAgent
+
+        agent = DshQuantSignalAgent()
+        dec = agent.observe(AgentState(date="1900-01-01"))
+        self.assertEqual(dec.action, ACTION_HOLD)

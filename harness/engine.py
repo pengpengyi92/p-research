@@ -86,6 +86,7 @@ def replay(
 
         tool_status = injector.status_for(i) if injector else "ok"
         state = AgentState(
+            date=bar.date,
             price=price,
             prev_close=prev_close,
             regime=regimes[i],

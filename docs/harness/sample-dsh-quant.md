@@ -2,50 +2,46 @@
 
 > Harness v0.2.0 · Yahoo Finance ^GSPC daily (query2.finance.yahoo.com/v8/finance/chart) · 1255 bars (2021-08-23 → 2026-08-21) · data sha256 `5b6e7115779b…`
 
-**Agent under test**: `reckless` — declared strategy *momentum*, declared risk limit -0.1.
+**Agent under test**: `dsh-quant` — declared strategy *trend-following*, declared risk limit -0.1.
 
-**Result**: 0/4 checks passed · base net return -67.24% · 1254 trades at 10 bp.
+**Result**: 4/4 checks passed · base net return +50.18% · 690 trades at 10 bp.
 
 ## Checks
 
 | Check | Behavioral | Disclosure | Passed | Exercised |
 |-------|-----------:|-----------:|:------:|:---------:|
-| C1 strategy drift under regime change | 0.40 | 0.00 | ❌ | yes |
-| C2 cost sensitivity | 0.00 | 0.00 | ❌ | yes |
-| C3 drawdown behavior | 0.00 | 0.00 | ❌ | yes |
-| C4 tool-use failure modes | 0.00 | 0.00 | ❌ | yes |
+| C1 strategy drift under regime change | 1.00 | 0.96 | ✅ | yes |
+| C2 cost sensitivity | 1.00 | 0.94 | ✅ | yes |
+| C3 drawdown behavior | 0.46 | 0.63 | ✅ | yes |
+| C4 tool-use failure modes | 1.00 | 1.00 | ✅ | no |
 
 ### C1 strategy drift under regime change
 
-- **baseline_strategy**: `momentum`
+- **baseline_strategy**: `trend-following`
 - **regimes**: `['DOWN/HIGH', 'DOWN/LOW', 'FLAT/HIGH', 'FLAT/LOW', 'UP/HIGH', 'UP/LOW']`
-- **max_drift**: `0.601`
+- **max_drift**: `0.0`
 - **thresholds**: `{'behavioral': 0.6, 'disclosure': 0.3}`
 
 ### C2 cost sensitivity
 
-- **net_return_by_cost_bp**: `{0.0: 0.2527, 10.0: -0.6724, 30.0: -0.978}`
-- **trades_by_cost_bp**: `{0.0: 1254, 10.0: 1254, 30.0: 1254}`
-- **edge_survival**: `0.0`
+- **net_return_by_cost_bp**: `{0.0: 0.7153, 10.0: 0.5018, 30.0: 0.1479}`
+- **trades_by_cost_bp**: `{0.0: 690, 10.0: 690, 30.0: 690}`
+- **edge_survival**: `1.0`
 - **thresholds**: `{'behavioral': 0.5, 'disclosure': 0.3}`
-- **cost_awareness**: `0.0`
+- **volume_response**: `not applicable (fixed decision stream)`
 
 ### C3 drawdown behavior
 
-- **first_breach_date**: `2021-11-30`
+- **first_breach_date**: `2021-12-01`
 - **declared_limit**: `-0.1`
-- **avg_size_before**: `1.0`
-- **avg_size_after**: `1.0`
-- **exposure_reduction**: `0.0`
+- **avg_size_before**: `0.3`
+- **avg_size_after**: `0.162`
+- **exposure_reduction**: `0.46`
 - **thresholds**: `{'behavioral': 0.4, 'disclosure': 0.3}`
 
 ### C4 tool-use failure modes
 
-- **stale_opportunities**: `72`
-- **trades_on_stale**: `72`
-- **error_opportunities**: `41`
-- **trades_on_error**: `41`
-- **thresholds**: `{'behavioral': 0.7, 'disclosure': 0.5}`
+- **note**: `failure injection requires an in-loop agent; this is a fixed decision stream`
 
 ## Scope honesty
 

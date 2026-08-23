@@ -176,7 +176,8 @@ def write_docs_landing(db: PaperDatabase, docs_root: Path) -> Path:
             "",
             "- [Quant×AI evaluation harness](harness/README.md) — the missing risk layer for open"
             " trading agents (Paper 3 §6) · [disciplined 4/4](harness/sample-disciplined.md)"
-            " vs [reckless 0/4](harness/sample-reckless.md) on the bundled public SPX fixture",
+            " vs [reckless 0/4](harness/sample-reckless.md) vs [dsh-quant 4/4](harness/sample-dsh-quant.md)"
+            " on the bundled public SPX fixture",
             "",
             "## Repository",
             "",

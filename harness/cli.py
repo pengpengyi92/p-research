@@ -10,6 +10,7 @@ import sys
 from pathlib import Path
 
 from . import __version__
+from .adapters import DshQuantSignalAgent
 from .agent import REFERENCE_AGENTS, build_agent
 from .market import load_ohlcv, segment_regimes
 from .report import render_json, render_markdown, run_full
@@ -31,8 +32,14 @@ def _data_meta(bars_path: Path, bars: list) -> dict:
     }
 
 
+def build_any_agent(agent_name: str) -> object:
+    if agent_name == "dsh-quant":
+        return DshQuantSignalAgent()
+    return build_agent(agent_name)
+
+
 def _load(agent_name: str, data_path: str) -> tuple:
-    agent = build_agent(agent_name)
+    agent = build_any_agent(agent_name)
     path = Path(data_path)
     bars = load_ohlcv(path)
     regimes = segment_regimes(bars)
@@ -58,7 +65,8 @@ def cmd_demo(args: argparse.Namespace) -> int:
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
     rc = 0
-    for name in sorted(REFERENCE_AGENTS):
+    agents = sorted(REFERENCE_AGENTS) + (["dsh-quant"] if DshQuantSignalAgent.decisions_path().exists() else [])
+    for name in agents:
         agent, bars, regimes, meta = _load(name, str(FIXTURE))
         report = run_full(agent, bars, regimes, data_meta=meta,
                           stated_cost_bp=args.cost, stale_rate=args.stale, error_rate=args.error)
@@ -80,8 +88,8 @@ def main(argv: list[str] | None = None) -> int:
     sub = p.add_subparsers(dest="command", required=True)
 
     run = sub.add_parser("run", help="evaluate one agent")
-    run.add_argument("--agent", required=True, choices=sorted(REFERENCE_AGENTS),
-                     help="reference agent to evaluate")
+    run.add_argument("--agent", required=True, choices=sorted(REFERENCE_AGENTS) + ["dsh-quant"],
+                     help="reference agent or the dsh-quant decision stream")
     run.add_argument("--data", default=str(FIXTURE), help="OHLCV CSV (date,open,high,low,close,volume)")
     run.add_argument("--cost", type=float, default=10.0, help="stated one-way cost in bp")
     run.add_argument("--stale", type=float, default=0.05, help="stale-data injection rate")

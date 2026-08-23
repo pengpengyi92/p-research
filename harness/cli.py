@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 from . import __version__
-from .adapters import DshQuantSignalAgent
+from .adapters import BacktraderSignalAgent, DshQuantSignalAgent, FreqtradeSignalAgent
 from .agent import REFERENCE_AGENTS, build_agent
 from .market import load_ohlcv, segment_regimes
 from .report import render_json, render_markdown, run_full
@@ -18,6 +18,12 @@ from .report import render_json, render_markdown, run_full
 # bundled public fixture (provenance in data/market/PROVENANCE.md)
 FIXTURE = Path(__file__).resolve().parent.parent / "data" / "market" / "spx_daily.csv"
 FIXTURE_SHA256 = "5b6e7115779b8027a9b613b64ba6731c77c3dfe6c5f9019fbc8f5e9672fdb61d"
+
+STREAM_AGENTS: dict[str, type] = {
+    "dsh-quant": DshQuantSignalAgent,
+    "backtrader": BacktraderSignalAgent,
+    "freqtrade": FreqtradeSignalAgent,
+}
 
 
 def _data_meta(bars_path: Path, bars: list) -> dict:
@@ -33,8 +39,8 @@ def _data_meta(bars_path: Path, bars: list) -> dict:
 
 
 def build_any_agent(agent_name: str) -> object:
-    if agent_name == "dsh-quant":
-        return DshQuantSignalAgent()
+    if agent_name in STREAM_AGENTS:
+        return STREAM_AGENTS[agent_name]()
     return build_agent(agent_name)
 
 
@@ -65,7 +71,9 @@ def cmd_demo(args: argparse.Namespace) -> int:
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
     rc = 0
-    agents = sorted(REFERENCE_AGENTS) + (["dsh-quant"] if DshQuantSignalAgent.decisions_path().exists() else [])
+    agents = sorted(REFERENCE_AGENTS)
+    agents += [name for name, cls in sorted(STREAM_AGENTS.items())
+               if cls.decisions_path().exists()]
     for name in agents:
         agent, bars, regimes, meta = _load(name, str(FIXTURE))
         report = run_full(agent, bars, regimes, data_meta=meta,
@@ -88,8 +96,9 @@ def main(argv: list[str] | None = None) -> int:
     sub = p.add_subparsers(dest="command", required=True)
 
     run = sub.add_parser("run", help="evaluate one agent")
-    run.add_argument("--agent", required=True, choices=sorted(REFERENCE_AGENTS) + ["dsh-quant"],
-                     help="reference agent or the dsh-quant decision stream")
+    run.add_argument("--agent", required=True,
+                     choices=sorted(REFERENCE_AGENTS) + sorted(STREAM_AGENTS),
+                     help="reference agent or a decision-stream adapter")
     run.add_argument("--data", default=str(FIXTURE), help="OHLCV CSV (date,open,high,low,close,volume)")
     run.add_argument("--cost", type=float, default=10.0, help="stated one-way cost in bp")
     run.add_argument("--stale", type=float, default=0.05, help="stale-data injection rate")

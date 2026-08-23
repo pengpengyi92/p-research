@@ -289,3 +289,62 @@ class DshQuantStreamTest(unittest.TestCase):
         agent = DshQuantSignalAgent()
         dec = agent.observe(AgentState(date="1900-01-01"))
         self.assertEqual(dec.action, ACTION_HOLD)
+
+
+def _bt_available() -> bool:
+    try:
+        import backtrader  # noqa: PLC0415, F401
+
+        return True
+    except ImportError:
+        return False
+
+
+class BacktraderStreamTest(unittest.TestCase):
+    """The backtrader adapter (framework-based decision stream)."""
+
+    def test_committed_stream_passes(self) -> None:
+        from harness.adapters import BacktraderSignalAgent
+
+        agent = BacktraderSignalAgent()
+        self.assertEqual(agent.name, "backtrader")
+        bars = load_ohlcv(FIXTURE)
+        regimes = segment_regimes(bars)
+        report = run_full(agent, bars, regimes, data_meta={"bars": len(bars)})
+        self.assertEqual(report["summary"]["passed"], 4)
+        # engine-level cost sweep is backtrader's own answer to C2
+        sweep = report["agent"]["meta"]["engine_cost_sweep"]
+        self.assertEqual(set(sweep), {"0.0", "10.0", "30.0"})
+        self.assertGreater(sweep["30.0"]["net_return"], sweep["0.0"]["net_return"] - 1.0)
+        self.assertFalse(report["checks"][3]["exercised"])
+
+    @unittest.skipIf(
+        _bt_available(), "backtrader installed; generator covered by the live run"
+    )
+    def test_generator_requires_backtrader(self) -> None:
+        from harness.adapters.backtrader import generate_decisions
+
+        with self.assertRaises(RuntimeError):
+            generate_decisions(FIXTURE, "/tmp/x.jsonl")
+
+
+
+class FreqtradeStreamTest(unittest.TestCase):
+    """The freqtrade adapter (IStrategy-driven decision stream)."""
+
+    def test_committed_stream_c3_finding(self) -> None:
+        from harness.adapters import FreqtradeSignalAgent
+
+        agent = FreqtradeSignalAgent()
+        self.assertEqual(agent.name, "freqtrade")
+        bars = load_ohlcv(FIXTURE)
+        regimes = segment_regimes(bars)
+        report = run_full(agent, bars, regimes, data_meta={"bars": len(bars)})
+        self.assertEqual(report["summary"]["passed"], 3)
+        # C1/C2/C4 pass; C3 flags weak drawdown response — the documented
+        # framework-level finding (entry-only guard, no position-level sizing)
+        c3 = report["checks"][2]
+        self.assertFalse(c3["passed"])
+        self.assertLess(c3["details"]["exposure_reduction"], 0.1)
+        self.assertTrue(report["checks"][0]["passed"])
+        self.assertTrue(report["checks"][1]["passed"])

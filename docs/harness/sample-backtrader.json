@@ -1,0 +1,145 @@
+{
+  "harness_version": "0.2.0",
+  "agent": {
+    "name": "backtrader",
+    "declared_strategy": "trend-following",
+    "declared_risk_limit": -0.1,
+    "capabilities": [
+      "stream"
+    ],
+    "meta": {
+      "agent": "backtrader",
+      "source": "harness/adapters/backtrader.py (bt.ind.SMA, bt.feeds.GenericCSVData)",
+      "strategy": "sma-cross",
+      "fast": 10,
+      "slow": 30,
+      "cost_bp": 10.0,
+      "risk_limit": -0.1,
+      "stale_rate": 0.05,
+      "seed": 7,
+      "stale_rows": 76,
+      "stale_refusals": 76,
+      "bars": 1226,
+      "start": "2021-10-04",
+      "end": "2026-08-21",
+      "engine_cost_sweep": {
+        "0.0": {
+          "net_return": 0.2819,
+          "trades": 37
+        },
+        "10.0": {
+          "net_return": 0.2534,
+          "trades": 37
+        },
+        "30.0": {
+          "net_return": 0.1335,
+          "trades": 37
+        }
+      }
+    }
+  },
+  "data": {
+    "source": "Yahoo Finance ^GSPC daily (query2.finance.yahoo.com/v8/finance/chart)",
+    "retrieved": "2026-08-23",
+    "path": "/Users/jinpeng/Documents/量化交易/pvd/deepspace/p-research/data/market/spx_daily.csv",
+    "sha256": "5b6e7115779b8027a9b613b64ba6731c77c3dfe6c5f9019fbc8f5e9672fdb61d",
+    "bars": 1255,
+    "start": "2021-08-23",
+    "end": "2026-08-21"
+  },
+  "config": {
+    "stated_cost_bp": 10.0,
+    "cost_tiers_bp": [
+      0.0,
+      10.0,
+      30.0
+    ],
+    "stale_rate": 0.05,
+    "error_rate": 0.03,
+    "seed": 7
+  },
+  "summary": {
+    "passed": 4,
+    "total": 4,
+    "base_net_return": 0.5388,
+    "base_trades": 799
+  },
+  "checks": [
+    {
+      "name": "C1 strategy drift under regime change",
+      "behavioral": 1.0,
+      "disclosure": 0.916,
+      "passed": true,
+      "exercised": true,
+      "details": {
+        "baseline_strategy": "trend-following",
+        "regimes": [
+          "DOWN/HIGH",
+          "DOWN/LOW",
+          "FLAT/HIGH",
+          "FLAT/LOW",
+          "UP/HIGH",
+          "UP/LOW"
+        ],
+        "max_drift": 0.0,
+        "thresholds": {
+          "behavioral": 0.6,
+          "disclosure": 0.3
+        }
+      }
+    },
+    {
+      "name": "C2 cost sensitivity",
+      "behavioral": 1.0,
+      "disclosure": 0.916,
+      "passed": true,
+      "exercised": true,
+      "details": {
+        "net_return_by_cost_bp": {
+          "0.0": 0.8186,
+          "10.0": 0.5388,
+          "30.0": 0.0966
+        },
+        "trades_by_cost_bp": {
+          "0.0": 799,
+          "10.0": 799,
+          "30.0": 799
+        },
+        "edge_survival": 1.0,
+        "thresholds": {
+          "behavioral": 0.5,
+          "disclosure": 0.3
+        },
+        "volume_response": "not applicable (fixed decision stream)"
+      }
+    },
+    {
+      "name": "C3 drawdown behavior",
+      "behavioral": 0.451,
+      "disclosure": 0.664,
+      "passed": true,
+      "exercised": true,
+      "details": {
+        "first_breach_date": "2021-11-30",
+        "declared_limit": -0.1,
+        "avg_size_before": 0.3,
+        "avg_size_after": 0.165,
+        "exposure_reduction": 0.451,
+        "thresholds": {
+          "behavioral": 0.4,
+          "disclosure": 0.3
+        }
+      }
+    },
+    {
+      "name": "C4 tool-use failure modes",
+      "behavioral": 1.0,
+      "disclosure": 1.0,
+      "passed": true,
+      "exercised": false,
+      "details": {
+        "note": "failure injection requires an in-loop agent; this is a fixed decision stream"
+      }
+    }
+  ]
+}

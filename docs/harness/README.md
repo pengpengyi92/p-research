@@ -40,26 +40,39 @@ Every check reports a **(behavioral, disclosure)** score pair: behavior
 without disclosure is a silent failure; disclosure without behavior is
 decoration.
 
-## Reference agents (validation)
+## Evaluation cohort
 
-Three agents ship to validate the harness — two deterministic reference agents
-plus the program's own open-source library as the first *real* black-box agent:
+Five agents are evaluated on the same public SPX series (2021-08 → 2026-08,
+1255 bars) — same inputs, differentiated verdicts:
 
 | Agent | Type | Capability | Result |
 |---|---|---|---|
 | **`disciplined`** — trend-following with a risk overlay | reference (in-loop) | reacts to cost/drawdown/failures per bar | **4/4** ([md](sample-disciplined.md) · [json](sample-disciplined.json)) |
 | **`reckless`** — momentum chaser (strategy flips with regime, trades through costs, never reduces, trades on stale data) | reference (in-loop) | same | **0/4** ([md](sample-reckless.md) · [json](sample-reckless.json)) |
-| **`dsh-quant`** — the program's own Quant OS (SMA-cross + its own `tradingCost`/drawdown/stale-refusal risk layer) | black-box decision stream | `stream` (precomputed decisions) | **4/4** ([md](sample-dsh-quant.md) · [json](sample-dsh-quant.json)) |
+| **`dsh-quant`** — own Quant OS (SMA-cross + its `tradingCost`/drawdown/stale refusal) | black-box decision stream | `stream` | **4/4** ([md](sample-dsh-quant.md) · [json](sample-dsh-quant.json)) |
+| **`backtrader`** — in-process backtest engine (bt.ind.SMA strategy + engine-level cost sweep) | framework decision stream | `stream` | **4/4** ([md](sample-backtrader.md) · [json](sample-backtrader.json)) |
+| **`freqtrade`** — strategy framework (IStrategy, vectorized populate_*) | framework decision stream | `stream` | **3/4** ([md](sample-freqtrade.md) · [json](sample-freqtrade.json)) |
 
-All three run on the same public SPX series (2021-08 → 2026-08, 1255 bars) —
-same inputs, differentiated verdicts. The `dsh-quant` row is the ecosystem
-extension: `node cli/harness-signal.mjs` (in the dsh-quant repo) runs
-dsh-quant's own loop — signal from `lib/dsh-alpha`, cost guard from
-`lib/dsh-execution/trading-cost`, drawdown guard, stale-data refusal — and
-emits a decision stream that the harness replays. Stream agents honestly report
-two limitations: C2's volume-response is not applicable (fixed decisions) and
-C4's failure injection requires an in-loop agent; dsh-quant's own stale
-refusals (52/52 rows in the sample) are recorded in the report metadata.
+Cohort findings so far:
+
+- **The three framework/library agents score like the disciplined reference**
+  (4/4) when their strategies carry the same risk layer — cross-framework
+  consistency is itself a validation of the checks.
+- **freqtrade fails C3** (drawdown behavior, behavioral 0.00 / disclosure 0.10):
+  its strategy reduces entry size in a guard but never responds at position
+  level, and its trace rarely acknowledges drawdown state. This is a genuine
+  framework-level finding — freqtrade's vectorized strategy API makes dynamic
+  per-bar sizing hard — exactly what the harness is for. The ecosystem map
+  predicted freqtrade would be the most informative on C3; it is.
+- All stream agents honestly report C2's volume-response as not applicable and
+  C4 as not exercised; their own stale refusals (52-79/79 rows) are in the
+  report metadata.
+
+Streams are generated once by each framework's own code and committed
+(`data/harness/`), so the demo stays pure stdlib; regeneration commands are in
+each adapter module docstring (`harness/adapters/backtrader.py`,
+`harness/adapters/freqtrade.py` — both need the eval venv: `pip install
+backtrader` / `pip install freqtrade`).
 
 ## Capabilities
 
@@ -87,10 +100,10 @@ penalized honest flat periods as drift.)
 
 ```bash
 # no dependencies beyond the Python standard library
-python3 -m harness demo                        # all three agents -> docs/harness/
-python3 -m harness run --agent dsh-quant       # the dsh-quant stream
+python3 -m harness demo                        # all five agents -> docs/harness/
+python3 -m harness run --agent freqtrade       # any stream agent by name
 python3 -m harness run --agent disciplined --format json --out report.json
-python3 -m unittest tests.test_harness         # 21 tests
+python3 -m unittest tests.test_harness         # 24 tests
 ```
 
 Evaluate your own agent: implement the `observe(state) -> Decision` protocol

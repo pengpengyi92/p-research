@@ -41,7 +41,7 @@
 
 ### 4️⃣ RAG × 自进化：脆弱性成为主题
 - "On the Fragility of Self-Improving Agents"——自进化 agent 对任务顺序敏感
-- 解药 = **评估（Eval）**——与我们的 north-star（递归）直接相关
+- 解药 = **评估（Eval）**——与递归自我改进主题直接相关
 
 ### 5️⃣ RAG 走向多模态
 - VLM 共现 9 次 · Memory Tree Guided Key Frame Querying（3D 问答）
@@ -51,24 +51,24 @@
 - Quantization（7）+ Distillation（4）共现 · GraphRAG community 0（115 论文）
 - **成本是 RAG 的命运**——效率与记忆同社区
 
-## 3. RAG × Quant（我们的独特交叉）
+## 3. RAG × Quant（独特交叉）
 
 - Quant/Trading 共现 **7 次**——金融 RAG（研究报告检索/知识访问/可审计证据链）是活跃方向
-- **我们横跨 RAG 和 Quant 两线**，这在 corpus 中很少见
+- **RAG 与 Quant 两线交叉在 corpus 中很少见**
 - 关联：dsh-quant 的 AGENTS.md/知识库 · P-Research 的语料管线 · 银行数据→alpha 研究的证据链需求
 
-## 4. 对我们（P-Research / dsh-quant）的启示
+## 4. 研究启示（P-Research / dsh-quant）
 
-| 能力 | 前沿信号 → 我们的动作 |
+| 能力 | 前沿信号 → 研究动作 |
 |---|---|
 | RAG | 与 Memory 融合 → 研究"何时检索"决策（Judge/Abstain）|
 | 记忆 | 模块化神经记忆（MoNe）→ 关注 |
 | 工具 | 弱信号 → 延后专项扫描 |
 | 规划 | 检索是规划问题 → 纳入 planning 课程 |
-| 评估 | 自进化脆弱性的解药 → **强化 Eval 能力（我们的强项）** |
+| 评估 | 自进化脆弱性的解药 → **强化 Eval 能力（P-Research 强项）** |
 
-**两个站位**：
-1. RAG/Memory 边界消融 → 两区合并研究（P-Research zones #3/#4）
+**两个要点**：
+1. RAG/Memory 边界消融 → 两区合并研究（RAG/Memory）
 2. "检索-评估"配对 → 前沿的 retrieve-or-abstain 方向——评估让自进化检索 agent 可靠
 
 ## 5. 开放问题

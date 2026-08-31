@@ -1,7 +1,7 @@
 # 🧬 Memory 深度研究：DeepSeek / Kimi / OpenAI 的记忆机制 × 前沿趋势
 
 > **P-Research 深度报告** · 2026-08-28 · memory 主题深化（承接 harness 报告三家对比框架）
-> 方法：P-Research corpus（95 篇 memory 论文）+ 三家公开资料 + 我们的第一手经验
+> 方法：P-Research corpus（95 篇 memory 论文）+ 三家公开资料 + P-Research 的第一手实践
 > 关联：2026-08-19 In-Model Memory 报告 · RAG 报告 · Agentic Harness 报告
 
 ---
@@ -87,7 +87,7 @@
 | **核心机制** | 无损快照/作用域/恢复 | K2.6 external memory | 跨会话记住用户 |
 | **面向** | 自进化（可靠执行）| 长任务（持续工作）| 消费者（好用）|
 | **与前沿对应** | Bounded-State Restoration | 模块化神经记忆（MoNe 类）| 产品化 RAG/记忆 |
-| **我们能用** | ✅ 在用（dsh）| 部分（K2 开源）| API |
+| **P-Research 已采用** | ✅ 在用（dsh）| 部分（K2 开源）| API |
 
 ### 关键洞察
 
@@ -98,18 +98,18 @@
 
 ---
 
-## 四、对我们的意义（dsh-quant / P-Research）
+## 四、研究意义（dsh-quant / P-Research）
 
 | 角度 | 意义 |
 |---|---|
-| **五大模块** | Memory 是我们定义的五大模块之一（讨论区 #4）——本报告是其深化 |
-| **RAG×Memory** | 边界消融 → 两个讨论区合并研究（zones #3/#4）|
-| **harness 记忆** | DeepSeek 快照 = 我们在用的（dsh-quant 的状态持久化）|
-| **RSI/自进化** | 记忆是自进化的前提（忘了就不能进化）——north-star 关联 |
+| **五大模块** | Memory 是五大模块之一——本报告是其深化 |
+| **RAG×Memory** | 边界消融 → RAG 与 Memory 两区合并研究 |
+| **harness 记忆** | DeepSeek 快照 = P-Research 已采用（dsh-quant 的状态持久化）|
+| **RSI/自进化** | 记忆是自进化的前提（忘了就不能进化）——核心论点关联 |
 | **AI-native Trading** | 量化 agent 的跨会话记忆（策略迭代不丢上下文）|
 
-**站位**：我们的 dsh-quant 用着 DeepSeek 的"执行快照记忆"，同时跟踪着
-Kimi 的"外部记忆"和前沿的"模块化神经记忆"——三层记忆都在我们的视野内。
+**要点**：dsh-quant 采用 DeepSeek 的"执行快照记忆"，同时跟踪着
+Kimi 的"外部记忆"和前沿的"模块化神经记忆"——三层记忆都在本文视野内。
 
 ## 🐳 一句话
 

@@ -1,7 +1,7 @@
 # 🔧 Agentic Harness 深度研究：DeepSeek / Kimi / ChatGPT（OpenAI）怎么做 Agentic AI
 
-> **P-Research 深度报告** · 2026-08-28 · harness 主题深化（我们超级关注 harness）
-> 方法：三家公开资料 + 我们自己的 DeepSeek Harness 第一手经验（我们在用 dsh 开发！）
+> **P-Research 深度报告** · 2026-08-28 · harness 主题深化（harness 是本文核心主题）
+> 方法：三家公开资料 + P-Research 的 DeepSeek Harness 第一手经验（基于 dsh 开发）
 > 关联：P-Research planning/tool-use 报告 · dsh-quant（DeepSeek Harness 生态）
 
 ---
@@ -14,13 +14,13 @@
 
 ---
 
-## 一、DeepSeek：自进化的 Harness（我们的第一手经验）
+## 一、DeepSeek：自进化的 Harness（P-Research 第一手实践）
 
 ### 1.1 是什么
 - **DeepSeek Harness（dsh）**：DeepSeek 官方开源的 agent 运行时/评测工具
 - 定位："DeepSeek 用来自我评测的工具"开源化——**它 benchmark 自己的工具**
 
-### 1.2 核心设计（我们的第一手认知）
+### 1.2 核心设计（实践认知）
 - **Agent Scope Runtime**：一个 opaque key 选择一层——作用域路由
 - **无损快照**：工具调用后先快照再规范化——**"AGI 自进化有了后悔药"**（雷峰网）
 - **规范化输出契约**：候选结果先无损快照 → 注册表 → 失败转普通错误
@@ -31,9 +31,9 @@
 - 社区：**"新代理架构，替代马鞍工程（Harness Engineering）"**（DeepSeek-V3 issue #1210）
 - 核心理念：**可回滚、可快照、可评测的 agent 执行 = 自进化的前提**
 
-### 1.4 我们的关系
-- **我们正在用 dsh 开发**（dsh-quant 是 DeepSeek Harness 插件，59 工具）
-- 我们理解它的契约（canonical outputs / null alignment / no look-ahead）
+### 1.4 本文的关联
+- **P-Research 基于 dsh 开发**（dsh-quant 是 DeepSeek Harness 插件，59 工具）
+- 实践验证了它的契约（canonical outputs / null alignment / no look-ahead）
 - **第一手用户视角**：它解决"agent 怎么可靠地跑长流程"——正是 harness 的核心
 
 ---
@@ -91,7 +91,7 @@
 | **Agent 形态** | 工具 + 评测（可靠执行）| 常驻桌面（持续工作）| 超级助理（替你干活）|
 | **自进化** | ✅ 核心（后悔药）| 记忆累积 | Codex 迭代 |
 | **开源** | ✅ 全开源 | 部分（K2 模型开源）| ❌ 闭源（SDK 开放）|
-| **我们能用** | ✅ 正在用（dsh-quant）| 部分（Kimi 模型）| API |
+| **P-Research 已采用** | ✅ 正在用（dsh-quant）| 部分（Kimi 模型）| API |
 
 ### 关键洞察（三家的共同点）
 
@@ -102,29 +102,29 @@
 
 ---
 
-## 五、对我们的意义（dsh-quant / P-Research）
+## 五、研究意义（dsh-quant / P-Research）
 
 | 角度 | 意义 |
 |---|---|
-| **我们在第一线** | dsh-quant 是 DeepSeek Harness 插件——我们用着最前沿的 harness 做量化 |
+| **P-Research 的实践** | dsh-quant 是 DeepSeek Harness 插件——基于最前沿的 harness 做量化 |
 | **五大模块** | harness 连接 Planning（作用域路由）· Tool Use（工具契约）· Eval（评测闭环）|
-| **RSI/自进化** | DeepSeek 的"后悔药"（快照回滚）= 自进化的安全网——我们的 north-star |
-| **Quant×Agent** | 全 AI-native Trading（我们的愿景）= 用 harness 做量化 agent |
+| **RSI/自进化** | DeepSeek 的"后悔药"（快照回滚）= 自进化的安全网——核心论点 |
+| **Quant×Agent** | 全 AI-native Trading（研究视角）= 用 harness 做量化 agent |
 
-**站位**：我们不只是观察者——**dsh-quant 本身就是"harness 上的量化 OS"**，
-三家怎么做的，我们正在用自己的方式实践（59 工具/契约/评测/自动发布）。
+**要点**：P-Research 不只是观察者——**dsh-quant 本身就是"harness 上的量化 OS"**，
+三家怎么做的，P-Research 正在以自己的方式实践（59 工具/契约/评测/自动发布）。
 
 ## 🐳 一句话
 
 > **Harness 正在取代马鞍工程——agent 的地基从 prompt 变成运行时。
 > DeepSeek 开源自进化 · OpenAI 开放 Codex 同款 · Kimi 做常驻 swarm——
-> 而我们，正站在 DeepSeek Harness 上做量化。**
+> 而 P-Research，正站在 DeepSeek Harness 上做量化。**
 
 ---
 
 ## 📚 参考
 
-- DeepSeek Harness：github.com/deepseek-ai/deepseek-harness（我们在用）
+- DeepSeek Harness：github.com/deepseek-ai/deepseek-harness（P-Research 已采用）
 - 雷峰网：《深度拆解 DeepSeek Harness 架构：AGI 的自进化终于有了后悔药》
 - Kimi Work（swarm 架构）/ K2.6 Agent 架构
 - OpenAI GPT-5.4 Codex Harness 开放 / Agents SDK 2026

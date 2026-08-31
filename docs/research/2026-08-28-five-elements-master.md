@@ -49,8 +49,8 @@ RAG + Memory + Tool Use + Planning        ← 获取/执行型能力
 4. **Eval 连接一切**——RAG 对不对 / Memory 记没记住 / Tool 用没用对 / Planning 规没规划好，全路由到 Eval
 5. **Harness 提供骨架**——作用域路由/快照回滚/评测闭环
 
-### 2.3 四缺一（我们的机会）
-四大模块各缺基准（RAG 缺 retrieve-or-abstain · Memory 缺模块基准 · Tool 缺金融审计 · Planning 缺金融规划）——**基准缺口 = 我们能建的东西**（呼应 Eval 报告的"结构性缺口"）。
+### 2.3 四缺一（研究机会）
+四大模块各缺基准（RAG 缺 retrieve-or-abstain · Memory 缺模块基准 · Tool 缺金融审计 · Planning 缺金融规划）——**基准缺口 = 可建设方向**（呼应 Eval 报告的"结构性缺口"）。
 
 ---
 
@@ -61,11 +61,11 @@ RAG + Memory + Tool Use + Planning        ← 获取/执行型能力
 - 位于模型层与领域层之间：`Model → PAT 能力平台 → Domain Agent 层`
 - 五大模块 = PAT 能力栈的核心（可独立研究、版本化，共享一个运行时）
 
-### 3.2 我们的呼应（深度研究 → PAT 落地）
+### 3.2 研究呼应（深度研究 → PAT 落地）
 
 | PAT 能力栈 | 深度研究结论 → PAT 动作 |
 |---|---|
-| **Knowledge/RAG** | 边界消融 → RAG/Memory 合并研究（zones #3/#4）|
+| **Knowledge/RAG** | 边界消融 → RAG/Memory 合并研究 |
 | **Memory** | 外部记忆是方向 → PAT 记忆基础设施 |
 | **Tools/Skills** | 实盘确定性 → 工具契约（canonical output）|
 | **Planning** | RL 规划 → 战术层升级 |
@@ -83,7 +83,7 @@ Domain Agent 层（PAAT/PDAT/PET...）产生真实任务证据
 
 ---
 
-## 四、对我们的总意义（PAT → 实盘 → 自进化）
+## 四、研究意义（PAT → 实盘 → 自进化）
 
 ```text
 五大模块（PAT 能力栈）
@@ -107,7 +107,6 @@ Domain Agent 层（PAAT/PDAT/PET...）产生真实任务证据
 
 - PAT Agent Capability Stack：`PAT/docs/AGENT_CAPABILITY_STACK.md`
 - 六大深度报告：p-research/docs/research/（RAG/Harness/Memory/Tool/Planning/Eval）
-- 讨论区：p-research #3-#7（五大模块）+ #11（邀请帖）
 - 愿景：全 AI-native Trading（三策略支柱）
 
 欢迎翻阅、指正、PR 🐳

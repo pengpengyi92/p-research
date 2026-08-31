@@ -88,14 +88,14 @@
 ## 5. 对研究的启示（p-research 视角）
 
 1. **安全 = 系统工程**：不再是单篇论文问题，是"训练-部署-运行-治理"全链路
-2. **Agent 安全是新前沿**：工具调用/权限/记忆是全新攻击面（呼应我们 harness 工作）
-3. **红队自动化是趋势**：AI 打 AI——与我们 RL 自我改进方法论同源
+2. **Agent 安全是新前沿**：工具调用/权限/记忆是全新攻击面（与 agent harness 工程直接相关）
+3. **红队自动化是趋势**：AI 打 AI——与强化学习自我改进方法论同源
 4. **国内在加速**：FlagSafe 证明中国团队在做系统性安全研究
 
 ## 6. 关联（p-research 内部）
 - ai-security/LANDSCAPE.md（语料统计）
 - ai-security/ATTACKS.md / DEFENSES.md / BENCHMARKS.md / INCIDENTS.md
-- 与我们的相关性：harness 工程（agent 安全面）+ RL（红队自动化方法论）
+- 相关性：harness 工程（agent 安全面）+ RL（红队自动化方法论）
 
 ## 7. 信息来源
 - 智源 FlagSafe 发布（2026-05-10，hub.baai.ac.cn）

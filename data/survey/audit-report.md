@@ -1,18 +1,18 @@
 # Survey Draft — Automated Audit Report
 
-> Generated 2026-08-24 by `presearch audit`.
-> Corpus: 656 papers, 92 verified. Citations checked: 12 record ids, 4 arXiv ids.
+> Generated 2026-08-31 by `presearch audit`.
+> Corpus: 737 papers, 92 verified. Citations checked: 12 record ids, 4 arXiv ids.
 
 ## Findings
 
 - [WARN] **arxiv-membership**: arXiv:2501.02497 cited but not in corpus (external citation — verify separately)
 - [WARN] **arxiv-membership**: arXiv:2501.09686 cited but not in corpus (external citation — verify separately)
-- [FAIL] **total-number**: draft does not state total 656 (db value)
+- [FAIL] **total-number**: draft does not state total 737 (db value)
 - [PASS] **verified-number**: verified 92 matches
 - [PASS] **trend-RLVR**: RLVR / GRPO 4->18 verified trend matches
 - [PASS] **claim-verifier-15**: §4.3 verifier-in-verified count: 15
 - [PASS] **claim-benchmarks-13-12-8**: §6.2 benchmark counts MATH/DROP/GSM8K: (13, 12, 8)
-- [FAIL] **claim-rlvr-79**: §5.2 RLVR all-pillar count: 86
+- [FAIL] **claim-rlvr-79**: §5.2 RLVR all-pillar count: 94
 
 ## Summary: 2 FAIL · 2 WARN · 4 PASS
 

@@ -3,21 +3,22 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**656 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-08-24
+**737 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-08-31
 
 ## Latest papers
 
-- **VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences** ([2608.21357v1](https://arxiv.org/abs/2608.21357v1)) — LLM Reasoning / Test-time Compute
-- **AI with Authority, from Application to Silicon** ([2608.21356v1](https://arxiv.org/abs/2608.21356v1)) — LLM Reasoning / Test-time Compute
-- **Truthful Calibration Measures for Sequential Prediction** ([2608.21348v1](https://arxiv.org/abs/2608.21348v1)) — RL / Alignment / Safety
-- **Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation** ([2608.21332v1](https://arxiv.org/abs/2608.21332v1)) — LLM Reasoning / Test-time Compute
-- **Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy** ([2608.21325v1](https://arxiv.org/abs/2608.21325v1)) — RL / Alignment / Safety
-- **Rethinking Expressivity and Efficiency in Test-Time Training** ([2608.21308v1](https://arxiv.org/abs/2608.21308v1)) — Efficient Training & Inference
-- **Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning** ([2608.21305v1](https://arxiv.org/abs/2608.21305v1)) — LLM Reasoning / Test-time Compute
-- **AUSO: Action-Level Unified Skill Optimization from Internalization to Utilization** ([2608.21292v1](https://arxiv.org/abs/2608.21292v1)) — LLM Reasoning / Test-time Compute
+- **Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning** ([2608.28578v1](https://arxiv.org/abs/2608.28578v1)) — LLM Reasoning / Test-time Compute
+- **GeBDA: Building Damage Assessment as Text-Based Sequence Prediction** ([2608.28567v1](https://arxiv.org/abs/2608.28567v1)) — Multimodal / World Models
+- **Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy** ([2608.28564v1](https://arxiv.org/abs/2608.28564v1)) — RL / Alignment / Safety
+- **Blog: Survey of Optimizers** ([2608.28557v1](https://arxiv.org/abs/2608.28557v1)) — Efficient Training & Inference
+- **Logos: An Agent Harness on a Cross-Process Bus** ([2608.28553v1](https://arxiv.org/abs/2608.28553v1)) — Agentic AI / Deep Research Systems
+- **Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining** ([2608.28552v1](https://arxiv.org/abs/2608.28552v1)) — RL / Alignment / Safety
+- **Video Generative Models as Geometry Learner** ([2608.28549v1](https://arxiv.org/abs/2608.28549v1)) — Multimodal / World Models
+- **DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging** ([2608.28547v1](https://arxiv.org/abs/2608.28547v1)) — LLM Reasoning / Test-time Compute
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W36](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W36.md)
 - [Frontier AI Weekly 2026-W35](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W35.md)
 - [Frontier AI Weekly 2026-W34](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W34.md)
 

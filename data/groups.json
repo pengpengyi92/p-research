@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-08-24T03:31:41Z",
+  "generated_on": "2026-08-31T08:49:39Z",
   "groups": {
     "hku": {
       "name": "The University of Hong Kong (HKU)",
@@ -800,7 +800,7 @@
       "type": "github-org",
       "total_repos": 92,
       "active_repos": 54,
-      "total_stars": 358175,
+      "total_stars": 361537,
       "languages": [
         "Jupyter Notebook",
         "Python",
@@ -826,91 +826,91 @@
       "top_repos": [
         {
           "name": "CLI-Anything",
-          "stars": 48005,
+          "stars": 48708,
           "pushed": "2026-08-21",
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
         },
         {
           "name": "nanobot",
-          "stars": 47316,
-          "pushed": "2026-08-24",
+          "stars": 47560,
+          "pushed": "2026-08-31",
           "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with Web"
         },
         {
           "name": "LightRAG",
-          "stars": 39123,
-          "pushed": "2026-08-24",
+          "stars": 39285,
+          "pushed": "2026-08-31",
           "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation"
         },
         {
           "name": "DeepTutor",
-          "stars": 37300,
-          "pushed": "2026-08-21",
+          "stars": 37965,
+          "pushed": "2026-08-30",
           "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
         },
         {
           "name": "Vibe-Trading",
-          "stars": 31576,
-          "pushed": "2026-08-22",
+          "stars": 32149,
+          "pushed": "2026-08-30",
           "description": "\"Vibe-Trading: Your Personal Trading Agent\""
         },
         {
           "name": "RAG-Anything",
-          "stars": 23032,
+          "stars": 23119,
           "pushed": "2026-08-20",
           "description": "\"RAG-Anything: All-in-One RAG Framework\""
         },
         {
           "name": "AI-Trader",
-          "stars": 21513,
+          "stars": 21894,
           "pushed": "2026-06-11",
           "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  "
         },
         {
           "name": "DeepCode",
-          "stars": 16418,
-          "pushed": "2026-08-23",
+          "stars": 16455,
+          "pushed": "2026-08-28",
           "description": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestrati"
         },
         {
           "name": "OpenHarness",
-          "stars": 15498,
+          "stars": 15600,
           "pushed": "2026-06-04",
           "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\""
         },
         {
           "name": "ViMax",
-          "stars": 12078,
+          "stars": 12163,
           "pushed": "2026-07-29",
           "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator Al"
         },
         {
           "name": "AutoAgent",
-          "stars": 9751,
+          "stars": 9757,
           "pushed": "2025-10-16",
           "description": "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\""
         },
         {
           "name": "ClawWork",
-          "stars": 8493,
+          "stars": 8536,
           "pushed": "2026-03-03",
           "description": "\"ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours\""
         },
         {
           "name": "OpenSpace",
-          "stars": 7445,
+          "stars": 7479,
           "pushed": "2026-08-12",
           "description": "\"OpenSpace: The Skill Management Layer for AI Agents\" -- https://open-space.cloud/"
         },
         {
           "name": "AI-Researcher",
-          "stars": 5699,
+          "stars": 5706,
           "pushed": "2025-10-16",
           "description": "[NeurIPS2025] \"AI-Researcher: Autonomous Scientific Innovation\" -- A production-ready vers"
         },
         {
           "name": "ClawTeam",
-          "stars": 5517,
+          "stars": 5519,
           "pushed": "2026-05-09",
           "description": "\"ClawTeam: Agent Swarm Intelligence\" (One Command → Full Automation)"
         }

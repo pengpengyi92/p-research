@@ -14,6 +14,30 @@ that keeps growing.
 - **Zero dependencies**: pure Python standard library, `python -m presearch.cli` just runs
 - **Open**: MIT code + CC BY 4.0 data, auto-updated by GitHub Actions every week
 
+## 🧭 Charter — who we are & what we study
+
+**P-Research is the open-source arm of PAT (Pengyi Agent Team)** — just as
+dsh-quant is the open-source arm of Pengyi's quant research teams
+(PDAT–PAAT–PCPT–PRT–PET).
+
+PAT operates five capability modules — **RAG · Memory · Tool Use · Planning · Evaluation** —
+as five Foundation Agents under human approval. P-Research is where PAT's open
+research lives: broad and deep open studies from internal practice and the
+external frontier, under one philosophy:
+
+> **Open frameworks, closed details** — methods and benchmarks are public;
+> internal implementation specifics remain closed.
+
+**Primary deep-research direction: Evaluation (Benchmark).**
+Evaluation is the feedback channel of self-evolution — without eval,
+adaptation is a random walk. Every research direction is expected to answer
+"how do we measure it" first: reproducible benchmarks, not leaderboards.
+
+**Agentic-first.** P-Research prioritizes agentic research — multi-agent,
+swarm intelligence, agent evaluation — in deep collaboration with PAT.
+
+📢 See the full charter announcement: [`docs/discussion/2026-08-31-eval-core-and-pat-charter.md`](docs/discussion/2026-08-31-eval-core-and-pat-charter.md)
+
 ## What it tracks (6 pillars)
 
 1. **LLM Reasoning / Test-time Compute** — CoT, verifiers, RLVR, inference-time scaling

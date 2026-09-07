@@ -1,6 +1,6 @@
 # HKUST (Guangzhou) — Research Group Distillation
 
-> Generated 2026-08-19 · scope: AI / Quant · 1 papers classified from 2 recent works.
+> Generated 2026-09-07 · scope: AI / Quant · 1 papers classified from 2 recent works.
 
 ## Method mix
 
@@ -26,7 +26,7 @@
 
 ## Recent AI/Quant papers
 
-- **Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer** (2025-02, cited 81) — Memory / RAG, VLM
+- **Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer** (2025-02, cited 87) — Memory / RAG, VLM
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

@@ -1,14 +1,12 @@
 # HKUST Shenzhen Research Institute — Research Group Distillation
 
-> Generated 2026-08-24 · scope: AI / Quant · 1 papers classified from 3 recent works.
+> Generated 2026-09-07 · scope: AI / Quant · 1 papers classified from 2 recent works.
 
 ## Method mix
 
 
 ## Top authors (on matched works; includes co-authors)
 
-- Yaqiong Su: 2 works
-- Zheng Hu: 2 works
 - Lianshuai Zhang: 1 works
 - Xianyuan Xiang: 1 works
 - Y. Li: 1 works
@@ -17,6 +15,8 @@
 - Charles B. Musgrave: 1 works
 - Jianjun Su: 1 works
 - Pei Xiong: 1 works
+- Yun Mi Song: 1 works
+- Libei Huang: 1 works
 
 ## Publication years (AI/quant)
 

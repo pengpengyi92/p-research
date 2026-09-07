@@ -3,21 +3,22 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**737 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-08-31
+**811 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-09-07
 
 ## Latest papers
 
-- **Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning** ([2608.28578v1](https://arxiv.org/abs/2608.28578v1)) — LLM Reasoning / Test-time Compute
-- **GeBDA: Building Damage Assessment as Text-Based Sequence Prediction** ([2608.28567v1](https://arxiv.org/abs/2608.28567v1)) — Multimodal / World Models
-- **Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy** ([2608.28564v1](https://arxiv.org/abs/2608.28564v1)) — RL / Alignment / Safety
-- **Blog: Survey of Optimizers** ([2608.28557v1](https://arxiv.org/abs/2608.28557v1)) — Efficient Training & Inference
-- **Logos: An Agent Harness on a Cross-Process Bus** ([2608.28553v1](https://arxiv.org/abs/2608.28553v1)) — Agentic AI / Deep Research Systems
-- **Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining** ([2608.28552v1](https://arxiv.org/abs/2608.28552v1)) — RL / Alignment / Safety
-- **Video Generative Models as Geometry Learner** ([2608.28549v1](https://arxiv.org/abs/2608.28549v1)) — Multimodal / World Models
-- **DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging** ([2608.28547v1](https://arxiv.org/abs/2608.28547v1)) — LLM Reasoning / Test-time Compute
+- **WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data** ([2609.05405v1](https://arxiv.org/abs/2609.05405v1)) — LLM Reasoning / Test-time Compute
+- **Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models** ([2609.05401v1](https://arxiv.org/abs/2609.05401v1)) — LLM Reasoning / Test-time Compute
+- **Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe** ([2609.05395v1](https://arxiv.org/abs/2609.05395v1)) — LLM Reasoning / Test-time Compute
+- **Think-Verify-Revise: Neuro-Symbolic Visual Reasoning with Vision-Language Models and Dynamic Logic Tensor Networks** ([2609.05388v1](https://arxiv.org/abs/2609.05388v1)) — Multimodal / World Models
+- **Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence** ([2609.05385v1](https://arxiv.org/abs/2609.05385v1)) — Agentic AI / Deep Research Systems
+- **Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models** ([2609.05381v1](https://arxiv.org/abs/2609.05381v1)) — LLM Reasoning / Test-time Compute
+- **Propagation Model for SSC attacks: Why SBOM (tools) don't tell the whole truth** ([2609.05380v1](https://arxiv.org/abs/2609.05380v1)) — RL / Alignment / Safety
+- **What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies** ([2609.05376v1](https://arxiv.org/abs/2609.05376v1)) — Agentic AI / Deep Research Systems
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W37](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W37.md)
 - [Frontier AI Weekly 2026-W36](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W36.md)
 - [Frontier AI Weekly 2026-W35](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W35.md)
 - [Frontier AI Weekly 2026-W34](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W34.md)

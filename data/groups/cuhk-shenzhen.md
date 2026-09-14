@@ -1,6 +1,6 @@
 # The Chinese University of Hong Kong, Shenzhen (CUHK-SZ) — Research Group Distillation
 
-> Generated 2026-09-07 · scope: AI / Quant · 24 papers classified from 40 recent works.
+> Generated 2026-09-14 · scope: AI / Quant · 24 papers classified from 40 recent works.
 
 ## Method mix
 
@@ -27,18 +27,18 @@
 
 ## Recent AI/Quant papers
 
-- **A generalist medical language model for disease diagnosis assistance** (2025-01, cited 169) — —
+- **A generalist medical language model for disease diagnosis assistance** (2025-01, cited 174) — —
 - **A single-cell atlas reveals immune heterogeneity in anti-PD-1-treated non-small cell lung cancer** (2025-03, cited 132) — Memory / RAG
 - **6D Movable Antenna Enhanced Wireless Network via Discrete Position and Rotation Optimization** (2025-01, cited 128) — —
-- **Integrated Sensing and Communication for Low Altitude Economy: Opportunities and Challenges** (2025-04, cited 116) — —
-- **Generative Artificial Intelligence: Evolving Technology, Growing Societal Impact, and Opportunities for Information Systems Research** (2025-02, cited 114) — —
-- **Rate Maximization for Downlink Pinching-Antenna Systems** (2025-02, cited 109) — —
-- **Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design** (2025-02, cited 89) — —
-- **Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer** (2025-02, cited 87) — Memory / RAG, VLM
+- **Generative Artificial Intelligence: Evolving Technology, Growing Societal Impact, and Opportunities for Information Systems Research** (2025-02, cited 119) — —
+- **Integrated Sensing and Communication for Low Altitude Economy: Opportunities and Challenges** (2025-04, cited 118) — —
+- **Rate Maximization for Downlink Pinching-Antenna Systems** (2025-02, cited 112) — —
+- **Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design** (2025-02, cited 91) — —
+- **pH‐Responsive AIE Photosensitizers for Enhanced Antibacterial Therapy** (2025-04, cited 89) — —
+- **Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer** (2025-02, cited 88) — Memory / RAG, VLM
 - **SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation** (2026-01, cited 85) — —
-- **pH‐Responsive AIE Photosensitizers for Enhanced Antibacterial Therapy** (2025-04, cited 85) — —
+- **LLM Fine-Tuning: Concepts, Opportunities, and Challenges** (2025-04, cited 83) — —
 - **Optimized Dynamic Network Biomarker Deciphers a High‐Resolution Heterogeneity Within Thyroid Cancer Molecular Subtypes** (2025-04, cited 82) — —
-- **LLM Fine-Tuning: Concepts, Opportunities, and Challenges** (2025-04, cited 82) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

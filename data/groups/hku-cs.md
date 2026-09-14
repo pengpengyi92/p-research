@@ -1,6 +1,6 @@
 # HKU Computer Science (CS / CDS) — Research Group Distillation
 
-> Generated 2026-09-07 · scope: AI / Quant · 6 papers classified from 10 recent works.
+> Generated 2026-09-14 · scope: AI / Quant · 6 papers classified from 10 recent works.
 
 ## Method mix
 
@@ -26,11 +26,11 @@
 
 ## Recent AI/Quant papers
 
-- **Graph Neural Networks for Graphs With Heterophily: A Survey** (2026-04, cited 103) — —
+- **Graph Neural Networks for Graphs With Heterophily: A Survey** (2026-04, cited 105) — —
 - **Machine learning guided design and ablation behavior of ZrC-TaC-SiC ternary coatings** (2025-11, cited 87) — —
 - **SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation** (2026-01, cited 85) — —
-- **Deep Graph Anomaly Detection: A Survey and New Perspectives** (2025-06, cited 78) — —
-- **Oculomics: Current concepts and evidence** (2025-03, cited 74) — Computer Use
+- **Deep Graph Anomaly Detection: A Survey and New Perspectives** (2025-06, cited 79) — —
+- **Oculomics: Current concepts and evidence** (2025-03, cited 76) — Computer Use
 - **Towards a holistic framework for multimodal LLM in 3D brain CT radiology report generation** (2025-03, cited 66) — VLM
 
 ---

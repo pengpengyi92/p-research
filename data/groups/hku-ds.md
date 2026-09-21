@@ -1,6 +1,6 @@
 # HKU Data Science / Statistics — Research Group Distillation
 
-> Generated 2026-09-14 · scope: AI / Quant · 10 papers classified from 14 recent works.
+> Generated 2026-09-21 · scope: AI / Quant · 10 papers classified from 14 recent works.
 
 ## Method mix
 
@@ -27,16 +27,16 @@
 
 ## Recent AI/Quant papers
 
-- **Mobile Edge Intelligence for Large Language Models: A Contemporary Survey** (2025-01, cited 195) — —
-- **The Digital Health Competencies in Medical Education Framework** (2025-01, cited 146) — —
-- **Modulation of metabolic, inflammatory and fibrotic pathways by semaglutide in metabolic dysfunction-associated steatohepatitis** (2025-07, cited 98) — —
-- **OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels** (2025-06, cited 87) — —
-- **Deep Graph Anomaly Detection: A Survey and New Perspectives** (2025-06, cited 79) — —
-- **TransXNet: Learning Both Global and Local Dynamics With a Dual Dynamic Token Mixer for Visual Recognition** (2025-04, cited 72) — —
-- **Embodied AI-Enhanced Vehicular Networks: An Integrated Vision Language Models and Reinforcement Learning Method** (2025-06, cited 57) — RLVR / GRPO, Preference Optimization
+- **Mobile Edge Intelligence for Large Language Models: A Contemporary Survey** (2025-01, cited 199) — —
+- **The Digital Health Competencies in Medical Education Framework** (2025-01, cited 148) — —
+- **Modulation of metabolic, inflammatory and fibrotic pathways by semaglutide in metabolic dysfunction-associated steatohepatitis** (2025-07, cited 99) — —
+- **OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels** (2025-06, cited 88) — —
+- **Deep Graph Anomaly Detection: A Survey and New Perspectives** (2025-06, cited 82) — —
+- **TransXNet: Learning Both Global and Local Dynamics With a Dual Dynamic Token Mixer for Visual Recognition** (2025-04, cited 74) — —
+- **Embodied AI-Enhanced Vehicular Networks: An Integrated Vision Language Models and Reinforcement Learning Method** (2025-06, cited 58) — RLVR / GRPO, Preference Optimization
+- **Integrated Sensing and Edge AI: Realizing Intelligent Perception in 6G** (2025-07, cited 57) — —
 - **Generative AI Enabled Robust Data Augmentation for Wireless Sensing in ISAC Networks** (2025-09, cited 56) — Video Generation
-- **Integrated Sensing and Edge AI: Realizing Intelligent Perception in 6G** (2025-07, cited 53) — —
-- **ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling** (2025-05, cited 53) — —
+- **ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling** (2025-05, cited 56) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

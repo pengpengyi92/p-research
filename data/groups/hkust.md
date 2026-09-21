@@ -1,6 +1,6 @@
 # Hong Kong University of Science and Technology (HKUST) — Research Group Distillation
 
-> Generated 2026-09-14 · scope: AI / Quant · 13 papers classified from 29 recent works.
+> Generated 2026-09-21 · scope: AI / Quant · 14 papers classified from 29 recent works.
 
 ## Method mix
 
@@ -24,21 +24,21 @@
 
 ## Publication years (AI/quant)
 
-- {'2025': 13}
+- {'2025': 14}
 
 ## Recent AI/Quant papers
 
 - **Convex Optimization Theory** (2025-05, cited 608) — —
 - **MB-TaylorFormer V2: Improved Multi-Branch Linear Transformer Expanded by Taylor Formula for Image Restoration** (2025-04, cited 235) — —
-- **Surface-Enhanced Raman Spectroscopy for Biomedical Applications: Recent Advances and Future Challenges** (2025-02, cited 233) — —
-- **A Survey on Large Language Models for Code Generation** (2025-07, cited 132) — Deep Research
-- **LLDiffusion: Learning degradation representations in diffusion models for low-light image enhancement** (2025-04, cited 131) — Video Generation
+- **Surface-Enhanced Raman Spectroscopy for Biomedical Applications: Recent Advances and Future Challenges** (2025-02, cited 234) — —
+- **A Survey on Large Language Models for Code Generation** (2025-07, cited 140) — Deep Research
+- **LLDiffusion: Learning degradation representations in diffusion models for low-light image enhancement** (2025-04, cited 133) — Video Generation
+- **Foundation models in bioinformatics** (2025-01, cited 108) — Interpretability, VLM
 - **Worldwide rooftop photovoltaic electricity generation may mitigate global warming** (2025-03, cited 106) — —
-- **Foundation models in bioinformatics** (2025-01, cited 106) — Interpretability, VLM
 - **Lone Pairs-Mediated Multiple Through-Space Interactions for Efficient Room-Temperature Phosphorescence** (2025-03, cited 82) — —
-- **Integration of Motion and Stillness: A Paradigm Shift in Constructing Nearly Planar NIR-II AIEgen with Ultrahigh Molar Absorptivity and Photothermal Effect for Multimodal Phototheranostics** (2025-01, cited 75) — VLM
+- **Integration of Motion and Stillness: A Paradigm Shift in Constructing Nearly Planar NIR-II AIEgen with Ultrahigh Molar Absorptivity and Photothermal Effect for Multimodal Phototheranostics** (2025-01, cited 76) — VLM
 - **Suppression of Charge Recombination Induced by Solid Additive Assisting Organic Solar Cells with Efficiency over 20%** (2025-04, cited 74) — —
-- **Recent Advances in Metasurfaces: From THz Biosensing to Microwave Wireless Communications** (2025-01, cited 73) — —
+- **Recent Advances in Metasurfaces: From THz Biosensing to Microwave Wireless Communications** (2025-01, cited 74) — —
 - **Explainable spatiotemporal multi-task learning for electric vehicle charging demand prediction** (2025-02, cited 71) — —
 
 ---

@@ -18,10 +18,10 @@ Weekly arXiv sweeps · living paper database · growing systematic survey.
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W39](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W39.md)
 - [Frontier AI Weekly 2026-W38](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W38.md)
 - [Frontier AI Weekly 2026-W37](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W37.md)
 - [Frontier AI Weekly 2026-W36](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W36.md)
-- [Frontier AI Weekly 2026-W35](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W35.md)
 
 ## Publications
 

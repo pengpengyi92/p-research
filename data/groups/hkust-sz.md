@@ -1,6 +1,6 @@
 # HKUST Shenzhen Research Institute — Research Group Distillation
 
-> Generated 2026-09-21 · scope: AI / Quant · 1 papers classified from 2 recent works.
+> Generated 2026-09-28 · scope: AI / Quant · 1 papers classified from 2 recent works.
 
 ## Method mix
 
@@ -24,7 +24,7 @@
 
 ## Recent AI/Quant papers
 
-- **TREM2 and sTREM2 in Alzheimer’s disease: from mechanisms to therapies** (2025-04, cited 64) — —
+- **TREM2 and sTREM2 in Alzheimer’s disease: from mechanisms to therapies** (2025-04, cited 66) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

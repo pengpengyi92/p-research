@@ -174,6 +174,7 @@
 
 ## Weekly digests
 
+- [2026-W40.md](weekly/2026-W40.md)
 - [2026-W39.md](weekly/2026-W39.md)
 - [2026-W38.md](weekly/2026-W38.md)
 - [2026-W37.md](weekly/2026-W37.md)

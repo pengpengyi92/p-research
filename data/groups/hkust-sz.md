@@ -1,6 +1,6 @@
 # HKUST Shenzhen Research Institute — Research Group Distillation
 
-> Generated 2026-09-28 · scope: AI / Quant · 1 papers classified from 2 recent works.
+> Generated 2026-10-05 · scope: AI / Quant · 1 papers classified from 2 recent works.
 
 ## Method mix
 

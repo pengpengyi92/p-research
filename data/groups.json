@@ -1,10 +1,10 @@
 {
-  "generated_on": "2026-09-28T08:54:01Z",
+  "generated_on": "2026-10-05T09:29:47Z",
   "groups": {
     "hku": {
       "name": "The University of Hong Kong (HKU)",
       "papers": 12,
-      "total_works_fetched": 31,
+      "total_works_fetched": 32,
       "top_methods": {
         "VLM": 2,
         "Interpretability": 2,
@@ -19,8 +19,8 @@
         "Masatoshi Kudo": 5,
         "Bruno Sangro": 4,
         "Stephen Lam Chan": 4,
+        "Vincent Wai‐Sun Wong": 4,
         "Mohamed Bouattour": 3,
-        "Vincent Wai‐Sun Wong": 3,
         "Lorenza Rimassa": 3,
         "Steven James": 2,
         "Ronald C.W.": 2,
@@ -36,7 +36,7 @@
           "doi": "https://doi.org/10.1145/3744746",
           "openalex_id": "https://openalex.org/W4411403346",
           "published": "2025-06-18",
-          "citations": 712,
+          "citations": 723,
           "methods": [
             "Long Context",
             "Deep Research",
@@ -49,7 +49,7 @@
           "doi": "https://doi.org/10.1016/s0140-6736(25)00403-9",
           "openalex_id": "https://openalex.org/W4410206247",
           "published": "2025-05-01",
-          "citations": 360,
+          "citations": 366,
           "methods": [
             "Safety / Jailbreak",
             "Quant / Trading"
@@ -61,7 +61,7 @@
           "doi": "https://doi.org/10.1038/s41392-024-02075-w",
           "openalex_id": "https://openalex.org/W4407203105",
           "published": "2025-02-06",
-          "citations": 335,
+          "citations": 338,
           "methods": [],
           "benchmarks": []
         },
@@ -70,7 +70,7 @@
           "doi": "https://doi.org/10.1609/aaai.v39i5.32491",
           "openalex_id": "https://openalex.org/W4409367393",
           "published": "2025-04-11",
-          "citations": 308,
+          "citations": 311,
           "methods": [
             "Interpretability",
             "Video Generation"
@@ -82,7 +82,7 @@
           "doi": "https://doi.org/10.1109/cvpr52734.2025.01412",
           "openalex_id": "https://openalex.org/W4413147183",
           "published": "2025-06-10",
-          "citations": 271,
+          "citations": 276,
           "methods": [],
           "benchmarks": [
             "COCO"
@@ -104,7 +104,7 @@
           "doi": "https://doi.org/10.1109/comst.2025.3527641",
           "openalex_id": "https://openalex.org/W4406207083",
           "published": "2025-01-09",
-          "citations": 203,
+          "citations": 204,
           "methods": [],
           "benchmarks": []
         },
@@ -113,7 +113,7 @@
           "doi": "https://doi.org/10.1038/s41467-025-56063-x",
           "openalex_id": "https://openalex.org/W4406799825",
           "published": "2025-01-24",
-          "citations": 196,
+          "citations": 200,
           "methods": [],
           "benchmarks": []
         },
@@ -122,7 +122,7 @@
           "doi": "https://doi.org/10.1017/s0033291724003295",
           "openalex_id": "https://openalex.org/W4407229447",
           "published": "2025-01-01",
-          "citations": 193,
+          "citations": 199,
           "methods": [
             "Interpretability"
           ],
@@ -133,7 +133,7 @@
           "doi": "https://doi.org/10.1016/j.identj.2025.02.006",
           "openalex_id": "https://openalex.org/W4407932918",
           "published": "2025-02-25",
-          "citations": 188,
+          "citations": 189,
           "methods": [],
           "benchmarks": []
         },
@@ -142,7 +142,7 @@
           "doi": "https://doi.org/10.1038/s41591-024-03416-6",
           "openalex_id": "https://openalex.org/W4406152280",
           "published": "2025-01-08",
-          "citations": 176,
+          "citations": 178,
           "methods": [],
           "benchmarks": []
         },
@@ -151,7 +151,7 @@
           "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.568",
           "openalex_id": "https://openalex.org/W4416034797",
           "published": "2025-01-01",
-          "citations": 153,
+          "citations": 157,
           "methods": [
             "Memory / RAG"
           ],
@@ -161,8 +161,8 @@
     },
     "hkust-gz": {
       "name": "HKUST (Guangzhou)",
-      "papers": 8,
-      "total_works_fetched": 11,
+      "papers": 11,
+      "total_works_fetched": 16,
       "top_methods": {
         "Deep Research": 2,
         "Quant / Trading": 2,
@@ -175,37 +175,25 @@
         "Yang Li": 3,
         "Juyong Jiang": 2,
         "Fan Wang": 2,
-        "Ruijie Ma": 1,
-        "Zhenghui Luo": 1,
-        "Youdi Zhang": 1,
-        "Lingling Zhan": 1,
-        "Tao Jia": 1,
-        "Pei Cheng": 1,
-        "Cenqi Yan": 1
+        "Ruijie Ma": 2,
+        "Zhenghui Luo": 2,
+        "Pei Cheng": 2,
+        "Jiaying Wu": 2,
+        "Gang Li": 2,
+        "Jiasi Shen": 1,
+        "Sungju Kim": 1
       },
       "years": {
-        "2025": 7,
+        "2025": 10,
         "2026": 1
       },
       "recent": [
-        {
-          "title": "A Survey on Mixture of Experts in Large Language Models",
-          "doi": "https://doi.org/10.1109/tkde.2025.3554028",
-          "openalex_id": "https://openalex.org/W4408858386",
-          "published": "2025-01-01",
-          "citations": 153,
-          "methods": [
-            "MoE",
-            "Deep Research"
-          ],
-          "benchmarks": []
-        },
         {
           "title": "A Survey on Large Language Models for Code Generation",
           "doi": "https://doi.org/10.1145/3747588",
           "openalex_id": "https://openalex.org/W7125135101",
           "published": "2025-07-08",
-          "citations": 142,
+          "citations": 212,
           "methods": [
             "Deep Research"
           ],
@@ -215,11 +203,41 @@
           ]
         },
         {
+          "title": "A Survey on Mixture of Experts in Large Language Models",
+          "doi": "https://doi.org/10.1109/tkde.2025.3554028",
+          "openalex_id": "https://openalex.org/W4408858386",
+          "published": "2025-01-01",
+          "citations": 156,
+          "methods": [
+            "MoE",
+            "Deep Research"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "Two-step crystallization modulated through acenaphthene enabling 21% binary organic solar cells and 83.2% fill factor",
+          "doi": "https://doi.org/10.1038/s41560-025-01862-1",
+          "openalex_id": "https://openalex.org/W4414555015",
+          "published": "2025-09-26",
+          "citations": 130,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Review of surrogate model assisted multi-objective design optimization of electrical machines: New opportunities and challenges",
+          "doi": "https://doi.org/10.1016/j.rser.2025.115609",
+          "openalex_id": "https://openalex.org/W4408657848",
+          "published": "2025-03-20",
+          "citations": 121,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
           "title": "TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment",
           "doi": "https://doi.org/10.1609/aaai.v39i18.34067",
           "openalex_id": "https://openalex.org/W4409363714",
           "published": "2025-04-11",
-          "citations": 96,
+          "citations": 97,
           "methods": [
             "Preference Optimization",
             "Quant / Trading"
@@ -231,7 +249,7 @@
           "doi": "https://doi.org/10.1007/s44267-025-00106-w",
           "openalex_id": "https://openalex.org/W4402501200",
           "published": "2026-01-13",
-          "citations": 94,
+          "citations": 96,
           "methods": [],
           "benchmarks": []
         },
@@ -240,7 +258,7 @@
           "doi": "https://doi.org/10.1021/jacs.4c15534",
           "openalex_id": "https://openalex.org/W4407780836",
           "published": "2025-02-20",
-          "citations": 89,
+          "citations": 92,
           "methods": [
             "Memory / RAG",
             "VLM"
@@ -252,7 +270,7 @@
           "doi": "https://doi.org/10.1038/s44222-025-00279-5",
           "openalex_id": "https://openalex.org/W4409235391",
           "published": "2025-04-07",
-          "citations": 84,
+          "citations": 85,
           "methods": [],
           "benchmarks": []
         },
@@ -261,7 +279,16 @@
           "doi": "https://doi.org/10.1016/j.apenergy.2025.125460",
           "openalex_id": "https://openalex.org/W4407389450",
           "published": "2025-02-12",
-          "citations": 73,
+          "citations": 75,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Exploring Radar Data Representations in Autonomous Driving: A Comprehensive Review",
+          "doi": "https://doi.org/10.1109/tits.2025.3554781",
+          "openalex_id": "https://openalex.org/W4409225570",
+          "published": "2025-04-07",
+          "citations": 72,
           "methods": [],
           "benchmarks": []
         },
@@ -281,8 +308,8 @@
     },
     "hkust": {
       "name": "Hong Kong University of Science and Technology (HKUST)",
-      "papers": 12,
-      "total_works_fetched": 27,
+      "papers": 13,
+      "total_works_fetched": 24,
       "top_methods": {
         "VLM": 2,
         "Safety / Jailbreak": 1,
@@ -290,19 +317,19 @@
         "Interpretability": 1
       },
       "top_authors": {
-        "Ben Zhong Tang": 4,
         "Junwei Liu": 3,
         "Zheng Qing Zhao": 3,
-        "Jacky W. Y. Lam": 3,
+        "Ben Zhong Tang": 3,
         "Chao Li": 2,
         "Jiali Song": 2,
         "Min Hun Jee": 2,
         "Han Young Woo": 2,
-        "He Yan": 2,
-        "Yanming Sun": 2
+        "Yanming Sun": 2,
+        "Cheng Song": 2,
+        "Hua Bai": 2
       },
       "years": {
-        "2025": 12
+        "2025": 13
       },
       "recent": [
         {
@@ -310,7 +337,7 @@
           "doi": "https://doi.org/10.1017/9781009428095.021",
           "openalex_id": "https://openalex.org/W633277346",
           "published": "2025-05-31",
-          "citations": 605,
+          "citations": 592,
           "methods": [],
           "benchmarks": []
         },
@@ -319,7 +346,7 @@
           "doi": "https://doi.org/10.1109/tpami.2025.3559891",
           "openalex_id": "https://openalex.org/W4409326045",
           "published": "2025-04-10",
-          "citations": 249,
+          "citations": 258,
           "methods": [],
           "benchmarks": []
         },
@@ -328,7 +355,16 @@
           "doi": "https://doi.org/10.1021/acsami.4c17502",
           "openalex_id": "https://openalex.org/W4407875377",
           "published": "2025-02-24",
-          "citations": 239,
+          "citations": 243,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Opportunities, challenges and school strategies for integrating generative AI in education",
+          "doi": "https://doi.org/10.1016/j.caeai.2025.100373",
+          "openalex_id": "https://openalex.org/W4406818641",
+          "published": "2025-01-25",
+          "citations": 165,
           "methods": [],
           "benchmarks": []
         },
@@ -337,7 +373,7 @@
           "doi": "https://doi.org/10.1038/s41586-025-08589-9",
           "openalex_id": "https://openalex.org/W4407956550",
           "published": "2025-02-26",
-          "citations": 139,
+          "citations": 141,
           "methods": [
             "Safety / Jailbreak"
           ],
@@ -359,7 +395,7 @@
           "doi": "https://doi.org/10.1093/nsr/nwaf028",
           "openalex_id": "https://openalex.org/W4406817136",
           "published": "2025-01-25",
-          "citations": 110,
+          "citations": 111,
           "methods": [
             "Interpretability",
             "VLM"
@@ -371,7 +407,16 @@
           "doi": "https://doi.org/10.1038/s41558-025-02276-3",
           "openalex_id": "https://openalex.org/W4408235317",
           "published": "2025-03-07",
-          "citations": 108,
+          "citations": 109,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Suppression of Charge Recombination Induced by Solid Additive Assisting Organic Solar Cells with Efficiency over 20%",
+          "doi": "https://doi.org/10.1002/adma.202504396",
+          "openalex_id": "https://openalex.org/W4409148737",
+          "published": "2025-04-03",
+          "citations": 82,
           "methods": [],
           "benchmarks": []
         },
@@ -385,20 +430,11 @@
           "benchmarks": []
         },
         {
-          "title": "Suppression of Charge Recombination Induced by Solid Additive Assisting Organic Solar Cells with Efficiency over 20%",
-          "doi": "https://doi.org/10.1002/adma.202504396",
-          "openalex_id": "https://openalex.org/W4409148737",
-          "published": "2025-04-03",
-          "citations": 78,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
           "title": "Integration of Motion and Stillness: A Paradigm Shift in Constructing Nearly Planar NIR-II AIEgen with Ultrahigh Molar Absorptivity and Photothermal Effect for Multimodal Phototheranostics",
           "doi": "https://doi.org/10.1021/jacs.4c15216",
           "openalex_id": "https://openalex.org/W4406391494",
           "published": "2025-01-15",
-          "citations": 76,
+          "citations": 77,
           "methods": [
             "VLM"
           ],
@@ -412,21 +448,12 @@
           "citations": 76,
           "methods": [],
           "benchmarks": []
-        },
-        {
-          "title": "Benchmarking and Defending against Indirect Prompt Injection Attacks on Large Language Models",
-          "doi": "https://doi.org/10.1145/3690624.3709179",
-          "openalex_id": "https://openalex.org/W4409150456",
-          "published": "2025-04-04",
-          "citations": 69,
-          "methods": [],
-          "benchmarks": []
         }
       ]
     },
     "cuhk-shenzhen": {
       "name": "The Chinese University of Hong Kong, Shenzhen (CUHK-SZ)",
-      "papers": 26,
+      "papers": 27,
       "total_works_fetched": 40,
       "top_methods": {
         "VLM": 5,
@@ -434,19 +461,19 @@
         "Deep Research": 1
       },
       "top_authors": {
-        "Ben Zhong Tang": 12,
-        "Jacky W. Y. Lam": 5,
-        "Zheng Qing Zhao": 4,
-        "Ryan T. K. Kwok": 4,
+        "Ben Zhong Tang": 11,
+        "Jacky W. Y. Lam": 4,
         "Rui Zhang": 3,
         "Parvej Alam": 3,
+        "Zheng Qing Zhao": 3,
+        "Ryan T. K. Kwok": 3,
         "Han Young Woo": 2,
         "Jin Yang": 2,
         "Zhao Yang": 2,
         "Guangyu Wang": 2
       },
       "years": {
-        "2025": 25,
+        "2025": 26,
         "2026": 1
       },
       "recent": [
@@ -455,7 +482,7 @@
           "doi": "https://doi.org/10.1038/s41591-024-03416-6",
           "openalex_id": "https://openalex.org/W4406152280",
           "published": "2025-01-08",
-          "citations": 176,
+          "citations": 178,
           "methods": [],
           "benchmarks": []
         },
@@ -464,7 +491,7 @@
           "doi": "https://doi.org/10.1016/j.cell.2025.03.018",
           "openalex_id": "https://openalex.org/W4408896223",
           "published": "2025-03-27",
-          "citations": 139,
+          "citations": 142,
           "methods": [
             "Memory / RAG"
           ],
@@ -475,16 +502,7 @@
           "doi": "https://doi.org/10.1109/jsac.2025.3531571",
           "openalex_id": "https://openalex.org/W4406689889",
           "published": "2025-01-21",
-          "citations": 130,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Integrated Sensing and Communication for Low Altitude Economy: Opportunities and Challenges",
-          "doi": "https://doi.org/10.1109/mcom.001.2400685",
-          "openalex_id": "https://openalex.org/W4409234864",
-          "published": "2025-04-07",
-          "citations": 124,
+          "citations": 131,
           "methods": [],
           "benchmarks": []
         },
@@ -493,7 +511,16 @@
           "doi": "https://doi.org/10.1007/s10796-025-10581-7",
           "openalex_id": "https://openalex.org/W4407931566",
           "published": "2025-02-24",
-          "citations": 124,
+          "citations": 126,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Integrated Sensing and Communication for Low Altitude Economy: Opportunities and Challenges",
+          "doi": "https://doi.org/10.1109/mcom.001.2400685",
+          "openalex_id": "https://openalex.org/W4409234864",
+          "published": "2025-04-07",
+          "citations": 125,
           "methods": [],
           "benchmarks": []
         },
@@ -502,16 +529,7 @@
           "doi": "https://doi.org/10.1109/lwc.2025.3543889",
           "openalex_id": "https://openalex.org/W4407782736",
           "published": "2025-02-20",
-          "citations": 119,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design",
-          "doi": "https://doi.org/10.1109/tcomm.2025.3541027",
-          "openalex_id": "https://openalex.org/W4407390651",
-          "published": "2025-02-11",
-          "citations": 95,
+          "citations": 121,
           "methods": [],
           "benchmarks": []
         },
@@ -520,7 +538,16 @@
           "doi": "https://doi.org/10.1007/s44267-025-00106-w",
           "openalex_id": "https://openalex.org/W4402501200",
           "published": "2026-01-13",
-          "citations": 94,
+          "citations": 96,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design",
+          "doi": "https://doi.org/10.1109/tcomm.2025.3541027",
+          "openalex_id": "https://openalex.org/W4407390651",
+          "published": "2025-02-11",
+          "citations": 96,
           "methods": [],
           "benchmarks": []
         },
@@ -529,7 +556,7 @@
           "doi": "https://doi.org/10.1002/anie.202506505",
           "openalex_id": "https://openalex.org/W4409919737",
           "published": "2025-04-29",
-          "citations": 94,
+          "citations": 95,
           "methods": [],
           "benchmarks": []
         },
@@ -538,7 +565,7 @@
           "doi": "https://doi.org/10.1021/jacs.4c15534",
           "openalex_id": "https://openalex.org/W4407780836",
           "published": "2025-02-20",
-          "citations": 89,
+          "citations": 92,
           "methods": [
             "Memory / RAG",
             "VLM"
@@ -550,7 +577,7 @@
           "doi": "https://doi.org/10.3390/bdcc9040087",
           "openalex_id": "https://openalex.org/W4409098775",
           "published": "2025-04-02",
-          "citations": 84,
+          "citations": 89,
           "methods": [],
           "benchmarks": []
         },
@@ -567,35 +594,47 @@
     },
     "hku-cs": {
       "name": "HKU Computer Science (CS / CDS)",
-      "papers": 5,
+      "papers": 6,
       "total_works_fetched": 9,
       "top_methods": {
+        "Video Generation": 1,
         "Computer Use": 1,
         "VLM": 1
       },
       "top_authors": {
-        "Gang Xu": 2,
-        "Xinyu Fan": 2,
-        "Shiyuan Xu": 2,
-        "Yibo Cao": 2,
-        "Xiu‐Bo Chen": 2,
         "Viktoria Cologna": 1,
         "Niels G. Mede": 1,
         "Sebastian Berger": 1,
         "John C. Besley": 1,
-        "Cameron A. Brick": 1
+        "Cameron A. Brick": 1,
+        "Marina Joubert": 1,
+        "Edward Wile Maibach": 1,
+        "Sabina Mihelj": 1,
+        "Наоми Орескес": 1,
+        "Mike Steffen Schäfer": 1
       },
       "years": {
-        "2025": 4,
+        "2025": 5,
         "2026": 1
       },
       "recent": [
+        {
+          "title": "Generative AI Based Secure Wireless Sensing for ISAC Networks",
+          "doi": "https://doi.org/10.1109/tifs.2025.3570202",
+          "openalex_id": "https://openalex.org/W4410358938",
+          "published": "2025-01-01",
+          "citations": 151,
+          "methods": [
+            "Video Generation"
+          ],
+          "benchmarks": []
+        },
         {
           "title": "Graph Neural Networks for Graphs With Heterophily: A Survey",
           "doi": "https://doi.org/10.1109/tkde.2026.3680353",
           "openalex_id": "https://openalex.org/W4221150249",
           "published": "2026-04-02",
-          "citations": 108,
+          "citations": 107,
           "methods": [],
           "benchmarks": []
         },
@@ -604,7 +643,16 @@
           "doi": "https://doi.org/10.1016/j.corsci.2025.113499",
           "openalex_id": "https://openalex.org/W4416552669",
           "published": "2025-11-23",
-          "citations": 87,
+          "citations": 88,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Deep Graph Anomaly Detection: A Survey and New Perspectives",
+          "doi": "https://doi.org/10.1109/tkde.2025.3581578",
+          "openalex_id": "https://openalex.org/W4411550850",
+          "published": "2025-06-23",
+          "citations": 85,
           "methods": [],
           "benchmarks": []
         },
@@ -613,19 +661,10 @@
           "doi": "https://doi.org/10.1016/j.preteyeres.2025.101350",
           "openalex_id": "https://openalex.org/W4408129742",
           "published": "2025-03-04",
-          "citations": 83,
+          "citations": 85,
           "methods": [
             "Computer Use"
           ],
-          "benchmarks": []
-        },
-        {
-          "title": "Deep Graph Anomaly Detection: A Survey and New Perspectives",
-          "doi": "https://doi.org/10.1109/tkde.2025.3581578",
-          "openalex_id": "https://openalex.org/W4411550850",
-          "published": "2025-06-23",
-          "citations": 82,
-          "methods": [],
           "benchmarks": []
         },
         {
@@ -633,7 +672,7 @@
           "doi": "https://doi.org/10.1038/s41467-025-57426-0",
           "openalex_id": "https://openalex.org/W4408190450",
           "published": "2025-03-06",
-          "citations": 69,
+          "citations": 71,
           "methods": [
             "VLM"
           ],
@@ -643,28 +682,28 @@
     },
     "hku-ds": {
       "name": "HKU Data Science / Statistics",
-      "papers": 11,
-      "total_works_fetched": 15,
+      "papers": 12,
+      "total_works_fetched": 17,
       "top_methods": {
+        "Video Generation": 2,
         "RLVR / GRPO": 1,
         "Preference Optimization": 1,
-        "Video Generation": 1,
         "Deep Research": 1
       },
       "top_authors": {
+        "Dusit Tao Niyato": 4,
+        "Jiacheng Wang": 3,
+        "Hongyang Du": 3,
+        "Dong In Kim": 3,
         "Meng Lou": 3,
         "Yizhou Yu": 3,
-        "Dusit Tao Niyato": 3,
         "Xianhao Chen": 2,
         "Kaibin Huang": 2,
-        "Yi Wang": 2,
-        "Yali Wang": 2,
-        "Changyuan Zhao": 2,
-        "Hongyang Du": 2,
-        "Jiacheng Wang": 2
+        "Geng Sun": 2,
+        "Shiwen Mao": 2
       },
       "years": {
-        "2025": 11
+        "2025": 12
       },
       "recent": [
         {
@@ -672,7 +711,7 @@
           "doi": "https://doi.org/10.1109/comst.2025.3527641",
           "openalex_id": "https://openalex.org/W4406207083",
           "published": "2025-01-09",
-          "citations": 203,
+          "citations": 204,
           "methods": [],
           "benchmarks": []
         },
@@ -681,16 +720,38 @@
           "doi": "https://doi.org/10.1001/jamanetworkopen.2024.53131",
           "openalex_id": "https://openalex.org/W4407010033",
           "published": "2025-01-31",
-          "citations": 149,
+          "citations": 155,
           "methods": [],
           "benchmarks": []
+        },
+        {
+          "title": "Generative AI Based Secure Wireless Sensing for ISAC Networks",
+          "doi": "https://doi.org/10.1109/tifs.2025.3570202",
+          "openalex_id": "https://openalex.org/W4410358938",
+          "published": "2025-01-01",
+          "citations": 151,
+          "methods": [
+            "Video Generation"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "TransXNet: Learning Both Global and Local Dynamics With a Dual Dynamic Token Mixer for Visual Recognition",
+          "doi": "https://doi.org/10.1109/tnnls.2025.3550979",
+          "openalex_id": "https://openalex.org/W4409134989",
+          "published": "2025-04-03",
+          "citations": 111,
+          "methods": [],
+          "benchmarks": [
+            "ImageNet"
+          ]
         },
         {
           "title": "Modulation of metabolic, inflammatory and fibrotic pathways by semaglutide in metabolic dysfunction-associated steatohepatitis",
           "doi": "https://doi.org/10.1038/s41591-025-03799-0",
           "openalex_id": "https://openalex.org/W4412514920",
           "published": "2025-07-21",
-          "citations": 100,
+          "citations": 102,
           "methods": [],
           "benchmarks": []
         },
@@ -699,7 +760,7 @@
           "doi": "https://doi.org/10.1109/cvpr52734.2025.00021",
           "openalex_id": "https://openalex.org/W4413146210",
           "published": "2025-06-10",
-          "citations": 91,
+          "citations": 97,
           "methods": [],
           "benchmarks": []
         },
@@ -708,27 +769,16 @@
           "doi": "https://doi.org/10.1109/tkde.2025.3581578",
           "openalex_id": "https://openalex.org/W4411550850",
           "published": "2025-06-23",
-          "citations": 82,
+          "citations": 85,
           "methods": [],
           "benchmarks": []
-        },
-        {
-          "title": "TransXNet: Learning Both Global and Local Dynamics With a Dual Dynamic Token Mixer for Visual Recognition",
-          "doi": "https://doi.org/10.1109/tnnls.2025.3550979",
-          "openalex_id": "https://openalex.org/W4409134989",
-          "published": "2025-04-03",
-          "citations": 75,
-          "methods": [],
-          "benchmarks": [
-            "ImageNet"
-          ]
         },
         {
           "title": "Embodied AI-Enhanced Vehicular Networks: An Integrated Vision Language Models and Reinforcement Learning Method",
           "doi": "https://doi.org/10.1109/tmc.2025.3582864",
           "openalex_id": "https://openalex.org/W4411599731",
           "published": "2025-06-24",
-          "citations": 61,
+          "citations": 64,
           "methods": [
             "RLVR / GRPO",
             "Preference Optimization"
@@ -740,7 +790,7 @@
           "doi": "https://doi.org/10.1287/opre.2024.1233",
           "openalex_id": "https://openalex.org/W4410192806",
           "published": "2025-05-08",
-          "citations": 58,
+          "citations": 59,
           "methods": [],
           "benchmarks": []
         },
@@ -749,7 +799,7 @@
           "doi": "https://doi.org/10.1109/comst.2025.3592989",
           "openalex_id": "https://openalex.org/W4413267785",
           "published": "2025-07-28",
-          "citations": 57,
+          "citations": 58,
           "methods": [],
           "benchmarks": []
         },
@@ -769,7 +819,7 @@
           "doi": "https://doi.org/10.1111/ejed.70117",
           "openalex_id": "https://openalex.org/W4410480904",
           "published": "2025-05-19",
-          "citations": 53,
+          "citations": 55,
           "methods": [
             "Deep Research"
           ],
@@ -779,15 +829,16 @@
     },
     "cuhk": {
       "name": "The Chinese University of Hong Kong (CUHK)",
-      "papers": 11,
-      "total_works_fetched": 26,
+      "papers": 12,
+      "total_works_fetched": 27,
       "top_methods": {
-        "Deep Research": 2,
+        "Deep Research": 3,
         "Interpretability": 2,
         "Long Context": 1,
         "VLM": 1,
         "Video Generation": 1,
         "Quant / Trading": 1,
+        "Computer Use": 1,
         "Memory / RAG": 1
       },
       "top_authors": {
@@ -795,15 +846,15 @@
         "Stephen Lam Chan": 4,
         "Bruno Sangro": 3,
         "Mohamed Bouattour": 3,
+        "Vincent Wai‐Sun Wong": 3,
         "Lorenza Rimassa": 3,
         "Steven James": 2,
         "Ronald C.W.": 2,
         "Dianna J. Magliano": 2,
-        "Jeong Heo": 2,
-        "José Escobar": 2
+        "Jeong Heo": 2
       },
       "years": {
-        "2025": 11
+        "2025": 12
       },
       "recent": [
         {
@@ -811,7 +862,7 @@
           "doi": "https://doi.org/10.1145/3744746",
           "openalex_id": "https://openalex.org/W4411403346",
           "published": "2025-06-18",
-          "citations": 712,
+          "citations": 723,
           "methods": [
             "Long Context",
             "Deep Research",
@@ -824,7 +875,7 @@
           "doi": "https://doi.org/10.1609/aaai.v39i5.32491",
           "openalex_id": "https://openalex.org/W4409367393",
           "published": "2025-04-11",
-          "citations": 308,
+          "citations": 311,
           "methods": [
             "Interpretability",
             "Video Generation"
@@ -836,7 +887,7 @@
           "doi": "https://doi.org/10.1371/journal.pone.0315011",
           "openalex_id": "https://openalex.org/W4407172847",
           "published": "2025-02-05",
-          "citations": 228,
+          "citations": 234,
           "methods": [],
           "benchmarks": []
         },
@@ -845,7 +896,7 @@
           "doi": "https://doi.org/10.1002/adma.202500282",
           "openalex_id": "https://openalex.org/W4408070236",
           "published": "2025-02-28",
-          "citations": 168,
+          "citations": 169,
           "methods": [
             "Interpretability"
           ],
@@ -856,7 +907,7 @@
           "doi": "https://doi.org/10.1001/jamanetworkopen.2024.53131",
           "openalex_id": "https://openalex.org/W4407010033",
           "published": "2025-01-31",
-          "citations": 149,
+          "citations": 155,
           "methods": [],
           "benchmarks": []
         },
@@ -865,7 +916,7 @@
           "doi": "https://doi.org/10.1016/j.eururo.2025.02.023",
           "openalex_id": "https://openalex.org/W4408674340",
           "published": "2025-03-20",
-          "citations": 135,
+          "citations": 141,
           "methods": [
             "Deep Research"
           ],
@@ -876,9 +927,21 @@
           "doi": "https://doi.org/10.1186/s12951-025-03420-z",
           "openalex_id": "https://openalex.org/W4410776900",
           "published": "2025-05-27",
-          "citations": 134,
+          "citations": 139,
           "methods": [
             "Quant / Trading"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "How ChatGPT impacts student engagement from a systematic review and meta-analysis study",
+          "doi": "https://doi.org/10.1016/j.caeai.2025.100361",
+          "openalex_id": "https://openalex.org/W4406071412",
+          "published": "2025-01-05",
+          "citations": 131,
+          "methods": [
+            "Computer Use",
+            "Deep Research"
           ],
           "benchmarks": []
         },
@@ -887,7 +950,7 @@
           "doi": "https://doi.org/10.1038/s41560-025-01862-1",
           "openalex_id": "https://openalex.org/W4414555015",
           "published": "2025-09-26",
-          "citations": 129,
+          "citations": 130,
           "methods": [],
           "benchmarks": []
         },
@@ -896,7 +959,7 @@
           "doi": "https://doi.org/10.1002/advs.202513091",
           "openalex_id": "https://openalex.org/W4413442968",
           "published": "2025-08-22",
-          "citations": 126,
+          "citations": 128,
           "methods": [
             "Memory / RAG"
           ],
@@ -907,7 +970,7 @@
           "doi": "https://doi.org/10.1109/tpami.2025.3568201",
           "openalex_id": "https://openalex.org/W4410204460",
           "published": "2025-01-01",
-          "citations": 121,
+          "citations": 123,
           "methods": [],
           "benchmarks": []
         },
@@ -916,7 +979,7 @@
           "doi": "https://doi.org/10.1007/s40520-025-02995-9",
           "openalex_id": "https://openalex.org/W4408744532",
           "published": "2025-03-22",
-          "citations": 118,
+          "citations": 121,
           "methods": [],
           "benchmarks": []
         }
@@ -927,7 +990,7 @@
       "type": "github-org",
       "total_repos": 93,
       "active_repos": 55,
-      "total_stars": 372552,
+      "total_stars": 374682,
       "languages": [
         "Jupyter Notebook",
         "Python",
@@ -953,73 +1016,73 @@
       "top_repos": [
         {
           "name": "CLI-Anything",
-          "stars": 50809,
+          "stars": 51571,
           "pushed": "2026-09-22",
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
         },
         {
           "name": "nanobot",
-          "stars": 48632,
-          "pushed": "2026-09-28",
+          "stars": 48790,
+          "pushed": "2026-10-05",
           "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with Web"
         },
         {
           "name": "DeepTutor",
-          "stars": 40393,
-          "pushed": "2026-09-27",
+          "stars": 40807,
+          "pushed": "2026-10-04",
           "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
         },
         {
           "name": "LightRAG",
-          "stars": 39894,
-          "pushed": "2026-09-27",
+          "stars": 39981,
+          "pushed": "2026-10-03",
           "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation"
         },
         {
           "name": "Vibe-Trading",
-          "stars": 34192,
-          "pushed": "2026-09-28",
+          "stars": 34743,
+          "pushed": "2026-10-05",
           "description": "\"Vibe-Trading: Your Personal Trading Agent\""
         },
         {
           "name": "RAG-Anything",
-          "stars": 23443,
+          "stars": 23480,
           "pushed": "2026-09-15",
           "description": "\"RAG-Anything: All-in-One RAG Framework\""
         },
         {
           "name": "AI-Trader",
-          "stars": 22602,
+          "stars": 22646,
           "pushed": "2026-06-11",
           "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  "
         },
         {
           "name": "DeepCode",
-          "stars": 16655,
+          "stars": 16668,
           "pushed": "2026-09-28",
           "description": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestrati"
         },
         {
           "name": "OpenHarness",
-          "stars": 15876,
+          "stars": 15912,
           "pushed": "2026-06-04",
           "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\""
         },
         {
           "name": "ViMax",
-          "stars": 12515,
-          "pushed": "2026-09-20",
+          "stars": 12545,
+          "pushed": "2026-09-30",
           "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator Al"
         },
         {
           "name": "AutoAgent",
-          "stars": 9808,
+          "stars": 9805,
           "pushed": "2025-10-16",
           "description": "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\""
         },
         {
           "name": "ClawWork",
-          "stars": 8555,
+          "stars": 8548,
           "pushed": "2026-03-03",
           "description": "\"ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours\""
         },
@@ -1031,13 +1094,13 @@
         },
         {
           "name": "AI-Researcher",
-          "stars": 5768,
+          "stars": 5775,
           "pushed": "2025-10-16",
           "description": "[NeurIPS2025] \"AI-Researcher: Autonomous Scientific Innovation\" -- A production-ready vers"
         },
         {
           "name": "ClawTeam",
-          "stars": 5544,
+          "stars": 5534,
           "pushed": "2026-05-09",
           "description": "\"ClawTeam: Agent Swarm Intelligence\" (One Command → Full Automation)"
         }
@@ -1049,13 +1112,11 @@
       "total_works_fetched": 50,
       "top_methods": {
         "VLM": 5,
+        "Video Generation": 2,
         "Memory / RAG": 1,
         "Deep Research": 1,
         "Distillation": 1,
-        "Video Generation": 1,
-        "RLVR / GRPO": 1,
-        "Multi-Agent": 1,
-        "Tool Use": 1
+        "RLVR / GRPO": 1
       },
       "top_authors": {
         "Ben Zhong Tang": 15,
@@ -1079,7 +1140,7 @@
           "doi": "https://doi.org/10.1038/s41591-024-03416-6",
           "openalex_id": "https://openalex.org/W4406152280",
           "published": "2025-01-08",
-          "citations": 176,
+          "citations": 178,
           "methods": [],
           "benchmarks": []
         },
@@ -1088,7 +1149,7 @@
           "doi": "https://doi.org/10.1109/jsac.2025.3531571",
           "openalex_id": "https://openalex.org/W4406689889",
           "published": "2025-01-21",
-          "citations": 130,
+          "citations": 131,
           "methods": [],
           "benchmarks": []
         },
@@ -1097,16 +1158,7 @@
           "doi": "https://doi.org/10.1109/lwc.2025.3543889",
           "openalex_id": "https://openalex.org/W4407782736",
           "published": "2025-02-20",
-          "citations": 119,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design",
-          "doi": "https://doi.org/10.1109/tcomm.2025.3541027",
-          "openalex_id": "https://openalex.org/W4407390651",
-          "published": "2025-02-11",
-          "citations": 95,
+          "citations": 121,
           "methods": [],
           "benchmarks": []
         },
@@ -1115,7 +1167,16 @@
           "doi": "https://doi.org/10.1007/s44267-025-00106-w",
           "openalex_id": "https://openalex.org/W4402501200",
           "published": "2026-01-13",
-          "citations": 94,
+          "citations": 96,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design",
+          "doi": "https://doi.org/10.1109/tcomm.2025.3541027",
+          "openalex_id": "https://openalex.org/W4407390651",
+          "published": "2025-02-11",
+          "citations": 96,
           "methods": [],
           "benchmarks": []
         },
@@ -1124,7 +1185,7 @@
           "doi": "https://doi.org/10.1002/anie.202506505",
           "openalex_id": "https://openalex.org/W4409919737",
           "published": "2025-04-29",
-          "citations": 94,
+          "citations": 95,
           "methods": [],
           "benchmarks": []
         },
@@ -1133,7 +1194,7 @@
           "doi": "https://doi.org/10.1021/jacs.4c15534",
           "openalex_id": "https://openalex.org/W4407780836",
           "published": "2025-02-20",
-          "citations": 89,
+          "citations": 92,
           "methods": [
             "Memory / RAG",
             "VLM"
@@ -1145,7 +1206,7 @@
           "doi": "https://doi.org/10.3390/bdcc9040087",
           "openalex_id": "https://openalex.org/W4409098775",
           "published": "2025-04-02",
-          "citations": 84,
+          "citations": 89,
           "methods": [],
           "benchmarks": []
         },
@@ -1172,21 +1233,19 @@
           "doi": "https://doi.org/10.1021/jacs.4c15216",
           "openalex_id": "https://openalex.org/W4406391494",
           "published": "2025-01-15",
-          "citations": 76,
+          "citations": 77,
           "methods": [
             "VLM"
           ],
           "benchmarks": []
         },
         {
-          "title": "The Midas Touch by Iridium: A Second Near-Infrared Aggregation-Induced Emission-Active Metallo-Agent for Exceptional Phototheranostics of Breast Cancer",
-          "doi": "https://doi.org/10.1021/jacs.4c15150",
-          "openalex_id": "https://openalex.org/W4406115797",
-          "published": "2025-01-07",
-          "citations": 75,
-          "methods": [
-            "VLM"
-          ],
+          "title": "Intelligent nanophotonics: when machine learning sheds light",
+          "doi": "https://doi.org/10.1186/s43593-025-00085-x",
+          "openalex_id": "https://openalex.org/W4409363528",
+          "published": "2025-04-11",
+          "citations": 76,
+          "methods": [],
           "benchmarks": []
         }
       ]

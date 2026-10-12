@@ -1,7 +1,7 @@
 # Frontier AI — Living Survey Outline
 
 > Working title: *The Compute-Allocation Frontier: A Living, Reproducible Survey of LLM Reasoning and Test-Time Compute*
-> Status: evidence-accumulating (v0.4). 887 papers in corpus, 92 full-text verified.
+> Status: evidence-accumulating (v0.4). 968 papers in corpus, 92 full-text verified.
 
 ## Section progress
 
@@ -38,12 +38,12 @@
 
 ## 5. Cross-Pillar Convergence under a Compute-Allocation Lens
 
-- [ ] LLM Reasoning / Test-time Compute — 152 papers
-- [ ] Agentic AI / Deep Research Systems — 153 papers
-- [ ] Efficient Training & Inference — 155 papers
-- [ ] RL / Alignment / Safety — 131 papers
-- [ ] Multimodal / World Models — 144 papers
-- [ ] Quant × AI — 152 papers
+- [ ] LLM Reasoning / Test-time Compute — 167 papers
+- [ ] Agentic AI / Deep Research Systems — 171 papers
+- [ ] Efficient Training & Inference — 169 papers
+- [ ] RL / Alignment / Safety — 144 papers
+- [ ] Multimodal / World Models — 152 papers
+- [ ] Quant × AI — 165 papers
 
 ## 6. Empirical Trends from the Living Corpus
 - [ ] Method migration, benchmark saturation, convergence clusters

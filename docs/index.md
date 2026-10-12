@@ -3,25 +3,25 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**887 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-10-05
+**968 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-10-12
 
 ## Latest papers
 
-- **Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis** ([2610.03717v1](https://arxiv.org/abs/2610.03717v1)) — LLM Reasoning / Test-time Compute
-- **4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes** ([2610.03715v1](https://arxiv.org/abs/2610.03715v1)) — Agentic AI / Deep Research Systems
-- **What Should World Models Forget? Stratified Retention for Continual Adaptation** ([2610.03713v1](https://arxiv.org/abs/2610.03713v1)) — LLM Reasoning / Test-time Compute
-- **RNADyn: A Benchmark for Generating and Understanding RNA Dynamics** ([2610.03712v1](https://arxiv.org/abs/2610.03712v1)) — RL / Alignment / Safety
-- **LESSER: Post-Training Data Selection with Output-Layer Gradients** ([2610.03702v1](https://arxiv.org/abs/2610.03702v1)) — RL / Alignment / Safety
-- **Language Models that Play Chess and Explain Their Moves** ([2610.03695v1](https://arxiv.org/abs/2610.03695v1)) — LLM Reasoning / Test-time Compute
-- **FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution** ([2610.03675v1](https://arxiv.org/abs/2610.03675v1)) — Agentic AI / Deep Research Systems
-- **Planning to Learn** ([2610.03667v1](https://arxiv.org/abs/2610.03667v1)) — LLM Reasoning / Test-time Compute
+- **Splat2Act: From Captured Scenes to Personalized VLA Manipulation** ([2610.13945v1](https://arxiv.org/abs/2610.13945v1)) — Multimodal / World Models
+- **InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators** ([2610.13944v1](https://arxiv.org/abs/2610.13944v1)) — Multimodal / World Models
+- **Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback** ([2610.13941v1](https://arxiv.org/abs/2610.13941v1)) — Multimodal / World Models
+- **Hide and Seek: HIDE Concepts to SEEK explanations for black box models** ([2610.13935v1](https://arxiv.org/abs/2610.13935v1)) — RL / Alignment / Safety
+- **AI Models Can Provably Hide Arbitrary Capabilities** ([2610.13928v1](https://arxiv.org/abs/2610.13928v1)) — RL / Alignment / Safety
+- **Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning** ([2610.13923v1](https://arxiv.org/abs/2610.13923v1)) — LLM Reasoning / Test-time Compute
+- **Designing Protein Structures from Natural Language** ([2610.13917v1](https://arxiv.org/abs/2610.13917v1)) — RL / Alignment / Safety
+- **RSI-Anything: Unlocking Recursive Self-Improvement with World Models** ([2610.13912v1](https://arxiv.org/abs/2610.13912v1)) — LLM Reasoning / Test-time Compute
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W42](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W42.md)
 - [Frontier AI Weekly 2026-W41](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W41.md)
 - [Frontier AI Weekly 2026-W40](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W40.md)
 - [Frontier AI Weekly 2026-W39](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W39.md)
-- [Frontier AI Weekly 2026-W38](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W38.md)
 
 ## Publications
 

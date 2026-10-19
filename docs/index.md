@@ -3,25 +3,25 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**968 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-10-12
+**1050 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-10-19
 
 ## Latest papers
 
-- **Splat2Act: From Captured Scenes to Personalized VLA Manipulation** ([2610.13945v1](https://arxiv.org/abs/2610.13945v1)) — Multimodal / World Models
-- **InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators** ([2610.13944v1](https://arxiv.org/abs/2610.13944v1)) — Multimodal / World Models
-- **Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback** ([2610.13941v1](https://arxiv.org/abs/2610.13941v1)) — Multimodal / World Models
-- **Hide and Seek: HIDE Concepts to SEEK explanations for black box models** ([2610.13935v1](https://arxiv.org/abs/2610.13935v1)) — RL / Alignment / Safety
-- **AI Models Can Provably Hide Arbitrary Capabilities** ([2610.13928v1](https://arxiv.org/abs/2610.13928v1)) — RL / Alignment / Safety
-- **Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning** ([2610.13923v1](https://arxiv.org/abs/2610.13923v1)) — LLM Reasoning / Test-time Compute
-- **Designing Protein Structures from Natural Language** ([2610.13917v1](https://arxiv.org/abs/2610.13917v1)) — RL / Alignment / Safety
-- **RSI-Anything: Unlocking Recursive Self-Improvement with World Models** ([2610.13912v1](https://arxiv.org/abs/2610.13912v1)) — LLM Reasoning / Test-time Compute
+- **Rethinking the design space of Vanilla Pixel Diffusion Transformers** ([2610.23854v1](https://arxiv.org/abs/2610.23854v1)) — Multimodal / World Models
+- **AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery** ([2610.23845v1](https://arxiv.org/abs/2610.23845v1)) — Agentic AI / Deep Research Systems
+- **DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses** ([2610.23839v1](https://arxiv.org/abs/2610.23839v1)) — Agentic AI / Deep Research Systems
+- **Task-aligned spectral inductive biases in parameterized quantum circuits** ([2610.23834v1](https://arxiv.org/abs/2610.23834v1)) — RL / Alignment / Safety
+- **Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation** ([2610.23831v1](https://arxiv.org/abs/2610.23831v1)) — LLM Reasoning / Test-time Compute
+- **Self-Building Labs** ([2610.23826v1](https://arxiv.org/abs/2610.23826v1)) — Agentic AI / Deep Research Systems
+- **CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning** ([2610.23820v1](https://arxiv.org/abs/2610.23820v1)) — LLM Reasoning / Test-time Compute
+- **Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding** ([2610.23818v1](https://arxiv.org/abs/2610.23818v1)) — LLM Reasoning / Test-time Compute
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W43](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W43.md)
 - [Frontier AI Weekly 2026-W42](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W42.md)
 - [Frontier AI Weekly 2026-W41](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W41.md)
 - [Frontier AI Weekly 2026-W40](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W40.md)
-- [Frontier AI Weekly 2026-W39](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W39.md)
 
 ## Publications
 

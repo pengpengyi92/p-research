@@ -1,6 +1,6 @@
 # The Chinese University of Hong Kong (CUHK) — Research Group Distillation
 
-> Generated 2026-10-12 · scope: AI / Quant · 12 papers classified from 27 recent works.
+> Generated 2026-10-19 · scope: AI / Quant · 13 papers classified from 28 recent works.
 
 ## Method mix
 
@@ -28,22 +28,22 @@
 
 ## Publication years (AI/quant)
 
-- {'2025': 12}
+- {'2025': 13}
 
 ## Recent AI/Quant papers
 
-- **A Comprehensive Overview of Large Language Models** (2025-06, cited 737) — Long Context, Deep Research, VLM
-- **U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation** (2025-04, cited 314) — Interpretability, Video Generation
-- **Higher education students’ perceptions of ChatGPT: A global study of early reactions** (2025-02, cited 243) — —
-- **20.6% Efficiency Organic Solar Cells Enabled by Incorporating a Lower Bandgap Guest Nonfullerene Acceptor Without Open‐Circuit Voltage Loss** (2025-02, cited 172) — Interpretability
-- **The Digital Health Competencies in Medical Education Framework** (2025-01, cited 153) — —
-- **European Association of Urology Guidelines on Upper Urinary Tract Urothelial Carcinoma: Summary of the 2025 Update** (2025-03, cited 142) — Deep Research
-- **Ligustrazine nano-drug delivery system ameliorates doxorubicin-mediated myocardial injury via piezo-type mechanosensitive ion channel component 1-prohibitin 2-mediated mitochondrial quality surveillance** (2025-05, cited 140) — Quant / Trading
-- **Two-step crystallization modulated through acenaphthene enabling 21% binary organic solar cells and 83.2% fill factor** (2025-09, cited 132) — —
-- **How ChatGPT impacts student engagement from a systematic review and meta-analysis study** (2025-01, cited 132) — Computer Use, Deep Research
-- **4D Printing of Magnetically Responsive Shape Memory Polymers: Toward Sustainable Solutions in Soft Robotics, Wearables, and Biomedical Devices** (2025-08, cited 129) — Memory / RAG
-- **Health outcomes of sarcopenia: a consensus report by the outcome working group of the Global Leadership Initiative in Sarcopenia (GLIS)** (2025-03, cited 125) — —
-- **Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians** (2025-01, cited 125) — —
+- **A Comprehensive Overview of Large Language Models** (2025-06, cited 1232) — Long Context, Deep Research, VLM
+- **U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation** (2025-04, cited 370) — Interpretability, Video Generation
+- **Higher education students’ perceptions of ChatGPT: A global study of early reactions** (2025-02, cited 249) — —
+- **20.6% Efficiency Organic Solar Cells Enabled by Incorporating a Lower Bandgap Guest Nonfullerene Acceptor Without Open‐Circuit Voltage Loss** (2025-02, cited 175) — Interpretability
+- **The Digital Health Competencies in Medical Education Framework** (2025-01, cited 156) — —
+- **European Association of Urology Guidelines on Upper Urinary Tract Urothelial Carcinoma: Summary of the 2025 Update** (2025-03, cited 145) — Deep Research
+- **Ligustrazine nano-drug delivery system ameliorates doxorubicin-mediated myocardial injury via piezo-type mechanosensitive ion channel component 1-prohibitin 2-mediated mitochondrial quality surveillance** (2025-05, cited 143) — Quant / Trading
+- **Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians** (2025-01, cited 139) — —
+- **Two-step crystallization modulated through acenaphthene enabling 21% binary organic solar cells and 83.2% fill factor** (2025-09, cited 137) — —
+- **How ChatGPT impacts student engagement from a systematic review and meta-analysis study** (2025-01, cited 134) — Computer Use, Deep Research
+- **4D Printing of Magnetically Responsive Shape Memory Polymers: Toward Sustainable Solutions in Soft Robotics, Wearables, and Biomedical Devices** (2025-08, cited 131) — Memory / RAG
+- **Health outcomes of sarcopenia: a consensus report by the outcome working group of the Global Leadership Initiative in Sarcopenia (GLIS)** (2025-03, cited 128) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

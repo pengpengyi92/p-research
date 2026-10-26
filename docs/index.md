@@ -3,25 +3,25 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**1050 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-10-19
+**1130 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-10-26
 
 ## Latest papers
 
-- **Rethinking the design space of Vanilla Pixel Diffusion Transformers** ([2610.23854v1](https://arxiv.org/abs/2610.23854v1)) — Multimodal / World Models
-- **AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery** ([2610.23845v1](https://arxiv.org/abs/2610.23845v1)) — Agentic AI / Deep Research Systems
-- **DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses** ([2610.23839v1](https://arxiv.org/abs/2610.23839v1)) — Agentic AI / Deep Research Systems
-- **Task-aligned spectral inductive biases in parameterized quantum circuits** ([2610.23834v1](https://arxiv.org/abs/2610.23834v1)) — RL / Alignment / Safety
-- **Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation** ([2610.23831v1](https://arxiv.org/abs/2610.23831v1)) — LLM Reasoning / Test-time Compute
-- **Self-Building Labs** ([2610.23826v1](https://arxiv.org/abs/2610.23826v1)) — Agentic AI / Deep Research Systems
-- **CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning** ([2610.23820v1](https://arxiv.org/abs/2610.23820v1)) — LLM Reasoning / Test-time Compute
-- **Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding** ([2610.23818v1](https://arxiv.org/abs/2610.23818v1)) — LLM Reasoning / Test-time Compute
+- **SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning** ([2610.32978v1](https://arxiv.org/abs/2610.32978v1)) — LLM Reasoning / Test-time Compute
+- **UniAction: Unified Action Conditioning for World Models** ([2610.32977v1](https://arxiv.org/abs/2610.32977v1)) — Multimodal / World Models
+- **RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms** ([2610.32971v1](https://arxiv.org/abs/2610.32971v1)) — LLM Reasoning / Test-time Compute
+- **On the continuity of conditional distributions and stratification for derivative pricing** ([2610.32970v1](https://arxiv.org/abs/2610.32970v1)) — Quant × AI
+- **DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection** ([2610.32969v1](https://arxiv.org/abs/2610.32969v1)) — Agentic AI / Deep Research Systems
+- **MiD-VLM: Detecting and Grounding Global Semantic Misinformation in Image-Caption Pairs** ([2610.32967v1](https://arxiv.org/abs/2610.32967v1)) — Multimodal / World Models
+- **Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox** ([2610.32955v1](https://arxiv.org/abs/2610.32955v1)) — Agentic AI / Deep Research Systems
+- **Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning** ([2610.32951v1](https://arxiv.org/abs/2610.32951v1)) — LLM Reasoning / Test-time Compute
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W44](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W44.md)
 - [Frontier AI Weekly 2026-W43](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W43.md)
 - [Frontier AI Weekly 2026-W42](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W42.md)
 - [Frontier AI Weekly 2026-W41](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W41.md)
-- [Frontier AI Weekly 2026-W40](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W40.md)
 
 ## Publications
 

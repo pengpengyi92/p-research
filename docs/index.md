@@ -3,25 +3,25 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**1130 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-10-26
+**1212 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-11-02
 
 ## Latest papers
 
-- **SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning** ([2610.32978v1](https://arxiv.org/abs/2610.32978v1)) — LLM Reasoning / Test-time Compute
-- **UniAction: Unified Action Conditioning for World Models** ([2610.32977v1](https://arxiv.org/abs/2610.32977v1)) — Multimodal / World Models
-- **RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms** ([2610.32971v1](https://arxiv.org/abs/2610.32971v1)) — LLM Reasoning / Test-time Compute
-- **On the continuity of conditional distributions and stratification for derivative pricing** ([2610.32970v1](https://arxiv.org/abs/2610.32970v1)) — Quant × AI
-- **DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection** ([2610.32969v1](https://arxiv.org/abs/2610.32969v1)) — Agentic AI / Deep Research Systems
-- **MiD-VLM: Detecting and Grounding Global Semantic Misinformation in Image-Caption Pairs** ([2610.32967v1](https://arxiv.org/abs/2610.32967v1)) — Multimodal / World Models
-- **Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox** ([2610.32955v1](https://arxiv.org/abs/2610.32955v1)) — Agentic AI / Deep Research Systems
-- **Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning** ([2610.32951v1](https://arxiv.org/abs/2610.32951v1)) — LLM Reasoning / Test-time Compute
+- **Latent Reasoning in Continuous Space for Unified Multimodal Models** ([2610.42149v1](https://arxiv.org/abs/2610.42149v1)) — LLM Reasoning / Test-time Compute
+- **Flide: Accelerating Decision Inference with Exact State Forking** ([2610.42148v1](https://arxiv.org/abs/2610.42148v1)) — LLM Reasoning / Test-time Compute
+- **Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention** ([2610.42147v1](https://arxiv.org/abs/2610.42147v1)) — Agentic AI / Deep Research Systems
+- **Hierarchical World Models with Implicit Dynamics** ([2610.42146v1](https://arxiv.org/abs/2610.42146v1)) — Agentic AI / Deep Research Systems
+- **RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory** ([2610.42141v1](https://arxiv.org/abs/2610.42141v1)) — Agentic AI / Deep Research Systems
+- **A Better Critic Matters for Distribution Matching Distillation** ([2610.42135v1](https://arxiv.org/abs/2610.42135v1)) — Efficient Training & Inference
+- **DecisionRank: On-Policy Distillation for Decision-Model Rerankers** ([2610.42128v1](https://arxiv.org/abs/2610.42128v1)) — LLM Reasoning / Test-time Compute
+- **Subquadratic Attention with a Hierarchical Tree-Structured Indexer** ([2610.42112v1](https://arxiv.org/abs/2610.42112v1)) — LLM Reasoning / Test-time Compute
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W45](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W45.md)
 - [Frontier AI Weekly 2026-W44](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W44.md)
 - [Frontier AI Weekly 2026-W43](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W43.md)
 - [Frontier AI Weekly 2026-W42](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W42.md)
-- [Frontier AI Weekly 2026-W41](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W41.md)
 
 ## Publications
 

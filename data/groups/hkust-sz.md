@@ -1,14 +1,12 @@
 # HKUST Shenzhen Research Institute — Research Group Distillation
 
-> Generated 2026-10-26 · scope: AI / Quant · 1 papers classified from 3 recent works.
+> Generated 2026-11-02 · scope: AI / Quant · 1 papers classified from 3 recent works.
 
 ## Method mix
 
 
 ## Top authors (on matched works; includes co-authors)
 
-- Yaqiong Su: 2 works
-- Zheng Hu: 2 works
 - Lianshuai Zhang: 1 works
 - Xianyuan Xiang: 1 works
 - Y. Li: 1 works
@@ -17,6 +15,8 @@
 - Yan Qiao: 1 works
 - Shenyu Shen: 1 works
 - Chenghui Mao: 1 works
+- Yongchun Xiao: 1 works
+- Wenchuan Lai: 1 works
 
 ## Publication years (AI/quant)
 
@@ -24,7 +24,7 @@
 
 ## Recent AI/Quant papers
 
-- **TREM2 and sTREM2 in Alzheimer’s disease: from mechanisms to therapies** (2025-04, cited 68) — —
+- **TREM2 and sTREM2 in Alzheimer’s disease: from mechanisms to therapies** (2025-04, cited 70) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

@@ -3,25 +3,25 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**1212 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-11-02
+**1287 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-11-09
 
 ## Latest papers
 
-- **Latent Reasoning in Continuous Space for Unified Multimodal Models** ([2610.42149v1](https://arxiv.org/abs/2610.42149v1)) — LLM Reasoning / Test-time Compute
-- **Flide: Accelerating Decision Inference with Exact State Forking** ([2610.42148v1](https://arxiv.org/abs/2610.42148v1)) — LLM Reasoning / Test-time Compute
-- **Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention** ([2610.42147v1](https://arxiv.org/abs/2610.42147v1)) — Agentic AI / Deep Research Systems
-- **Hierarchical World Models with Implicit Dynamics** ([2610.42146v1](https://arxiv.org/abs/2610.42146v1)) — Agentic AI / Deep Research Systems
-- **RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory** ([2610.42141v1](https://arxiv.org/abs/2610.42141v1)) — Agentic AI / Deep Research Systems
-- **A Better Critic Matters for Distribution Matching Distillation** ([2610.42135v1](https://arxiv.org/abs/2610.42135v1)) — Efficient Training & Inference
-- **DecisionRank: On-Policy Distillation for Decision-Model Rerankers** ([2610.42128v1](https://arxiv.org/abs/2610.42128v1)) — LLM Reasoning / Test-time Compute
-- **Subquadratic Attention with a Hierarchical Tree-Structured Indexer** ([2610.42112v1](https://arxiv.org/abs/2610.42112v1)) — LLM Reasoning / Test-time Compute
+- **Video-Coder: Reinforcing Agentic Coding for Video Generation** ([2611.09894v1](https://arxiv.org/abs/2611.09894v1)) — Multimodal / World Models
+- **On Agentic Manipulation Policies** ([2611.09892v1](https://arxiv.org/abs/2611.09892v1)) — Agentic AI / Deep Research Systems
+- **CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse** ([2611.09891v1](https://arxiv.org/abs/2611.09891v1)) — LLM Reasoning / Test-time Compute
+- **On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning** ([2611.09872v1](https://arxiv.org/abs/2611.09872v1)) — LLM Reasoning / Test-time Compute
+- **CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs** ([2611.09868v1](https://arxiv.org/abs/2611.09868v1)) — LLM Reasoning / Test-time Compute
+- **Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation** ([2611.09864v1](https://arxiv.org/abs/2611.09864v1)) — LLM Reasoning / Test-time Compute
+- **Flow-Guided Target-Space Alignment via Path Consistency** ([2611.09863v1](https://arxiv.org/abs/2611.09863v1)) — LLM Reasoning / Test-time Compute
+- **Fifty-Two Shades of Pig: What the UCR Archive Really Asks Classifiers to Do** ([2611.09843v1](https://arxiv.org/abs/2611.09843v1)) — RL / Alignment / Safety
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W46](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W46.md)
 - [Frontier AI Weekly 2026-W45](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W45.md)
 - [Frontier AI Weekly 2026-W44](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W44.md)
 - [Frontier AI Weekly 2026-W43](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W43.md)
-- [Frontier AI Weekly 2026-W42](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W42.md)
 
 ## Publications
 

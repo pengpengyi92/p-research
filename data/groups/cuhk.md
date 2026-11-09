@@ -1,49 +1,51 @@
 # The Chinese University of Hong Kong (CUHK) — Research Group Distillation
 
-> Generated 2026-11-02 · scope: AI / Quant · 12 papers classified from 28 recent works.
+> Generated 2026-11-09 · scope: AI / Quant · 22 papers classified from 33 recent works.
 
 ## Method mix
 
+- RLVR / GRPO: 9
+- VLM: 7
+- Preference Optimization: 7
+- Video Generation: 5
+- Test-time Scaling: 4
+- Chain-of-Thought: 4
 - Deep Research: 2
-- Interpretability: 2
+- Distillation: 2
 - Long Context: 1
-- VLM: 1
-- Video Generation: 1
-- Quant / Trading: 1
-- Computer Use: 1
-- Memory / RAG: 1
+- Interpretability: 1
 
 ## Top authors (on matched works; includes co-authors)
 
-- Masatoshi Kudo: 4 works
-- Stephen Lam Chan: 4 works
-- Mohamed Bouattour: 3 works
+- Wanli Ouyang: 3 works
 - Vincent Wai‐Sun Wong: 3 works
-- Lorenza Rimassa: 3 works
+- Masatoshi Kudo: 3 works
+- Stephen Lam Chan: 3 works
+- Erfei Cui: 2 works
+- Yinan He: 2 works
+- Lewei Lu: 2 works
+- Jifeng Dai: 2 works
+- Wenhai Wang: 2 works
 - Steven James: 2 works
-- Ronald C.W.: 2 works
-- Dianna J. Magliano: 2 works
-- Bruno Sangro: 2 works
-- Jeong Heo: 2 works
 
 ## Publication years (AI/quant)
 
-- {'2025': 12}
+- {'2025': 21, '2026': 1}
 
 ## Recent AI/Quant papers
 
-- **A Comprehensive Overview of Large Language Models** (2025-06, cited 1261) — Long Context, Deep Research, VLM
-- **U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation** (2025-04, cited 382) — Interpretability, Video Generation
-- **Higher education students’ perceptions of ChatGPT: A global study of early reactions** (2025-02, cited 258) — —
-- **20.6% Efficiency Organic Solar Cells Enabled by Incorporating a Lower Bandgap Guest Nonfullerene Acceptor Without Open‐Circuit Voltage Loss** (2025-02, cited 181) — Interpretability
-- **The Digital Health Competencies in Medical Education Framework** (2025-01, cited 162) — —
-- **Ligustrazine nano-drug delivery system ameliorates doxorubicin-mediated myocardial injury via piezo-type mechanosensitive ion channel component 1-prohibitin 2-mediated mitochondrial quality surveillance** (2025-05, cited 145) — Quant / Trading
-- **Two-step crystallization modulated through acenaphthene enabling 21% binary organic solar cells and 83.2% fill factor** (2025-09, cited 144) — —
-- **Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians** (2025-01, cited 141) — —
-- **How ChatGPT impacts student engagement from a systematic review and meta-analysis study** (2025-01, cited 139) — Computer Use, Deep Research
-- **4D Printing of Magnetically Responsive Shape Memory Polymers: Toward Sustainable Solutions in Soft Robotics, Wearables, and Biomedical Devices** (2025-08, cited 134) — Memory / RAG
-- **Health outcomes of sarcopenia: a consensus report by the outcome working group of the Global Leadership Initiative in Sarcopenia (GLIS)** (2025-03, cited 133) — —
-- **Global, regional, and national burden of headache disorders, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023** (2025-11, cited 120) — —
+- **A Comprehensive Overview of Large Language Models** (2025-06, cited 2749) — Long Context, Deep Research, VLM
+- **InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models** (2025-04, cited 2109) — Test-time Scaling, Preference Optimization, VLM
+- **Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models** (2025-03, cited 711) — RLVR / GRPO, Chain-of-Thought, Test-time Scaling, VLM
+- **U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation** (2025-04, cited 561) — Interpretability, Video Generation
+- **Flow-GRPO: Training Flow Matching Models via Online RL** (2025-01, cited 536) — RLVR / GRPO, Preference Optimization
+- **Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning** (2025-01, cited 518) — RLVR / GRPO, Chain-of-Thought
+- **Higher education students’ perceptions of ChatGPT: A global study of early reactions** (2025-02, cited 435) — —
+- **ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis** (2025-01, cited 426) — Video Generation
+- **Mini-Gemini: Mining the Potential of Multi-Modality Vision Language Models** (2025-11, cited 415) — MoE, VLM
+- **A Survey on Vision--Language--Action Models for Embodied AI** (2026-04, cited 376) — VLM
+- **VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness** (2025-03, cited 321) — Preference Optimization, World Model, Video Generation
+- **Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians** (2025-01, cited 311) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

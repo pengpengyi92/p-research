@@ -1,44 +1,51 @@
 # The Chinese University of Hong Kong, Shenzhen (CUHK-SZ) — Research Group Distillation
 
-> Generated 2026-11-02 · scope: AI / Quant · 26 papers classified from 40 recent works.
+> Generated 2026-11-09 · scope: AI / Quant · 33 papers classified from 40 recent works.
 
 ## Method mix
 
 - VLM: 5
-- Memory / RAG: 2
+- Memory / RAG: 5
+- Preference Optimization: 2
+- Safety / Jailbreak: 2
+- RLVR / GRPO: 1
+- Chain-of-Thought: 1
+- Video Generation: 1
+- Long Context: 1
+- Multi-Agent: 1
 - Deep Research: 1
 
 ## Top authors (on matched works; includes co-authors)
 
-- Ben Zhong Tang: 11 works
-- Jacky W. Y. Lam: 5 works
-- Zheng Zhao: 4 works
-- Parvej Alam: 3 works
-- Ryan T. K. Kwok: 3 works
-- Han Young Woo: 2 works
+- Benyou Wang: 5 works
+- Ben Zhong Tang: 5 works
+- Chen Zhang: 3 works
+- Haizhou Li: 2 works
 - Zhao Yang: 2 works
-- Yuxuan Sun: 2 works
-- Rui Zhang: 2 works
 - Yanqing Xu: 2 works
+- Yuxuan Sun: 2 works
+- Lei Zhang: 2 works
+- Rui Zhang: 2 works
+- Bin Liu: 2 works
 
 ## Publication years (AI/quant)
 
-- {'2025': 25, '2026': 1}
+- {'2025': 30, '2026': 3}
 
 ## Recent AI/Quant papers
 
-- **A generalist medical language model for disease diagnosis assistance** (2025-01, cited 183) — —
-- **A single-cell atlas reveals immune heterogeneity in anti-PD-1-treated non-small cell lung cancer** (2025-03, cited 159) — Memory / RAG
-- **6D Movable Antenna Enhanced Wireless Network via Discrete Position and Rotation Optimization** (2025-01, cited 144) — —
-- **Integrated Sensing and Communication for Low Altitude Economy: Opportunities and Challenges** (2025-04, cited 138) — —
-- **Generative Artificial Intelligence: Evolving Technology, Growing Societal Impact, and Opportunities for Information Systems Research** (2025-02, cited 136) — —
-- **Rate Maximization for Downlink Pinching-Antenna Systems** (2025-02, cited 125) — —
-- **SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation** (2026-01, cited 117) — —
-- **Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design** (2025-02, cited 108) — —
-- **pH‐Responsive AIE Photosensitizers for Enhanced Antibacterial Therapy** (2025-04, cited 97) — —
-- **Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer** (2025-02, cited 97) — Memory / RAG, VLM
-- **LLM Fine-Tuning: Concepts, Opportunities, and Challenges** (2025-04, cited 90) — —
-- **Precision-Engineered Co-N 4− x -C x Single Atoms Enhance Potential-Resolved Ru(bpy) 3 2+ Electrochemiluminescence via Reactive Oxygen Species** (2025-01, cited 89) — —
+- **Video-R1: Reinforcing Video Reasoning in MLLMs** (2025-01, cited 479) — RLVR / GRPO, Chain-of-Thought, Preference Optimization, VLM
+- **Exploring Large Language Model‐Based Intelligent Agents: Definitions, Methods, and Prospects** (2026-07, cited 271) — Preference Optimization, Safety / Jailbreak, Memory / RAG
+- **VoiceBench: Benchmarking LLM-Based Voice Assistants** (2026-01, cited 243) — Safety / Jailbreak
+- **SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation** (2026-01, cited 223) — —
+- **Generative Artificial Intelligence: Evolving Technology, Growing Societal Impact, and Opportunities for Information Systems Research** (2025-02, cited 208) — —
+- **A generalist medical language model for disease diagnosis assistance** (2025-01, cited 200) — —
+- **Rate Maximization for Downlink Pinching-Antenna Systems** (2025-02, cited 173) — —
+- **A single-cell atlas reveals immune heterogeneity in anti-PD-1-treated non-small cell lung cancer** (2025-03, cited 171) — Memory / RAG
+- **6D Movable Antenna Enhanced Wireless Network via Discrete Position and Rotation Optimization** (2025-01, cited 169) — —
+- **Integrated Sensing and Communication for Low Altitude Economy: Opportunities and Challenges** (2025-04, cited 166) — —
+- **xbench: Tracking Agents Productivity Scaling with Profession-Aligned Real-World Evaluations** (2025-06, cited 155) — —
+- **ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling** (2025-05, cited 143) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

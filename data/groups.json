@@ -1,34 +1,37 @@
 {
-  "generated_on": "2026-11-02T09:48:20Z",
+  "generated_on": "2026-11-09T10:06:57Z",
   "groups": {
     "hku": {
       "name": "The University of Hong Kong (HKU)",
-      "papers": 12,
-      "total_works_fetched": 33,
+      "papers": 19,
+      "total_works_fetched": 29,
       "top_methods": {
-        "VLM": 2,
-        "Interpretability": 2,
+        "VLM": 8,
+        "RLVR / GRPO": 6,
+        "Preference Optimization": 4,
+        "Video Generation": 4,
+        "Chain-of-Thought": 3,
+        "Test-time Scaling": 2,
+        "Memory / RAG": 2,
         "Long Context": 1,
         "Deep Research": 1,
-        "Safety / Jailbreak": 1,
-        "Quant / Trading": 1,
-        "Video Generation": 1,
-        "Memory / RAG": 1
+        "Interpretability": 1
       },
       "top_authors": {
-        "Masatoshi Kudo": 4,
-        "Vincent Wai‐Sun Wong": 4,
-        "Stephen Lam Chan": 3,
-        "Steven James": 2,
-        "Ronald C.W.": 2,
-        "Dianna J. Magliano": 2,
-        "Hang Viet Dao": 2,
-        "Bin Liu": 2,
-        "Thomas C. C. Yau": 2,
+        "Ping Luo": 5,
+        "Limin Wang": 3,
+        "Wenhai Wang": 3,
+        "Masatoshi Kudo": 3,
+        "Yinan He": 2,
+        "Botian Shi": 2,
+        "Junjun He": 2,
+        "Kaipeng Zhang": 2,
+        "Qiao Yu": 2,
         "Thomas Decaens": 2
       },
       "years": {
-        "2025": 12
+        "2025": 18,
+        "2026": 1
       },
       "recent": [
         {
@@ -36,7 +39,7 @@
           "doi": "https://doi.org/10.1145/3744746",
           "openalex_id": "https://openalex.org/W4411403346",
           "published": "2025-06-18",
-          "citations": 1261,
+          "citations": 2749,
           "methods": [
             "Long Context",
             "Deep Research",
@@ -45,14 +48,68 @@
           "benchmarks": []
         },
         {
-          "title": "Nivolumab plus ipilimumab versus lenvatinib or sorafenib as first-line treatment for unresectable hepatocellular carcinoma (CheckMate 9DW): an open-label, randomised, phase 3 trial",
-          "doi": "https://doi.org/10.1016/s0140-6736(25)00403-9",
-          "openalex_id": "https://openalex.org/W4410206247",
-          "published": "2025-05-01",
-          "citations": 390,
+          "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "doi": "https://doi.org/10.48550/arxiv.2504.10479",
+          "openalex_id": "https://openalex.org/W4416053382",
+          "published": "2025-04-14",
+          "citations": 2109,
           "methods": [
-            "Safety / Jailbreak",
-            "Quant / Trading"
+            "Test-time Scaling",
+            "Preference Optimization",
+            "VLM"
+          ],
+          "benchmarks": [
+            "MMMU"
+          ]
+        },
+        {
+          "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+          "doi": "https://doi.org/10.1145/3689031.3696075",
+          "openalex_id": "https://openalex.org/W4403883066",
+          "published": "2025-03-26",
+          "citations": 1691,
+          "methods": [
+            "RLVR / GRPO",
+            "Preference Optimization",
+            "Memory / RAG"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+          "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.568",
+          "openalex_id": "https://openalex.org/W4416034797",
+          "published": "2025-01-01",
+          "citations": 812,
+          "methods": [
+            "Memory / RAG"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models",
+          "doi": "https://doi.org/10.48550/arxiv.2503.06749",
+          "openalex_id": "https://openalex.org/W4414565054",
+          "published": "2025-03-09",
+          "citations": 711,
+          "methods": [
+            "RLVR / GRPO",
+            "Chain-of-Thought",
+            "Test-time Scaling",
+            "VLM"
+          ],
+          "benchmarks": [
+            "MATH"
+          ]
+        },
+        {
+          "title": "Dream 7B: Diffusion Large Language Models",
+          "doi": "https://doi.org/10.48550/arxiv.2508.15487",
+          "openalex_id": "https://openalex.org/W4416051103",
+          "published": "2025-08-21",
+          "citations": 668,
+          "methods": [
+            "Video Generation"
           ],
           "benchmarks": []
         },
@@ -61,7 +118,7 @@
           "doi": "https://doi.org/10.1609/aaai.v39i5.32491",
           "openalex_id": "https://openalex.org/W4409367393",
           "published": "2025-04-11",
-          "citations": 382,
+          "citations": 561,
           "methods": [
             "Interpretability",
             "Video Generation"
@@ -69,123 +126,102 @@
           "benchmarks": []
         },
         {
-          "title": "Hepatocellular carcinoma: signaling pathways and therapeutic advances",
-          "doi": "https://doi.org/10.1038/s41392-024-02075-w",
-          "openalex_id": "https://openalex.org/W4407203105",
-          "published": "2025-02-06",
-          "citations": 358,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "DEIM: DETR with Improved Matching for Fast Convergence",
-          "doi": "https://doi.org/10.1109/cvpr52734.2025.01412",
-          "openalex_id": "https://openalex.org/W4413147183",
-          "published": "2025-06-10",
-          "citations": 335,
-          "methods": [],
+          "title": "Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning",
+          "doi": "https://doi.org/10.52202/085713-3850",
+          "openalex_id": "https://openalex.org/W4414898977",
+          "published": "2025-01-01",
+          "citations": 518,
+          "methods": [
+            "RLVR / GRPO",
+            "Chain-of-Thought"
+          ],
           "benchmarks": [
-            "COCO"
+            "AIME"
           ]
         },
         {
-          "title": "The Transformative Role of Artificial Intelligence in Dentistry: A Comprehensive Overview. Part 1: Fundamentals of AI, and its Contemporary Applications in Dentistry",
-          "doi": "https://doi.org/10.1016/j.identj.2025.02.005",
-          "openalex_id": "https://openalex.org/W4408306782",
-          "published": "2025-03-11",
-          "citations": 245,
+          "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+          "doi": "https://doi.org/10.52202/085713-3310",
+          "openalex_id": "https://openalex.org/W4415063999",
+          "published": "2025-01-01",
+          "citations": 479,
           "methods": [
+            "RLVR / GRPO",
+            "Chain-of-Thought",
+            "Preference Optimization",
             "VLM"
           ],
           "benchmarks": []
         },
         {
-          "title": "Mobile Edge Intelligence for Large Language Models: A Contemporary Survey",
-          "doi": "https://doi.org/10.1109/comst.2025.3527641",
-          "openalex_id": "https://openalex.org/W4406207083",
-          "published": "2025-01-09",
-          "citations": 244,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Life cycle comparison of industrial-scale lithium-ion battery recycling and mining supply chains",
-          "doi": "https://doi.org/10.1038/s41467-025-56063-x",
-          "openalex_id": "https://openalex.org/W4406799825",
-          "published": "2025-01-24",
-          "citations": 214,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
-          "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.568",
-          "openalex_id": "https://openalex.org/W4416034797",
-          "published": "2025-01-01",
-          "citations": 209,
+          "title": "DanceGRPO: Unleashing GRPO on Visual Generation",
+          "doi": "https://doi.org/10.48550/arxiv.2505.07818",
+          "openalex_id": "https://openalex.org/W4417517408",
+          "published": "2025-05-12",
+          "citations": 454,
           "methods": [
-            "Memory / RAG"
+            "RLVR / GRPO",
+            "Preference Optimization",
+            "Video Generation"
           ],
           "benchmarks": []
         },
         {
-          "title": "Artificial intelligence in mental health care: a systematic review of diagnosis, monitoring, and intervention applications",
-          "doi": "https://doi.org/10.1017/s0033291724003295",
-          "openalex_id": "https://openalex.org/W4407229447",
-          "published": "2025-01-01",
-          "citations": 205,
+          "title": "Nivolumab plus ipilimumab versus lenvatinib or sorafenib as first-line treatment for unresectable hepatocellular carcinoma (CheckMate 9DW): an open-label, randomised, phase 3 trial",
+          "doi": "https://doi.org/10.1016/s0140-6736(25)00403-9",
+          "openalex_id": "https://openalex.org/W4410206247",
+          "published": "2025-05-01",
+          "citations": 426,
           "methods": [
-            "Interpretability"
+            "Safety / Jailbreak",
+            "Quant / Trading"
           ],
           "benchmarks": []
         },
         {
-          "title": "The Transformative Role of Artificial Intelligence in Dentistry: A Comprehensive Overview Part 2: The Promise and Perils, and the International Dental Federation Communique",
-          "doi": "https://doi.org/10.1016/j.identj.2025.02.006",
-          "openalex_id": "https://openalex.org/W4407932918",
-          "published": "2025-02-25",
-          "citations": 202,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "A generalist medical language model for disease diagnosis assistance",
-          "doi": "https://doi.org/10.1038/s41591-024-03416-6",
-          "openalex_id": "https://openalex.org/W4406152280",
-          "published": "2025-01-08",
-          "citations": 183,
-          "methods": [],
+          "title": "MM-Eureka: Exploring the Frontiers of Multimodal Reasoning with Rule-based Reinforcement Learning",
+          "doi": "https://doi.org/10.48550/arxiv.2503.07365",
+          "openalex_id": "https://openalex.org/W4416053139",
+          "published": "2025-03-10",
+          "citations": 405,
+          "methods": [
+            "RLVR / GRPO",
+            "VLM"
+          ],
           "benchmarks": []
         }
       ]
     },
     "hkust-gz": {
       "name": "HKUST (Guangzhou)",
-      "papers": 13,
-      "total_works_fetched": 17,
+      "papers": 14,
+      "total_works_fetched": 15,
       "top_methods": {
         "Deep Research": 2,
-        "Quant / Trading": 2,
         "Memory / RAG": 2,
+        "Preference Optimization": 2,
         "MoE": 1,
-        "Preference Optimization": 1,
-        "VLM": 1
+        "RLVR / GRPO": 1,
+        "Multi-Agent": 1,
+        "VLM": 1,
+        "Video Generation": 1,
+        "Quant / Trading": 1
       },
       "top_authors": {
         "Juyong Jiang": 2,
         "Fan Wang": 2,
         "Sunghun Kim": 2,
-        "Ruijie Ma": 2,
-        "Zhenghui Luo": 2,
-        "Pei Cheng": 2,
-        "Jiaying Wu": 2,
-        "Gang Li": 2,
+        "Shirui Pan": 2,
         "Fenglin Liu": 2,
-        "Yining Hua": 2
+        "Yining Hua": 2,
+        "Peilin Zhou": 2,
+        "Pei Cheng": 2,
+        "Lei Zhu": 2,
+        "Jiasi Shen": 1
       },
       "years": {
         "2025": 12,
-        "2026": 1
+        "2026": 2
       },
       "recent": [
         {
@@ -193,7 +229,7 @@
           "doi": "https://doi.org/10.1145/3747588",
           "openalex_id": "https://openalex.org/W7125135101",
           "published": "2025-07-08",
-          "citations": 254,
+          "citations": 1204,
           "methods": [
             "Deep Research"
           ],
@@ -207,7 +243,7 @@
           "doi": "https://doi.org/10.1109/tkde.2025.3554028",
           "openalex_id": "https://openalex.org/W4408858386",
           "published": "2025-01-01",
-          "citations": 172,
+          "citations": 560,
           "methods": [
             "MoE",
             "Deep Research"
@@ -215,51 +251,23 @@
           "benchmarks": []
         },
         {
-          "title": "Two-step crystallization modulated through acenaphthene enabling 21% binary organic solar cells and 83.2% fill factor",
-          "doi": "https://doi.org/10.1038/s41560-025-01862-1",
-          "openalex_id": "https://openalex.org/W4414555015",
-          "published": "2025-09-26",
-          "citations": 144,
+          "title": "From System 1 to System 2: A Survey of Reasoning Large Language Models",
+          "doi": "https://doi.org/10.1109/tpami.2025.3637037",
+          "openalex_id": "https://openalex.org/W4416649973",
+          "published": "2025-11-25",
+          "citations": 509,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Review of surrogate model assisted multi-objective design optimization of electrical machines: New opportunities and challenges",
-          "doi": "https://doi.org/10.1016/j.rser.2025.115609",
-          "openalex_id": "https://openalex.org/W4408657848",
-          "published": "2025-03-20",
-          "citations": 129,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation",
-          "doi": "https://doi.org/10.1007/s44267-025-00106-w",
-          "openalex_id": "https://openalex.org/W4402501200",
-          "published": "2026-01-13",
-          "citations": 117,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment",
-          "doi": "https://doi.org/10.1609/aaai.v39i18.34067",
-          "openalex_id": "https://openalex.org/W4409363714",
-          "published": "2025-04-11",
-          "citations": 104,
+          "title": "Memory in the Age of AI Agents",
+          "doi": "https://doi.org/10.48550/arxiv.2512.13564",
+          "openalex_id": "https://openalex.org/W4417459816",
+          "published": "2025-12-15",
+          "citations": 381,
           "methods": [
-            "Preference Optimization",
-            "Quant / Trading"
-          ],
-          "benchmarks": []
-        },
-        {
-          "title": "Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer",
-          "doi": "https://doi.org/10.1021/jacs.4c15534",
-          "openalex_id": "https://openalex.org/W4407780836",
-          "published": "2025-02-20",
-          "citations": 97,
-          "methods": [
+            "RLVR / GRPO",
+            "Multi-Agent",
             "Memory / RAG",
             "VLM"
           ],
@@ -270,7 +278,34 @@
           "doi": "https://doi.org/10.1038/s44222-025-00279-5",
           "openalex_id": "https://openalex.org/W4409235391",
           "published": "2025-04-07",
-          "citations": 94,
+          "citations": 340,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going?",
+          "doi": "https://doi.org/10.1109/tkde.2025.3592032",
+          "openalex_id": "https://openalex.org/W4412623423",
+          "published": "2025-07-24",
+          "citations": 256,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook",
+          "doi": "https://doi.org/10.1145/3821637",
+          "openalex_id": "https://openalex.org/W4387724855",
+          "published": "2026-06-23",
+          "citations": 224,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation",
+          "doi": "https://doi.org/10.1007/s44267-025-00106-w",
+          "openalex_id": "https://openalex.org/W4402501200",
+          "published": "2026-01-13",
+          "citations": 223,
           "methods": [],
           "benchmarks": []
         },
@@ -279,37 +314,39 @@
           "doi": "https://doi.org/10.1007/s40501-025-00363-y",
           "openalex_id": "https://openalex.org/W4412925667",
           "published": "2025-07-25",
-          "citations": 92,
+          "citations": 220,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "LLM Agents for Education: Advances and Applications",
-          "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.743",
-          "openalex_id": "https://openalex.org/W4416033994",
-          "published": "2025-01-01",
-          "citations": 89,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Unlocking the Power of LSTM for Long Term Time Series Forecasting",
-          "doi": "https://doi.org/10.1609/aaai.v39i11.33303",
-          "openalex_id": "https://openalex.org/W4409366159",
-          "published": "2025-04-11",
-          "citations": 86,
+          "title": "VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models",
+          "doi": "https://doi.org/10.1109/tpami.2025.3633890",
+          "openalex_id": "https://openalex.org/W4416286407",
+          "published": "2025-11-17",
+          "citations": 206,
           "methods": [
-            "Memory / RAG",
-            "Quant / Trading"
+            "Preference Optimization",
+            "Video Generation"
           ],
           "benchmarks": []
         },
         {
-          "title": "Exploring Radar Data Representations in Autonomous Driving: A Comprehensive Review",
-          "doi": "https://doi.org/10.1109/tits.2025.3554781",
-          "openalex_id": "https://openalex.org/W4409225570",
-          "published": "2025-04-07",
-          "citations": 82,
+          "title": "Vivim: A Video Vision Mamba for Ultrasound Video Segmentation",
+          "doi": "https://doi.org/10.1109/tcsvt.2025.3563411",
+          "openalex_id": "https://openalex.org/W4409683197",
+          "published": "2025-04-22",
+          "citations": 183,
+          "methods": [
+            "Memory / RAG"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "Two-step crystallization modulated through acenaphthene enabling 21% binary organic solar cells and 83.2% fill factor",
+          "doi": "https://doi.org/10.1038/s41560-025-01862-1",
+          "openalex_id": "https://openalex.org/W4414555015",
+          "published": "2025-09-26",
+          "citations": 180,
           "methods": [],
           "benchmarks": []
         }
@@ -317,114 +354,102 @@
     },
     "hkust": {
       "name": "Hong Kong University of Science and Technology (HKUST)",
-      "papers": 12,
-      "total_works_fetched": 23,
+      "papers": 19,
+      "total_works_fetched": 25,
       "top_methods": {
-        "Safety / Jailbreak": 1,
-        "Video Generation": 1,
+        "Preference Optimization": 6,
+        "RLVR / GRPO": 5,
+        "VLM": 4,
+        "Video Generation": 3,
+        "Safety / Jailbreak": 2,
+        "World Model": 2,
+        "Test-time Scaling": 2,
         "Interpretability": 1,
-        "VLM": 1
+        "MoE": 1,
+        "Distillation": 1
       },
       "top_authors": {
         "Junwei Liu": 3,
-        "Chao Li": 2,
-        "Jiali Song": 2,
-        "Min Hun Jee": 2,
-        "Han Young Woo": 2,
-        "Yanming Sun": 2,
-        "Cheng Song": 2,
-        "Hua Bai": 2,
-        "Lei Han": 2,
-        "Feng Pan": 2
+        "Jiaming Ji": 2,
+        "Boyuan Chen": 2,
+        "Jiayi Zhou": 2,
+        "Borong Zhang": 2,
+        "Donghai Hong": 2,
+        "Kaile Wang": 2,
+        "Yike Guo": 2,
+        "Yaodong Yang": 2,
+        "Gongye Liu": 2
       },
       "years": {
-        "2025": 12
+        "2025": 18,
+        "2026": 1
       },
       "recent": [
         {
-          "title": "Convex Optimization Theory",
-          "doi": "https://doi.org/10.1017/9781009428095.021",
-          "openalex_id": "https://openalex.org/W633277346",
-          "published": "2025-05-31",
-          "citations": 553,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "MB-TaylorFormer V2: Improved Multi-Branch Linear Transformer Expanded by Taylor Formula for Image Restoration",
-          "doi": "https://doi.org/10.1109/tpami.2025.3559891",
-          "openalex_id": "https://openalex.org/W4409326045",
-          "published": "2025-04-10",
-          "citations": 279,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Surface-Enhanced Raman Spectroscopy for Biomedical Applications: Recent Advances and Future Challenges",
-          "doi": "https://doi.org/10.1021/acsami.4c17502",
-          "openalex_id": "https://openalex.org/W4407875377",
-          "published": "2025-02-24",
-          "citations": 260,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Opportunities, challenges and school strategies for integrating generative AI in education",
-          "doi": "https://doi.org/10.1016/j.caeai.2025.100373",
-          "openalex_id": "https://openalex.org/W4406818641",
-          "published": "2025-01-25",
-          "citations": 179,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Glycocalyx dysregulation impairs blood–brain barrier in ageing and disease",
-          "doi": "https://doi.org/10.1038/s41586-025-08589-9",
-          "openalex_id": "https://openalex.org/W4407956550",
-          "published": "2025-02-26",
-          "citations": 155,
+          "title": "AI Alignment: A Contemporary Survey",
+          "doi": "https://doi.org/10.1145/3770749",
+          "openalex_id": "https://openalex.org/W4415207023",
+          "published": "2025-10-15",
+          "citations": 752,
           "methods": [
+            "RLVR / GRPO",
+            "Preference Optimization",
+            "Interpretability",
             "Safety / Jailbreak"
           ],
           "benchmarks": []
         },
         {
-          "title": "LLDiffusion: Learning degradation representations in diffusion models for low-light image enhancement",
-          "doi": "https://doi.org/10.1016/j.patcog.2025.111628",
-          "openalex_id": "https://openalex.org/W4409349224",
-          "published": "2025-04-11",
-          "citations": 150,
+          "title": "Convex Optimization Theory",
+          "doi": "https://doi.org/10.1017/9781009428095.021",
+          "openalex_id": "https://openalex.org/W633277346",
+          "published": "2025-05-31",
+          "citations": 588,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Flow-GRPO: Training Flow Matching Models via Online RL",
+          "doi": "https://doi.org/10.52202/085713-1362",
+          "openalex_id": "https://openalex.org/W4416070669",
+          "published": "2025-01-01",
+          "citations": 536,
+          "methods": [
+            "RLVR / GRPO",
+            "Preference Optimization"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+          "doi": "https://doi.org/10.1109/tpami.2025.3613256",
+          "openalex_id": "https://openalex.org/W4414432428",
+          "published": "2025-01-01",
+          "citations": 426,
           "methods": [
             "Video Generation"
           ],
           "benchmarks": []
         },
         {
-          "title": "Worldwide rooftop photovoltaic electricity generation may mitigate global warming",
-          "doi": "https://doi.org/10.1038/s41558-025-02276-3",
-          "openalex_id": "https://openalex.org/W4408235317",
-          "published": "2025-03-07",
-          "citations": 120,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "A closer look at the explainability of Contrastive language-image pre-training",
-          "doi": "https://doi.org/10.1016/j.patcog.2025.111409",
-          "openalex_id": "https://openalex.org/W4407056550",
-          "published": "2025-02-01",
-          "citations": 116,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Foundation models in bioinformatics",
-          "doi": "https://doi.org/10.1093/nsr/nwaf028",
-          "openalex_id": "https://openalex.org/W4406817136",
-          "published": "2025-01-25",
-          "citations": 116,
+          "title": "Causal World Modeling for Robot Control",
+          "doi": "https://doi.org/10.15607/rss.2026.xxii.016",
+          "openalex_id": "https://openalex.org/W7126180855",
+          "published": "2026-07-13",
+          "citations": 423,
           "methods": [
-            "Interpretability",
+            "World Model"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "Mini-Gemini: Mining the Potential of Multi-Modality Vision Language Models",
+          "doi": "https://doi.org/10.1109/tpami.2025.3637265",
+          "openalex_id": "https://openalex.org/W4416707474",
+          "published": "2025-11-26",
+          "citations": 415,
+          "methods": [
+            "MoE",
             "VLM"
           ],
           "benchmarks": []
@@ -434,62 +459,171 @@
           "doi": "https://doi.org/10.1145/3690624.3709179",
           "openalex_id": "https://openalex.org/W4409150456",
           "published": "2025-04-04",
-          "citations": 91,
+          "citations": 397,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Lone Pairs-Mediated Multiple Through-Space Interactions for Efficient Room-Temperature Phosphorescence",
-          "doi": "https://doi.org/10.1021/jacs.5c02567",
-          "openalex_id": "https://openalex.org/W4408545780",
-          "published": "2025-03-18",
-          "citations": 88,
+          "title": "Opportunities, challenges and school strategies for integrating generative AI in education",
+          "doi": "https://doi.org/10.1016/j.caeai.2025.100373",
+          "openalex_id": "https://openalex.org/W4406818641",
+          "published": "2025-01-25",
+          "citations": 328,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Suppression of Charge Recombination Induced by Solid Additive Assisting Organic Solar Cells with Efficiency over 20%",
-          "doi": "https://doi.org/10.1002/adma.202504396",
-          "openalex_id": "https://openalex.org/W4409148737",
-          "published": "2025-04-03",
-          "citations": 82,
+          "title": "MB-TaylorFormer V2: Improved Multi-Branch Linear Transformer Expanded by Taylor Formula for Image Restoration",
+          "doi": "https://doi.org/10.1109/tpami.2025.3559891",
+          "openalex_id": "https://openalex.org/W4409326045",
+          "published": "2025-04-10",
+          "citations": 315,
           "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning",
+          "doi": "https://doi.org/10.52202/085713-1037",
+          "openalex_id": "https://openalex.org/W4415153693",
+          "published": "2025-01-01",
+          "citations": 293,
+          "methods": [
+            "RLVR / GRPO",
+            "Distillation",
+            "VLM"
+          ],
+          "benchmarks": [
+            "MATH",
+            "MMMU"
+          ]
+        },
+        {
+          "title": "Surface-Enhanced Raman Spectroscopy for Biomedical Applications: Recent Advances and Future Challenges",
+          "doi": "https://doi.org/10.1021/acsami.4c17502",
+          "openalex_id": "https://openalex.org/W4407875377",
+          "published": "2025-02-24",
+          "citations": 267,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "PKU-SafeRLHF: Towards Multi-Level Safety Alignment for LLMs with Human Preference",
+          "doi": "https://doi.org/10.18653/v1/2025.acl-long.1544",
+          "openalex_id": "https://openalex.org/W4412889634",
+          "published": "2025-01-01",
+          "citations": 257,
+          "methods": [
+            "Preference Optimization",
+            "Safety / Jailbreak"
+          ],
           "benchmarks": []
         }
       ]
     },
     "cuhk-shenzhen": {
       "name": "The Chinese University of Hong Kong, Shenzhen (CUHK-SZ)",
-      "papers": 26,
+      "papers": 33,
       "total_works_fetched": 40,
       "top_methods": {
         "VLM": 5,
-        "Memory / RAG": 2,
+        "Memory / RAG": 5,
+        "Preference Optimization": 2,
+        "Safety / Jailbreak": 2,
+        "RLVR / GRPO": 1,
+        "Chain-of-Thought": 1,
+        "Video Generation": 1,
+        "Long Context": 1,
+        "Multi-Agent": 1,
         "Deep Research": 1
       },
       "top_authors": {
-        "Ben Zhong Tang": 11,
-        "Jacky W. Y. Lam": 5,
-        "Zheng Zhao": 4,
-        "Parvej Alam": 3,
-        "Ryan T. K. Kwok": 3,
-        "Han Young Woo": 2,
+        "Benyou Wang": 5,
+        "Ben Zhong Tang": 5,
+        "Chen Zhang": 3,
+        "Haizhou Li": 2,
         "Zhao Yang": 2,
+        "Yanqing Xu": 2,
         "Yuxuan Sun": 2,
+        "Lei Zhang": 2,
         "Rui Zhang": 2,
-        "Yanqing Xu": 2
+        "Bin Liu": 2
       },
       "years": {
-        "2025": 25,
-        "2026": 1
+        "2025": 30,
+        "2026": 3
       },
       "recent": [
+        {
+          "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+          "doi": "https://doi.org/10.52202/085713-3310",
+          "openalex_id": "https://openalex.org/W4415063999",
+          "published": "2025-01-01",
+          "citations": 479,
+          "methods": [
+            "RLVR / GRPO",
+            "Chain-of-Thought",
+            "Preference Optimization",
+            "VLM"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "Exploring Large Language Model‐Based Intelligent Agents: Definitions, Methods, and Prospects",
+          "doi": "https://doi.org/10.1002/widm.70111",
+          "openalex_id": "https://openalex.org/W4390730779",
+          "published": "2026-07-24",
+          "citations": 271,
+          "methods": [
+            "Preference Optimization",
+            "Safety / Jailbreak",
+            "Memory / RAG"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "VoiceBench: Benchmarking LLM-Based Voice Assistants",
+          "doi": "https://doi.org/10.1162/tacl.a.628",
+          "openalex_id": "https://openalex.org/W4404261856",
+          "published": "2026-01-01",
+          "citations": 243,
+          "methods": [
+            "Safety / Jailbreak"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation",
+          "doi": "https://doi.org/10.1007/s44267-025-00106-w",
+          "openalex_id": "https://openalex.org/W4402501200",
+          "published": "2026-01-13",
+          "citations": 223,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Generative Artificial Intelligence: Evolving Technology, Growing Societal Impact, and Opportunities for Information Systems Research",
+          "doi": "https://doi.org/10.1007/s10796-025-10581-7",
+          "openalex_id": "https://openalex.org/W4407931566",
+          "published": "2025-02-24",
+          "citations": 208,
+          "methods": [],
+          "benchmarks": []
+        },
         {
           "title": "A generalist medical language model for disease diagnosis assistance",
           "doi": "https://doi.org/10.1038/s41591-024-03416-6",
           "openalex_id": "https://openalex.org/W4406152280",
           "published": "2025-01-08",
-          "citations": 183,
+          "citations": 200,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "Rate Maximization for Downlink Pinching-Antenna Systems",
+          "doi": "https://doi.org/10.1109/lwc.2025.3543889",
+          "openalex_id": "https://openalex.org/W4407782736",
+          "published": "2025-02-20",
+          "citations": 173,
           "methods": [],
           "benchmarks": []
         },
@@ -498,7 +632,7 @@
           "doi": "https://doi.org/10.1016/j.cell.2025.03.018",
           "openalex_id": "https://openalex.org/W4408896223",
           "published": "2025-03-27",
-          "citations": 159,
+          "citations": 171,
           "methods": [
             "Memory / RAG"
           ],
@@ -509,7 +643,7 @@
           "doi": "https://doi.org/10.1109/jsac.2025.3531571",
           "openalex_id": "https://openalex.org/W4406689889",
           "published": "2025-01-21",
-          "citations": 144,
+          "citations": 169,
           "methods": [],
           "benchmarks": []
         },
@@ -518,82 +652,25 @@
           "doi": "https://doi.org/10.1109/mcom.001.2400685",
           "openalex_id": "https://openalex.org/W4409234864",
           "published": "2025-04-07",
-          "citations": 138,
+          "citations": 166,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Generative Artificial Intelligence: Evolving Technology, Growing Societal Impact, and Opportunities for Information Systems Research",
-          "doi": "https://doi.org/10.1007/s10796-025-10581-7",
-          "openalex_id": "https://openalex.org/W4407931566",
-          "published": "2025-02-24",
-          "citations": 136,
+          "title": "xbench: Tracking Agents Productivity Scaling with Profession-Aligned Real-World Evaluations",
+          "doi": "https://doi.org/10.48550/arxiv.2506.13651",
+          "openalex_id": "https://openalex.org/W4415109242",
+          "published": "2025-06-16",
+          "citations": 155,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Rate Maximization for Downlink Pinching-Antenna Systems",
-          "doi": "https://doi.org/10.1109/lwc.2025.3543889",
-          "openalex_id": "https://openalex.org/W4407782736",
-          "published": "2025-02-20",
-          "citations": 125,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation",
-          "doi": "https://doi.org/10.1007/s44267-025-00106-w",
-          "openalex_id": "https://openalex.org/W4402501200",
-          "published": "2026-01-13",
-          "citations": 117,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Networked ISAC for Low-Altitude Economy: Coordinated Transmit Beamforming and UAV Trajectory Design",
-          "doi": "https://doi.org/10.1109/tcomm.2025.3541027",
-          "openalex_id": "https://openalex.org/W4407390651",
-          "published": "2025-02-11",
-          "citations": 108,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "pH‐Responsive AIE Photosensitizers for Enhanced Antibacterial Therapy",
-          "doi": "https://doi.org/10.1002/anie.202506505",
-          "openalex_id": "https://openalex.org/W4409919737",
-          "published": "2025-04-29",
-          "citations": 97,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer",
-          "doi": "https://doi.org/10.1021/jacs.4c15534",
-          "openalex_id": "https://openalex.org/W4407780836",
-          "published": "2025-02-20",
-          "citations": 97,
-          "methods": [
-            "Memory / RAG",
-            "VLM"
-          ],
-          "benchmarks": []
-        },
-        {
-          "title": "LLM Fine-Tuning: Concepts, Opportunities, and Challenges",
-          "doi": "https://doi.org/10.3390/bdcc9040087",
-          "openalex_id": "https://openalex.org/W4409098775",
-          "published": "2025-04-02",
-          "citations": 90,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Precision-Engineered Co-N 4− x -C x Single Atoms Enhance Potential-Resolved Ru(bpy) 3 2+ Electrochemiluminescence via Reactive Oxygen Species",
-          "doi": "https://doi.org/10.34133/research.0842",
-          "openalex_id": "https://openalex.org/W4412696549",
-          "published": "2025-01-01",
-          "citations": 89,
+          "title": "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling",
+          "doi": "https://doi.org/10.1287/opre.2024.1233",
+          "openalex_id": "https://openalex.org/W4410192806",
+          "published": "2025-05-08",
+          "citations": 143,
           "methods": [],
           "benchmarks": []
         }
@@ -601,52 +678,51 @@
     },
     "hku-cs": {
       "name": "HKU Computer Science (CS / CDS)",
-      "papers": 7,
+      "papers": 8,
       "total_works_fetched": 9,
       "top_methods": {
+        "RLVR / GRPO": 2,
+        "VLM": 2,
+        "Deep Research": 1,
         "Video Generation": 1,
-        "RLVR / GRPO": 1,
-        "Computer Use": 1,
-        "Interpretability": 1,
-        "VLM": 1
+        "Chain-of-Thought": 1,
+        "Interpretability": 1
       },
       "top_authors": {
+        "Philip S. Yu": 2,
         "Viktoria Cologna": 1,
         "Niels G. Mede": 1,
         "Sebastian Berger": 1,
         "John C. Besley": 1,
-        "Cameron A. Brick": 1,
+        "Cameron Brick": 1,
         "Marina Joubert": 1,
         "Edward Wile Maibach": 1,
         "Sabina Mihelj": 1,
-        "Наоми Орескес": 1,
-        "Mike Steffen Schäfer": 1
+        "Наоми Орескес": 1
       },
       "years": {
         "2025": 6,
-        "2026": 1
+        "2026": 2
       },
       "recent": [
-        {
-          "title": "Generative AI Based Secure Wireless Sensing for ISAC Networks",
-          "doi": "https://doi.org/10.1109/tifs.2025.3570202",
-          "openalex_id": "https://openalex.org/W4410358938",
-          "published": "2025-01-01",
-          "citations": 173,
-          "methods": [
-            "Video Generation"
-          ],
-          "benchmarks": []
-        },
         {
           "title": "Causal Machine Learning: A Survey and Open Problems",
           "doi": "https://doi.org/10.1561/2400000052",
           "openalex_id": "https://openalex.org/W4413642769",
           "published": "2025-06-15",
-          "citations": 113,
+          "citations": 322,
           "methods": [
             "RLVR / GRPO"
           ],
+          "benchmarks": []
+        },
+        {
+          "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+          "doi": "https://doi.org/10.52202/085713-0315",
+          "openalex_id": "https://openalex.org/W4405627213",
+          "published": "2025-01-01",
+          "citations": 319,
+          "methods": [],
           "benchmarks": []
         },
         {
@@ -654,37 +730,53 @@
           "doi": "https://doi.org/10.1109/tkde.2026.3680353",
           "openalex_id": "https://openalex.org/W4221150249",
           "published": "2026-04-02",
-          "citations": 111,
+          "citations": 313,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Oculomics: Current concepts and evidence",
-          "doi": "https://doi.org/10.1016/j.preteyeres.2025.101350",
-          "openalex_id": "https://openalex.org/W4408129742",
-          "published": "2025-03-04",
-          "citations": 94,
+          "title": "Large multimodal agents: a survey",
+          "doi": "https://doi.org/10.1007/s44267-025-00093-y",
+          "openalex_id": "https://openalex.org/W4416729942",
+          "published": "2025-11-26",
+          "citations": 224,
           "methods": [
-            "Computer Use"
+            "VLM"
           ],
           "benchmarks": []
         },
         {
-          "title": "Deep Graph Anomaly Detection: A Survey and New Perspectives",
-          "doi": "https://doi.org/10.1109/tkde.2025.3581578",
-          "openalex_id": "https://openalex.org/W4411550850",
-          "published": "2025-06-23",
-          "citations": 92,
-          "methods": [],
+          "title": "Large language models meet NLP: a survey",
+          "doi": "https://doi.org/10.1007/s11704-025-50472-3",
+          "openalex_id": "https://openalex.org/W7134117706",
+          "published": "2026-03-07",
+          "citations": 203,
+          "methods": [
+            "Deep Research"
+          ],
           "benchmarks": []
         },
         {
-          "title": "Machine learning guided design and ablation behavior of ZrC-TaC-SiC ternary coatings",
-          "doi": "https://doi.org/10.1016/j.corsci.2025.113499",
-          "openalex_id": "https://openalex.org/W4416552669",
-          "published": "2025-11-23",
-          "citations": 91,
-          "methods": [],
+          "title": "Generative AI Based Secure Wireless Sensing for ISAC Networks",
+          "doi": "https://doi.org/10.1109/tifs.2025.3570202",
+          "openalex_id": "https://openalex.org/W4410358938",
+          "published": "2025-01-01",
+          "citations": 192,
+          "methods": [
+            "Video Generation"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT",
+          "doi": "https://doi.org/10.52202/085713-1330",
+          "openalex_id": "https://openalex.org/W7196940447",
+          "published": "2025-01-01",
+          "citations": 163,
+          "methods": [
+            "RLVR / GRPO",
+            "Chain-of-Thought"
+          ],
           "benchmarks": []
         },
         {
@@ -692,7 +784,7 @@
           "doi": "https://doi.org/10.1145/3769082",
           "openalex_id": "https://openalex.org/W4414437166",
           "published": "2025-09-23",
-          "citations": 83,
+          "citations": 153,
           "methods": [
             "Interpretability",
             "VLM"
@@ -703,27 +795,26 @@
     },
     "hku-ds": {
       "name": "HKU Data Science / Statistics",
-      "papers": 10,
-      "total_works_fetched": 15,
+      "papers": 11,
+      "total_works_fetched": 16,
       "top_methods": {
         "Video Generation": 1,
-        "RLVR / GRPO": 1,
-        "Preference Optimization": 1
+        "Deep Research": 1
       },
       "top_authors": {
-        "Dusit Tao Niyato": 3,
         "Meng Lou": 3,
         "Yizhou Yu": 3,
-        "Xianhao Chen": 2,
-        "Kaibin Huang": 2,
+        "Benyou Wang": 3,
         "Limin Wang": 2,
-        "Jiacheng Wang": 2,
-        "Hongyang Du": 2,
-        "Dong In Kim": 2,
-        "Xuemin Shen": 2
+        "Kunchang Li": 1,
+        "Yinan He": 1,
+        "Yi Wang": 1,
+        "Yizhuo Li": 1,
+        "Wenhai Wang": 1,
+        "Ping Luo": 1
       },
       "years": {
-        "2025": 10
+        "2025": 11
       },
       "recent": [
         {
@@ -731,7 +822,16 @@
           "doi": "https://doi.org/10.1109/comst.2025.3527641",
           "openalex_id": "https://openalex.org/W4406207083",
           "published": "2025-01-09",
-          "citations": 244,
+          "citations": 330,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "The Digital Health Competencies in Medical Education Framework",
+          "doi": "https://doi.org/10.1001/jamanetworkopen.2024.53131",
+          "openalex_id": "https://openalex.org/W4407010033",
+          "published": "2025-01-31",
+          "citations": 192,
           "methods": [],
           "benchmarks": []
         },
@@ -740,19 +840,10 @@
           "doi": "https://doi.org/10.1109/tifs.2025.3570202",
           "openalex_id": "https://openalex.org/W4410358938",
           "published": "2025-01-01",
-          "citations": 173,
+          "citations": 192,
           "methods": [
             "Video Generation"
           ],
-          "benchmarks": []
-        },
-        {
-          "title": "The Digital Health Competencies in Medical Education Framework",
-          "doi": "https://doi.org/10.1001/jamanetworkopen.2024.53131",
-          "openalex_id": "https://openalex.org/W4407010033",
-          "published": "2025-01-31",
-          "citations": 162,
-          "methods": [],
           "benchmarks": []
         },
         {
@@ -760,18 +851,27 @@
           "doi": "https://doi.org/10.1109/tnnls.2025.3550979",
           "openalex_id": "https://openalex.org/W4409134989",
           "published": "2025-04-03",
-          "citations": 122,
+          "citations": 154,
           "methods": [],
           "benchmarks": [
             "ImageNet"
           ]
         },
         {
-          "title": "Modulation of metabolic, inflammatory and fibrotic pathways by semaglutide in metabolic dysfunction-associated steatohepatitis",
-          "doi": "https://doi.org/10.1038/s41591-025-03799-0",
-          "openalex_id": "https://openalex.org/W4412514920",
-          "published": "2025-07-21",
-          "citations": 108,
+          "title": "Deep Graph Anomaly Detection: A Survey and New Perspectives",
+          "doi": "https://doi.org/10.1109/tkde.2025.3581578",
+          "openalex_id": "https://openalex.org/W4411550850",
+          "published": "2025-06-23",
+          "citations": 150,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling",
+          "doi": "https://doi.org/10.1287/opre.2024.1233",
+          "openalex_id": "https://openalex.org/W4410192806",
+          "published": "2025-05-08",
+          "citations": 143,
           "methods": [],
           "benchmarks": []
         },
@@ -780,46 +880,45 @@
           "doi": "https://doi.org/10.1109/cvpr52734.2025.00021",
           "openalex_id": "https://openalex.org/W4413146210",
           "published": "2025-06-10",
-          "citations": 104,
+          "citations": 124,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Deep Graph Anomaly Detection: A Survey and New Perspectives",
-          "doi": "https://doi.org/10.1109/tkde.2025.3581578",
-          "openalex_id": "https://openalex.org/W4411550850",
-          "published": "2025-06-23",
-          "citations": 92,
+          "title": "DialogueLLM: Context and emotion knowledge-tuned large language models for emotion recognition in conversations",
+          "doi": "https://doi.org/10.1016/j.neunet.2025.107901",
+          "openalex_id": "https://openalex.org/W4412602922",
+          "published": "2025-07-23",
+          "citations": 120,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Integrated Sensing and Edge AI: Realizing Intelligent Perception in 6G",
-          "doi": "https://doi.org/10.1109/comst.2025.3592989",
-          "openalex_id": "https://openalex.org/W4413267785",
-          "published": "2025-07-28",
-          "citations": 69,
+          "title": "Modulation of metabolic, inflammatory and fibrotic pathways by semaglutide in metabolic dysfunction-associated steatohepatitis",
+          "doi": "https://doi.org/10.1038/s41591-025-03799-0",
+          "openalex_id": "https://openalex.org/W4412514920",
+          "published": "2025-07-21",
+          "citations": 111,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "Embodied AI-Enhanced Vehicular Networks: An Integrated Vision Language Models and Reinforcement Learning Method",
-          "doi": "https://doi.org/10.1109/tmc.2025.3582864",
-          "openalex_id": "https://openalex.org/W4411599731",
-          "published": "2025-06-24",
-          "citations": 65,
+          "title": "Navigating the Future: Establishing a Framework for Educators' Pedagogic Artificial Intelligence Competence",
+          "doi": "https://doi.org/10.1111/ejed.70117",
+          "openalex_id": "https://openalex.org/W4410480904",
+          "published": "2025-05-19",
+          "citations": 103,
           "methods": [
-            "RLVR / GRPO",
-            "Preference Optimization"
+            "Deep Research"
           ],
           "benchmarks": []
         },
         {
-          "title": "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling",
-          "doi": "https://doi.org/10.1287/opre.2024.1233",
-          "openalex_id": "https://openalex.org/W4410192806",
-          "published": "2025-05-08",
-          "citations": 65,
+          "title": "MotionLLM: Understanding Human Behaviors from Human Motions and Videos",
+          "doi": "https://doi.org/10.1109/tpami.2025.3627546",
+          "openalex_id": "https://openalex.org/W4415743520",
+          "published": "2025-01-01",
+          "citations": 103,
           "methods": [],
           "benchmarks": []
         }
@@ -827,32 +926,35 @@
     },
     "cuhk": {
       "name": "The Chinese University of Hong Kong (CUHK)",
-      "papers": 12,
-      "total_works_fetched": 28,
+      "papers": 22,
+      "total_works_fetched": 33,
       "top_methods": {
+        "RLVR / GRPO": 9,
+        "VLM": 7,
+        "Preference Optimization": 7,
+        "Video Generation": 5,
+        "Test-time Scaling": 4,
+        "Chain-of-Thought": 4,
         "Deep Research": 2,
-        "Interpretability": 2,
+        "Distillation": 2,
         "Long Context": 1,
-        "VLM": 1,
-        "Video Generation": 1,
-        "Quant / Trading": 1,
-        "Computer Use": 1,
-        "Memory / RAG": 1
+        "Interpretability": 1
       },
       "top_authors": {
-        "Masatoshi Kudo": 4,
-        "Stephen Lam Chan": 4,
-        "Mohamed Bouattour": 3,
+        "Wanli Ouyang": 3,
         "Vincent Wai‐Sun Wong": 3,
-        "Lorenza Rimassa": 3,
-        "Steven James": 2,
-        "Ronald C.W.": 2,
-        "Dianna J. Magliano": 2,
-        "Bruno Sangro": 2,
-        "Jeong Heo": 2
+        "Masatoshi Kudo": 3,
+        "Stephen Lam Chan": 3,
+        "Erfei Cui": 2,
+        "Yinan He": 2,
+        "Lewei Lu": 2,
+        "Jifeng Dai": 2,
+        "Wenhai Wang": 2,
+        "Steven James": 2
       },
       "years": {
-        "2025": 12
+        "2025": 21,
+        "2026": 1
       },
       "recent": [
         {
@@ -860,7 +962,7 @@
           "doi": "https://doi.org/10.1145/3744746",
           "openalex_id": "https://openalex.org/W4411403346",
           "published": "2025-06-18",
-          "citations": 1261,
+          "citations": 2749,
           "methods": [
             "Long Context",
             "Deep Research",
@@ -869,11 +971,42 @@
           "benchmarks": []
         },
         {
+          "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "doi": "https://doi.org/10.48550/arxiv.2504.10479",
+          "openalex_id": "https://openalex.org/W4416053382",
+          "published": "2025-04-14",
+          "citations": 2109,
+          "methods": [
+            "Test-time Scaling",
+            "Preference Optimization",
+            "VLM"
+          ],
+          "benchmarks": [
+            "MMMU"
+          ]
+        },
+        {
+          "title": "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models",
+          "doi": "https://doi.org/10.48550/arxiv.2503.06749",
+          "openalex_id": "https://openalex.org/W4414565054",
+          "published": "2025-03-09",
+          "citations": 711,
+          "methods": [
+            "RLVR / GRPO",
+            "Chain-of-Thought",
+            "Test-time Scaling",
+            "VLM"
+          ],
+          "benchmarks": [
+            "MATH"
+          ]
+        },
+        {
           "title": "U-KAN Makes Strong Backbone for Medical Image Segmentation and Generation",
           "doi": "https://doi.org/10.1609/aaai.v39i5.32491",
           "openalex_id": "https://openalex.org/W4409367393",
           "published": "2025-04-11",
-          "citations": 382,
+          "citations": 561,
           "methods": [
             "Interpretability",
             "Video Generation"
@@ -881,52 +1014,85 @@
           "benchmarks": []
         },
         {
+          "title": "Flow-GRPO: Training Flow Matching Models via Online RL",
+          "doi": "https://doi.org/10.52202/085713-1362",
+          "openalex_id": "https://openalex.org/W4416070669",
+          "published": "2025-01-01",
+          "citations": 536,
+          "methods": [
+            "RLVR / GRPO",
+            "Preference Optimization"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning",
+          "doi": "https://doi.org/10.52202/085713-3850",
+          "openalex_id": "https://openalex.org/W4414898977",
+          "published": "2025-01-01",
+          "citations": 518,
+          "methods": [
+            "RLVR / GRPO",
+            "Chain-of-Thought"
+          ],
+          "benchmarks": [
+            "AIME"
+          ]
+        },
+        {
           "title": "Higher education students’ perceptions of ChatGPT: A global study of early reactions",
           "doi": "https://doi.org/10.1371/journal.pone.0315011",
           "openalex_id": "https://openalex.org/W4407172847",
           "published": "2025-02-05",
-          "citations": 258,
+          "citations": 435,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "20.6% Efficiency Organic Solar Cells Enabled by Incorporating a Lower Bandgap Guest Nonfullerene Acceptor Without Open‐Circuit Voltage Loss",
-          "doi": "https://doi.org/10.1002/adma.202500282",
-          "openalex_id": "https://openalex.org/W4408070236",
-          "published": "2025-02-28",
-          "citations": 181,
+          "title": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+          "doi": "https://doi.org/10.1109/tpami.2025.3613256",
+          "openalex_id": "https://openalex.org/W4414432428",
+          "published": "2025-01-01",
+          "citations": 426,
           "methods": [
-            "Interpretability"
+            "Video Generation"
           ],
           "benchmarks": []
         },
         {
-          "title": "The Digital Health Competencies in Medical Education Framework",
-          "doi": "https://doi.org/10.1001/jamanetworkopen.2024.53131",
-          "openalex_id": "https://openalex.org/W4407010033",
-          "published": "2025-01-31",
-          "citations": 162,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Ligustrazine nano-drug delivery system ameliorates doxorubicin-mediated myocardial injury via piezo-type mechanosensitive ion channel component 1-prohibitin 2-mediated mitochondrial quality surveillance",
-          "doi": "https://doi.org/10.1186/s12951-025-03420-z",
-          "openalex_id": "https://openalex.org/W4410776900",
-          "published": "2025-05-27",
-          "citations": 145,
+          "title": "Mini-Gemini: Mining the Potential of Multi-Modality Vision Language Models",
+          "doi": "https://doi.org/10.1109/tpami.2025.3637265",
+          "openalex_id": "https://openalex.org/W4416707474",
+          "published": "2025-11-26",
+          "citations": 415,
           "methods": [
-            "Quant / Trading"
+            "MoE",
+            "VLM"
           ],
           "benchmarks": []
         },
         {
-          "title": "Two-step crystallization modulated through acenaphthene enabling 21% binary organic solar cells and 83.2% fill factor",
-          "doi": "https://doi.org/10.1038/s41560-025-01862-1",
-          "openalex_id": "https://openalex.org/W4414555015",
-          "published": "2025-09-26",
-          "citations": 144,
-          "methods": [],
+          "title": "A Survey on Vision--Language--Action Models for Embodied AI",
+          "doi": "https://doi.org/10.1109/tnnls.2025.3650584",
+          "openalex_id": "https://openalex.org/W4398796510",
+          "published": "2026-04-28",
+          "citations": 376,
+          "methods": [
+            "VLM"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness",
+          "doi": "https://doi.org/10.48550/arxiv.2503.21755",
+          "openalex_id": "https://openalex.org/W4415237773",
+          "published": "2025-03-27",
+          "citations": 321,
+          "methods": [
+            "Preference Optimization",
+            "World Model",
+            "Video Generation"
+          ],
           "benchmarks": []
         },
         {
@@ -934,48 +1100,7 @@
           "doi": "https://doi.org/10.1109/tpami.2025.3568201",
           "openalex_id": "https://openalex.org/W4410204460",
           "published": "2025-01-01",
-          "citations": 141,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "How ChatGPT impacts student engagement from a systematic review and meta-analysis study",
-          "doi": "https://doi.org/10.1016/j.caeai.2025.100361",
-          "openalex_id": "https://openalex.org/W4406071412",
-          "published": "2025-01-05",
-          "citations": 139,
-          "methods": [
-            "Computer Use",
-            "Deep Research"
-          ],
-          "benchmarks": []
-        },
-        {
-          "title": "4D Printing of Magnetically Responsive Shape Memory Polymers: Toward Sustainable Solutions in Soft Robotics, Wearables, and Biomedical Devices",
-          "doi": "https://doi.org/10.1002/advs.202513091",
-          "openalex_id": "https://openalex.org/W4413442968",
-          "published": "2025-08-22",
-          "citations": 134,
-          "methods": [
-            "Memory / RAG"
-          ],
-          "benchmarks": []
-        },
-        {
-          "title": "Health outcomes of sarcopenia: a consensus report by the outcome working group of the Global Leadership Initiative in Sarcopenia (GLIS)",
-          "doi": "https://doi.org/10.1007/s40520-025-02995-9",
-          "openalex_id": "https://openalex.org/W4408744532",
-          "published": "2025-03-22",
-          "citations": 133,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Global, regional, and national burden of headache disorders, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
-          "doi": "https://doi.org/10.1016/s1474-4422(25)00402-8",
-          "openalex_id": "https://openalex.org/W4416412120",
-          "published": "2025-11-13",
-          "citations": 120,
+          "citations": 311,
           "methods": [],
           "benchmarks": []
         }
@@ -986,7 +1111,7 @@
       "type": "github-org",
       "total_repos": 93,
       "active_repos": 55,
-      "total_stars": 401625,
+      "total_stars": 406991,
       "languages": [
         "Jupyter Notebook",
         "Python",
@@ -1012,91 +1137,91 @@
       "top_repos": [
         {
           "name": "CLI-Anything",
-          "stars": 58078,
+          "stars": 58489,
           "pushed": "2026-09-22",
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
         },
         {
           "name": "DeepTutor",
-          "stars": 54003,
-          "pushed": "2026-10-31",
+          "stars": 57335,
+          "pushed": "2026-11-07",
           "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
         },
         {
           "name": "nanobot",
-          "stars": 49754,
-          "pushed": "2026-11-02",
+          "stars": 49958,
+          "pushed": "2026-11-09",
           "description": "Your lightweight open-source personal agent."
         },
         {
           "name": "LightRAG",
-          "stars": 40483,
-          "pushed": "2026-10-29",
+          "stars": 40621,
+          "pushed": "2026-11-09",
           "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation"
         },
         {
           "name": "Vibe-Trading",
-          "stars": 37425,
-          "pushed": "2026-11-01",
+          "stars": 37933,
+          "pushed": "2026-11-09",
           "description": "\"Vibe-Trading: Your Personal Trading Agent\""
         },
         {
           "name": "RAG-Anything",
-          "stars": 24390,
+          "stars": 24471,
           "pushed": "2026-11-02",
           "description": "\"RAG-Anything: All-in-One RAG Framework\""
         },
         {
           "name": "AI-Trader",
-          "stars": 23074,
+          "stars": 23199,
           "pushed": "2026-06-11",
           "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  "
         },
         {
           "name": "DeepCode",
-          "stars": 16787,
+          "stars": 16827,
           "pushed": "2026-11-02",
           "description": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestrati"
         },
         {
           "name": "OpenHarness",
-          "stars": 16156,
+          "stars": 16192,
           "pushed": "2026-06-04",
           "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\""
         },
         {
           "name": "ViMax",
-          "stars": 12829,
+          "stars": 12878,
           "pushed": "2026-09-30",
           "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator Al"
         },
         {
           "name": "AutoAgent",
-          "stars": 9832,
+          "stars": 9840,
           "pushed": "2025-10-16",
           "description": "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\""
         },
         {
           "name": "ClawWork",
-          "stars": 8565,
+          "stars": 8570,
           "pushed": "2026-03-03",
           "description": "\"ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours\""
         },
         {
           "name": "AgentPilot",
-          "stars": 7785,
-          "pushed": "2026-11-01",
-          "description": "AgentPilot: Better Next Moves for Your Agent. Get Things Done Faster."
+          "stars": 7973,
+          "pushed": "2026-11-06",
+          "description": "AgentPilot: Make Your Agents Move Better and Faster"
         },
         {
           "name": "AI-Researcher",
-          "stars": 5862,
+          "stars": 5878,
           "pushed": "2025-10-16",
           "description": "[NeurIPS2025] \"AI-Researcher: Autonomous Scientific Innovation\" -- A production-ready vers"
         },
         {
           "name": "ClawTeam",
-          "stars": 5548,
+          "stars": 5552,
           "pushed": "2026-05-09",
           "description": "\"ClawTeam: Agent Swarm Intelligence\" (One Command → Full Automation)"
         }
@@ -1104,48 +1229,46 @@
     },
     "cuhksz-cs": {
       "name": "CUHK-Shenzhen CS / Data Science (SSE / SDS)",
-      "papers": 27,
-      "total_works_fetched": 49,
+      "papers": 26,
+      "total_works_fetched": 40,
       "top_methods": {
-        "VLM": 5,
-        "Video Generation": 2,
+        "VLM": 4,
         "Memory / RAG": 1,
         "Deep Research": 1,
-        "Distillation": 1,
-        "RLVR / GRPO": 1
+        "Quant / Trading": 1
       },
       "top_authors": {
-        "Ben Zhong Tang": 16,
-        "Jacky W. Y. Lam": 7,
-        "Zheng Zhao": 6,
-        "Ryan T. K. Kwok": 5,
-        "Feng Gao": 4,
-        "Huotian Zhang": 3,
-        "Liming Liu": 3,
-        "Sha Liu": 3,
-        "Yanming Sun": 3,
-        "Parvej Alam": 3
+        "Ben Zhong Tang": 8,
+        "Benyou Wang": 3,
+        "Parvej Alam": 3,
+        "Zheng Zhao": 3,
+        "Jacky W. Y. Lam": 3,
+        "Han Young Woo": 2,
+        "Zhao Yang": 2,
+        "Yanqing Xu": 2,
+        "Bin Liu": 2,
+        "Jie Xu": 2
       },
       "years": {
-        "2025": 26,
+        "2025": 25,
         "2026": 1
       },
       "recent": [
+        {
+          "title": "SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation",
+          "doi": "https://doi.org/10.1007/s44267-025-00106-w",
+          "openalex_id": "https://openalex.org/W4402501200",
+          "published": "2026-01-13",
+          "citations": 223,
+          "methods": [],
+          "benchmarks": []
+        },
         {
           "title": "A generalist medical language model for disease diagnosis assistance",
           "doi": "https://doi.org/10.1038/s41591-024-03416-6",
           "openalex_id": "https://openalex.org/W4406152280",
           "published": "2025-01-08",
-          "citations": 183,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "6D Movable Antenna Enhanced Wireless Network via Discrete Position and Rotation Optimization",
-          "doi": "https://doi.org/10.1109/jsac.2025.3531571",
-          "openalex_id": "https://openalex.org/W4406689889",
-          "published": "2025-01-21",
-          "citations": 144,
+          "citations": 200,
           "methods": [],
           "benchmarks": []
         },
@@ -1154,16 +1277,25 @@
           "doi": "https://doi.org/10.1109/lwc.2025.3543889",
           "openalex_id": "https://openalex.org/W4407782736",
           "published": "2025-02-20",
-          "citations": 125,
+          "citations": 173,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "SAM2-UNet: segment anything 2 makes strong encoder for natural and medical image segmentation",
-          "doi": "https://doi.org/10.1007/s44267-025-00106-w",
-          "openalex_id": "https://openalex.org/W4402501200",
-          "published": "2026-01-13",
-          "citations": 117,
+          "title": "6D Movable Antenna Enhanced Wireless Network via Discrete Position and Rotation Optimization",
+          "doi": "https://doi.org/10.1109/jsac.2025.3531571",
+          "openalex_id": "https://openalex.org/W4406689889",
+          "published": "2025-01-21",
+          "citations": 169,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling",
+          "doi": "https://doi.org/10.1287/opre.2024.1233",
+          "openalex_id": "https://openalex.org/W4410192806",
+          "published": "2025-05-08",
+          "citations": 143,
           "methods": [],
           "benchmarks": []
         },
@@ -1172,66 +1304,16 @@
           "doi": "https://doi.org/10.1109/tcomm.2025.3541027",
           "openalex_id": "https://openalex.org/W4407390651",
           "published": "2025-02-11",
-          "citations": 108,
+          "citations": 121,
           "methods": [],
           "benchmarks": []
         },
         {
-          "title": "pH‐Responsive AIE Photosensitizers for Enhanced Antibacterial Therapy",
-          "doi": "https://doi.org/10.1002/anie.202506505",
-          "openalex_id": "https://openalex.org/W4409919737",
-          "published": "2025-04-29",
-          "citations": 97,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Pyridinium Rotor Strategy toward a Robust Photothermal Agent for STING Activation and Multimodal Image-Guided Immunotherapy for Triple-Negative Breast Cancer",
-          "doi": "https://doi.org/10.1021/jacs.4c15534",
-          "openalex_id": "https://openalex.org/W4407780836",
-          "published": "2025-02-20",
-          "citations": 97,
-          "methods": [
-            "Memory / RAG",
-            "VLM"
-          ],
-          "benchmarks": []
-        },
-        {
-          "title": "LLM Fine-Tuning: Concepts, Opportunities, and Challenges",
-          "doi": "https://doi.org/10.3390/bdcc9040087",
-          "openalex_id": "https://openalex.org/W4409098775",
-          "published": "2025-04-02",
-          "citations": 90,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "Lone Pairs-Mediated Multiple Through-Space Interactions for Efficient Room-Temperature Phosphorescence",
-          "doi": "https://doi.org/10.1021/jacs.5c02567",
-          "openalex_id": "https://openalex.org/W4408545780",
-          "published": "2025-03-18",
-          "citations": 88,
-          "methods": [],
-          "benchmarks": []
-        },
-        {
-          "title": "The Midas Touch by Iridium: A Second Near-Infrared Aggregation-Induced Emission-Active Metallo-Agent for Exceptional Phototheranostics of Breast Cancer",
-          "doi": "https://doi.org/10.1021/jacs.4c15150",
-          "openalex_id": "https://openalex.org/W4406115797",
-          "published": "2025-01-07",
-          "citations": 87,
-          "methods": [
-            "VLM"
-          ],
-          "benchmarks": []
-        },
-        {
-          "title": "MXenes and MXene-based composites for biomedical applications",
-          "doi": "https://doi.org/10.1039/d4tb02834a",
-          "openalex_id": "https://openalex.org/W4407979559",
-          "published": "2025-01-01",
-          "citations": 82,
+          "title": "DialogueLLM: Context and emotion knowledge-tuned large language models for emotion recognition in conversations",
+          "doi": "https://doi.org/10.1016/j.neunet.2025.107901",
+          "openalex_id": "https://openalex.org/W4412602922",
+          "published": "2025-07-23",
+          "citations": 120,
           "methods": [],
           "benchmarks": []
         },
@@ -1240,7 +1322,45 @@
           "doi": "https://doi.org/10.1109/taslpro.2025.3566210",
           "openalex_id": "https://openalex.org/W4410087476",
           "published": "2025-01-01",
-          "citations": 81,
+          "citations": 117,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "LLM Fine-Tuning: Concepts, Opportunities, and Challenges",
+          "doi": "https://doi.org/10.3390/bdcc9040087",
+          "openalex_id": "https://openalex.org/W4409098775",
+          "published": "2025-04-02",
+          "citations": 108,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "TeleQnA: A Benchmark Dataset to Assess Large Language Models Telecommunications Knowledge",
+          "doi": "https://doi.org/10.1109/mnet.2025.3576035",
+          "openalex_id": "https://openalex.org/W4410949934",
+          "published": "2025-06-02",
+          "citations": 103,
+          "methods": [],
+          "benchmarks": []
+        },
+        {
+          "title": "A Unified Framework With Multimodal Fine-Tuning for Remote Sensing Semantic Segmentation",
+          "doi": "https://doi.org/10.1109/tgrs.2025.3585238",
+          "openalex_id": "https://openalex.org/W4411948851",
+          "published": "2025-01-01",
+          "citations": 103,
+          "methods": [
+            "VLM"
+          ],
+          "benchmarks": []
+        },
+        {
+          "title": "MotionLLM: Understanding Human Behaviors from Human Motions and Videos",
+          "doi": "https://doi.org/10.1109/tpami.2025.3627546",
+          "openalex_id": "https://openalex.org/W4415743520",
+          "published": "2025-01-01",
+          "citations": 103,
           "methods": [],
           "benchmarks": []
         }
@@ -1249,19 +1369,14 @@
     "hkust-sz": {
       "name": "HKUST Shenzhen Research Institute",
       "papers": 1,
-      "total_works_fetched": 3,
+      "total_works_fetched": 1,
       "top_methods": {},
       "top_authors": {
         "Lianshuai Zhang": 1,
         "Xianyuan Xiang": 1,
         "Y. Li": 1,
         "Guojun Bu": 1,
-        "Xiao‐Fen Chen": 1,
-        "Yan Qiao": 1,
-        "Shenyu Shen": 1,
-        "Chenghui Mao": 1,
-        "Yongchun Xiao": 1,
-        "Wenchuan Lai": 1
+        "Xiao‐Fen Chen": 1
       },
       "years": {
         "2025": 1
@@ -1272,7 +1387,7 @@
           "doi": "https://doi.org/10.1186/s13024-025-00834-z",
           "openalex_id": "https://openalex.org/W4409525232",
           "published": "2025-04-17",
-          "citations": 70,
+          "citations": 83,
           "methods": [],
           "benchmarks": []
         }

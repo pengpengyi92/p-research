@@ -1,0 +1,30 @@
+{
+  "observed_at_utc": "2026-11-12T16:11:49Z",
+  "observed_local_date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "repository": "pengpengyi92/p-research",
+  "visibility": "PUBLIC",
+  "pull_request": "https://github.com/pengpengyi92/p-research/pull/24",
+  "pr_state": "OPEN",
+  "merged": false,
+  "verified_content_commit": "44d61e8a64771f0c58971d6ed3c892060678565e",
+  "source_commit": "7c6715c29548a3b39d4a9545c698ee4fd17a7213",
+  "source_root_tree": "6dd590cb153ac1e0073914cb2e89029d9fdef04e",
+  "remote_imported_tree": "6dd590cb153ac1e0073914cb2e89029d9fdef04e",
+  "remote_skill_blob": "93bb7befeb73c41b4354175f9ef765547d4f3506",
+  "remote_skill_size": 5243,
+  "verification": "PASS_EXACT_GIT_SUBTREE",
+  "files_verified": 6,
+  "local_tests": {
+    "baseline_passed": 49,
+    "added_passed": 13,
+    "full_suite_passed": 62,
+    "failed": 0,
+    "environment": "Windows11/Python3.12.14; explicit UTF-8"
+  },
+  "remote_ci": "NOT RUN",
+  "behavioral_evaluation": "NOT RUN",
+  "global_installation": false,
+  "private_material_copied": false,
+  "note": "Receipt identifies the verified content commit; later documentation-only commits are not recursively self-certified."
+}

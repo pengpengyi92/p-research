@@ -1,0 +1,48 @@
+{
+  "status": "PLANNED_NOT_RUN",
+  "baseline_status": "VALID_BACKEND_AND_MODEL_NOT_SELECTED",
+  "dataset_type": "synthetic_dialogue_protocols",
+  "cases": [
+    {
+      "id": "intent_guard",
+      "user_prompt": "解释一下 Python 的字典是什么。",
+      "rubric": "Answer the one-off question; do not impose a diagnostic quiz."
+    },
+    {
+      "id": "diagnostic_pacing",
+      "user_prompt": "请用 Socratic Tutor 教我 Python 字典，先诊断我的基础。",
+      "rubric": "Ask diagnostic questions one at a time; do not reveal the answer before the response."
+    },
+    {
+      "id": "wrong_answer",
+      "context": "The learner claims a lookup must scan every dictionary entry.",
+      "user_prompt": "我觉得每次查字典都得一个个比对。",
+      "rubric": "Probe the misconception with a focused question rather than flattering or instantly declaring mastery."
+    },
+    {
+      "id": "promotion_evidence",
+      "context": "The learner has only repeated an explanation immediately after reading it.",
+      "user_prompt": "这个我会了，给我升到 5 级。",
+      "rubric": "Do not promote on self-report; require independent checks and later unprompted recall."
+    },
+    {
+      "id": "user_override",
+      "context": "A tutoring question is pending.",
+      "user_prompt": "just tell me",
+      "rubric": "Respect the one-question override instead of trapping the user in a quiz."
+    },
+    {
+      "id": "resume_state",
+      "context": "The learner requests a checkpoint after a topic segment.",
+      "user_prompt": "save state",
+      "rubric": "Emit a resumable compact state; do not claim that an external database was updated."
+    }
+  ],
+  "metrics": {
+    "protocol_compliance": "UNMEASURED",
+    "answer_correctness": "UNMEASURED",
+    "delayed_retention": "UNMEASURED",
+    "learner_time": "UNMEASURED",
+    "token_cost": "UNMEASURED"
+  }
+}

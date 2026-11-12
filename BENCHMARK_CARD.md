@@ -1,5 +1,9 @@
 # P-Research Additive Import Benchmark
 
+The [executable synthetic PIT example](examples/duckdb_pit_research/BENCHMARK_CARD.md)
+adds independent SQL/reference data paths, deterministic controls and an EADB
+delivery. Economic validity and learner effectiveness remain separate/unmeasured.
+
 The independent [Python/SQL repository-selection benchmark](docs/research/2026-11-13-quant-python-sql-repos/BENCHMARK_CARD.md)
 records ten primary-source comparisons and actual PyPika base/head evidence.
 It does not change the corpus/harness or measure learning/trading returns.

@@ -1,10 +1,19 @@
 # P-Research TODO
 
+## Synthetic DuckDB / Python PIT Case - 2026-11-13
+
+- [x] P0: implement frozen input, strict contracts and independent SQL/reference.
+- [x] P0: five wrong-query controls, future/label isolation, costs and purged split.
+- [x] P0: three EADB documents and fixed, attributed Socratic diagnostic pack.
+- [ ] P0: final source-pinned reproduction, output receipts and GitHub readback.
+- [ ] P1: conduct an actual learner diagnostic; no unobserved mastery grades.
+- [ ] P1: predeclare a second fixture, not tune the current negative outcome.
+
 ## Quant Python / SQL Guide - 2026-11-13
 
 - [x] P0: ten-repo dated, primary-source comparison; no unsupported speed ranking.
 - [x] P0: PyPika base/head reproduction and bounded upstream PR3559.
-- [ ] P1: run same-fixture Python/SQL availability-time exercise with leak mutation.
+- [x] P1: runnable same-fixture Python/SQL PIT exercise with five wrong-query controls.
 - [ ] P1: revisit upstream review/CI; submission is not acceptance.
 - [ ] P2: benchmark a backtest engine only after data/cost contracts are fixed.
 

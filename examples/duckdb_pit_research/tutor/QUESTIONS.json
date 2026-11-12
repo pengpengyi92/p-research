@@ -1,0 +1,18 @@
+{
+  "protocol_version": "0.1.0",
+  "one_question_at_a_time": true,
+  "diagnostic": [
+    {"id": "D_TIME", "skill": "information_set", "question": "一条数据08:50发布、09:05才被系统首次收到；09:00做决策时能用吗？你用哪个时间判定？"},
+    {"id": "D_REVISION", "skill": "versions_and_sessions", "question": "旧版本在周一已知，修订版周三才收到。重建周二快照时，先保留全局最终版本再过滤时间，会丢掉什么？"},
+    {"id": "D_UNIVERSE", "skill": "membership_and_missing", "question": "股票周五起生效加入，但系统周五10:00才收到名单。周五09:00的横截面应该包含它吗？"},
+    {"id": "D_LABEL", "skill": "labels_purge_costs", "question": "收益标签可以用决策后的价格计算。为什么这些价格不能同时进入信号？你会怎么用代码验证隔离？"},
+    {"id": "D_EQUIVALENCE", "skill": "semantic_and_causal_tests", "question": "Python与SQL算出相同总收益，能证明没有未来函数吗？还需要怎样的反例或检查？"}
+  ],
+  "transfer": [
+    {"id": "T_BOUNDARY", "question": "available_at正好等于decision_at，和晚一微秒，分别应该怎样处理？写一个测试。"},
+    {"id": "T_SESSION", "question": "旧session的修订比新session更晚到达。为什么最近收到的两条记录不一定是最近两期价格？"},
+    {"id": "T_MISSING", "question": "SYN_C首个决策有NULL收盘价。为什么不能把信号或前瞻收益直接补成0？"},
+    {"id": "T_PURGE", "question": "训练标签到测试日09:30才结束，而测试09:00做决策。加60分钟embargo后，这条训练样本能保留吗？"}
+  ],
+  "assessment_status": "NOT_RUN"
+}

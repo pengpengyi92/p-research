@@ -4,6 +4,13 @@
 
 ### Added
 
+- Optional synthetic DuckDB/Python PIT research example v0.1.0: versioned input,
+  independent snapshots/labels, five wrong-query controls, future/label invariance,
+  costs, missing-data handling and calendar purge/embargo. Negative results retained.
+- EADB three-document delivery, manifests/test receipts and an original Socratic
+  Tutor exercise pack; four root stdlib reference tests. Core dependencies,
+  corpus/survey, imported skill bytes and root package version unchanged.
+
 - Quant Python/SQL ten-repo public guide, dated metadata, primary sources,
   validation/failure ledger and falsifiable training protocol; PyPika PR3559.
 - Five offline catalogue-integrity tests, separate from upstream software tests.

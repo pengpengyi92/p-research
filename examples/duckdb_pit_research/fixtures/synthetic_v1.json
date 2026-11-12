@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "seed": 166,
+  "data_class": "SYNTHETIC_ONLY",
+  "symbols": [
+    "SYN_A",
+    "SYN_B",
+    "SYN_C",
+    "SYN_D"
+  ],
+  "evaluation_at": "2026-01-21T12:00:00+00:00",
+  "decisions": [
+    {
+      "decision_id": "D0",
+      "decision_at": "2026-01-12T09:00:00+00:00",
+      "fill_at": "2026-01-12T09:30:00+00:00",
+      "exit_at": "2026-01-13T09:30:00+00:00",
+      "split": "train_candidate"
+    },
+    {
+      "decision_id": "D1",
+      "decision_at": "2026-01-13T09:00:00+00:00",
+      "fill_at": "2026-01-13T09:30:00+00:00",
+      "exit_at": "2026-01-14T09:30:00+00:00",
+      "split": "train_candidate"
+    },
+    {
+      "decision_id": "D2",
+      "decision_at": "2026-01-14T09:00:00+00:00",
+      "fill_at": "2026-01-14T09:30:00+00:00",
+      "exit_at": "2026-01-15T09:30:00+00:00",
+      "split": "train_candidate"
+    },
+    {
+      "decision_id": "D3",
+      "decision_at": "2026-01-15T09:00:00+00:00",
+      "fill_at": "2026-01-15T09:30:00+00:00",
+      "exit_at": "2026-01-16T09:30:00+00:00",
+      "split": "oos"
+    },
+    {
+      "decision_id": "D4",
+      "decision_at": "2026-01-16T09:00:00+00:00",
+      "fill_at": "2026-01-16T09:30:00+00:00",
+      "exit_at": "2026-01-19T09:30:00+00:00",
+      "split": "oos"
+    },
+    {
+      "decision_id": "D5",
+      "decision_at": "2026-01-19T09:00:00+00:00",
+      "fill_at": "2026-01-19T09:30:00+00:00",
+      "exit_at": "2026-01-20T09:30:00+00:00",
+      "split": "oos"
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "SYN_A-2026-01-08-r0",
+      "symbol": "SYN_A",
+      "session": "2026-01-08",
+      "event_at": "2026-01-08T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-08T16:05:00+00:00",
+      "available_at": "2026-01-08T16:10:00+00:00",
+      "close_cents": 10000
+    },
+    {
+      "feature_id": "SYN_A-2026-01-09-r0",
+      "symbol": "SYN_A",
+      "session": "2026-01-09",
+      "event_at": "2026-01-09T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-09T16:05:00+00:00",
+      "available_at": "2026-01-09T16:10:00+00:00",
+      "close_cents": 10500
+    },
+    {
+      "feature_id": "SYN_A-2026-01-12-r0",
+      "symbol": "SYN_A",
+      "session": "2026-01-12",
+      "event_at": "2026-01-12T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-12T16:05:00+00:00",
+      "available_at": "2026-01-12T16:10:00+00:00",
+      "close_cents": 10800
+    },
+    {
+      "feature_id": "SYN_A-2026-01-13-r0",
+      "symbol": "SYN_A",
+      "session": "2026-01-13",
+      "event_at": "2026-01-13T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-13T16:05:00+00:00",
+      "available_at": "2026-01-13T16:10:00+00:00",
+      "close_cents": 10700
+    },
+    {
+      "feature_id": "SYN_A-2026-01-14-r0",
+      "symbol": "SYN_A",
+      "session": "2026-01-14",
+      "event_at": "2026-01-14T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-14T16:05:00+00:00",
+      "available_at": "2026-01-15T09:00:00+00:00",
+      "close_cents": 11000
+    },
+    {
+      "feature_id": "SYN_A-2026-01-15-r0",
+      "symbol": "SYN_A",
+      "session": "2026-01-15",
+      "event_at": "2026-01-15T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-15T16:05:00+00:00",
+      "available_at": "2026-01-15T16:10:00+00:00",
+      "close_cents": 10900
+    },
+    {
+      "feature_id": "SYN_A-2026-01-16-r0",
+      "symbol": "SYN_A",
+      "session": "2026-01-16",
+      "event_at": "2026-01-16T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-16T16:05:00+00:00",
+      "available_at": "2026-01-16T16:10:00+00:00",
+      "close_cents": 11100
+    },
+    {
+      "feature_id": "SYN_B-2026-01-08-r0",
+      "symbol": "SYN_B",
+      "session": "2026-01-08",
+      "event_at": "2026-01-08T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-08T16:05:00+00:00",
+      "available_at": "2026-01-08T16:10:00+00:00",
+      "close_cents": 10000
+    },
+    {
+      "feature_id": "SYN_B-2026-01-09-r0",
+      "symbol": "SYN_B",
+      "session": "2026-01-09",
+      "event_at": "2026-01-09T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-09T16:05:00+00:00",
+      "available_at": "2026-01-09T16:10:00+00:00",
+      "close_cents": 10100
+    },
+    {
+      "feature_id": "SYN_B-2026-01-12-r0",
+      "symbol": "SYN_B",
+      "session": "2026-01-12",
+      "event_at": "2026-01-12T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-12T16:05:00+00:00",
+      "available_at": "2026-01-12T16:10:00+00:00",
+      "close_cents": 9900
+    },
+    {
+      "feature_id": "SYN_B-2026-01-13-r0",
+      "symbol": "SYN_B",
+      "session": "2026-01-13",
+      "event_at": "2026-01-13T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-13T16:05:00+00:00",
+      "available_at": "2026-01-14T09:05:00+00:00",
+      "close_cents": 9800
+    },
+    {
+      "feature_id": "SYN_B-2026-01-14-r0",
+      "symbol": "SYN_B",
+      "session": "2026-01-14",
+      "event_at": "2026-01-14T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-14T16:05:00+00:00",
+      "available_at": "2026-01-14T16:10:00+00:00",
+      "close_cents": 10200
+    },
+    {
+      "feature_id": "SYN_B-2026-01-15-r0",
+      "symbol": "SYN_B",
+      "session": "2026-01-15",
+      "event_at": "2026-01-15T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-15T16:05:00+00:00",
+      "available_at": "2026-01-15T16:10:00+00:00",
+      "close_cents": 10300
+    },
+    {
+      "feature_id": "SYN_B-2026-01-16-r0",
+      "symbol": "SYN_B",
+      "session": "2026-01-16",
+      "event_at": "2026-01-16T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-16T16:05:00+00:00",
+      "available_at": "2026-01-16T16:10:00+00:00",
+      "close_cents": 10250
+    },
+    {
+      "feature_id": "SYN_C-2026-01-08-r0",
+      "symbol": "SYN_C",
+      "session": "2026-01-08",
+      "event_at": "2026-01-08T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-08T16:05:00+00:00",
+      "available_at": "2026-01-08T16:10:00+00:00",
+      "close_cents": 10000
+    },
+    {
+      "feature_id": "SYN_C-2026-01-09-r0",
+      "symbol": "SYN_C",
+      "session": "2026-01-09",
+      "event_at": "2026-01-09T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-09T16:05:00+00:00",
+      "available_at": "2026-01-09T16:10:00+00:00",
+      "close_cents": null
+    },
+    {
+      "feature_id": "SYN_C-2026-01-12-r0",
+      "symbol": "SYN_C",
+      "session": "2026-01-12",
+      "event_at": "2026-01-12T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-12T16:05:00+00:00",
+      "available_at": "2026-01-12T16:10:00+00:00",
+      "close_cents": 10100
+    },
+    {
+      "feature_id": "SYN_C-2026-01-13-r0",
+      "symbol": "SYN_C",
+      "session": "2026-01-13",
+      "event_at": "2026-01-13T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-13T16:05:00+00:00",
+      "available_at": "2026-01-13T16:10:00+00:00",
+      "close_cents": 10300
+    },
+    {
+      "feature_id": "SYN_C-2026-01-14-r0",
+      "symbol": "SYN_C",
+      "session": "2026-01-14",
+      "event_at": "2026-01-14T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-14T16:05:00+00:00",
+      "available_at": "2026-01-14T16:10:00+00:00",
+      "close_cents": 10200
+    },
+    {
+      "feature_id": "SYN_C-2026-01-15-r0",
+      "symbol": "SYN_C",
+      "session": "2026-01-15",
+      "event_at": "2026-01-15T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-15T16:05:00+00:00",
+      "available_at": "2026-01-15T16:10:00+00:00",
+      "close_cents": 10400
+    },
+    {
+      "feature_id": "SYN_C-2026-01-16-r0",
+      "symbol": "SYN_C",
+      "session": "2026-01-16",
+      "event_at": "2026-01-16T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-16T16:05:00+00:00",
+      "available_at": "2026-01-16T16:10:00+00:00",
+      "close_cents": 10350
+    },
+    {
+      "feature_id": "SYN_D-2026-01-08-r0",
+      "symbol": "SYN_D",
+      "session": "2026-01-08",
+      "event_at": "2026-01-08T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-08T16:05:00+00:00",
+      "available_at": "2026-01-08T16:10:00+00:00",
+      "close_cents": 10000
+    },
+    {
+      "feature_id": "SYN_D-2026-01-09-r0",
+      "symbol": "SYN_D",
+      "session": "2026-01-09",
+      "event_at": "2026-01-09T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-09T16:05:00+00:00",
+      "available_at": "2026-01-09T16:10:00+00:00",
+      "close_cents": 10200
+    },
+    {
+      "feature_id": "SYN_D-2026-01-12-r0",
+      "symbol": "SYN_D",
+      "session": "2026-01-12",
+      "event_at": "2026-01-12T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-12T16:05:00+00:00",
+      "available_at": "2026-01-12T16:10:00+00:00",
+      "close_cents": 10100
+    },
+    {
+      "feature_id": "SYN_D-2026-01-13-r0",
+      "symbol": "SYN_D",
+      "session": "2026-01-13",
+      "event_at": "2026-01-13T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-13T16:05:00+00:00",
+      "available_at": "2026-01-13T16:10:00+00:00",
+      "close_cents": 10200
+    },
+    {
+      "feature_id": "SYN_D-2026-01-14-r0",
+      "symbol": "SYN_D",
+      "session": "2026-01-14",
+      "event_at": "2026-01-14T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-14T16:05:00+00:00",
+      "available_at": "2026-01-14T16:10:00+00:00",
+      "close_cents": 10400
+    },
+    {
+      "feature_id": "SYN_D-2026-01-15-r0",
+      "symbol": "SYN_D",
+      "session": "2026-01-15",
+      "event_at": "2026-01-15T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-15T16:05:00+00:00",
+      "available_at": "2026-01-15T16:10:00+00:00",
+      "close_cents": 10300
+    },
+    {
+      "feature_id": "SYN_D-2026-01-16-r0",
+      "symbol": "SYN_D",
+      "session": "2026-01-16",
+      "event_at": "2026-01-16T16:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-16T16:05:00+00:00",
+      "available_at": "2026-01-16T16:10:00+00:00",
+      "close_cents": 10500
+    },
+    {
+      "feature_id": "SYN_A-2026-01-09-r1",
+      "symbol": "SYN_A",
+      "session": "2026-01-09",
+      "event_at": "2026-01-09T16:00:00+00:00",
+      "revision": 1,
+      "published_at": "2026-01-09T17:00:00+00:00",
+      "available_at": "2026-01-14T12:00:00+00:00",
+      "close_cents": 9500
+    },
+    {
+      "feature_id": "SYN_B-2026-01-12-r1",
+      "symbol": "SYN_B",
+      "session": "2026-01-12",
+      "event_at": "2026-01-12T16:00:00+00:00",
+      "revision": 1,
+      "published_at": "2026-01-12T17:00:00+00:00",
+      "available_at": "2026-01-16T12:00:00+00:00",
+      "close_cents": 17000
+    },
+    {
+      "feature_id": "SYN_A-2026-01-14-r1",
+      "symbol": "SYN_A",
+      "session": "2026-01-14",
+      "event_at": "2026-01-14T16:00:00+00:00",
+      "revision": 1,
+      "published_at": "2026-01-14T17:00:00+00:00",
+      "available_at": "2026-01-19T10:00:00+00:00",
+      "close_cents": 13000
+    }
+  ],
+  "memberships": [
+    {
+      "membership_id": "SYN_A-initial",
+      "symbol": "SYN_A",
+      "effective_at": "2026-01-01T00:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "available_at": "2026-01-01T00:00:00+00:00",
+      "is_member": true
+    },
+    {
+      "membership_id": "SYN_B-initial",
+      "symbol": "SYN_B",
+      "effective_at": "2026-01-01T00:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "available_at": "2026-01-01T00:00:00+00:00",
+      "is_member": true
+    },
+    {
+      "membership_id": "SYN_C-initial",
+      "symbol": "SYN_C",
+      "effective_at": "2026-01-01T00:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "available_at": "2026-01-01T00:00:00+00:00",
+      "is_member": true
+    },
+    {
+      "membership_id": "B-removal",
+      "symbol": "SYN_B",
+      "effective_at": "2026-01-15T00:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-14T18:00:00+00:00",
+      "available_at": "2026-01-14T22:00:00+00:00",
+      "is_member": false
+    },
+    {
+      "membership_id": "D-late-addition",
+      "symbol": "SYN_D",
+      "effective_at": "2026-01-16T00:00:00+00:00",
+      "revision": 0,
+      "published_at": "2026-01-16T08:00:00+00:00",
+      "available_at": "2026-01-16T10:00:00+00:00",
+      "is_member": true
+    }
+  ],
+  "opens": [
+    {
+      "symbol": "SYN_A",
+      "event_at": "2026-01-12T09:30:00+00:00",
+      "available_at": "2026-01-12T09:31:00+00:00",
+      "open_cents": 10091
+    },
+    {
+      "symbol": "SYN_A",
+      "event_at": "2026-01-13T09:30:00+00:00",
+      "available_at": "2026-01-13T09:31:00+00:00",
+      "open_cents": 10320
+    },
+    {
+      "symbol": "SYN_A",
+      "event_at": "2026-01-14T09:30:00+00:00",
+      "available_at": "2026-01-14T09:31:00+00:00",
+      "open_cents": 10018
+    },
+    {
+      "symbol": "SYN_A",
+      "event_at": "2026-01-15T09:30:00+00:00",
+      "available_at": "2026-01-15T09:31:00+00:00",
+      "open_cents": 10406
+    },
+    {
+      "symbol": "SYN_A",
+      "event_at": "2026-01-16T09:30:00+00:00",
+      "available_at": "2026-01-16T09:31:00+00:00",
+      "open_cents": 9907
+    },
+    {
+      "symbol": "SYN_A",
+      "event_at": "2026-01-19T09:30:00+00:00",
+      "available_at": "2026-01-19T09:31:00+00:00",
+      "open_cents": 10030
+    },
+    {
+      "symbol": "SYN_A",
+      "event_at": "2026-01-20T09:30:00+00:00",
+      "available_at": "2026-01-20T09:31:00+00:00",
+      "open_cents": 9850
+    },
+    {
+      "symbol": "SYN_B",
+      "event_at": "2026-01-12T09:30:00+00:00",
+      "available_at": "2026-01-12T09:31:00+00:00",
+      "open_cents": 9782
+    },
+    {
+      "symbol": "SYN_B",
+      "event_at": "2026-01-13T09:30:00+00:00",
+      "available_at": "2026-01-13T09:31:00+00:00",
+      "open_cents": 9611
+    },
+    {
+      "symbol": "SYN_B",
+      "event_at": "2026-01-14T09:30:00+00:00",
+      "available_at": "2026-01-14T09:31:00+00:00",
+      "open_cents": 9766
+    },
+    {
+      "symbol": "SYN_B",
+      "event_at": "2026-01-15T09:30:00+00:00",
+      "available_at": "2026-01-15T09:31:00+00:00",
+      "open_cents": 9903
+    },
+    {
+      "symbol": "SYN_B",
+      "event_at": "2026-01-16T09:30:00+00:00",
+      "available_at": "2026-01-16T09:31:00+00:00",
+      "open_cents": 9698
+    },
+    {
+      "symbol": "SYN_B",
+      "event_at": "2026-01-19T09:30:00+00:00",
+      "available_at": "2026-01-19T09:31:00+00:00",
+      "open_cents": 9642
+    },
+    {
+      "symbol": "SYN_B",
+      "event_at": "2026-01-20T09:30:00+00:00",
+      "available_at": "2026-01-20T09:31:00+00:00",
+      "open_cents": 9790
+    },
+    {
+      "symbol": "SYN_C",
+      "event_at": "2026-01-12T09:30:00+00:00",
+      "available_at": "2026-01-12T09:31:00+00:00",
+      "open_cents": 9980
+    },
+    {
+      "symbol": "SYN_C",
+      "event_at": "2026-01-13T09:30:00+00:00",
+      "available_at": "2026-01-13T09:31:00+00:00",
+      "open_cents": 9961
+    },
+    {
+      "symbol": "SYN_C",
+      "event_at": "2026-01-14T09:30:00+00:00",
+      "available_at": "2026-01-14T09:31:00+00:00",
+      "open_cents": 10086
+    },
+    {
+      "symbol": "SYN_C",
+      "event_at": "2026-01-15T09:30:00+00:00",
+      "available_at": "2026-01-15T09:31:00+00:00",
+      "open_cents": 10042
+    },
+    {
+      "symbol": "SYN_C",
+      "event_at": "2026-01-16T09:30:00+00:00",
+      "available_at": "2026-01-16T09:31:00+00:00",
+      "open_cents": 10204
+    },
+    {
+      "symbol": "SYN_C",
+      "event_at": "2026-01-19T09:30:00+00:00",
+      "available_at": "2026-01-19T09:31:00+00:00",
+      "open_cents": 10087
+    },
+    {
+      "symbol": "SYN_C",
+      "event_at": "2026-01-20T09:30:00+00:00",
+      "available_at": "2026-01-20T09:31:00+00:00",
+      "open_cents": 10280
+    },
+    {
+      "symbol": "SYN_D",
+      "event_at": "2026-01-12T09:30:00+00:00",
+      "available_at": "2026-01-12T09:31:00+00:00",
+      "open_cents": 10490
+    },
+    {
+      "symbol": "SYN_D",
+      "event_at": "2026-01-13T09:30:00+00:00",
+      "available_at": "2026-01-13T09:31:00+00:00",
+      "open_cents": 10297
+    },
+    {
+      "symbol": "SYN_D",
+      "event_at": "2026-01-14T09:30:00+00:00",
+      "available_at": "2026-01-14T09:31:00+00:00",
+      "open_cents": 10617
+    },
+    {
+      "symbol": "SYN_D",
+      "event_at": "2026-01-15T09:30:00+00:00",
+      "available_at": "2026-01-15T09:31:00+00:00",
+      "open_cents": 10193
+    },
+    {
+      "symbol": "SYN_D",
+      "event_at": "2026-01-16T09:30:00+00:00",
+      "available_at": "2026-01-16T09:31:00+00:00",
+      "open_cents": 10411
+    },
+    {
+      "symbol": "SYN_D",
+      "event_at": "2026-01-19T09:30:00+00:00",
+      "available_at": "2026-01-19T09:31:00+00:00",
+      "open_cents": 10318
+    },
+    {
+      "symbol": "SYN_D",
+      "event_at": "2026-01-20T09:30:00+00:00",
+      "available_at": "2026-01-20T09:31:00+00:00",
+      "open_cents": 10112
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "session_status": "NOT_STARTED",
+  "learner": null,
+  "model_backend": "NOT_SELECTED",
+  "skills": {
+    "information_set": null,
+    "versions_and_sessions": null,
+    "membership_and_missing": null,
+    "python_sql_equivalence": null,
+    "labels_purge_costs": null,
+    "semantic_and_causal_tests": null
+  },
+  "observed_checks": [],
+  "mastery": "UNMEASURED",
+  "delayed_recall": "NOT_RUN",
+  "public_response_storage_authorized": false
+}

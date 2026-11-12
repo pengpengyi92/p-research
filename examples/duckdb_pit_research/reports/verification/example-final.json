@@ -1,0 +1,19 @@
+{
+  "started_at_utc": "2026-11-12T17:23:30.891928+00:00",
+  "finished_at_utc": "2026-11-12T17:23:35.710148+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "duckdb": "2.0.0",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "command": "python -X utf8 -m unittest discover -s examples/duckdb_pit_research/tests -v",
+  "exit_code": 0,
+  "total": 40,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 40,
+  "observed_summary": "OK",
+  "log_sha256": "2d2b153983b2388a4e05202c9aa65ac2c8d3c834e47141c957e8cfe07404034d",
+  "redactions": "repo, interpreter, temporary and host paths replaced; no private raw logs published"
+}

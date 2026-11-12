@@ -1,0 +1,2 @@
+# Optional example only; P-Research's core remains stdlib-only.
+duckdb==2.0.0

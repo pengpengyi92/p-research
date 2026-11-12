@@ -55,6 +55,14 @@ commit/tree/blob identities and an offline integrity verifier. It is not an
 official collaboration, a trained model or a global skill installation.
 Learning effectiveness and model behavior are **UNMEASURED**.
 
+## Executable Synthetic PIT Case
+
+[DuckDB + Python research lab](examples/duckdb_pit_research/README.md): versioned
+synthetic data, independent SQL/reference comparisons, five leakage/semantics
+negative controls, purge/embargo, costs and an attributed Socratic Tutor practice
+pack. Optional DuckDB2.0.0 environment only; the core CLI stays stdlib-only.
+Negative toy results are preserved; no real alpha or learning-gain claim.
+
 ## Quant Python / SQL Repository Guide
 
 [Ten quant-relevant Python / SQL repositories](docs/research/2026-11-13-quant-python-sql-repos/README.md):

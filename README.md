@@ -47,6 +47,14 @@ swarm intelligence, agent evaluation — in deep collaboration with PAT.
 5. **Multimodal / World Models** — VLM, video generation, world models, embodied AI
 6. **Quant × AI** — LLM for trading, financial time-series foundation models
 
+## Imported Agent Skills
+
+[Jane Street Socratic Tutor - origin, usage and evaluation limits](skills/jane-street-socratic-tutor/README.md)
+is a byte-preserving MIT upstream snapshot, with the original license,
+commit/tree/blob identities and an offline integrity verifier. It is not an
+official collaboration, a trained model or a global skill installation.
+Learning effectiveness and model behavior are **UNMEASURED**.
+
 ## New Research Proposal
 
 [VideoRAG / AudioRAG: timestamp-grounded summaries and Q&A](docs/research/2026-11-12-videorag-audiorag-agenda.md) — a 2026-11-12 proposal for learning from video/audio with verifiable evidence. Transcript and visual baselines, whole-video coverage and retrieval Q&A are evaluated separately. This is a research agenda, not an implemented feature or a corpus-verified result.

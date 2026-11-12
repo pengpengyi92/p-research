@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "imported_on": "2026-11-13",
+  "import_type": "vendored_git_snapshot_not_github_fork_relationship",
+  "upstream": {
+    "repository": "janestreet/agent_skills",
+    "url": "https://github.com/janestreet/agent_skills",
+    "branch": "master",
+    "commit_sha1": "7c6715c29548a3b39d4a9545c698ee4fd17a7213",
+    "root_tree_sha1": "6dd590cb153ac1e0073914cb2e89029d9fdef04e",
+    "socratic_tutor_tree_sha1": "13f2666c7b404ce5a0a4b93a3613b99e415a48bc",
+    "commit_author": "public-release",
+    "commit_authored_at": "2026-11-03T17:53:45Z",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Jane Street Group, LLC"
+  },
+  "modifications_to_upstream": "NONE",
+  "files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_blob_sha1": "6c14091bba6a964a24cbdd65d0aaae64a0d666c0",
+      "size_bytes": 33,
+      "sha256": "6d2d285f9bfa4b61f9eb6cbf692abd4bdd88003cc95414a176ad091ea9c2589e"
+    },
+    {
+      "path": ".ocamlformat",
+      "mode": "100644",
+      "git_blob_sha1": "3b217634ab752bf7b6ad79258d5d0088d0cb4a8f",
+      "size_bytes": 19,
+      "sha256": "7d98893c47c581cba6938b2ac19d30ba6f819b9110e46c996c2a2ce2cbbd24ac"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "git_blob_sha1": "45e1a22b9b3ce71c02a5169a1dce909f9c032b61",
+      "size_bytes": 2312,
+      "sha256": "39fc6d18ecf74db89a48c3260ea7a10e3a178251a7c1b62cfe3c2a633597a904"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "git_blob_sha1": "cb7afe58fa6a98b61f7a572e3318b98c28f91955",
+      "size_bytes": 1120,
+      "sha256": "92cd3e89e1331afd684eef3d4e98c3e53259f572cc57667b63da223f61ecbc84"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_blob_sha1": "171eb3d3fe482f59bc204fb7e897e25a47da0adc",
+      "size_bytes": 755,
+      "sha256": "4ea7e74010f0be3a7fa8643a59d29b2e54cff44be4b6677f39691a084707e065"
+    },
+    {
+      "path": "socratic-tutor/SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "93bb7befeb73c41b4354175f9ef765547d4f3506",
+      "size_bytes": 5243,
+      "sha256": "9190b68440ad99be4d865c63b87939f23a362efac0776c5a67c93d1498bb5e37"
+    }
+  ]
+}

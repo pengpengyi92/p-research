@@ -1,5 +1,16 @@
 # Changelog
 
+## [Unreleased] - 2026-11-13
+
+### Added
+
+- Exact six-file Jane Street agent_skills snapshot, pinned to 7c6715c, under
+  skills/jane-street-socratic-tutor/upstream; MIT copyright/license retained.
+- Chinese origin, meaning, usage, safety and evaluation documentation; Git
+  tree/blob and SHA-256 manifest, offline verifier and 13 integrity tests.
+- No model or learning-effectiveness claim; no global skill installation,
+  survey/corpus changes, or root package version bump.
+
 ## [0.2.0] - 2026-08-18
 
 ### Added

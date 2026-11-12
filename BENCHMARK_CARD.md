@@ -1,5 +1,9 @@
 # P-Research Additive Import Benchmark
 
+The independent [Python/SQL repository-selection benchmark](docs/research/2026-11-13-quant-python-sql-repos/BENCHMARK_CARD.md)
+records ten primary-source comparisons and actual PyPika base/head evidence.
+It does not change the corpus/harness or measure learning/trading returns.
+
 Baseline -> Change -> Measure -> Result -> Trade-off -> Next Action for the
 current material import is maintained in
 [Jane Street Socratic Tutor](skills/jane-street-socratic-tutor/BENCHMARK_CARD.md).

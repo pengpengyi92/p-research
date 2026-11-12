@@ -1,0 +1,59 @@
+{
+  "started_at_utc": "2026-11-12T16:57:30.064721+00:00",
+  "finished_at_utc": "2026-11-12T16:57:40.523924+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "head": "773736f13e7c02036f5b735447ffd096c4873a08",
+  "exit_code": 0,
+  "output_sha256": "afd0226cd5e9bb929e165db8b70f24e03ce3ef23ea3b9c535d402f392867146c",
+  "command": "python -X utf8 -m unittest discover -s tests",
+  "passed": 67,
+  "failed": 0,
+  "skipped": 0,
+  "worktree_scope": "base HEAD plus additive guide/catalogue tests; no survey/core/harness edits",
+  "prior_failure": "sandbox run: 67 tests, 15 temporary-directory permission errors; host rerun same tree passed",
+  "warning": "ResourceWarning unclosed ssl.SSLSocket observed; not treated as a failed assertion",
+  "redactions": [
+    "absolute host paths",
+    "temp output paths",
+    "raw private receipt"
+  ],
+  "input_files": [
+    {
+      "path": "BENCHMARK_CARD.md",
+      "size": 1105,
+      "sha256": "e055cf6093f4fed8f5038685b3fc29df7945638c6459eb0b54a5fb0b21f3f57e"
+    },
+    {
+      "path": "README.md",
+      "size": 6364,
+      "sha256": "86c209e4825105e7b8a00bee89961ba4a9b7e54b6fa934b46aec375352c66cc6"
+    },
+    {
+      "path": "REPOSITORY_SOURCES.json",
+      "size": 6570,
+      "sha256": "1edf6ca3e395e1f23ff735b1c1c4c8f58c65d5106f3fa42e51c171b2400e120b"
+    },
+    {
+      "path": "SOURCES.md",
+      "size": 2734,
+      "sha256": "8f508de1efd8576257e52440931435cd81b4185431c9faa3be231d8bf2c44642"
+    },
+    {
+      "path": "TRAINING_PLAN.md",
+      "size": 3258,
+      "sha256": "ad9724af72ececd70e911584b7b78f33e9eee3c44d1103e374a5ac1a173d459e"
+    },
+    {
+      "path": "VALIDATION.md",
+      "size": 3206,
+      "sha256": "96e0b81af3d8efcf77db81e35dd4b379a32d21b40882b357cb6d3858e450408a"
+    },
+    {
+      "path": "tests/test_quant_python_sql_catalogue.py",
+      "relative_to": "repository_root",
+      "size": 2018,
+      "sha256": "616f2bb714f139e8bb072ffe0935c2c4ac7112faaed301d6b63a5ec24d2d25a4"
+    }
+  ]
+}

@@ -4,6 +4,10 @@
 
 ### Added
 
+- Quant Python/SQL ten-repo public guide, dated metadata, primary sources,
+  validation/failure ledger and falsifiable training protocol; PyPika PR3559.
+- Five offline catalogue-integrity tests, separate from upstream software tests.
+
 - Exact six-file Jane Street agent_skills snapshot, pinned to 7c6715c, under
   skills/jane-street-socratic-tutor/upstream; MIT copyright/license retained.
 - Chinese origin, meaning, usage, safety and evaluation documentation; Git

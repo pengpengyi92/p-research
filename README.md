@@ -55,6 +55,13 @@ commit/tree/blob identities and an offline integrity verifier. It is not an
 official collaboration, a trained model or a global skill installation.
 Learning effectiveness and model behavior are **UNMEASURED**.
 
+## Quant Python / SQL Repository Guide
+
+[Ten quant-relevant Python / SQL repositories](docs/research/2026-11-13-quant-python-sql-repos/README.md):
+DuckDB/Ibis and query tooling versus Backtrader/bt/Qlib; primary sources,
+license limits, a fixed learning protocol, and PyPika PR3559 with actual
+base/head SQLite regressions. Public software research only, not trading alpha.
+
 ## New Research Proposal
 
 [VideoRAG / AudioRAG: timestamp-grounded summaries and Q&A](docs/research/2026-11-12-videorag-audiorag-agenda.md) — a 2026-11-12 proposal for learning from video/audio with verifiable evidence. Transcript and visual baselines, whole-video coverage and retrieval Q&A are evaluated separately. This is a research agenda, not an implemented feature or a corpus-verified result.

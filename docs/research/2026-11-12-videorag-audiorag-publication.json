@@ -1,0 +1,56 @@
+{
+  "started_at": "2026-11-12T14:00:26+08:00",
+  "observed_at": "2026-11-12T14:05:55.253157+08:00",
+  "repository": "pengpengyi92/p-research",
+  "public": true,
+  "author_login": "pengpengyi92",
+  "issue": {
+    "author": {
+      "id": "MDQ6VXNlcjc0OTE3Mjk2",
+      "is_bot": false,
+      "login": "pengpengyi92",
+      "name": "PP1"
+    },
+    "createdAt": "2026-11-12T06:05:44Z",
+    "number": 22,
+    "state": "OPEN",
+    "title": "[Research] VideoRAG / AudioRAG: 带时间戳证据的视频与音频总结 MVP",
+    "url": "https://github.com/pengpengyi92/p-research/issues/22"
+  },
+  "discussion": {
+    "number": 23,
+    "title": "VideoRAG / AudioRAG: 把视频与音频变成可检索、可回看验证的研究资料",
+    "url": "https://github.com/pengpengyi92/p-research/discussions/23",
+    "createdAt": "2026-11-12T06:05:46Z",
+    "author": {
+      "login": "pengpengyi92"
+    },
+    "category": {
+      "name": "Ideas"
+    }
+  },
+  "source_checks": [
+    "HKUDS/VideoRAG official repo and algorithm README",
+    "arXiv 2502.01549 (entry/abstract only)",
+    "HKUDS VideoRAG LICENSE including third-party model boundaries",
+    "HKUDS/RAG-Anything official repo",
+    "Leon1207/Video-RAG-master and arXiv 2411.13093",
+    "starsuzi/VideoRAG and arXiv 2501.05874"
+  ],
+  "scope": "Research idea, plan and source-level discovery only; not a full-text-verified survey",
+  "experiments": "NOT_RUN",
+  "model_downloads": "NOT_RUN",
+  "paid_api_calls": "NOT_RUN",
+  "upstream_issue_or_pr_created": false,
+  "token_usage": "NOT_MEASURED",
+  "body_sha256": {
+    "docs/research/2026-11-12-videorag-audiorag-agenda.md": "c39c4540edb2b4fecd087d0de7dfa19834ea42a84ad4578c62be5079db3bd9f8",
+    "docs/discussion/2026-11-12-videorag-audiorag-idea.md": "af3428a880f05e874d495a8389ac2683cfd5541c5bdd0626b4035bdfc8f9309f"
+  },
+  "documentation_validation": {
+    "command": "python -X utf8 -m unittest discover -s tests -q",
+    "exit_code": 0,
+    "stdout": "[harness] disciplined: 4/4 passed (PASS) -> C:\\Users\\ROG\\AppData\\Local\\Temp\\tmpzy09d6q1\\sample-disciplined.md\r\n[harness] reckless: 0/4 passed (FAIL) -> C:\\Users\\ROG\\AppData\\Local\\Temp\\tmpzy09d6q1\\sample-reckless.md\r\n[harness] backtrader: 4/4 passed (PASS) -> C:\\Users\\ROG\\AppData\\Local\\Temp\\tmpzy09d6q1\\sample-backtrader.md\r\n[harness] dsh-quant: 4/4 passed (PASS) -> C:\\Users\\ROG\\AppData\\Local\\Temp\\tmpzy09d6q1\\sample-dsh-quant.md\r\n[harness] freqtrade: 3/4 passed (FAIL) -> C:\\Users\\ROG\\AppData\\Local\\Temp\\tmpzy09d6q1\\sample-freqtrade.md\r\n",
+    "stderr": "<frozen _collections_abc>:435: ResourceWarning: unclosed <ssl.SSLSocket [closed] fd=648, family=2, type=1, proto=0>\r\nResourceWarning: Enable tracemalloc to get the object allocation traceback\r\n----------------------------------------------------------------------\r\nRan 49 tests in 9.325s\r\n\r\nOK\r\n"
+  }
+}

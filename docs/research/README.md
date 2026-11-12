@@ -23,6 +23,12 @@ The five capability topics map 1:1 onto the public discussion zones
 [#7 Eval](https://github.com/pengpengyi92/p-research/discussions/7)) — join a
 zone to discuss, question, or challenge a note.
 
+## Research Proposals
+
+Manually curated ideas and source-level feasibility notes, separate from the corpus-generated series above. These are not full-text-verified surveys or completed experiments.
+
+- [VideoRAG / AudioRAG: timestamp-grounded summaries and Q&A](2026-11-12-videorag-audiorag-agenda.md) — official project map, transcript/visual ablations, evaluation criteria, privacy and model-license boundaries. Proposed 2026-11-12; experiments not run.
+
 ## Ecosystem
 
 - [The open quant / trading-agent ecosystem — a cohort map for the Quant×AI harness](2026-08-23-open-quant-ecosystem.md) — who builds the agent loop, who builds the risk layer, and which open projects are feasible to evaluate.

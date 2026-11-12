@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "artifact_id": "P-RESEARCH-SYN-PIT-001",
+  "artifact_version": "0.1.0",
+  "status": "ACCEPTED_SYNTHETIC_RESEARCH_ENGINEERING",
+  "source_repository": "pengpengyi92/p-research",
+  "source_path": "examples/duckdb_pit_research/",
+  "base_commit": "8412aa3811a27ef3e08d501dd8c34ab7ce007af2",
+  "tested_source_commit": "0ea3421549e6cccd044af29c2d144e7459e7e76c",
+  "environment": {
+    "python": "3.12.14",
+    "duckdb": "2.0.0",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "fixture": {
+    "name": "synthetic_v1.json",
+    "byte_sha256": "b1b4553c781ffd4c2eb6a10e37cb796c91603d5d187f7957f192ab391ef8ac03",
+    "canonical_sha256": "5d7ea8c851dec37c9977da0bf4b677b92f6198355daafa22e793b1eb21b6aa11",
+    "class": "SYNTHETIC_ONLY"
+  },
+  "result_sha256": "ea9bb96579116a1f4f1b9f889aecd02f36c7502b56012341f4b0043323bad516",
+  "local_tests": {
+    "example": 48,
+    "core_without_duckdb": 71,
+    "tutor_subset_of_core": 13,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "remote_ci": "NOT_RUN"
+  },
+  "evidence": {
+    "snapshots": 16,
+    "labels": 24,
+    "wrong_queries_detected": 5,
+    "future_cutoffs_checked": 6,
+    "independent_data_and_label_implementations": true,
+    "shared_accounting": true
+  },
+  "documents": [
+    "docs/PROJECT_GUIDE.md",
+    "docs/TESTING_AND_DEBUGGING.md",
+    "docs/UPGRADE.md"
+  ],
+  "privacy": "OWNER_AUTHORIZED_PUBLIC_SYNTHETIC_ONLY",
+  "registration": "LOCAL_ARTIFACT_CARD_NOT_REGISTRATION_IN_OTHER_REPOSITORIES",
+  "gates": {
+    "G0": "PASS_PUBLIC_SYNTHETIC_SCOPE",
+    "G1": "PASS_ENGINEERING_SCOPE",
+    "G2": "PASS",
+    "G3": "PASS",
+    "G4": "PASS_LOCAL_ONLY",
+    "G5": "NOT_MET",
+    "G6": "NO_GO",
+    "G7": "PARTIAL_NOT_ASSESSED"
+  },
+  "tutor": {
+    "upstream_commit": "7c6715c29548a3b39d4a9545c698ee4fd17a7213",
+    "tree": "6dd590cb153ac1e0073914cb2e89029d9fdef04e",
+    "files_unchanged": 6,
+    "learning_effect": "UNMEASURED",
+    "learner_assessment": "NOT_RUN"
+  },
+  "restrictions": [
+    "SYNTHETIC_ONLY",
+    "NO_REAL_OOS_CLAIM",
+    "NO_LIVE_PNL",
+    "NO_TRADING",
+    "NO_LEARNER_RESPONSE_PUBLICATION"
+  ]
+}

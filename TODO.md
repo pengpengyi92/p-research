@@ -5,7 +5,8 @@
 - [x] P0: implement frozen input, strict contracts and independent SQL/reference.
 - [x] P0: five wrong-query controls, future/label isolation, costs and purged split.
 - [x] P0: three EADB documents and fixed, attributed Socratic diagnostic pack.
-- [ ] P0: final source-pinned reproduction, output receipts and GitHub readback.
+- [x] P0: source-pinned reproduction and byte-identical deterministic outputs.
+- [ ] P0: authorized GitHub publication/readback.
 - [ ] P1: conduct an actual learner diagnostic; no unobserved mastery grades.
 - [ ] P1: predeclare a second fixture, not tune the current negative outcome.
 

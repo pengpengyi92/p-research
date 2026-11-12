@@ -1,0 +1,52 @@
+{
+  "artifact_version": "0.1.0",
+  "started_at_utc": "2026-11-12T17:29:07.524930+00:00",
+  "finished_at_utc": "2026-11-12T17:29:08.728592+00:00",
+  "wall_seconds_observed_single_run": 1.2041085000000749,
+  "git": {
+    "head": "0ea3421549e6cccd044af29c2d144e7459e7e76c",
+    "dirty": false,
+    "note": "Source HEAD and content hashes at run time; output receipt commit is separate"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "duckdb": "2.0.0",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "connection": {
+    "threads": 1,
+    "memory_limit": "128MB",
+    "external_access": false,
+    "process_rss": "UNMEASURED; memory_limit is not a process-RSS cap"
+  },
+  "input": {
+    "name": "synthetic_v1.json",
+    "byte_sha256": "b1b4553c781ffd4c2eb6a10e37cb796c91603d5d187f7957f192ab391ef8ac03",
+    "canonical_sha256": "5d7ea8c851dec37c9977da0bf4b677b92f6198355daafa22e793b1eb21b6aa11",
+    "class": "SYNTHETIC_ONLY"
+  },
+  "code_sha256": {
+    "model.py": "b02ab88e9115a9541e99e30210f922523f2ac0b28eb84244076f9e21ab8e121d",
+    "duckdb_backend.py": "9d1c4af1e248a6cf7726f16ae36fa76a6162ddd5d3d7db659c543399a741a9a2",
+    "fixtures.py": "0e236580ca469c14e9403c6949e8117bcb372f2de3a44dd09858dafc1abe69d1",
+    "run.py": "155255a756bea4e73c4be3c03df3a0b370242f9dea18d7a2d2716fd055124d47",
+    "requirements.txt": "1f9a92ef51edc29c95bd22976bce0a1269317c1d0f7316cac04b080205112a22",
+    "verify_run.py": "c72830e4ab06171c1a7de64169ae69e48eb9c0dcc76ff5cb9f178a040e424f43",
+    "sql/labels.sql": "609f78b94edd8f73f202b740f7d3bbdb555bc4f92bbe8359287083d3bf1c1866",
+    "sql/snapshots.sql": "f17dc182a12f28207bbb868dd57027583f47d8cb28512f9bba206523a5a0ef19"
+  },
+  "parameters": {
+    "cost_bps_per_side": 7.0,
+    "top_k": 1,
+    "embargo_minutes": 60
+  },
+  "run_command": "python -m examples.duckdb_pit_research.run --output <fresh-directory>",
+  "results_sha256": "ea9bb96579116a1f4f1b9f889aecd02f36c7502b56012341f4b0043323bad516",
+  "rights": "Original synthetic fixture; no market/vendor/private data",
+  "scientific_validity": "NOT MET",
+  "production": "NO_GO",
+  "output_sha256": {
+    "RESULTS.json": "ea9bb96579116a1f4f1b9f889aecd02f36c7502b56012341f4b0043323bad516",
+    "RESEARCH_REPORT.md": "f33ca5b0f5ee419d14c24b33a1c6152d5c47fab0698f7f68b43e0b5bc199741a"
+  }
+}

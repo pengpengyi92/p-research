@@ -1,0 +1,28 @@
+{
+  "git": {
+    "head": "0ea3421549e6cccd044af29c2d144e7459e7e76c",
+    "dirty_before": false,
+    "dirty_after_test_before_receipt": false
+  },
+  "input_fixture_sha256": "b1b4553c781ffd4c2eb6a10e37cb796c91603d5d187f7957f192ab391ef8ac03",
+  "test_sources_sha256": {
+    "examples/duckdb_pit_research/tests/test_research.py": "3e56b5721a02b20988f2416b0593460c5e0746c475464d29af67fc3d74c1639b"
+  },
+  "started_at_utc": "2026-11-12T17:28:47.055631+00:00",
+  "finished_at_utc": "2026-11-12T17:28:56.827182+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "duckdb": "2.0.0",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "command": "python -X utf8 -m unittest discover -s examples/duckdb_pit_research/tests -v",
+  "exit_code": 0,
+  "total": 48,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 48,
+  "observed_summary": "OK",
+  "log_sha256": "b2ed2b143c7167a10415eca8701a84007be28203ed6499dd48cdd85359e62c29",
+  "redactions": "repo, interpreter, temporary and host paths replaced; no private raw logs published"
+}

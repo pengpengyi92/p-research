@@ -1,0 +1,53 @@
+test_aware_timezone_offsets_normalize_to_utc (test_research.PITResearchTests.test_aware_timezone_offsets_normalize_to_utc) ... ok
+test_cash_exposure_turnover_and_cost_are_zero (test_research.PITResearchTests.test_cash_exposure_turnover_and_cost_are_zero) ... ok
+test_cli_missing_input_fails_with_exit_two (test_research.PITResearchTests.test_cli_missing_input_fails_with_exit_two) ... ok
+test_deterministic_end_to_end_results (test_research.PITResearchTests.test_deterministic_end_to_end_results) ... ok
+test_duplicate_feature_key_rejected (test_research.PITResearchTests.test_duplicate_feature_key_rejected) ... ok
+test_duplicate_open_rejected (test_research.PITResearchTests.test_duplicate_open_rejected) ... ok
+test_dynamic_membership_and_unannounced_addition (test_research.PITResearchTests.test_dynamic_membership_and_unannounced_addition) ... ok
+test_eadb_three_documents_exist (test_research.PITResearchTests.test_eadb_three_documents_exist) ... ok
+test_event_time_only_mutation_detected (test_research.PITResearchTests.test_event_time_only_mutation_detected) ... ok
+test_exact_availability_boundary_is_inclusive (test_research.PITResearchTests.test_exact_availability_boundary_is_inclusive) ... ok
+test_external_access_disabled (test_research.PITResearchTests.test_external_access_disabled) ... ok
+test_fill_must_be_strictly_after_decision (test_research.PITResearchTests.test_fill_must_be_strictly_after_decision) ... ok
+test_frozen_fixture_matches_generator (test_research.PITResearchTests.test_frozen_fixture_matches_generator) ... ok
+test_future_data_invariance_for_every_cutoff (test_research.PITResearchTests.test_future_data_invariance_for_every_cutoff) ... ok
+test_future_membership_mutation_detected (test_research.PITResearchTests.test_future_membership_mutation_detected) ... ok
+test_future_revision_does_not_replace_known_original (test_research.PITResearchTests.test_future_revision_does_not_replace_known_original) ... ok
+test_global_latest_before_asof_mutation_detected (test_research.PITResearchTests.test_global_latest_before_asof_mutation_detected) ... ok
+test_hand_computed_golden_signal_and_missing_value (test_research.PITResearchTests.test_hand_computed_golden_signal_and_missing_value) ... ok
+test_higher_cost_never_improves_same_book (test_research.PITResearchTests.test_higher_cost_never_improves_same_book) ... ok
+test_invalid_availability_order_rejected (test_research.PITResearchTests.test_invalid_availability_order_rejected) ... ok
+test_invalid_price_values_rejected (test_research.PITResearchTests.test_invalid_price_values_rejected) ... ok
+test_labels_cannot_change_features (test_research.PITResearchTests.test_labels_cannot_change_features) ... ok
+test_late_bar_is_not_backfilled (test_research.PITResearchTests.test_late_bar_is_not_backfilled) ... ok
+test_market_session_not_latest_arrival_defines_lookback (test_research.PITResearchTests.test_market_session_not_latest_arrival_defines_lookback) ... ok
+test_membership_revision_order_uses_normalized_instants (test_research.PITResearchTests.test_membership_revision_order_uses_normalized_instants) ... ok
+test_missing_price_label_is_not_zero_return (test_research.PITResearchTests.test_missing_price_label_is_not_zero_return) ... ok
+test_naive_timestamp_rejected (test_research.PITResearchTests.test_naive_timestamp_rejected) ... ok
+test_negative_synthetic_outcome_is_preserved (test_research.PITResearchTests.test_negative_synthetic_outcome_is_preserved) ... ok
+test_nonfinite_or_negative_cost_rejected (test_research.PITResearchTests.test_nonfinite_or_negative_cost_rejected) ... ok
+test_nonpositive_nav_is_rejected_not_compounded (test_research.PITResearchTests.test_nonpositive_nav_is_rejected_not_compounded) ... ok
+test_ordering_of_input_rows_is_irrelevant (test_research.PITResearchTests.test_ordering_of_input_rows_is_irrelevant) ... ok
+test_output_pack_hash_and_no_overwrite (test_research.PITResearchTests.test_output_pack_hash_and_no_overwrite) ... ok
+test_positive_signal_tie_break_is_deterministic (test_research.PITResearchTests.test_positive_signal_tie_break_is_deterministic) ... ok
+test_publication_only_mutation_detected (test_research.PITResearchTests.test_publication_only_mutation_detected) ... ok
+test_purge_and_embargo_prevent_train_oos_overlap (test_research.PITResearchTests.test_purge_and_embargo_prevent_train_oos_overlap) ... ok
+test_revision_arrival_cannot_go_backwards (test_research.PITResearchTests.test_revision_arrival_cannot_go_backwards) ... ok
+test_run_byte_integrity_verifier (test_research.PITResearchTests.test_run_byte_integrity_verifier) ... ok
+test_schema_missing_and_extra_field_rejected (test_research.PITResearchTests.test_schema_missing_and_extra_field_rejected) ... ok
+test_seed_type_is_explicit (test_research.PITResearchTests.test_seed_type_is_explicit) ... ok
+test_shifted_label_horizon_rejected (test_research.PITResearchTests.test_shifted_label_horizon_rejected) ... ok
+test_sql_python_forward_label_equivalence (test_research.PITResearchTests.test_sql_python_forward_label_equivalence) ... ok
+test_sql_python_snapshot_equivalence (test_research.PITResearchTests.test_sql_python_snapshot_equivalence) ... ok
+test_tampered_human_report_rejected (test_research.PITResearchTests.test_tampered_human_report_rejected) ... ok
+test_tampered_result_bytes_rejected (test_research.PITResearchTests.test_tampered_result_bytes_rejected) ... ok
+test_tutor_diagnostic_is_question_only_and_one_at_a_time (test_research.PITResearchTests.test_tutor_diagnostic_is_question_only_and_one_at_a_time) ... ok
+test_tutor_does_not_invent_observed_mastery (test_research.PITResearchTests.test_tutor_does_not_invent_observed_mastery) ... ok
+test_unknown_mutation_rejected (test_research.PITResearchTests.test_unknown_mutation_rejected) ... ok
+test_zero_signals_take_no_position (test_research.PITResearchTests.test_zero_signals_take_no_position) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 9.383s
+
+OK

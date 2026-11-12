@@ -42,3 +42,19 @@ publication receipts pin their remote Git identities separately.
 
 Scientific validity NOT MET; production NO-GO. Negative toy net return retained;
 Sharpe NOT IDENTIFIABLE; Tutor learner evaluation and delayed recall NOT RUN.
+
+## Sealed source reproduction
+
+Actual source commit: `0ea3421549e6cccd044af29c2d144e7459e7e76c`.
+Both48example and71core tests rerun on this clean tree (before and after tests);
+the core interpreter has no DuckDB. Separate13Tutor integrity checks PASS and
+remain a subset, not additional unique core tests. Exact final receipts:
+verification/example-committed.json, core-committed-stdlib.json and
+tutor-committed.json. Fixture/test source hashes are recorded in each receipt.
+
+Two complete CLI executions began on that clean source and produced identical
+RESULTS.json bytes. REPRODUCTION.json records the SHA and comparison; manifests
+retain differing timestamps/walltime, as expected. The stdlib-only output verifier
+passed eight source hashes, fixture hashes and two output hashes. No cross-platform
+or external financial replication is implied. Final source/outputs remain public
+synthetic scope; remote publication/readback is a separate delivery event.

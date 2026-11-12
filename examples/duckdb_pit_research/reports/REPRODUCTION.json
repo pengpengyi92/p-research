@@ -1,0 +1,12 @@
+{
+  "status": "PASS_BYTE_IDENTICAL_RESULTS",
+  "source_head": "0ea3421549e6cccd044af29c2d144e7459e7e76c",
+  "both_source_trees_clean_at_run_start": true,
+  "result_sha256": "ea9bb96579116a1f4f1b9f889aecd02f36c7502b56012341f4b0043323bad516",
+  "repetitions": 2,
+  "code_files": 8,
+  "fixture_byte_sha256": "b1b4553c781ffd4c2eb6a10e37cb796c91603d5d187f7957f192ab391ef8ac03",
+  "fixture_canonical_sha256": "5d7ea8c851dec37c9977da0bf4b677b92f6198355daafa22e793b1eb21b6aa11",
+  "runtime_manifest_timestamps_are_not_expected_identical": true,
+  "limits": "Two runs of one frozen synthetic fixture, not independent economic replication"
+}

@@ -1,0 +1,10 @@
+[harness] disciplined: 4/4 passed (PASS) -> [TEMP]\tmpfuxiq5vy\sample-disciplined.md
+[harness] reckless: 0/4 passed (FAIL) -> [TEMP]\tmpfuxiq5vy\sample-reckless.md
+[harness] backtrader: 4/4 passed (PASS) -> [TEMP]\tmpfuxiq5vy\sample-backtrader.md
+[harness] dsh-quant: 4/4 passed (PASS) -> [TEMP]\tmpfuxiq5vy\sample-dsh-quant.md
+[harness] freqtrade: 3/4 passed (FAIL) -> [TEMP]\tmpfuxiq5vy\sample-freqtrade.md
+.......................................................................
+----------------------------------------------------------------------
+Ran 71 tests in 0.639s
+
+OK

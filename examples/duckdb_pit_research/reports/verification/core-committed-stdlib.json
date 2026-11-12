@@ -1,0 +1,32 @@
+{
+  "git": {
+    "head": "0ea3421549e6cccd044af29c2d144e7459e7e76c",
+    "dirty_before": false,
+    "dirty_after_test_before_receipt": false
+  },
+  "input_fixture_sha256": "b1b4553c781ffd4c2eb6a10e37cb796c91603d5d187f7957f192ab391ef8ac03",
+  "test_sources_sha256": {
+    "tests/test_core.py": "79d96d089ab9be4074014c7763d2191eb8d0fe7bfa8f780f231d8937d0621502",
+    "tests/test_duckdb_pit_reference.py": "3154f12db3dab91a80e9b141c944a03b69fd3a6cfe348d973b2a2c29ef0b17dd",
+    "tests/test_harness.py": "05376de68cc8978ae2cc2d3495c7a1c65643f560cc3cdaace30f4eacb7b8e0f2",
+    "tests/test_jane_street_socratic_tutor.py": "5b56adfb583fe5e6fff3c126e10e02200d750f27173c1682f87abf038fab288c",
+    "tests/test_quant_python_sql_catalogue.py": "616f2bb714f139e8bb072ffe0935c2c4ac7112faaed301d6b63a5ec24d2d25a4"
+  },
+  "started_at_utc": "2026-11-12T17:28:59.899494+00:00",
+  "finished_at_utc": "2026-11-12T17:29:00.806438+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "duckdb": "NOT_INSTALLED",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "command": "python -X utf8 -m unittest discover -s tests",
+  "exit_code": 0,
+  "total": 71,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 71,
+  "observed_summary": "OK",
+  "log_sha256": "0728c1acd655fe5e91da3d5a7589b4699e1e1d76fc4f711fd73417da9df34303",
+  "redactions": "repo, interpreter, temporary and host paths replaced; no private raw logs published"
+}

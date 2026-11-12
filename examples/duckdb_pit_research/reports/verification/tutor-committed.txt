@@ -1,0 +1,18 @@
+test_changed_skill_is_rejected (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_changed_skill_is_rejected) ... ok
+test_duplicate_manifest_entry_is_rejected (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_duplicate_manifest_entry_is_rejected) ... ok
+test_exact_snapshot (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_exact_snapshot) ... ok
+test_executable_mode_is_not_silently_accepted (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_executable_mode_is_not_silently_accepted) ... ok
+test_extra_file_is_rejected (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_extra_file_is_rejected) ... ok
+test_git_empty_blob_golden (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_git_empty_blob_golden) ... ok
+test_git_empty_tree_golden (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_git_empty_tree_golden) ... ok
+test_license_preserves_jane_street_copyright (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_license_preserves_jane_street_copyright) ... ok
+test_missing_license_is_rejected (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_missing_license_is_rejected) ... ok
+test_nested_git_metadata_is_rejected (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_nested_git_metadata_is_rejected) ... ok
+test_path_escape_is_rejected (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_path_escape_is_rejected) ... ok
+test_pinned_origin (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_pinned_origin) ... ok
+test_tree_order_is_canonical (test_jane_street_socratic_tutor.JaneStreetSnapshotTests.test_tree_order_is_canonical) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.033s
+
+OK

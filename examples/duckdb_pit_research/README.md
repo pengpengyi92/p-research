@@ -79,6 +79,10 @@ lots, limits and market impact are NOT IMPLEMENTED/NOT RUN.
   human mastery and tutor effectiveness remain **UNMEASURED**.
 
 Observed test receipts are in [reports/verification](reports/verification/).
-The final fixed run is in `reports/reference_run/` once generated from the
-committed source. Exact source commit, environment, input/code/output hashes
+The [fixed run](reports/reference_run/RESEARCH_REPORT.md) is generated from the
+committed source; [reproduction receipt](reports/REPRODUCTION.json) confirms two
+byte-identical result files. Exact source commit, environment, input/code/output hashes
 belong to its manifest; do not confuse artifact publication with validation.
+
+[Machine EADB card](EADB_CARD.json): local engineering acceptance only;
+scientific/economic validity NOT MET, production NO-GO and learning UNMEASURED.

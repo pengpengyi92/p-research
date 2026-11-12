@@ -6,7 +6,7 @@
 - [x] P0: five wrong-query controls, future/label isolation, costs and purged split.
 - [x] P0: three EADB documents and fixed, attributed Socratic diagnostic pack.
 - [x] P0: source-pinned reproduction and byte-identical deterministic outputs.
-- [ ] P0: authorized GitHub publication/readback.
+- [x] P0: authorized GitHub publication/readback; exact receipts in example reports.
 - [ ] P1: conduct an actual learner diagnostic; no unobserved mastery grades.
 - [ ] P1: predeclare a second fixture, not tune the current negative outcome.
 

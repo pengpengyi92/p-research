@@ -86,3 +86,5 @@ belong to its manifest; do not confuse artifact publication with validation.
 
 [Machine EADB card](EADB_CARD.json): local engineering acceptance only;
 scientific/economic validity NOT MET, production NO-GO and learning UNMEASURED.
+[Verified GitHub delivery](reports/PUBLICATION.md) pins the actual source,
+content commit, tree and result blob rather than equating a local run with upload.

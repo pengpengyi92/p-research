@@ -18,3 +18,7 @@ unchanged. Human diagnostic/mastery/delayed recall NOT RUN, no learner data stor
 
 Publication is separate from the observed test/run evidence; the final delivery
 receipt records actual remote identity after a successful authorized push.
+
+Content73174c6 pushed to main and read back; full tree and result blob match.
+[Exact publication receipt](../examples/duckdb_pit_research/reports/PUBLICATION.md).
+This receipt-only follow-up does not modify the tested logic or frozen fixture.

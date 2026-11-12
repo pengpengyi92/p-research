@@ -36,7 +36,11 @@ pass and are not measurements of this tutor.
 - [Exact file/blob/SHA-256 manifest](SOURCE_MANIFEST.json).
 - Canonical upstream bytes were extracted using git archive from the fixed
   source checkout. The surrounding .gitattributes disables normalization for
-  upstream files. The staged and final Git subtree are checked separately.
+  upstream files. The staged and remote Git subtrees both equal the source
+  root tree. Remote SKILL.md is5243 bytes with exact source blob93bb7bef.
+- [Observed import/remote receipt](IMPORT_RECEIPT.json) identifies the verified
+  content commit44d61e8 and OPEN [PR24](https://github.com/pengpengyi92/p-research/pull/24).
+  It is a reviewed-branch delivery, not a merged main-branch release.
 
 The manifest and this report contain public repository identities only, not
 host paths, private PPRT notes, credentials or raw personal transcripts.

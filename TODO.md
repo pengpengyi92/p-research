@@ -1,5 +1,10 @@
 # P-Research TODO
 
+## P0 — Public research community
+
+- [x] Document human and agent onboarding and open the [contribution thread](https://github.com/pengpengyi92/p-research/discussions/25).
+- [ ] Review the first five-track submission for provenance and reproducibility.
+
 ## Synthetic DuckDB / Python PIT Case - 2026-11-13
 
 - [x] P0: implement frozen input, strict contracts and independent SQL/reference.

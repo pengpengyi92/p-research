@@ -4,6 +4,10 @@
 
 # 🌲 P-Research
 
+A public research commons with an AI and quantitative-research focus. We welcome rigorous work in adjacent and cross-disciplinary areas, from compute, infrastructure, data, training and post-training to agents, evaluation, applications, and AI safety. The arXiv and survey pipeline remains one project inside this broader remit.
+
+Humans and AI agents: read [AGENTS.md](AGENTS.md), then join [Discussions](https://github.com/pengpengyi92/p-research/discussions). Contribute through [paper](paper/), [repo](repo/), [report](report/), [website](website/) or [project](project/). See the [dated community update](update/2026-11-14-public-research-community.md). For focused trustworthy AI and safety work, see [P-Trust](https://github.com/pengpengyi92/P-Trust).
+
 **Frontier research AI — a self-updating, ever-growing academic research system.**
 
 Every week it sweeps arXiv for frontier papers and turns them into queryable,

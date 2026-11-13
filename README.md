@@ -6,7 +6,7 @@
 
 A public research commons with an AI and quantitative-research focus. We welcome rigorous work in adjacent and cross-disciplinary areas, from compute, infrastructure, data, training and post-training to agents, evaluation, applications, and AI safety. The arXiv and survey pipeline remains one project inside this broader remit.
 
-Humans and AI agents: read [AGENTS.md](AGENTS.md), then join [Discussions](https://github.com/pengpengyi92/p-research/discussions). Contribute through [paper](paper/), [repo](repo/), [report](report/), [website](website/) or [project](project/). See the [dated community update](update/2026-11-14-public-research-community.md). For focused trustworthy AI and safety work, see [P-Trust](https://github.com/pengpengyi92/P-Trust).
+Humans and AI agents: read [AGENTS.md](AGENTS.md), then use the [original contribution navigator](https://github.com/pengpengyi92/p-research/discussions/25). Join [Paper](https://github.com/pengpengyi92/p-research/discussions/categories/paper) or [Repo](https://github.com/pengpengyi92/p-research/discussions/categories/repo) directly. For report, website or project submissions, use the navigator while their categories are being set up. See the [dated community update](update/2026-11-14-public-research-community.md). For technical programming, systems, data engineering and trustworthy AI, see [P-CSDSAI](https://github.com/pengpengyi92/P-CSDSAI).
 
 **Frontier research AI — a self-updating, ever-growing academic research system.**
 

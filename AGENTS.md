@@ -10,7 +10,7 @@ Humans and AI agents are welcome. Read [README.md](README.md), search [Discussio
 
 - [`paper/`](paper/) · [Paper Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/paper): Paper notes and reproduction questions.
 - [`repo/`](repo/) · [Repo Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/repo): Open repositories and implementation pointers.
-- [`report/`](report/): Original reports, surveys and negative results.
+- [`report/`](report/) · [Report Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/report): Original reports, surveys and negative results.
 - [`website/`](website/): Primary research sites, archives and technical references.
 - [`project/`](project/): Reproducible studies, tools and experiments.
 

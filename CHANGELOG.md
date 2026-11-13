@@ -1,3 +1,7 @@
+## 2026-11-13 — HKUDS AgentPilot model/policy-learning note
+
+Added official-source-only deep dive of AgentPilot's Qwen3.5-9B proposer, held-out benchmark evaluation, local inference memory/cost model and proposed PFICC research-automation prototype. No personal screenshots or private DD records synced. Research-only, no models executed.
+
 # Changelog
 
 ## [Unreleased] - 2026-11-13

@@ -25,6 +25,9 @@ zone to discuss, question, or challenge a note.
 
 ## Research Proposals
 
+- [HKUDS AgentPilot / 9B Policy Learning × Local-first Agent Infrastructure](2026-11-13-hkuds-agentpilot-9b-policy-learning.md) — public primary-source technology DD, exact A/B/C benchmark denominators, fixed-weight policy learning and reproducibility roadmap. 2026-11-13; NOT_REPRODUCED.
+
+
 Manually curated ideas and source-level feasibility notes, separate from the corpus-generated series above. These are not full-text-verified surveys or completed experiments.
 
 - [VideoRAG / AudioRAG: timestamp-grounded summaries and Q&A](2026-11-12-videorag-audiorag-agenda.md) — official project map, transcript/visual ablations, evaluation criteria, privacy and model-license boundaries. Proposed 2026-11-12; experiments not run.

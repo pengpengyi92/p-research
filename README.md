@@ -1,3 +1,7 @@
+## 2026-11-13 — HKUDS AgentPilot 9B Policy Learning DD
+
+[**Full technical research note**](docs/research/2026-11-13-hkuds-agentpilot-9b-policy-learning.md) — Qwen3.5-9B strategy proposer, UCB/Textual policy learning, held-out C benchmark reconciliation, VRAM/token economics, and a read-only local-first PFICC automation research proposal. Independent experiments NOT_RUN; private interactions excluded.
+
 # 🌲 P-Research
 
 **Frontier research AI — a self-updating, ever-growing academic research system.**

@@ -33,6 +33,7 @@ GitHub's license signal is not a rights determination. Check upstream terms for 
 
 ## Discuss and contribute
 
+- [Discuss LLMQuant (#26)](https://github.com/pengpengyi92/p-research/discussions/26) to share what you tried, ask a question, or suggest a correction to this guide.
 - Use [P-Research Repo Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/repo) to share a finding or correct the catalog. Include the upstream URL, pinned commit or release when relevant, what you checked, and any limitations.
 - For fixes to an upstream project, follow the contribution guidance in that LLMQuant repository. Use the community sign-up on the official site if you want to join LLMQuant itself.
 - For this index, a focused PR with a primary source and date is welcome. Do not share credentials, private strategy information, or data you cannot redistribute.

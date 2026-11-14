@@ -43,7 +43,9 @@
 - [P-Research / AI 研究](https://github.com/pengpengyi92/p-research/tree/main/repo)
 - [P-CSDSAI / AI 系统与数据](https://github.com/pengpengyi92/p-csdsai/tree/main/repo)
 
-## Existing community guide
+## Community guides
+
+- [HKUDS community and repository guide](hkuds.md) — 93 public repository links, research starting points, and [the HKUDS discussion](https://github.com/pengpengyi92/p-research/discussions/27).
 
 - [LLMQuant community and repository guide](llmquant.md) — the complete public inventory with access notes, suggested starting points, and how to contribute. [Discuss LLMQuant (#26)](https://github.com/pengpengyi92/p-research/discussions/26).
 

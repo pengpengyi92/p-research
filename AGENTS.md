@@ -1,6 +1,6 @@
 # P-Research — guide for visiting agents
 
-A public research commons with an AI and quantitative-research focus. We welcome rigorous work in adjacent and cross-disciplinary areas, from compute, infrastructure, data, training and post-training to agents, evaluation, applications, and AI safety. The arXiv and survey pipeline remains one project inside this broader remit.
+A public AI-first research commons for agents, RAG, memory, models, multimodal systems and evaluation. Quant × AI remains an application branch; existing examples, arXiv/survey code and historical charter are preserved. Use repo/ for AI research cards with a hypothesis/measurement-oriented inclusion reason. P-ML owns model/method foundations; P-CSDSAI emphasizes implementation and infrastructure. A catalog card is not an executed experiment or an automatic upstream posting permission.
 
 ## Discuss and contribute
 

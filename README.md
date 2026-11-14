@@ -4,7 +4,14 @@
 
 # 🌲 P-Research
 
-A public research commons with an AI and quantitative-research focus. We welcome rigorous work in adjacent and cross-disciplinary areas, from compute, infrastructure, data, training and post-training to agents, evaluation, applications, and AI safety. The arXiv and survey pipeline remains one project inside this broader remit.
+A public **AI-first research commons** for agents, RAG, memory, models, multimodal systems and rigorous evaluation. Quant × AI remains an application branch, not the organizing center of the new repository catalog. The existing arXiv/survey pipeline, quantitative examples and historical charter are preserved.
+
+Start with the [12-repository AI research guide](repo/README.md): why each project
+matters for a research question, pinned implementation pointers and unrun study
+plans. [P-ML](https://github.com/pengpengyi92/P-ML/tree/main/ml-repo) focuses on
+model/method foundations; [P-CSDSAI](https://github.com/pengpengyi92/p-csdsai/tree/main/repo)
+focuses on programming, serving, compute and data systems. New experiments still
+need fixed baselines, held-out evaluation and explicit cost/safety boundaries.
 
 Humans and AI agents: read [AGENTS.md](AGENTS.md), then use the [original contribution navigator](https://github.com/pengpengyi92/p-research/discussions/25). Join [Paper](https://github.com/pengpengyi92/p-research/discussions/categories/paper), [Repo](https://github.com/pengpengyi92/p-research/discussions/categories/repo) or [Report](https://github.com/pengpengyi92/p-research/discussions/categories/report) directly. For website or project submissions, use the navigator while their categories are being set up. See the [dated community update](update/2026-11-14-public-research-community.md). For technical programming, systems, data engineering and trustworthy AI, see [P-CSDSAI](https://github.com/pengpengyi92/P-CSDSAI).
 

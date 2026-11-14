@@ -1,0 +1,23 @@
+{
+  "project": "p-research",
+  "observed_date": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "source_base": "c8896abda1449e9bd721a83c36e904ec073c959c",
+  "catalog_sha256": "c48d755960f16348a31b66adc3b6007b790a0e67204546ad6a3bd8869c77dd59",
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.14",
+    "node": "NOT_REQUIRED"
+  },
+  "catalog_check": {
+    "command": "python -m unittest discover -s tests -p test_repo_catalog.py -v",
+    "exit_code": 0,
+    "passed": 10,
+    "failed": 0
+  },
+  "legacy_scope": "目录10项；完整 unittest 81项通过（含原有71项与新增10项），不是91项",
+  "third_party_runtime": "NOT RUN",
+  "learning_and_performance_gains": "UNMEASURED",
+  "remote_ci": "NOT OBSERVED at local acceptance",
+  "publication": "Git commit/push/readback verified separately at handoff"
+}

@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "project": "p-research",
+  "profile": "research",
+  "catalog_root": "repo",
+  "last_reviewed": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "scope": "AI 为主；Agent、RAG、多模态、记忆、模型和研究评价；Quant × AI 保留为应用分支",
+  "complete_ecosystem_inventory": false,
+  "entries": [
+    {
+      "slug": "transformers",
+      "title": "Transformers",
+      "category": "models-and-evaluation",
+      "card": "models-and-evaluation/transformers.md",
+      "summary": "模型接口、训练和文本生成工具。",
+      "inclusion_reason": "把模型接口接到可复现研究假设、生成设置和评估协议，不把一次生成当成结论。",
+      "learning_question": "训练 loss 和生成输出的输入口径是否一致？",
+      "planned_exercise": "先读配置、tokenizer、训练与生成路径，设计 padding/mask 的合成边界用例；模型下载或推理尚未执行。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "huggingface/transformers",
+        "requested_name": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "private": false,
+        "default_branch": "main",
+        "head": "0d7a6219179b24586089ae81b45cf725078e681f",
+        "archived": false,
+        "observed_at": "2026-11-14T15:33:35.091618+08:00",
+        "license_signal": "Apache-2.0",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "src/transformers/trainer.py",
+          "src/transformers/generation/utils.py"
+        ],
+        "missing_candidates": [],
+        "contribution_search": {
+          "query": "repo:huggingface/transformers author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 0,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [],
+        "runtime_evaluation": "NOT RUN in this catalog task"
+      }
+    },
+    {
+      "slug": "datasets",
+      "title": "Datasets",
+      "category": "models-and-evaluation",
+      "card": "models-and-evaluation/datasets.md",
+      "summary": "数据加载、转换、分片与 Arrow 数据集工作流。",
+      "inclusion_reason": "维护研究样本来源和可复现切分，区分数据集许可与加载器代码许可。",
+      "learning_question": "数据转换是否跨越训练/审计边界？",
+      "planned_exercise": "用小型虚构行设计 map/filter 与 split 过程；先确定样本/来源分组，再拟合转换。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "huggingface/datasets",
+        "requested_name": "huggingface/datasets",
+        "url": "https://github.com/huggingface/datasets",
+        "private": false,
+        "default_branch": "main",
+        "head": "efc82474bc990f5872226dca56457536c9a880e9",
+        "archived": false,
+        "observed_at": "2026-11-14T15:33:42.212224+08:00",
+        "license_signal": "Apache-2.0",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "src/datasets/arrow_dataset.py",
+          "src/datasets/load.py"
+        ],
+        "missing_candidates": [],
+        "contribution_search": {
+          "query": "repo:huggingface/datasets author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 0,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [],
+        "runtime_evaluation": "NOT RUN in this catalog task"
+      }
+    },
+    {
+      "slug": "evaluate",
+      "title": "Evaluate",
+      "category": "models-and-evaluation",
+      "card": "models-and-evaluation/evaluate.md",
+      "summary": "指标模块与评估组织工具。",
+      "inclusion_reason": "建立 baseline/candidate、固定 holdout 和评价协议；评估工具本身不保证统计有效性。",
+      "learning_question": "相同预测在不同 averaging 下代表什么？",
+      "planned_exercise": "用手算混淆矩阵对照 accuracy/macro 类指标；记录标签、平均方式、样本权重与不确定性。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "huggingface/evaluate",
+        "requested_name": "huggingface/evaluate",
+        "url": "https://github.com/huggingface/evaluate",
+        "private": false,
+        "default_branch": "main",
+        "head": "a5db2ad54aaeadf15c7aa1f056bc6f7bbeeb7e5f",
+        "archived": false,
+        "observed_at": "2026-11-14T15:33:48.537207+08:00",
+        "license_signal": "Apache-2.0",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "src/evaluate/module.py",
+          "src/evaluate/evaluator/base.py"
+        ],
+        "missing_candidates": [],
+        "contribution_search": {
+          "query": "repo:huggingface/evaluate author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 0,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [],
+        "runtime_evaluation": "NOT RUN in this catalog task"
+      }
+    },
+    {
+      "slug": "lightrag",
+      "title": "LightRAG",
+      "category": "retrieval-and-multimodal",
+      "card": "retrieval-and-multimodal/lightrag.md",
+      "summary": "检索增强生成及图/文本检索相关实现。",
+      "inclusion_reason": "研究检索、知识组织、证据与回答质量的关系，结合实际 parser 贡献案例。",
+      "learning_question": "回答能否追溯到正确检索证据？",
+      "planned_exercise": "先用小型授权文本设计检索命中、证据引用和缺证据拒答对照；不调用收费模型。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "HKUDS/LightRAG",
+        "requested_name": "HKUDS/LightRAG",
+        "url": "https://github.com/HKUDS/LightRAG",
+        "private": false,
+        "default_branch": "main",
+        "head": "3605ac2160929ac5d3ea16cb1e4b18658c89dead",
+        "archived": false,
+        "observed_at": "2026-11-14T15:34:49.45663+08:00",
+        "license_signal": "MIT",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "lightrag/lightrag.py",
+          "lightrag/operate.py"
+        ],
+        "missing_candidates": [],
+        "contribution_search": {
+          "query": "repo:HKUDS/LightRAG author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 8,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/HKUDS/LightRAG/pull/4364",
+            "number": 4364,
+            "title": "fix(parser): recognize entity-only blank HTML table headers",
+            "state": "MERGED",
+            "merged_at": "2026-11-12T15:04:56Z",
+            "author": "pengpengyi92",
+            "updated_at": "2026-11-12T15:04:56Z"
+          },
+          {
+            "url": "https://github.com/HKUDS/LightRAG/pull/3717",
+            "number": 3717,
+            "title": "fix(embeddings): keep provider API keys request-local",
+            "state": "MERGED",
+            "merged_at": "2026-08-24T20:50:47Z",
+            "author": "pengpengyi92",
+            "updated_at": "2026-08-24T20:50:47Z"
+          },
+          {
+            "url": "https://github.com/HKUDS/LightRAG/pull/3632",
+            "number": 3632,
+            "title": "fix(api): preserve source files when deleting duplicate markers",
+            "state": "MERGED",
+            "merged_at": "2026-08-15T06:22:12Z",
+            "author": "pengpengyi92",
+            "updated_at": "2026-08-15T06:22:12Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task"
+      }
+    },
+    {
+      "slug": "rag-anything",
+      "title": "RAG-Anything",
+      "category": "retrieval-and-multimodal",
+      "card": "retrieval-and-multimodal/rag-anything.md",
+      "summary": "多模态文档解析与 RAG 工作流。",
+      "inclusion_reason": "研究跨模态 ingestion 与测量边界，先分析已公开的解析回归再扩展模型实验。",
+      "learning_question": "解析误差怎样传递到后续检索评价？",
+      "planned_exercise": "设计文本/表格/媒体 metadata 的合成 fixture，分开评价解析、检索与回答，保留错误样例。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "HKUDS/RAG-Anything",
+        "requested_name": "HKUDS/RAG-Anything",
+        "url": "https://github.com/HKUDS/RAG-Anything",
+        "private": false,
+        "default_branch": "main",
+        "head": "eb7a670f724e59056b6a08f7016d753226a865ee",
+        "archived": false,
+        "observed_at": "2026-11-14T15:34:59.359325+08:00",
+        "license_signal": "MIT",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "raganything/raganything.py",
+          "raganything/processor.py"
+        ],
+        "missing_candidates": [],
+        "contribution_search": {
+          "query": "repo:HKUDS/RAG-Anything author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 3,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/HKUDS/RAG-Anything/pull/484",
+            "number": 484,
+            "title": "fix(parser): preserve percent-encoded URL file extensions",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-11-13T18:55:42Z"
+          },
+          {
+            "url": "https://github.com/HKUDS/RAG-Anything/pull/474",
+            "number": 474,
+            "title": "fix(video): count explicit audio text when planning windows",
+            "state": "MERGED",
+            "merged_at": "2026-11-12T07:20:19Z",
+            "author": "pengpengyi92",
+            "updated_at": "2026-11-12T07:20:19Z"
+          },
+          {
+            "url": "https://github.com/HKUDS/RAG-Anything/pull/326",
+            "number": 326,
+            "title": "fix: reject empty content lists before insertion",
+            "state": "MERGED",
+            "merged_at": "2026-09-02T07:54:39Z",
+            "author": "pengpengyi92",
+            "updated_at": "2026-09-02T07:54:40Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task"
+      }
+    },
+    {
+      "slug": "videorag",
+      "title": "VideoRAG",
+      "category": "retrieval-and-multimodal",
+      "card": "retrieval-and-multimodal/videorag.md",
+      "summary": "视频检索、分段与问答研究实现。",
+      "inclusion_reason": "把时间覆盖和证据时点作为多模态研究问题，连接已有 fractional-duration 案例。",
+      "learning_question": "最后一个片段有没有在链路中丢失？",
+      "planned_exercise": "设计小数时长、末尾片段和带时间戳的合成样例；同时检查覆盖率、检索和答案证据。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "HKUDS/VideoRAG",
+        "requested_name": "HKUDS/VideoRAG",
+        "url": "https://github.com/HKUDS/VideoRAG",
+        "private": false,
+        "default_branch": "main",
+        "head": "c412a093a820ef7a0e0dda31076ed871136198b3",
+        "archived": false,
+        "observed_at": "2026-11-14T15:35:06.765166+08:00",
+        "license_signal": "NOASSERTION",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "VideoRAG-algorithm/videorag/videorag.py",
+          "VideoRAG-algorithm/videorag/_videoutil/split.py"
+        ],
+        "missing_candidates": [
+          "videorag/videorag.py",
+          "videorag/_utils.py"
+        ],
+        "contribution_search": {
+          "query": "repo:HKUDS/VideoRAG author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 1,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/HKUDS/VideoRAG/pull/92",
+            "number": 92,
+            "title": "fix(video): preserve fractional duration when splitting clips",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-11-12T06:17:47Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task",
+        "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+      }
+    },
+    {
+      "slug": "deeptutor",
+      "title": "DeepTutor",
+      "category": "agents-and-memory",
+      "card": "agents-and-memory/deeptutor.md",
+      "summary": "面向学习/解题的 Agent 工作流。",
+      "inclusion_reason": "研究教学 Agent 的规划、工具、结构化响应和评估，避免以演示替代学习效果证据。",
+      "learning_question": "正确输出是否来自合法且完成的推理/格式边界？",
+      "planned_exercise": "用固定问题集检查结构化输出边界、拒答和证据；模型答对率与真实学习增益分开评价。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "HKUDS/DeepTutor",
+        "requested_name": "HKUDS/DeepTutor",
+        "url": "https://github.com/HKUDS/DeepTutor",
+        "private": false,
+        "default_branch": "main",
+        "head": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+        "archived": false,
+        "observed_at": "2026-11-14T15:35:18.511958+08:00",
+        "license_signal": "Apache-2.0",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "deeptutor/agents/_shared/json_output.py",
+          "deeptutor/agents/loop/ask_user_drafts.py"
+        ],
+        "missing_candidates": [
+          "src/agents/solve/main_solver.py",
+          "src/agents/question/question_generator.py"
+        ],
+        "contribution_search": {
+          "query": "repo:HKUDS/DeepTutor author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 4,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/HKUDS/DeepTutor/pull/2677",
+            "number": 2677,
+            "title": "fix(agents): reject JSON drafts inside unfinished reasoning",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-11-13T18:55:42Z"
+          },
+          {
+            "url": "https://github.com/HKUDS/DeepTutor/pull/1199",
+            "number": 1199,
+            "title": "fix(agentic): fall back for Gemini thinking tools",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-09-02T18:27:03Z"
+          },
+          {
+            "url": "https://github.com/HKUDS/DeepTutor/pull/1198",
+            "number": 1198,
+            "title": "fix(cron): support migration locks on Windows",
+            "state": "CLOSED_UNMERGED",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-09-02T18:17:43Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task",
+        "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+      }
+    },
+    {
+      "slug": "automemory",
+      "title": "AutoMemory",
+      "category": "agents-and-memory",
+      "card": "agents-and-memory/automemory.md",
+      "summary": "Agent 记忆管理与改进流程的研究实现。",
+      "inclusion_reason": "研究 memory 的状态、来源、质量与改进 gate，保留真实 refine blocker 贡献线索。",
+      "learning_question": "失效记忆是否被明确报错而非静默接受？",
+      "planned_exercise": "设计畸形状态、缺字段、不可用记忆和回滚的合成对照；改进必须由固定任务集验证。",
+      "permission_status": "NEEDS_PERMISSION",
+      "source": {
+        "repository": "HKUDS/AutoMemory",
+        "requested_name": "HKUDS/AutoMemory",
+        "url": "https://github.com/HKUDS/AutoMemory",
+        "private": false,
+        "default_branch": "main",
+        "head": "f06be29b69da33dade1a278109372a40c9023d49",
+        "archived": false,
+        "observed_at": "2026-11-14T15:35:28.359981+08:00",
+        "license_signal": null,
+        "license_path": null,
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "scaffolds/check_refine_state.py",
+          "tests/test_check_refine_state.py"
+        ],
+        "missing_candidates": [
+          "automemory/core/memory.py",
+          "automemory/refine.py"
+        ],
+        "contribution_search": {
+          "query": "repo:HKUDS/AutoMemory author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 1,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/HKUDS/AutoMemory/pull/8",
+            "number": 8,
+            "title": "fix(refine): report malformed state values as blockers",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-11-13T18:55:42Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task",
+        "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+      }
+    },
+    {
+      "slug": "autoswarm",
+      "title": "AutoSwarm",
+      "category": "agents-and-memory",
+      "card": "agents-and-memory/autoswarm.md",
+      "summary": "多 Agent 协作与任务交接工具。",
+      "inclusion_reason": "作为多 Agent 编排候选研究对象，比较单 Agent baseline、交接可靠性和成本；不宣称本机联调成功。",
+      "learning_question": "协作的收益是否超过协调成本？",
+      "planned_exercise": "先画 host/worker、上下文交接和失败恢复；本轮没有运行 Agent 或接入个人调度系统。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "HKUDS/AutoSwarm",
+        "requested_name": "HKUDS/AutoSwarm",
+        "url": "https://github.com/HKUDS/AutoSwarm",
+        "private": false,
+        "default_branch": "main",
+        "head": "96f0b026300186f7a51bff787b204ecc7ce1db03",
+        "archived": false,
+        "observed_at": "2026-11-14T15:35:36.755913+08:00",
+        "license_signal": "MIT",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "src/autoswarm/cli.py",
+          "src/autoswarm/approvals.py"
+        ],
+        "missing_candidates": [
+          "autoswarm/cli.py"
+        ],
+        "contribution_search": {
+          "query": "repo:HKUDS/AutoSwarm author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 1,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/HKUDS/AutoSwarm/pull/45",
+            "number": 45,
+            "title": "feat(mcp): scope servers and tools by runtime context",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-08-25T17:47:30Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task",
+        "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+      }
+    },
+    {
+      "slug": "smolagents",
+      "title": "smolagents",
+      "category": "agents-and-memory",
+      "card": "agents-and-memory/smolagents.md",
+      "summary": "工具使用与代码型 Agent 框架。",
+      "inclusion_reason": "研究 tool use、执行边界和 baseline 评估，结合已有模型接口转发 PR。",
+      "learning_question": "工具调用契约能否抵抗无效输出和越权？",
+      "planned_exercise": "用 mock tool 和固定任务检查参数、结构化输出、超时与权限；不运行未审查模型生成的代码。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "huggingface/smolagents",
+        "requested_name": "huggingface/smolagents",
+        "url": "https://github.com/huggingface/smolagents",
+        "private": false,
+        "default_branch": "main",
+        "head": "96f33faaf028479119ec8d34507b47694cf14e34",
+        "archived": false,
+        "observed_at": "2026-11-14T15:35:44.467269+08:00",
+        "license_signal": "Apache-2.0",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "src/smolagents/agents.py",
+          "src/smolagents/models.py"
+        ],
+        "missing_candidates": [],
+        "contribution_search": {
+          "query": "repo:huggingface/smolagents author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 1,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/huggingface/smolagents/pull/2603",
+            "number": 2603,
+            "title": "Fix structured output forwarding in InferenceClientModel",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-08-05T15:17:18Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task"
+      }
+    },
+    {
+      "slug": "helix",
+      "title": "HELIX",
+      "category": "agents-and-memory",
+      "card": "agents-and-memory/helix.md",
+      "summary": "Agent harness 的组合、评估与训练轨迹数据循环。",
+      "inclusion_reason": "研究 harness 组合、模型/环境协作与训练轨迹质量，关联已有公开文档契约修复。",
+      "learning_question": "harness 改动能否通过独立评价并产生可追溯数据？",
+      "planned_exercise": "先跟踪 harness 契约、Agent loop、verifier 和数据来源，再设计固定任务集的 ablation；不采信未经复现的性能宣传。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "HKUDS/HELIX",
+        "requested_name": "HKUDS/HELIX",
+        "url": "https://github.com/HKUDS/HELIX",
+        "private": false,
+        "default_branch": "main",
+        "head": "b5adffa6065931b4d8833f6576188ce93006217f",
+        "archived": false,
+        "observed_at": "2026-11-14T15:35:52.313232+08:00",
+        "license_signal": "MIT",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "packages/contracts/src/index.ts",
+          "packages/lego-agent-loop/src/index.ts"
+        ],
+        "missing_candidates": [
+          "helix/agent.py",
+          "src/helix/agent.py"
+        ],
+        "contribution_search": {
+          "query": "repo:HKUDS/HELIX author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 1,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [
+          {
+            "url": "https://github.com/HKUDS/HELIX/pull/3",
+            "number": 3,
+            "title": "fix(docs): honor clients that opt out of gzip",
+            "state": "OPEN",
+            "merged_at": null,
+            "author": "pengpengyi92",
+            "updated_at": "2026-11-13T18:59:26Z"
+          }
+        ],
+        "runtime_evaluation": "NOT RUN in this catalog task",
+        "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+      }
+    },
+    {
+      "slug": "deepcode",
+      "title": "DeepCode",
+      "category": "agents-and-memory",
+      "card": "agents-and-memory/deepcode.md",
+      "summary": "代码生成/研究工程相关的 Agent 项目。",
+      "inclusion_reason": "研究 research-to-code 的可复现交付与验证，而非把生成成功等同工程正确。",
+      "learning_question": "生成代码是否经过独立测试与权限审查？",
+      "planned_exercise": "先拆解任务、工具、生成 artifact 与测试 gate；用小型合成任务规定验收，禁止未经授权执行/发布。",
+      "permission_status": "READ_UPSTREAM_TERMS",
+      "source": {
+        "repository": "HKUDS/DeepCode",
+        "requested_name": "HKUDS/DeepCode",
+        "url": "https://github.com/HKUDS/DeepCode",
+        "private": false,
+        "default_branch": "main",
+        "head": "aa6ed16148719101b994882c94608ae12e88f870",
+        "archived": false,
+        "observed_at": "2026-11-14T15:36:00.336218+08:00",
+        "license_signal": "MIT",
+        "license_path": "LICENSE",
+        "readme_path": "README.md",
+        "tree_truncated": false,
+        "entry_paths": [
+          "cli/exec_cli.py",
+          "cli/project_trust.py"
+        ],
+        "missing_candidates": [
+          "workflow.py",
+          "main.py"
+        ],
+        "contribution_search": {
+          "query": "repo:HKUDS/DeepCode author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "total_count": 0,
+          "incomplete_results": false,
+          "detail_limit": 5
+        },
+        "contributions": [],
+        "runtime_evaluation": "NOT RUN in this catalog task",
+        "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+      }
+    }
+  ]
+}

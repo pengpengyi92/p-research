@@ -1,5 +1,14 @@
 # P-Research TODO
 
+## P0 - AI repository reading catalog (2026-11-14)
+
+- [x] Curate12 role-specific cards with official source pins, rights and public PR states.
+- [x] Run10 offline catalog checks and preserve existing scoped project checks.
+- [x] Add classified learning routes, evidence templates and read-only catalog CI.
+- [ ] P1: Execute one planned fixed-fixture experiment; gains currently UNMEASURED.
+
+[Observed delivery](update/2026-11-14-ai-repository-guides.md).
+
 ## P0 — Public research community
 
 - [x] Link dedicated Paper, Repo and Report Discussions in README, AGENTS and the original navigator.

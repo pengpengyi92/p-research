@@ -1,0 +1,28 @@
+name: Selected paper notes
+on:
+  push:
+    paths:
+      - 'paper/ai-alpha-research/**'
+      - 'report/2026-11-15-alpha-gpt-pengyi166/**'
+      - 'update/2026-11-15-alpha-gpt-selected-release.md'
+      - 'tests/test_alpha_gpt_release.py'
+      - '.github/workflows/paper-notes.yml'
+  pull_request:
+    paths:
+      - 'paper/ai-alpha-research/**'
+      - 'report/2026-11-15-alpha-gpt-pengyi166/**'
+      - 'update/2026-11-15-alpha-gpt-selected-release.md'
+      - 'tests/test_alpha_gpt_release.py'
+      - '.github/workflows/paper-notes.yml'
+permissions:
+  contents: read
+jobs:
+  paper-notes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -X utf8 -m unittest discover -s tests -v

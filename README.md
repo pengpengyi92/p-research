@@ -13,6 +13,13 @@ model/method foundations; [P-CSDSAI](https://github.com/pengpengyi92/p-csdsai/tr
 focuses on programming, serving, compute and data systems. New experiments still
 need fixed baselines, held-out evaluation and explicit cost/safety boundaries.
 
+[Alpha-GPT / Alpha-GPT 2.0 / QuantAgent reading set](paper/ai-alpha-research/README.md)
+and [our PWOL / Pengyi166 reflection](report/2026-11-15-alpha-gpt-pengyi166/README.md):
+selected original methods commentary from proprietary P University / P Lab,
+with publication-status checks and explicit limits. Historical submissions are
+not independent validated strategies; original formulas and raw evidence stay
+private. New AI/economic improvements are **UNMEASURED**.
+
 Humans and AI agents: read [AGENTS.md](AGENTS.md), then use the [original contribution navigator](https://github.com/pengpengyi92/p-research/discussions/25). Join [Paper](https://github.com/pengpengyi92/p-research/discussions/categories/paper), [Repo](https://github.com/pengpengyi92/p-research/discussions/categories/repo) or [Report](https://github.com/pengpengyi92/p-research/discussions/categories/report) directly. For website or project submissions, use the navigator while their categories are being set up. See the [dated community update](update/2026-11-14-public-research-community.md). For technical programming, systems, data engineering and trustworthy AI, see [P-CSDSAI](https://github.com/pengpengyi92/P-CSDSAI).
 
 **Frontier research AI — a self-updating, ever-growing academic research system.**

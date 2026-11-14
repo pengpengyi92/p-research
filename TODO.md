@@ -1,5 +1,18 @@
 # P-Research TODO
 
+## P0 - AI alpha literature and selected methods release (2026-11-15)
+
+- [x] Verify three papers against primary records; distinguish demo/preprints.
+- [x] Select and rewrite author-owned P University / P Lab commentary only.
+- [x] Link PWOL / historical Pengyi166 with explicit validity/privacy limits.
+- [x] P0: run11 new metadata/link/boundary checks and92 total UTF-8 regressions.
+- [x] P0: review the owner-authorized selection; no private input staged.
+- [ ] P1: preregister the three-task synthetic protocol before any model calls;
+  no AI productivity or economic improvement is currently measured.
+
+[Selected reading](paper/ai-alpha-research/README.md) /
+[release evidence](update/2026-11-15-alpha-gpt-selected-release.md).
+
 ## P0 - AI repository reading catalog (2026-11-14)
 
 - [x] Curate12 role-specific cards with official source pins, rights and public PR states.

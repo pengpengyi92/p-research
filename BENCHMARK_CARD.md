@@ -1,5 +1,16 @@
 # P-Research Additive Import Benchmark
 
+## AI alpha literature selection - 2026-11-15
+
+| Step | Evidence |
+| --- | --- |
+| Baseline | Existing AI catalogs and synthetic cases; no dedicated three-paper reading set. Full suite81 passes in UTF-8 mode; default Windows decoding has one preexisting error. |
+| Change | Three source-pinned cards, BibTeX, selected original PWOL/Pengyi166 methods essay, attribution and release-boundary checks. |
+| Measure | See [observed test receipt](update/2026-11-15-alpha-gpt-selected-release.md); content checks do not evaluate model or trading performance. |
+| Result | Research gains UNMEASURED; no paper or original-166 economic replication run. |
+| Trade-off | Selective commentary omits protected evidence; automated scans are not complete rights clearance or scientific verification. |
+| Next Action |Predeclare a small synthetic protocol, independent oracle, fixed budget and untouched audit before model experimentation. |
+
 ## Repository catalog — 2026-11-14
 
 | Step | Evidence |

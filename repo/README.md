@@ -6,6 +6,8 @@
 
 ## 分类路线
 
+- [AI Infra L1–L7 · 研究问题、可证伪假设与对照实验](ai-infra/README.md) — 每层四个固定版本的公开项目；原有项目卡保留。
+
 - [Agents, Harness & Memory / 智能体与研究工作流](agents-and-memory/README.md)
 - [RAG & Multimodal / 检索、文档与视频](retrieval-and-multimodal/README.md)
 - [Models, Data & Evaluation / 研究实验底座](models-and-evaluation/README.md)

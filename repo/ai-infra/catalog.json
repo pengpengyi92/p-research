@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "project": "P-Research",
+  "observed_at": "2026-11-15T00:35:10+08:00",
+  "timezone": "Asia/Shanghai",
+  "provenance": "Selected shared from P University; selected observation and experiment-design ideas from PINF and P Compute (private proprietary repositories).",
+  "status": "REFERENCE_ONLY / NOT_RUN",
+  "layers": [
+    {
+      "id": "L1",
+      "title": "Linux/C++ Host Systems · 主机、并发与网络",
+      "entries": [
+        {
+          "repository": "libuv/libuv",
+          "url": "https://github.com/libuv/libuv",
+          "commit": "fc7475a4dd8144e3eda0bf103892d774d1b675e1",
+          "default_branch": "v1.x",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "MIT",
+          "license_note": "MIT",
+          "entry_paths": [
+            "src/unix/core.c",
+            "docs/src/design.rst"
+          ],
+          "reference_only": true,
+          "reading_note": "用固定的 I/O 到达和取消序列，比较同步轮询与事件循环的排队时延；检查停止后是否有晚到回调。",
+          "existing_card": null
+        },
+        {
+          "repository": "abseil/abseil-cpp",
+          "url": "https://github.com/abseil/abseil-cpp",
+          "commit": "be93ce230ef75c5e57366c500e71cac4f4f4241a",
+          "default_branch": "master",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "absl/synchronization/mutex.h"
+          ],
+          "reference_only": true,
+          "reading_note": "把互斥方案作为单变量，比较读写混合下的尾部等待；先验证输出一致、无丢任务。",
+          "existing_card": null
+        },
+        {
+          "repository": "scylladb/seastar",
+          "url": "https://github.com/scylladb/seastar",
+          "commit": "04b1c04dcd056d9d9b276ea5c42c9687bc834493",
+          "default_branch": "master",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "include/seastar/core/reactor.hh"
+          ],
+          "reference_only": true,
+          "reading_note": "对相同到达序列比较每核隔离与共享队列的负载偏斜，记录慢核和过载行为。",
+          "existing_card": null
+        },
+        {
+          "repository": "meta/folly",
+          "url": "https://github.com/meta/folly",
+          "commit": "9450293598dfa14aa1716cc1fb494d54076ffa87",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "folly/executors/CPUThreadPoolExecutor.h"
+          ],
+          "reference_only": true,
+          "reading_note": "控制 worker 数量与队列上限，记录小任务是否被长任务拖住及拒绝率。",
+          "existing_card": null
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "title": "GPU Programming and Memory · GPU 内核与显存",
+      "entries": [
+        {
+          "repository": "triton-lang/triton",
+          "url": "https://github.com/triton-lang/triton",
+          "commit": "1c53e566ef8f719ff9b69132a72ad943e5409492",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "MIT",
+          "license_note": "MIT",
+          "entry_paths": [
+            "python/tutorials/02-fused-softmax.py"
+          ],
+          "reference_only": true,
+          "reading_note": "用同一 dtype 扫非整倍数形状，对照 PyTorch eager 的误差、预热后延迟与显存搬运。",
+          "existing_card": null
+        },
+        {
+          "repository": "NVIDIA/cutlass",
+          "url": "https://github.com/NVIDIA/cutlass",
+          "commit": "b2f249acd20392beeb16f5e5a31f4f1a4e38b3bd",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE.txt",
+          "github_spdx": "NOASSERTION",
+          "license_note": "BSD-3-Clause（根许可含 SPDX 声明）",
+          "entry_paths": [
+            "include/cutlass/gemm/gemm.h",
+            "examples/00_basic_gemm/basic_gemm.cu"
+          ],
+          "reference_only": true,
+          "reading_note": "固定 GEMM 的数学操作，把 tile/layout 当单变量；比较吞吐前先固定输入、累加精度和容差。",
+          "existing_card": null
+        },
+        {
+          "repository": "Dao-AILab/flash-attention",
+          "url": "https://github.com/Dao-AILab/flash-attention",
+          "commit": "f63c472c4dc19237c0635d6a629df065ff64796e",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "BSD-3-Clause",
+          "license_note": "BSD-3-Clause",
+          "entry_paths": [
+            "tests/test_flash_attn.py",
+            "flash_attn/flash_attn_interface.py"
+          ],
+          "reference_only": true,
+          "reading_note": "对照普通 attention，在固定 mask、序列长度和 dtype 下分别量 forward 与 backward，中短长度也要测。",
+          "existing_card": null
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer",
+          "url": "https://github.com/flashinfer-ai/flashinfer",
+          "commit": "9c50996794564e1e3b2a4b0683e9aa2bcc528df8",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "flashinfer/decode.py",
+            "flashinfer/prefill.py"
+          ],
+          "reference_only": true,
+          "reading_note": "拆开 prefill 和 decode，用短/长上下文和相同预算找哪一段贡献 p95 改变。",
+          "existing_card": null
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "title": "LLM Inference Serving · 推理调度与 KV Cache",
+      "entries": [
+        {
+          "repository": "vllm-project/vllm",
+          "url": "https://github.com/vllm-project/vllm",
+          "commit": "d2f92859b4c62434a2c111036ebe62cb0e9de243",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "vllm/v1/core/sched/scheduler.py",
+            "vllm/benchmarks/serve.py"
+          ],
+          "reference_only": true,
+          "reading_note": "冻结请求到达、模型和采样；比较两种 admission 设置的 SLO goodput、短请求 p95 与 KV 驱逐。",
+          "existing_card": null
+        },
+        {
+          "repository": "sgl-project/sglang",
+          "url": "https://github.com/sgl-project/sglang",
+          "commit": "6de483b326c7dd4145fde06afcac9866bf491024",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "python/sglang/srt/mem_cache/radix_cache.py"
+          ],
+          "reference_only": true,
+          "reading_note": "用高复用 trace 和低复用负对照检验 cache-aware 的收益是否只在某类工作负载成立。",
+          "existing_card": null
+        },
+        {
+          "repository": "NVIDIA/TensorRT-LLM",
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "commit": "178ec0b5ba77813c0fa13e358d484e2136150dd0",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "NOASSERTION",
+          "license_note": "Apache-2.0 主体；含不同条款组件",
+          "entry_paths": [
+            "tensorrt_llm/_torch/pyexecutor/py_executor.py"
+          ],
+          "reference_only": true,
+          "reading_note": "对相同模型和设备，区分 batch/engine 配置的影响；无法匹配权重或精度就不做速度排名。",
+          "existing_card": null
+        },
+        {
+          "repository": "ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "commit": "3549c274dc22001d9118713fa56a10085b85de3b",
+          "default_branch": "master",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "MIT",
+          "license_note": "MIT",
+          "entry_paths": [
+            "tools/server/README.md",
+            "tools/server/server-context.cpp"
+          ],
+          "reference_only": true,
+          "reading_note": "作为低资源本地对照，固定量化文件和功能；把不同精度的质量差异与延迟分开。",
+          "existing_card": null
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "title": "Distributed Execution · 分布式执行与通信",
+      "entries": [
+        {
+          "repository": "NVIDIA/nccl",
+          "url": "https://github.com/NVIDIA/nccl",
+          "commit": "ad2d192c1f279aefcaf340f67e07880b65a1116b",
+          "default_branch": "master",
+          "readme_path": "README.md",
+          "license_path": "LICENSE.txt",
+          "github_spdx": "NOASSERTION",
+          "license_note": "Apache-2.0 为主；部分 BSD/独立许可",
+          "entry_paths": [
+            "src/collectives.cc"
+          ],
+          "reference_only": true,
+          "reading_note": "固定总工作量和拓扑，扫 collective 消息大小；区分计算速度和最慢 rank 的通信等待。",
+          "existing_card": null
+        },
+        {
+          "repository": "ray-project/ray",
+          "url": "https://github.com/ray-project/ray",
+          "commit": "8957070d042006b416d89c02e9c607fa850c1dd9",
+          "default_branch": "master",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "python/ray/train/torch/torch_trainer.py",
+            "python/ray/_private/worker.py"
+          ],
+          "reference_only": true,
+          "reading_note": "比较相同资源配额下不同任务粒度，统计任务失败、重启和有效处理量。",
+          "existing_card": null
+        },
+        {
+          "repository": "deepseek-ai/DeepEP",
+          "url": "https://github.com/deepseek-ai/DeepEP",
+          "commit": "f6aa38fe06cd4a0489e7730365d4e0114970a2f3",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "MIT",
+          "license_note": "MIT",
+          "entry_paths": [
+            "deep_ep/__init__.py",
+            "csrc/CMakeLists.txt"
+          ],
+          "reference_only": true,
+          "reading_note": "控制 token-to-expert 分配，加入偏斜负对照；拆开 dispatch/combine 的通信与计算。",
+          "existing_card": null
+        },
+        {
+          "repository": "open-mpi/ompi",
+          "url": "https://github.com/open-mpi/ompi",
+          "commit": "f7e4bd34f113f09930ab3272e97cc49c5021d8be",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "NOASSERTION",
+          "license_note": "NOASSERTION；按固定 LICENSE / 文件核对",
+          "entry_paths": [
+            "ompi/mca/coll/base/coll_base_allreduce.c"
+          ],
+          "reference_only": true,
+          "reading_note": "先用 CPU rank 验证相同消息量下延迟曲线；不把 MPI 数字当 NCCL 或 GPU 结果。",
+          "existing_card": null
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "title": "Training Systems · 训练、精度与恢复",
+      "entries": [
+        {
+          "repository": "pytorch/pytorch",
+          "url": "https://github.com/pytorch/pytorch",
+          "commit": "e63b330cbcbcc136d3aab1895a183579dbb80dde",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "NOASSERTION",
+          "license_note": "NOASSERTION；根 LICENSE 含多方条款",
+          "entry_paths": [
+            "torch/distributed/fsdp/fully_sharded_data_parallel.py",
+            "torch/amp/autocast_mode.py"
+          ],
+          "reference_only": true,
+          "reading_note": "用固定小模型比较 FP32 与 AMP；算到同一质量阈值的时间/显存并验证恢复后的数据顺序。",
+          "existing_card": null
+        },
+        {
+          "repository": "NVIDIA/Megatron-LM",
+          "url": "https://github.com/NVIDIA/Megatron-LM",
+          "commit": "154e7bd2f5117c745ad0a24937a576a7fae5e904",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "NOASSERTION",
+          "license_note": "NOASSERTION；按固定 LICENSE / 文件核对",
+          "entry_paths": [
+            "megatron/core/optimizer/optimizer.py",
+            "megatron/training/training.py"
+          ],
+          "reference_only": true,
+          "reading_note": "固定数据、有效 batch 和模型，研究不同并行切分对 step latency 和收敛的影响。",
+          "existing_card": null
+        },
+        {
+          "repository": "deepspeedai/DeepSpeed",
+          "url": "https://github.com/deepspeedai/DeepSpeed",
+          "commit": "7d30f9207aba6bfc14821bc735b316b173fbdef8",
+          "default_branch": "master",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "deepspeed/runtime/engine.py",
+            "deepspeed/runtime/zero/stage3.py"
+          ],
+          "reference_only": true,
+          "reading_note": "对照相同优化器和质量门槛，拆解 ZeRO 分片或 offload 的内存与通信开销。",
+          "existing_card": null
+        },
+        {
+          "repository": "pytorch/torchtitan",
+          "url": "https://github.com/pytorch/torchtitan",
+          "commit": "631d544b1f6794ecfeca734a7bba861e03ddd5e3",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "BSD-3-Clause",
+          "license_note": "BSD-3-Clause",
+          "entry_paths": [
+            "torchtitan/train.py"
+          ],
+          "reference_only": true,
+          "reading_note": "用小规模训练实验验证配置保持不变时，重新启动是否再现相同检查点和训练进度。",
+          "existing_card": null
+        }
+      ]
+    },
+    {
+      "id": "L6",
+      "title": "RL/Rollout Infrastructure · 策略、轨迹与编排",
+      "entries": [
+        {
+          "repository": "verl-project/verl",
+          "url": "https://github.com/verl-project/verl",
+          "commit": "4191e7f910d85d69acb8c45f4840f10faa535165",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "docs/advance/fully_async.md",
+            "verl/trainer/ppo/ray_trainer.py"
+          ],
+          "reference_only": true,
+          "reading_note": "固定策略更新时间和长短 rollout 混合负载，比较异步对有效新鲜轨迹率与学习质量的不同影响。",
+          "existing_card": null
+        },
+        {
+          "repository": "OpenRLHF/OpenRLHF",
+          "url": "https://github.com/OpenRLHF/OpenRLHF",
+          "commit": "26494490bc237f6c3af62dab6117e6bbb0a78dba",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "openrlhf/trainer/ray/ppo_actor.py",
+            "openrlhf/cli/train_ppo_ray.py"
+          ],
+          "reference_only": true,
+          "reading_note": "在相同 reward、模型和硬件约束下，对照并行生成的容量与有效样本率，不拿 raw tok/s 代替。",
+          "existing_card": null
+        },
+        {
+          "repository": "huggingface/trl",
+          "url": "https://github.com/huggingface/trl",
+          "commit": "8ad18ec1b6493b85cf9fffbd87d376767ceb8611",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "trl/trainer/grpo_trainer.py",
+            "docs/source/grpo_trainer.md"
+          ],
+          "reference_only": true,
+          "reading_note": "用同批 prompts 和固定评分比较 GRPO 配置，记录被过滤样本与有效分母。",
+          "existing_card": null
+        },
+        {
+          "repository": "areal-project/AReaL",
+          "url": "https://github.com/areal-project/AReaL",
+          "commit": "11b6fb0ca9ea47a55e2fc3929c24b8d43693fd80",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "areal/trainer/rl_trainer.py"
+          ],
+          "reference_only": true,
+          "reading_note": "预注册可接受 policy lag，比较不同长尾占比下的新鲜度、样本利用率和学习指标。",
+          "existing_card": null
+        }
+      ]
+    },
+    {
+      "id": "L7",
+      "title": "Systems Research · 评测、测量与复现",
+      "entries": [
+        {
+          "repository": "mlcommons/inference",
+          "url": "https://github.com/mlcommons/inference",
+          "commit": "3fbc329939999c13d0a7b5e67fb2092287e06047",
+          "default_branch": "master",
+          "readme_path": "README.md",
+          "license_path": "LICENSE.md",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "loadgen/README.md",
+            "loadgen/loadgen.cc"
+          ],
+          "reference_only": true,
+          "reading_note": "借 LoadGen 约束工作负载和测量窗口；把自定义测量与正式 MLPerf 结果分开标注。",
+          "existing_card": null
+        },
+        {
+          "repository": "EleutherAI/lm-evaluation-harness",
+          "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+          "commit": "d6de81643928d653435c431bae19945d41d32520",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE.md",
+          "github_spdx": "MIT",
+          "license_note": "MIT",
+          "entry_paths": [
+            "lm_eval/evaluator.py"
+          ],
+          "reference_only": true,
+          "reading_note": "冻结任务样本和生成设置；先跑模型/评估器版本不变的重复对照以发现评分漂移。",
+          "existing_card": null
+        },
+        {
+          "repository": "google/benchmark",
+          "url": "https://github.com/google/benchmark",
+          "commit": "cf4d7fedd59473f99042806fcba407ea767c5327",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "docs/user_guide.md",
+            "src/benchmark_runner.cc"
+          ],
+          "reference_only": true,
+          "reading_note": "给 CPU 微基准设计负对照与多次独立运行，检验预热和编译器是否解释所谓提速。",
+          "existing_card": null
+        },
+        {
+          "repository": "open-telemetry/opentelemetry-collector",
+          "url": "https://github.com/open-telemetry/opentelemetry-collector",
+          "commit": "572057cde7e9bbe3aed6e5e3e8f16290d487f7d0",
+          "default_branch": "main",
+          "readme_path": "README.md",
+          "license_path": "LICENSE",
+          "github_spdx": "Apache-2.0",
+          "license_note": "Apache-2.0",
+          "entry_paths": [
+            "receiver/README.md",
+            "processor/README.md",
+            "service/service.go"
+          ],
+          "reference_only": true,
+          "reading_note": "以开/关采样作对照，量化 tracing 对尾延迟和丢事件的影响。",
+          "existing_card": null
+        }
+      ]
+    }
+  ]
+}

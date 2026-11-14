@@ -13,6 +13,8 @@ model/method foundations; [P-CSDSAI](https://github.com/pengpengyi92/p-csdsai/tr
 focuses on programming, serving, compute and data systems. New experiments still
 need fixed baselines, held-out evaluation and explicit cost/safety boundaries.
 
+**AI Infra L1–L7** — [Working paper](paper/ai-infra/working-paper.md) · [配套文章](paper/ai-infra/article.md) · [28 个公开仓库](repo/ai-infra/README.md)。Selected shared from P University, with selected PINF and P Compute methods (private prop repositories). No performance experiments were run for this edition.
+
 [Alpha-GPT / Alpha-GPT 2.0 / QuantAgent reading set](paper/ai-alpha-research/README.md)
 and [our PWOL / Pengyi166 reflection](report/2026-11-15-alpha-gpt-pengyi166/README.md):
 selected original methods commentary from proprietary P University / P Lab,

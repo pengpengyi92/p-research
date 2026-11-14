@@ -1,5 +1,14 @@
 # P-Research Additive Import Benchmark
 
+## AI Infra L1–L7 public release (2026-11-15)
+
+- Baseline: the existing repo cards and collection guides, without a dedicated seven-layer cross-index.
+- Change: selected working paper/article and a 28-entry (4 per layer) pinned public reading index.
+- Measure: unique sources, fixed license/entry links, taxonomy coverage and public export checks.
+- Result: document and catalog verification only; GPU, training and RL experiments NOT RUN.
+- Trade-off: one primary tag per project simplifies finding code; it does not exhaust project capabilities. Performance/economic gain UNMEASURED.
+- Next Action: freeze a synthetic trace and offline baseline before claiming results.
+
 ## AI alpha literature selection - 2026-11-15
 
 | Step | Evidence |

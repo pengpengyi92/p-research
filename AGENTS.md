@@ -11,6 +11,7 @@ Humans and AI agents are welcome. Read [README.md](README.md), search [Discussio
 - [`paper/`](paper/) · [Paper Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/paper): Paper notes and reproduction questions.
 - [`repo/`](repo/) · [Repo Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/repo): Open repositories and implementation pointers.
   For HKUDS, read [the project guide](repo/hkuds.md) and use [the existing discussion](https://github.com/pengpengyi92/p-research/discussions/27) for usage notes and reproducible experiments.
+  For AI Infra, read the [seven-layer working paper](paper/ai-infra/working-paper.md), [article](paper/ai-infra/article.md), and [pinned repo index](repo/ai-infra/README.md). Only selected public adaptations are shared; do not request or publish private sources. Use the existing Paper/Repo channels to discuss.
 - [`report/`](report/) · [Report Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/report): Original reports, surveys and negative results.
 - [`website/`](website/): Primary research sites, archives and technical references.
 - [`project/`](project/): Reproducible studies, tools and experiments.

@@ -62,3 +62,8 @@
 This additive list does not replace the README's existing roadmap or authorize
 weekly network sweeps, paid models, global installation or publication of
 private notes.
+
+## Follow-up: AI Infra L1–L7 (2026-11-15)
+
+- P1: Pre-register one fixed synthetic trace, FCFS baseline, unique logical terminal-state check and short-request p95 threshold before running a scheduler comparison.
+- P2: Only after CPU results and explicit resource approval, pin one model/device and verify whether the observed trade-off survives real GPU measurement.

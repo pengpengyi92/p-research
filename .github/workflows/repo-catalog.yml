@@ -1,9 +1,9 @@
 name: Repository catalog
 on:
   push:
-    paths: ['repo/**', 'tests/test_repo_catalog.py', '.github/workflows/repo-catalog.yml']
+    paths: ['repo/**', 'paper/ai-infra/**', 'tests/test_repo_catalog.py', 'tests/test_ai_infra_release.py', '.github/workflows/repo-catalog.yml']
   pull_request:
-    paths: ['repo/**', 'tests/test_repo_catalog.py', '.github/workflows/repo-catalog.yml']
+    paths: ['repo/**', 'paper/ai-infra/**', 'tests/test_repo_catalog.py', 'tests/test_ai_infra_release.py', '.github/workflows/repo-catalog.yml']
 permissions:
   contents: read
 jobs:
@@ -16,3 +16,4 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m unittest discover -s tests -p test_repo_catalog.py -v
+      - run: python -m unittest discover -s tests -p test_ai_infra_release.py -v

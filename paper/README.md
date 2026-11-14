@@ -2,6 +2,8 @@
 
 Paper notes and reproduction questions.
 
+- [AI Infra 七层 working paper](ai-infra/working-paper.md) · [配套文章](ai-infra/article.md) · [七层仓库索引](../repo/ai-infra/README.md) — Selected shared from P University, with selected PINF and P Compute methods. Experiments not run.
+
 ## Selected reading sets
 
 - [Human-AI alpha research: Alpha-GPT, Alpha-GPT 2.0 and QuantAgent](ai-alpha-research/README.md)

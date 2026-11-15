@@ -73,4 +73,6 @@
 
 ## 怎么贡献
 
+想把 Agent 行为和底层系统一起研究？见[李博杰教材导览](https://github.com/pengpengyi92/p-csdsai/tree/main/repo/bojieli-textbooks)及[AI Agent × AI Infra 研究讨论 #28](https://github.com/pengpengyi92/p-research/discussions/28)；欢迎分享固定负载下的对照、复现和负结果。
+
 欢迎提交失败复现、负对照和可预注册假设。请附 commit、固定 workload、baseline、指标与失败判据。 讨论先找已有话题：[Paper Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/paper) · [Repo Discussions](https://github.com/pengpengyi92/p-research/discussions/categories/repo)。附标题和时间戳；不要运行未授权的云/GPU 作业。

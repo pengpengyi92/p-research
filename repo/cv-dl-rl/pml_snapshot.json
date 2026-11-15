@@ -1,0 +1,1906 @@
+{
+  "schema_version": 1,
+  "title": "P-ML computer vision, deep learning and reinforcement learning focus expansion",
+  "started_at": "2026-11-15T12:01:50+08:00",
+  "timezone": "Asia/Shanghai",
+  "complete_ecosystem_inventory": false,
+  "source_policy": "Public primary metadata and byte-verified pinned README/license only; no upstream code/data mirror or execution",
+  "resume": true,
+  "entries": [
+    {
+      "repository": "opencv/opencv",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "library",
+      "use": "图像 I/O、几何、特征和传统视觉算法",
+      "boundary": "传统 CV 底座，不是纯 DL 框架；编解码器、第三方模块和专利需单独核查。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "opencv/opencv",
+      "url": "https://github.com/opencv/opencv",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Open Source Computer Vision Library",
+      "default_branch": "5.x",
+      "head": "205613a29728c2217049bdddbbe98322b485b34e",
+      "pushed_at": "2026-11-14T03:55:16Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "4a77ce42a2d75691823c53f34c7622366e23b16b",
+          "sha256": "a894f3aaef865eaf82c1fddcc92da631ec5b1ca13503403964caef4f8bec0807",
+          "bytes": 1697,
+          "url": "https://github.com/opencv/opencv/blob/205613a29728c2217049bdddbbe98322b485b34e/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "url": "https://github.com/opencv/opencv/blob/205613a29728c2217049bdddbbe98322b485b34e/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "opencv/opencv_contrib",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "extensions",
+      "use": "OpenCV 扩展模块及配套构建",
+      "boundary": "与主库版本匹配；模块级依赖、实验状态和许可分别检查。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "opencv/opencv_contrib",
+      "url": "https://github.com/opencv/opencv_contrib",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Repository for OpenCV's extra modules",
+      "default_branch": "5.x",
+      "head": "b67a855188a3d683813731010f6d39ac614733a4",
+      "pushed_at": "2026-11-05T13:16:57Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "8d3ecda0413bb20eb86f0b6b51846db1a7b0a70c",
+          "sha256": "246c7daab81423c937a8b3a8c4bfa8bf063510b905ea32620743d540008ded04",
+          "bytes": 3285,
+          "url": "https://github.com/opencv/opencv_contrib/blob/b67a855188a3d683813731010f6d39ac614733a4/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "url": "https://github.com/opencv/opencv_contrib/blob/b67a855188a3d683813731010f6d39ac614733a4/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "scikit-image/scikit-image",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "library",
+      "use": "图像处理、形态学、分割和测量",
+      "boundary": "dtype、强度范围和坐标约定会改变结果；不是预训练模型合集。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 LICENSE 为按文件列示的 BSD/其他组件许可清单，API NOASSERTION 不等于无许可。",
+      "requested_repository": "scikit-image/scikit-image",
+      "url": "https://github.com/scikit-image/scikit-image",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Image processing in Python",
+      "default_branch": "main",
+      "head": "6a1a73f5b64cb7a0ba83367f30ee612b1d70d98c",
+      "pushed_at": "2026-11-14T12:08:44Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "31b8d629ff7abf4e712e640dfaa6ad9fb575fe59",
+          "sha256": "14a7432321405990581714c1de07167fcf9f7e6f60808fff354e2fe0e8f27c2f",
+          "bytes": 2672,
+          "url": "https://github.com/scikit-image/scikit-image/blob/6a1a73f5b64cb7a0ba83367f30ee612b1d70d98c/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE.txt",
+          "blob_sha": "710ea3c93015813ea401bebbfd85073a2c6ecdfc",
+          "sha256": "611d3207504dcb4a808df209d2e7c9b4f2e89fe690f84735c0d548160966b527",
+          "bytes": 6435,
+          "url": "https://github.com/scikit-image/scikit-image/blob/6a1a73f5b64cb7a0ba83367f30ee612b1d70d98c/LICENSE.txt"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmpretrain",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "training-toolkit",
+      "use": "图像分类、视觉表征与预训练配置",
+      "boundary": "权重/数据单独授权，预训练与下游测试不能混用。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "open-mmlab/mmpretrain",
+      "url": "https://github.com/open-mmlab/mmpretrain",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "OpenMMLab Pre-training Toolbox and Benchmark",
+      "default_branch": "main",
+      "head": "ee7f2e88501f61aa95c742dd5f429f039935ee90",
+      "pushed_at": "2024-11-01T06:27:36Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "5318df5b958b8f54dcba1896776eebfb04ba9871",
+          "sha256": "19a773a3d3c043dc41cd64662b8524b0693a1184cf20d9b831098acdaafba55f",
+          "bytes": 17917,
+          "url": "https://github.com/open-mmlab/mmpretrain/blob/ee7f2e88501f61aa95c742dd5f429f039935ee90/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "ae87343779455c4c4b43e10a27d1657142666726",
+          "sha256": "ffc7483c44a441f9c09b8df25d1dbcb8e266750072771b32d08a0970fb8c2e8d",
+          "bytes": 11395,
+          "url": "https://github.com/open-mmlab/mmpretrain/blob/ee7f2e88501f61aa95c742dd5f429f039935ee90/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmpose",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "training-toolkit",
+      "use": "关键点、人体姿态和姿态估计协议",
+      "boundary": "标注定义、关键点可见性、主体隔离和评价口径要固定。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "open-mmlab/mmpose",
+      "url": "https://github.com/open-mmlab/mmpose",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "OpenMMLab Pose Estimation Toolbox and Benchmark.",
+      "default_branch": "main",
+      "head": "759b39c13fea6ba094afc1fa932f51dc1b11cbf9",
+      "pushed_at": "2025-08-04T07:30:50Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "0f4baa23357c90e733d1a81dffad8ce41e730313",
+          "sha256": "a3c23bb64606398e866f486c19ade62b0ec29fc43bb208778853f749b0b45c34",
+          "bytes": 27213,
+          "url": "https://github.com/open-mmlab/mmpose/blob/759b39c13fea6ba094afc1fa932f51dc1b11cbf9/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "b712427afe4978c6084580f113cdc87f77564fd9",
+          "sha256": "aa2c6f3408169b96e5547c875deb481c91502514c1885fa0acb4b596c8909cb9",
+          "bytes": 11400,
+          "url": "https://github.com/open-mmlab/mmpose/blob/759b39c13fea6ba094afc1fa932f51dc1b11cbf9/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmtracking",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "research-toolkit",
+      "use": "多目标/单目标跟踪、视频任务配置",
+      "boundary": "先查维护/归档状态与依赖；按视频序列切分，不能随机拆相邻帧。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "open-mmlab/mmtracking",
+      "url": "https://github.com/open-mmlab/mmtracking",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "OpenMMLab Video Perception Toolbox. It supports Video Object Detection (VID), Multiple Object Tracking (MOT), Single Object Tracking (SOT), Video Instance Segmentation (VIS) with a unified framework.",
+      "default_branch": "master",
+      "head": "e79491ec8f0b8c86fda947fbaaa824c66ab2a991",
+      "pushed_at": "2023-09-19T07:31:38Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "de4a66ea95bd4053dcd981b80ca5f76f914431dc",
+          "sha256": "d86cca32ac82c41add279c09e1c151e1b4770eb709252c16b1760f46dd9f0e40",
+          "bytes": 10015,
+          "url": "https://github.com/open-mmlab/mmtracking/blob/e79491ec8f0b8c86fda947fbaaa824c66ab2a991/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "48a9768a0b87f5dea6b912ddebc10c8658c39d86",
+          "sha256": "e72abeae4d25bf248f5a9abb1a2a81a09467cf4c2a8772444d06c72c82216174",
+          "bytes": 11390,
+          "url": "https://github.com/open-mmlab/mmtracking/blob/e79491ec8f0b8c86fda947fbaaa824c66ab2a991/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/segment-anything",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "research-model",
+      "use": "提示式图像分割与 mask 管线",
+      "boundary": "不是目标类别识别器；提示来源、权重、数据和评估协议独立。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "facebookresearch/segment-anything",
+      "url": "https://github.com/facebookresearch/segment-anything",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+      "default_branch": "main",
+      "head": "dca509fe793f601edb92606367a655c15ac00fdf",
+      "pushed_at": "2024-09-18T17:46:55Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "2e58656beedd2d48ea7df680e27646d906f408de",
+          "sha256": "cab2c4900910c9e4afd64833f57d106b8fc1a27fca963d4439ae5b8f94cdbce1",
+          "bytes": 9621,
+          "url": "https://github.com/facebookresearch/segment-anything/blob/dca509fe793f601edb92606367a655c15ac00fdf/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://github.com/facebookresearch/segment-anything/blob/dca509fe793f601edb92606367a655c15ac00fdf/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/sam2",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "research-model",
+      "use": "图像/视频分割、跨帧记忆和交互",
+      "boundary": "固定 README 有权重/训练/demo 条款及字体/第三方例外，不能只看根许可证。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 README 对代码/训练/checkpoint 的 Apache 条款、字体 OFL 与额外 cc_torch 许可分别说明。",
+      "additional_root_sources": [
+        "LICENSE_cctorch"
+      ],
+      "requested_repository": "facebookresearch/sam2",
+      "url": "https://github.com/facebookresearch/sam2",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+      "default_branch": "main",
+      "head": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+      "pushed_at": "2026-05-30T02:29:40Z",
+      "metadata_observed_at": "2026-11-15T11:58:52+08:00",
+      "sources_observed_at": "2026-11-15T12:01:00+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "85a7eb958bced5495ff990c2bcbe7d99662c660f",
+          "sha256": "eea69ee1042fb30933c5ca5019fbf0f6f9366cec5e792109281b5023a4f1589c",
+          "bytes": 16249,
+          "url": "https://github.com/facebookresearch/sam2/blob/2b90b9f5ceec907a1c18123530e92e794ad901a4/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://github.com/facebookresearch/sam2/blob/2b90b9f5ceec907a1c18123530e92e794ad901a4/LICENSE"
+        },
+        {
+          "kind": "additional0",
+          "path": "LICENSE_cctorch",
+          "blob_sha": "23da14a65aad4c5bac18061b80ae6040bb7d2c8c",
+          "sha256": "687d4f65ffe399358b170e22572564a16689e496f85a79dc5385fccf6bbc9558",
+          "bytes": 1566,
+          "url": "https://github.com/facebookresearch/sam2/blob/2b90b9f5ceec907a1c18123530e92e794ad901a4/LICENSE_cctorch"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "IDEA-Research/GroundingDINO",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "research-model",
+      "use": "文本条件的开放词汇目标定位",
+      "boundary": "文本提示和测试类别信息会影响成绩，零样本/微调协议必须明确。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "IDEA-Research/GroundingDINO",
+      "url": "https://github.com/IDEA-Research/GroundingDINO",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "[ECCV 2024] Official implementation of the paper \"Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection\"",
+      "default_branch": "main",
+      "head": "856dde20aee659246248e20734ef9ba5214f5e44",
+      "pushed_at": "2024-08-12T08:52:02Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "84e31917958229342cd1054752ca3f31e8831d83",
+          "sha256": "d69cf3fd022661e6be19c56a421020f3ee9e027375020ef6a3def0149ddf9595",
+          "bytes": 19492,
+          "url": "https://github.com/IDEA-Research/GroundingDINO/blob/856dde20aee659246248e20734ef9ba5214f5e44/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "f1460f5e6ad1e90abb720a1536a46e3d057686a9",
+          "sha256": "b403c98ec1ffaccb0124632592a3d99642cddc3031ca412b402568e6c06c202a",
+          "bytes": 11355,
+          "url": "https://github.com/IDEA-Research/GroundingDINO/blob/856dde20aee659246248e20734ef9ba5214f5e44/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmrotate",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "research-toolkit",
+      "use": "旋转框目标检测和方向约定",
+      "boundary": "旋转角范围、框表示和旋转 IoU 约定必须一致；先核维护。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "open-mmlab/mmrotate",
+      "url": "https://github.com/open-mmlab/mmrotate",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "OpenMMLab Rotated Object Detection Toolbox and Benchmark",
+      "default_branch": "main",
+      "head": "b030f38909fc431be7ecb90772ac30da9da29bcb",
+      "pushed_at": "2024-09-28T11:54:55Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "925f0873eecaa99239fcde5bd1c5f538a64f682d",
+          "sha256": "0c6faa8fcc501f29ac164948f32a7a2d9204c1955d2474f429967ae702c8069b",
+          "bytes": 11273,
+          "url": "https://github.com/open-mmlab/mmrotate/blob/b030f38909fc431be7ecb90772ac30da9da29bcb/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://github.com/open-mmlab/mmrotate/blob/b030f38909fc431be7ecb90772ac30da9da29bcb/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/pytorchvideo",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "library",
+      "use": "视频采样、变换和视频模型",
+      "boundary": "视频/主体隔离和采样时序比随机帧拆分更重要；检查当前支持。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "facebookresearch/pytorchvideo",
+      "url": "https://github.com/facebookresearch/pytorchvideo",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A deep learning library for video understanding research.",
+      "default_branch": "main",
+      "head": "2ac6ed361309cb25144636ad82dd8bd6a4970e0c",
+      "pushed_at": "2026-10-16T17:09:48Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "4434abc75937c24cd7e5e6bdb98dc90b4090d20d",
+          "sha256": "9499c5f365912d49115ae63b59b46bb8d0a548811ea96da4ac9cbc75d7d3ccc8",
+          "bytes": 6504,
+          "url": "https://github.com/facebookresearch/pytorchvideo/blob/2ac6ed361309cb25144636ad82dd8bd6a4970e0c/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "5a90478a33957a01c8b1c16fb4d9bf8d0687affd",
+          "sha256": "eb2e7c520ac305e46ca8345c4efa1f77669a77779fd6f53acd3a9616f2144518",
+          "bytes": 10242,
+          "url": "https://github.com/facebookresearch/pytorchvideo/blob/2ac6ed361309cb25144636ad82dd8bd6a4970e0c/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "isl-org/Open3D",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "library",
+      "use": "点云、几何、配准和三维数据处理",
+      "boundary": "坐标系、单位和变换方向要有独立几何 oracle；不是自动可用的机器人策略。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 LICENSE 明确 MIT；API NOASSERTION 不是无许可。外部资产/数据和构建依赖单独检查。",
+      "requested_repository": "isl-org/Open3D",
+      "url": "https://github.com/isl-org/Open3D",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Open3D: A Modern Library for 3D Data Processing",
+      "default_branch": "main",
+      "head": "2ce4f7e0270a53694e2be651496313256e453c89",
+      "pushed_at": "2026-11-14T06:53:08Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "ecdce05a71e4d943acebadabc7028940a14a55ec",
+          "sha256": "9e5efafff825f967ac5eaa51daf17dbae9220c14215e48fe5e85337f6f2462cf",
+          "bytes": 6673,
+          "url": "https://github.com/isl-org/Open3D/blob/2ce4f7e0270a53694e2be651496313256e453c89/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "c3c3641b204724f8b1deabf68f689b46e3a2ce54",
+          "sha256": "e2105d24aa1dae0fb5450f5b974dbf369b44d3c91a100d1b134922edb0647175",
+          "bytes": 1139,
+          "url": "https://github.com/isl-org/Open3D/blob/2ce4f7e0270a53694e2be651496313256e453c89/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/pytorch3d",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "library",
+      "use": "可微三维几何与渲染",
+      "boundary": "相机/坐标/光栅化约定、GPU 构建与许可证例外分别检查。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 LICENSE 为 BSD 条款；API 未识别不应取代原文，其他文件和依赖仍需单独核查。",
+      "requested_repository": "facebookresearch/pytorch3d",
+      "url": "https://github.com/facebookresearch/pytorch3d",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "PyTorch3D is FAIR's library of reusable components for deep learning with 3D data",
+      "default_branch": "main",
+      "head": "3eac7c62fed39a09768cd08119c5e1bf4daef559",
+      "pushed_at": "2026-11-13T15:13:34Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "9bf32fe3790ed34f5b8f3878ed8666423cd4b067",
+          "sha256": "b7d9b24a8c3123f549e803c1c30126a044dd85fc8cd3f6b3c671bf8733129422",
+          "bytes": 11422,
+          "url": "https://github.com/facebookresearch/pytorch3d/blob/3eac7c62fed39a09768cd08119c5e1bf4daef559/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "c55382ff0992d90ae5ecb2cd9ac624ccd20bda4d",
+          "sha256": "6da05663049417a91409fa349bfad5778ed56c9ef68226dde28dffd541481579",
+          "bytes": 1534,
+          "url": "https://github.com/facebookresearch/pytorch3d/blob/3eac7c62fed39a09768cd08119c5e1bf4daef559/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "nerfstudio-project/nerfstudio",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "research-toolkit",
+      "use": "神经渲染、三维重建与实验管线",
+      "boundary": "训练视角/测试视角严格隔离，依赖、权重与图像采集权分开。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "nerfstudio-project/nerfstudio",
+      "url": "https://github.com/nerfstudio-project/nerfstudio",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A collaboration friendly studio for NeRFs",
+      "default_branch": "main",
+      "head": "50e0e3c70c775e89333256213363badbf074f29d",
+      "pushed_at": "2025-07-29T02:30:55Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "95ba60a48f5870b800e3ff0a23e56601a5de0c2a",
+          "sha256": "f44e12d6890a1bc425ffe5235ab56b17deb72ad755c08a049143b211e1bfde50",
+          "bytes": 21558,
+          "url": "https://github.com/nerfstudio-project/nerfstudio/blob/50e0e3c70c775e89333256213363badbf074f29d/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "ee561dfbe4221ad290556ceca885affdd2281dbe",
+          "sha256": "5798f1ffee3dbc6a673c3f78c8e4c11370fa6c0dd380664aa1160f0757efca45",
+          "bytes": 11349,
+          "url": "https://github.com/nerfstudio-project/nerfstudio/blob/50e0e3c70c775e89333256213363badbf074f29d/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "ultralytics/ultralytics",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "training-toolkit",
+      "use": "YOLO 检测、分割、姿态和跟踪工作流",
+      "boundary": "AGPL 的开放源代码义务和商业授权选项分别看；不能简单标成非商业许可或无条件商用。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "根许可 AGPL-3.0，README 另有商业授权选项；AGPL 是开源 copyleft 而非非商业许可，按使用方式检查相应义务。",
+      "requested_repository": "ultralytics/ultralytics",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+      "default_branch": "main",
+      "head": "d0cfceaf16f8d13dc3e62270744e8f8a44640448",
+      "pushed_at": "2026-11-14T21:09:41Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "AGPL-3.0",
+      "license_class": "reciprocal-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "86a0039fa9c42145af9a3eca710b1e21c9440a59",
+          "sha256": "ba04d1f381b0d9ff2b725eacd3ac7bcc22c8c61db91c5b69791c3b7c8b4ac9c3",
+          "bytes": 39265,
+          "url": "https://github.com/ultralytics/ultralytics/blob/d0cfceaf16f8d13dc3e62270744e8f8a44640448/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+          "bytes": 34523,
+          "url": "https://github.com/ultralytics/ultralytics/blob/d0cfceaf16f8d13dc3e62270744e8f8a44640448/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmdeploy",
+      "categories": [
+        "computer-vision"
+      ],
+      "role": "deployment",
+      "use": "视觉模型转换、后端适配和部署",
+      "boundary": "导出成功不等于数值等价；按后端和精度分别测量。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "open-mmlab/mmdeploy",
+      "url": "https://github.com/open-mmlab/mmdeploy",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "OpenMMLab Model Deployment Framework",
+      "default_branch": "main",
+      "head": "3f8604bd72e8e15d06b2e0552fe2fdb8f8de33c4",
+      "pushed_at": "2024-09-30T02:34:18Z",
+      "metadata_observed_at": "2026-11-15T11:58:55+08:00",
+      "sources_observed_at": "2026-11-15T11:58:57+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "83ea7e560d8d2e3f97956d41c731bba9e44e0754",
+          "sha256": "037745c8292899e0188588c5ed91bf1e333b1966dc7153dc0a1d2bbb0561a2ca",
+          "bytes": 16887,
+          "url": "https://github.com/open-mmlab/mmdeploy/blob/3f8604bd72e8e15d06b2e0552fe2fdb8f8de33c4/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://github.com/open-mmlab/mmdeploy/blob/3f8604bd72e8e15d06b2e0552fe2fdb8f8de33c4/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "huggingface/accelerate",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "training-infrastructure",
+      "use": "设备、混合精度和分布式训练组织",
+      "boundary": "检查梯度累积、有效 batch 和缩放规则；封装不保证更快或等价。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "huggingface/accelerate",
+      "url": "https://github.com/huggingface/accelerate",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support",
+      "default_branch": "main",
+      "head": "0aca80e511a60b6735ec22dc1062b22f35c2fa15",
+      "pushed_at": "2026-11-14T00:44:13Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "344d31807fcb44ec034e2606233b7845b7b28942",
+          "sha256": "e58dac7d7fb2301c67be6d5050f8242b7b3949f89a4e90fe6fad5218a6ccc047",
+          "bytes": 15185,
+          "url": "https://github.com/huggingface/accelerate/blob/0aca80e511a60b6735ec22dc1062b22f35c2fa15/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://github.com/huggingface/accelerate/blob/0aca80e511a60b6735ec22dc1062b22f35c2fa15/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "deepspeedai/DeepSpeed",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "training-infrastructure",
+      "use": "ZeRO、分布式训练与内存组织",
+      "boundary": "GPU/通信/编译依赖、checkpoint 和精度必须实测，不能套用宣传速度。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "microsoft/DeepSpeed",
+      "url": "https://github.com/deepspeedai/DeepSpeed",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+      "default_branch": "master",
+      "head": "5dc44e8453df8d02139c2a761aec4d2f4983b451",
+      "pushed_at": "2026-11-15T03:53:20Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "1e890bd018f58be9bf9491e2dda73d929777c72e",
+          "sha256": "452cb0816f31b3997e50ea97a88c3ebd6456cdcdd1b36ac079b378a66350edb5",
+          "bytes": 33061,
+          "url": "https://github.com/deepspeedai/DeepSpeed/blob/5dc44e8453df8d02139c2a761aec4d2f4983b451/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://github.com/deepspeedai/DeepSpeed/blob/5dc44e8453df8d02139c2a761aec4d2f4983b451/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "meta-pytorch/torchtune",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "training-toolkit",
+      "use": "模型微调配方、数据与训练状态",
+      "boundary": "配方、token mask、基础权重和数据条款分别核查。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "pytorch/torchtune",
+      "url": "https://github.com/meta-pytorch/torchtune",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "PyTorch native post-training library",
+      "default_branch": "main",
+      "head": "ef542e46285f9b68b37de938d4a59ca2d6dc1ef1",
+      "pushed_at": "2026-11-09T17:15:18Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "BSD-3-Clause",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "ad44a8d6006a405940af040ded29ce3c2f21922f",
+          "sha256": "3d5d4969647c1ee61bfa7a9295234ca32ca701442e3b44727cbda58de76f4b95",
+          "bytes": 22988,
+          "url": "https://github.com/meta-pytorch/torchtune/blob/ef542e46285f9b68b37de938d4a59ca2d6dc1ef1/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "bc559a98b9382b58a32932d11bf3185f9d4cfe89",
+          "sha256": "8ef78c2d6e787b103a0548e73ba2cfe68bc469b5b0e6f5e7db649f1312f4f2a6",
+          "bytes": 1474,
+          "url": "https://github.com/meta-pytorch/torchtune/blob/ef542e46285f9b68b37de938d4a59ca2d6dc1ef1/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "pytorch/torchtitan",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "training-infrastructure",
+      "use": "大规模训练与并行策略研究",
+      "boundary": "这是大规模训练研究入口，不是单卡环境可直接复现性能的证明。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "pytorch/torchtitan",
+      "url": "https://github.com/pytorch/torchtitan",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A PyTorch native platform for training generative AI models",
+      "default_branch": "main",
+      "head": "631d544b1f6794ecfeca734a7bba861e03ddd5e3",
+      "pushed_at": "2026-11-14T11:35:06Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "BSD-3-Clause",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "26a97c34f5aa0ac83caabd4c6a649015a8bf970d",
+          "sha256": "3c1bbbf9073aabf11a15785551449dc2ed414b5922a6bef56083b669c4c18154",
+          "bytes": 16511,
+          "url": "https://github.com/pytorch/torchtitan/blob/631d544b1f6794ecfeca734a7bba861e03ddd5e3/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "6d1df98ff6031178472ac043e5b4e11ea39568b2",
+          "sha256": "6eea30995941126beeb99ef775f0968ed8320beb4834ad28d6ae6704a1a92930",
+          "bytes": 1495,
+          "url": "https://github.com/pytorch/torchtitan/blob/631d544b1f6794ecfeca734a7bba861e03ddd5e3/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/xformers",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "components",
+      "use": "注意力算子和高效 Transformer 组件",
+      "boundary": "算子/硬件/精度覆盖和数值误差单独测试；非完整训练框架。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 LICENSE 含 BSD 三条款及其他组件通知；算子、依赖和分发条款分别核对。",
+      "requested_repository": "facebookresearch/xformers",
+      "url": "https://github.com/facebookresearch/xformers",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Hackable and optimized Transformers building blocks, supporting a composable construction.",
+      "default_branch": "main",
+      "head": "eedaeaf50ac5ae9e30f0b995e8f6d215ea719ac7",
+      "pushed_at": "2026-11-13T15:49:08Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "7ffd70356967306b970fffa97efa97bb91f25829",
+          "sha256": "d1e033a325b3decd75ee0966d3d6e42c74b1cc0861654bcc547682a6a13c1249",
+          "bytes": 6597,
+          "url": "https://github.com/facebookresearch/xformers/blob/eedaeaf50ac5ae9e30f0b995e8f6d215ea719ac7/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "4555634d3e51beb788e94ac535d01b6482514a5b",
+          "sha256": "8b069586d1dddf031cd469244f663f1b39a74e1235782e6255c24943e002b7ea",
+          "bytes": 1610,
+          "url": "https://github.com/facebookresearch/xformers/blob/eedaeaf50ac5ae9e30f0b995e8f6d215ea719ac7/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/micrograd",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "educational",
+      "use": "标量自动微分、计算图与反向传播",
+      "boundary": "教学实现不是生产 DL 引擎；用手算/有限差分检查梯度。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "karpathy/micrograd",
+      "url": "https://github.com/karpathy/micrograd",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API",
+      "default_branch": "master",
+      "head": "7bc720e951fe422b8f8814aa5aa1b64121d26b4c",
+      "pushed_at": "2026-08-03T04:04:05Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "64115dfc9709b9fbaeb8345af5321e8279f04908",
+          "sha256": "d9d2ec92f63d8deae6260bd2a535a5e633566b73169ccde0a416a5b0cd3f4118",
+          "bytes": 3009,
+          "url": "https://github.com/karpathy/micrograd/blob/7bc720e951fe422b8f8814aa5aa1b64121d26b4c/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "3d89960112452062baf36bb13d43a92028fc0f0e",
+          "sha256": "f372f582c99dc5b0e8dcf5ca5542183a735365468857ec6416af628490187cc1",
+          "bytes": 1081,
+          "url": "https://github.com/karpathy/micrograd/blob/7bc720e951fe422b8f8814aa5aa1b64121d26b4c/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/minGPT",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "educational",
+      "use": "简化 GPT 结构、因果 mask 和训练",
+      "boundary": "学习实现不代表现代最优训练或生产支持；留出与权重来源仍需检查。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "karpathy/minGPT",
+      "url": "https://github.com/karpathy/minGPT",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
+      "default_branch": "master",
+      "head": "37baab71b9abea1b76ab957409a1cc2fbfba8a26",
+      "pushed_at": "2024-08-15T04:09:40Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "9debd1773a92dda866918ce8d8e0d32fb0692889",
+          "sha256": "f4349f1694324e580ece777b4928ab597950f09cccf298f14c21c1530a0c069e",
+          "bytes": 9869,
+          "url": "https://github.com/karpathy/minGPT/blob/37baab71b9abea1b76ab957409a1cc2fbfba8a26/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "3d89960112452062baf36bb13d43a92028fc0f0e",
+          "sha256": "f372f582c99dc5b0e8dcf5ca5542183a735365468857ec6416af628490187cc1",
+          "bytes": 1081,
+          "url": "https://github.com/karpathy/minGPT/blob/37baab71b9abea1b76ab957409a1cc2fbfba8a26/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/nanoGPT",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "educational",
+      "use": "小型 GPT 训练循环、优化和数据流",
+      "boundary": "检查 README 的后继/维护说明；简洁不等于当前推荐栈或已复现论文。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 README 的 Nov2025 更新明确称其 old/deprecated，指向 nanochat；未归档不等于当前推荐栈。",
+      "requested_repository": "karpathy/nanoGPT",
+      "url": "https://github.com/karpathy/nanoGPT",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+      "default_branch": "master",
+      "head": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+      "pushed_at": "2025-11-12T19:52:34Z",
+      "metadata_observed_at": "2026-11-15T11:58:59+08:00",
+      "sources_observed_at": "2026-11-15T11:59:01+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "67ef634ff4797037e72b2919c2af1fb33dbd4fe5",
+          "sha256": "8d969370683849a2cc4e46c81bf2449717f2daff657586888151933c3590f85f",
+          "bytes": 13850,
+          "url": "https://github.com/karpathy/nanoGPT/blob/3adf61e154c3fe3fca428ad6bc3818b27a3b8291/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "329db5e33310fd5d98343e2bca690bfb07317526",
+          "sha256": "a59ec5cdb1c1e447e5266a014b3e7ded511f8d6e5a08931e931c87490ff821fe",
+          "bytes": 1072,
+          "url": "https://github.com/karpathy/nanoGPT/blob/3adf61e154c3fe3fca428ad6bc3818b27a3b8291/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/nanochat",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "educational-and-training",
+      "use": "从数据、训练、评估到对话模型的小型完整研究栈",
+      "boundary": "nanoGPT README 指向的后继；仍须核对硬件、数据、权重和完整成本，不默认低资源可复现。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "The best ChatGPT that $100 can buy.",
+      "default_branch": "master",
+      "head": "92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+      "pushed_at": "2026-09-07T20:06:43Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "d7f413ea2eebf3cbc5893220bb729f30865a2a74",
+          "sha256": "77b8dfce94f45ed7c29eecdbd52e4e4137a060036b38c250519341ba3270daca",
+          "bytes": 16570,
+          "url": "https://github.com/karpathy/nanochat/blob/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "72d95c190c0d14341d5b0720e28c88fb58690821",
+          "sha256": "42bb09f339a8af8b90d3b4969b6f6e4ba4aff3b5c614103b031fccdf71c8f772",
+          "bytes": 1072,
+          "url": "https://github.com/karpathy/nanochat/blob/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "d2l-ai/d2l-en",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "educational",
+      "use": "可运行教材、训练原理和模型实现",
+      "boundary": "教材文字与代码可能不同许可，必须区分，不能整书搬运。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 README 区分教材 CC BY-SA 4.0 与 sample/reference code 的 modified MIT；同时阅读 LICENSE-SAMPLECODE 和 LICENSE-SUMMARY，不能写成全部 Apache 或全部同许可。",
+      "additional_root_sources": [
+        "LICENSE-SAMPLECODE",
+        "LICENSE-SUMMARY"
+      ],
+      "requested_repository": "d2l-ai/d2l-en",
+      "url": "https://github.com/d2l-ai/d2l-en",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 500 universities from 70 countries including Stanford, MIT, Harvard, and Cambridge.",
+      "default_branch": "master",
+      "head": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
+      "pushed_at": "2024-08-18T08:02:36Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "903e939e98c5766a661dc06e1c55418f2ddf9b16",
+          "sha256": "ac8a41264bf01b977896dba88c8a6bda5a1027b657736cb279608756c1971c12",
+          "bytes": 4757,
+          "url": "https://github.com/d2l-ai/d2l-en/blob/23d7a5aecceee57d1292c56e90cce307f183bb0a/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "7785b9042bc90dad09ae994201568bbf395d8204",
+          "sha256": "a39a4b3d0f411a8217b7c6dd35dc8b06003784ce32d3593d0d2d780a7e9c2f8c",
+          "bytes": 14849,
+          "url": "https://github.com/d2l-ai/d2l-en/blob/23d7a5aecceee57d1292c56e90cce307f183bb0a/LICENSE"
+        },
+        {
+          "kind": "additional0",
+          "path": "LICENSE-SAMPLECODE",
+          "blob_sha": "e0d30fcd310e254efc2a0090193d14a4562d07be",
+          "sha256": "ddf9b5d9dd2fded18653e0ca4c5934008d4faea1161d754493b54a23c25eac14",
+          "bytes": 931,
+          "url": "https://github.com/d2l-ai/d2l-en/blob/23d7a5aecceee57d1292c56e90cce307f183bb0a/LICENSE-SAMPLECODE"
+        },
+        {
+          "kind": "additional1",
+          "path": "LICENSE-SUMMARY",
+          "blob_sha": "7c9d011bd65dc29cc2dd3ac914635aed350d10a2",
+          "sha256": "eeff5a6b129a319ee80e34762695dfa5349fe385a92c02168e6d21deff539f9c",
+          "bytes": 332,
+          "url": "https://github.com/d2l-ai/d2l-en/blob/23d7a5aecceee57d1292c56e90cce307f183bb0a/LICENSE-SUMMARY"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "NVIDIA/Megatron-LM",
+      "categories": [
+        "deep-learning"
+      ],
+      "role": "training-infrastructure",
+      "use": "模型/张量/流水线并行和大模型训练",
+      "boundary": "训练代码、容器、后端和 NVIDIA 组件条款分别核查；不承诺低资源适配。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 LICENSE 为 BSD 风格和文件/依赖例外的组合；API NOASSERTION 不代表 NVIDIA 容器/后端均无条件授权。",
+      "requested_repository": "NVIDIA/Megatron-LM",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Ongoing research training transformer models at scale",
+      "default_branch": "main",
+      "head": "0be53c791ffb70fe746bc0cdeaedb1409b1e23d9",
+      "pushed_at": "2026-11-15T02:20:06Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "81b6e1e89e25e2f9a735658b0ebd2a7c13545f1a",
+          "sha256": "241f860a314ba3790d0161a52fe423be2779d6854829488b7fb8dbf15954ee14",
+          "bytes": 8429,
+          "url": "https://github.com/NVIDIA/Megatron-LM/blob/0be53c791ffb70fe746bc0cdeaedb1409b1e23d9/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "1f1ee0241bd19498200861f96279f7cf30cb864a",
+          "sha256": "9d70d3ebc699d4c78ebe3f78dfb94b6dbae3529aea3dbc912e65e34a9f17667e",
+          "bytes": 18863,
+          "url": "https://github.com/NVIDIA/Megatron-LM/blob/0be53c791ffb70fe746bc0cdeaedb1409b1e23d9/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "pytorch/rl",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "algorithm-toolkit",
+      "use": "TorchRL 的环境、采样、buffer 与学习器",
+      "boundary": "训练/评估 mode、并行采样和 episode 边界要固定。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "pytorch/rl",
+      "url": "https://github.com/pytorch/rl",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning.",
+      "default_branch": "main",
+      "head": "fdf01c1454231e30080ecd5119898c2c5bf9f46f",
+      "pushed_at": "2026-11-14T18:05:58Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "faecdb3b1c64e952fc8c237142877a59dc743430",
+          "sha256": "a6469ae74ade325bb1c8f1c75c9a6ffc2d1404ea50ecf173a96da6ce2a117c6d",
+          "bytes": 27307,
+          "url": "https://github.com/pytorch/rl/blob/fdf01c1454231e30080ecd5119898c2c5bf9f46f/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "426ba7a3fc3dacaa7bed9159c49b5a989654a14a",
+          "sha256": "c5d8d2e3fc64f88c272ee2050af4d84e5f58f1a5d17a3aa99a47b77466a6fe72",
+          "bytes": 1098,
+          "url": "https://github.com/pytorch/rl/blob/fdf01c1454231e30080ecd5119898c2c5bf9f46f/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/PettingZoo",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "environment-api",
+      "use": "多智能体环境接口与 agent 生命周期",
+      "boundary": "环境 API 不是 MARL 算法；AEC/Parallel 语义和奖励分配不可混用。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "Farama-Foundation/PettingZoo",
+      "url": "https://github.com/Farama-Foundation/PettingZoo",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A standard API for multi-agent reinforcement learning environments, with popular reference environments and related utilities",
+      "default_branch": "main",
+      "head": "e76778661962a4c3db45dafb494beb704b18e38b",
+      "pushed_at": "2026-11-11T18:49:44Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "7c0e2aef40d6ccb532e68d6f4b59251188370ffc",
+          "sha256": "23570128a4eecf9c4229b9c71c6902bd50729266e7e7b3d83b7cbd07a1c33169",
+          "bytes": 5763,
+          "url": "https://github.com/Farama-Foundation/PettingZoo/blob/e76778661962a4c3db45dafb494beb704b18e38b/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "ab161e2957698a097cc09ad06054321856ef04ed",
+          "sha256": "fe9f87b9e7bedda9df7a8d73be96fe0c6456bd84271c8dc24e36c4e8e93515f2",
+          "bytes": 1073,
+          "url": "https://github.com/Farama-Foundation/PettingZoo/blob/e76778661962a4c3db45dafb494beb704b18e38b/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/Minari",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "dataset-tooling",
+      "use": "离线 RL 数据记录、恢复与版本",
+      "boundary": "数据工具不授予所有轨迹/环境的使用权，策略与轨迹来源须记录。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 LICENSE 声明 Farama 自有部分 MIT、其他部分保留 MIT/Apache 等通知；数据集本身的权利另核。",
+      "requested_repository": "Farama-Foundation/Minari",
+      "url": "https://github.com/Farama-Foundation/Minari",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities",
+      "default_branch": "main",
+      "head": "e23025e865478452ee0153250c694091ecd08682",
+      "pushed_at": "2026-11-13T23:56:22Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "4d508dac5138ecebea01b3bf3bcbd92ef7f7312f",
+          "sha256": "459ca2cebf87c1f2210b8363fbe8b6436611b9ea449eaeea18ec2d8b8725cd35",
+          "bytes": 4075,
+          "url": "https://github.com/Farama-Foundation/Minari/blob/e23025e865478452ee0153250c694091ecd08682/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "66fbb0706a2706049be0757bd312387677961bf4",
+          "sha256": "57569ca4221c4cbf9a035d1280d142550b7021722a70ffd79c318ae382689cc4",
+          "bytes": 12201,
+          "url": "https://github.com/Farama-Foundation/Minari/blob/e23025e865478452ee0153250c694091ecd08682/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/D4RL",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "dataset-benchmark",
+      "use": "历史离线 RL 数据与评分协议",
+      "boundary": "先读归档/后继说明；数据迁移和归一化分数不能直接跨版本比较。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 README 指向 Gymnasium/MiniGrid/Gymnasium-Robotics 与 Minari 的迁移，并分别说明数据/代码条款；不混用新旧环境分数。",
+      "requested_repository": "Farama-Foundation/D4RL",
+      "url": "https://github.com/Farama-Foundation/D4RL",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A collection of reference environments for offline reinforcement learning",
+      "default_branch": "master",
+      "head": "89141a689b0353b0dac3da5cba60da4b1b16254d",
+      "pushed_at": "2024-11-18T16:40:39Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "bd1a3f5953e6ee4dcbd58044784813f30f285eaf",
+          "sha256": "8373cb0f9b3426c6da4ac246232a6dc54005574f3fbfc4d8631fb19075306553",
+          "bytes": 7198,
+          "url": "https://github.com/Farama-Foundation/D4RL/blob/89141a689b0353b0dac3da5cba60da4b1b16254d/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "faa7689b588a55745b2b95dca20fae180dccd0af",
+          "sha256": "b0f25c4a678ab413d2ded27faaebc0dcc39b54ad9757c5d00e7f91f31ec5bd82",
+          "bytes": 10207,
+          "url": "https://github.com/Farama-Foundation/D4RL/blob/89141a689b0353b0dac3da5cba60da4b1b16254d/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/Minigrid",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "environment",
+      "use": "部分可观测网格任务与可控 RL 实验",
+      "boundary": "用独立布局/种子测试，随机策略作为 baseline；不是现实泛化证明。",
+      "reuse_policy": "reference-only-license-clarification",
+      "source_review_note": "本次固定 LICENSE 文本出现补丁标记 @@，API 为 NOASSERTION；只作阅读参考，复用前核对完整有效许可，不自动推断授权。",
+      "requested_repository": "Farama-Foundation/Minigrid",
+      "url": "https://github.com/Farama-Foundation/Minigrid",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Simple and easily configurable grid world environments for reinforcement learning",
+      "default_branch": "main",
+      "head": "d9c0416dec36c43f304693fea9fcdbb9f9d17595",
+      "pushed_at": "2026-11-14T22:59:54Z",
+      "metadata_observed_at": "2026-11-15T12:01:01+08:00",
+      "sources_observed_at": "2026-11-15T12:01:02+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "c831f687e6bab68be40248f1166e1e4db2a1b6ad",
+          "sha256": "c587cc5dc6ccca783e5ab02528c586764b8aa37da39f333f017df6ebe42d8575",
+          "bytes": 5465,
+          "url": "https://github.com/Farama-Foundation/Minigrid/blob/d9c0416dec36c43f304693fea9fcdbb9f9d17595/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "880057397a1f9f7b3b1f0870eb84fa699ecbf50c",
+          "sha256": "6c2915ffe9ac7ad36b26a36d03c2297ccc42a3dd914c902b28bfd5ff08c21b7c",
+          "bytes": 2507,
+          "url": "https://github.com/Farama-Foundation/Minigrid/blob/d9c0416dec36c43f304693fea9fcdbb9f9d17595/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "openai/procgen",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "environment",
+      "use": "程序化环境与 train/test level 泛化",
+      "boundary": "区分训练/测试 level、环境构建和许可，先核维护状态。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "openai/procgen",
+      "url": "https://github.com/openai/procgen",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Procgen Benchmark: Procedurally-Generated Game-Like Gym-Environments",
+      "default_branch": "master",
+      "head": "37b521dbb530f0734fd82f72d921f5e0e715c0d1",
+      "pushed_at": "2026-03-27T02:52:42Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "f4a80e7130110d3a76238a3432383e40d34d3d91",
+          "sha256": "27022515ed7879b95bb8b4a7db01c5f7c0207468f48441bf3180cdcc0a279c7f",
+          "bytes": 23094,
+          "url": "https://github.com/openai/procgen/blob/37b521dbb530f0734fd82f72d921f5e0e715c0d1/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "b8b31580ab66673be3f9a0b4bc8fea3421d9d447",
+          "sha256": "62fead824b483f3dbba9ffc2074d8ffb5420839481dfa883b91de6f5ae68bc45",
+          "bytes": 1062,
+          "url": "https://github.com/openai/procgen/blob/37b521dbb530f0734fd82f72d921f5e0e715c0d1/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "rail-berkeley/rlkit",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "research-toolkit",
+      "use": "强化/离线学习研究组件与实验组织",
+      "boundary": "研究代码、外部环境/数据和当前兼容性分开，不默认生产可用。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "rail-berkeley/rlkit",
+      "url": "https://github.com/rail-berkeley/rlkit",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Collection of reinforcement learning algorithms",
+      "default_branch": "master",
+      "head": "ac45a9db24b89d97369bef302487273bcc3e3d84",
+      "pushed_at": "2024-06-17T17:33:51Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "af519e1a671c9e066bbf81798c656193cd972c9d",
+          "sha256": "438489f05a36b712b41c031dea7644f6b694d5e2e63acc7c24c3bd0c17fa7d0a",
+          "bytes": 11876,
+          "url": "https://github.com/rail-berkeley/rlkit/blob/ac45a9db24b89d97369bef302487273bcc3e3d84/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "e2a90777bb6d9c67c07f1417c2b80f03a0a874da",
+          "sha256": "18ee2e384cbe5a3d6d6a08f694869f9afdb9175273b40042cc13fecd2863e498",
+          "bytes": 1069,
+          "url": "https://github.com/rail-berkeley/rlkit/blob/ac45a9db24b89d97369bef302487273bcc3e3d84/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "takuseno/d3rlpy",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "algorithm-toolkit",
+      "use": "离线/在线深度 RL 算法与评估",
+      "boundary": "严格隔离离线数据与在线评估，限制在线交互预算。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "takuseno/d3rlpy",
+      "url": "https://github.com/takuseno/d3rlpy",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "An offline deep reinforcement learning library",
+      "default_branch": "master",
+      "head": "38c34b6f99fde82875e2ad81d1ba1f7a7da34137",
+      "pushed_at": "2025-09-10T23:06:16Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "766d74b39f13215b2d360e77723dc5789ace547e",
+          "sha256": "3b44807ebbb0f716d44b9f44f6b39cfbe1311a10c719c6cdcaa72df5fea63b0f",
+          "bytes": 10487,
+          "url": "https://github.com/takuseno/d3rlpy/blob/38c34b6f99fde82875e2ad81d1ba1f7a7da34137/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "4fa4770659c88680f2e69096106993c0d30ec3c1",
+          "sha256": "d49560cebdda76bd10ff127c5db547624dfcf029440ab9795404e478f3d5e5a3",
+          "bytes": 1068,
+          "url": "https://github.com/takuseno/d3rlpy/blob/38c34b6f99fde82875e2ad81d1ba1f7a7da34137/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "tinkoff-ai/CORL",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "research-baselines",
+      "use": "离线 RL 的算法基线与固定配置",
+      "boundary": "原始仓库已归档；corl-team/CORL 是 fork，不能据此声称原库活跃维护。数据和评分协议另核。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "tinkoff-ai/CORL",
+      "url": "https://github.com/tinkoff-ai/CORL",
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "description": "High-quality single-file implementations of SOTA Offline and Offline-to-Online RL algorithms: AWAC, BC, CQL, DT, EDAC, IQL, SAC-N, TD3+BC, LB-SAC, SPOT, Cal-QL, ReBRAC",
+      "default_branch": "main",
+      "head": "6afec90484bbf47dee05fdf525e26a3ebe028e9b",
+      "pushed_at": "2023-08-03T07:13:55Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "fe9723bdd4a5c90c24d57336443b94b79aa193d8",
+          "sha256": "9e2ada9efc88a0e0582409e17b4df818ac5240915bc00fdc06bce47f405cc5d2",
+          "bytes": 25202,
+          "url": "https://github.com/tinkoff-ai/CORL/blob/6afec90484bbf47dee05fdf525e26a3ebe028e9b/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "url": "https://github.com/tinkoff-ai/CORL/blob/6afec90484bbf47dee05fdf525e26a3ebe028e9b/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/mbrl-lib",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "research-toolkit",
+      "use": "基于模型的 RL、动力学与规划",
+      "boundary": "模型误差、规划预算、真实环境交互和策略回报分别计量。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "facebookresearch/mbrl-lib",
+      "url": "https://github.com/facebookresearch/mbrl-lib",
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "description": "Library for Model Based RL ",
+      "default_branch": "main",
+      "head": "3f93cccfc8d635f74e335a2f07aab6e9a48fc021",
+      "pushed_at": "2024-07-12T20:42:46Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "f6acda2eed109a0a863be1bf26676554e60dfe16",
+          "sha256": "2243db521b3d3b8b10fc26a9393979cfe50de72159a63a6947a16d6c7cd7c994",
+          "bytes": 12087,
+          "url": "https://github.com/facebookresearch/mbrl-lib/blob/3f93cccfc8d635f74e335a2f07aab6e9a48fc021/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "b96dcb0480a0b0be0727976e5202a1e7b23edc3f",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086,
+          "url": "https://github.com/facebookresearch/mbrl-lib/blob/3f93cccfc8d635f74e335a2f07aab6e9a48fc021/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/habitat-lab",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "embodied-framework",
+      "use": "具身导航/交互环境与训练任务",
+      "boundary": "环境、场景/资产数据和模拟器条款独立；仿真不证明真实部署安全。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "facebookresearch/habitat-lab",
+      "url": "https://github.com/facebookresearch/habitat-lab",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A modular high-level library to train embodied AI agents across a variety of tasks and environments.",
+      "default_branch": "main",
+      "head": "0fb6f43ffe806a8088a171b036336c093bcf604e",
+      "pushed_at": "2026-05-07T22:03:51Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "4c36a8038fab9bdfca1591eabfa31dc500203320",
+          "sha256": "49ffbba6a3e459e382aebcc1724a9682ebb3c4eec85df7f6e2aa92ee0eefa8a7",
+          "bytes": 13988,
+          "url": "https://github.com/facebookresearch/habitat-lab/blob/0fb6f43ffe806a8088a171b036336c093bcf604e/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "1b277b98b674add4e8cd774e49465afb2b89021d",
+          "sha256": "2d4c3d00d67067461412a2d9a2f3f8b7b9cda62b3db501e4b6844ccf35c949aa",
+          "bytes": 1092,
+          "url": "https://github.com/facebookresearch/habitat-lab/blob/0fb6f43ffe806a8088a171b036336c093bcf604e/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "google-deepmind/mujoco",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "simulator",
+      "use": "物理引擎、接触、控制与仿真",
+      "boundary": "模拟器不是学习算法，模型参数/时间步和插件许可影响可复现性。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "default_branch": "main",
+      "head": "7252110fb3060fee5fbef9f341f36341e6b02a87",
+      "pushed_at": "2026-11-13T17:42:32Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "c6fb8355165ddd1477109a96d3aace4e6f9cd17b",
+          "sha256": "611e07477229b5fdb4af3c630bfd254836e5d852dc0b361f41dca77e417fee0e",
+          "bytes": 10205,
+          "url": "https://github.com/google-deepmind/mujoco/blob/7252110fb3060fee5fbef9f341f36341e6b02a87/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "url": "https://github.com/google-deepmind/mujoco/blob/7252110fb3060fee5fbef9f341f36341e6b02a87/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "google/brax",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "simulator-and-training",
+      "use": "加速物理仿真与 JAX RL 示例",
+      "boundary": "先查引擎/后继接口说明；吞吐、物理精度和策略质量是不同指标。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 README 明确自0.13.0仅 brax/training 活跃维护，环境转向 MuJoCo Playground，物理模拟转向 MJX/MuJoCo Warp；旧示例不代表当前推荐接口。",
+      "requested_repository": "google/brax",
+      "url": "https://github.com/google/brax",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "Massively parallel rigidbody physics simulation on accelerator hardware.",
+      "default_branch": "main",
+      "head": "c8605294264a7b7546268adbb4beabc9eb624000",
+      "pushed_at": "2026-10-20T10:36:12Z",
+      "metadata_observed_at": "2026-11-15T12:01:04+08:00",
+      "sources_observed_at": "2026-11-15T12:01:05+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "fdb7eb56cdb13a58f0eb33159ce2634815cab48a",
+          "sha256": "cdc0ed41108caa44ad5881397e74539e7c70f7ed605ce68b0da52b1f957705e4",
+          "bytes": 6866,
+          "url": "https://github.com/google/brax/blob/c8605294264a7b7546268adbb4beabc9eb624000/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "f49a4e16e68b128803cc2dcea614603632b04eac",
+          "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+          "bytes": 11356,
+          "url": "https://github.com/google/brax/blob/c8605294264a7b7546268adbb4beabc9eb624000/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "Unity-Technologies/ml-agents",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "environment-and-training",
+      "use": "Unity 环境接口、训练与多智能体研究",
+      "boundary": "开源 Python/训练代码不自动授予 Unity 编辑器、资产或商业服务权利。",
+      "reuse_policy": "review-code-data-weights-components",
+      "source_review_note": "固定 LICENSE 明确 Apache-2.0，API NOASSERTION 不是无许可；Unity 编辑器、资产和其他组件条款独立。",
+      "requested_repository": "Unity-Technologies/ml-agents",
+      "url": "https://github.com/Unity-Technologies/ml-agents",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement learning and imitation learning.",
+      "default_branch": "develop",
+      "head": "4649106d09088a6135397e0f8ed7015ec600834a",
+      "pushed_at": "2026-10-30T02:19:45Z",
+      "metadata_observed_at": "2026-11-15T12:01:06+08:00",
+      "sources_observed_at": "2026-11-15T12:01:08+08:00",
+      "license_signal": "NOASSERTION",
+      "license_class": "needs-license-review",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "Readme.md",
+          "blob_sha": "8273b0a37af95ff2de211d264e1c5963161f798a",
+          "sha256": "bd7f0a028fdfab51a144798967a14d7c45073d6d1d55129b3bc76dd950c965ef",
+          "bytes": 1946,
+          "url": "https://github.com/Unity-Technologies/ml-agents/blob/4649106d09088a6135397e0f8ed7015ec600834a/Readme.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE.md",
+          "blob_sha": "4ddbb5310feeaa627ccca5d12122c6f05d87a84f",
+          "sha256": "21169a6cd5de3af010f89d5bf5e679c0cc33e5ab1163464b6507b3634e3ca6e4",
+          "bytes": 572,
+          "url": "https://github.com/Unity-Technologies/ml-agents/blob/4649106d09088a6135397e0f8ed7015ec600834a/LICENSE.md"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "google-deepmind/acme",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "research-framework",
+      "use": "分布式 RL 的 actor、learner 与环境组织",
+      "boundary": "先检查维护与依赖；actor/learner 数据滞后及评估预算必须显式。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "google-deepmind/acme",
+      "url": "https://github.com/google-deepmind/acme",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A library of reinforcement learning components and agents",
+      "default_branch": "master",
+      "head": "1bc05bea97b94a2da7e5315b315118bdaa98f1f3",
+      "pushed_at": "2026-11-12T08:10:29Z",
+      "metadata_observed_at": "2026-11-15T12:01:06+08:00",
+      "sources_observed_at": "2026-11-15T12:01:08+08:00",
+      "license_signal": "Apache-2.0",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "fc3cc4aa01ca20a545c96ce973baf4e3f3e233af",
+          "sha256": "0c9f5a582fa50f3a19777661d6411fea6afc9b42c08cfe3f41ff42180733e3f4",
+          "bytes": 5476,
+          "url": "https://github.com/google-deepmind/acme/blob/1bc05bea97b94a2da7e5315b315118bdaa98f1f3/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "url": "https://github.com/google-deepmind/acme/blob/1bc05bea97b94a2da7e5315b315118bdaa98f1f3/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/HighwayEnv",
+      "categories": [
+        "reinforcement-learning"
+      ],
+      "role": "environment",
+      "use": "驾驶决策仿真与可控 RL 任务",
+      "boundary": "只是仿真研究，不是安全驾驶验证；固定场景、随机种子和失败指标。",
+      "reuse_policy": "review-code-data-weights-components",
+      "requested_repository": "Farama-Foundation/HighwayEnv",
+      "url": "https://github.com/Farama-Foundation/HighwayEnv",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "description": "A collection of environments for autonomous driving and tactical decision-making tasks",
+      "default_branch": "main",
+      "head": "f38d8aaee77d2c7d7ca8cb04b2e84141dfc5eb4a",
+      "pushed_at": "2026-11-11T19:12:34Z",
+      "metadata_observed_at": "2026-11-15T12:01:06+08:00",
+      "sources_observed_at": "2026-11-15T12:01:08+08:00",
+      "license_signal": "MIT",
+      "license_class": "permissive-signal-review-text",
+      "sources": [
+        {
+          "kind": "readme",
+          "path": "README.md",
+          "blob_sha": "a1d453832cf960baccbd3d37c8731674afb1a09a",
+          "sha256": "3a25bd68ae15a75d8b77269f44c3700d3c1c9622b4d1c4132b10fcbff8b40150",
+          "bytes": 5411,
+          "url": "https://github.com/Farama-Foundation/HighwayEnv/blob/f38d8aaee77d2c7d7ca8cb04b2e84141dfc5eb4a/README.md"
+        },
+        {
+          "kind": "license",
+          "path": "LICENSE",
+          "blob_sha": "e70c7fa61af2acddcf24856d857e98eac2ffb0c2",
+          "sha256": "0e7f0f62daa2d50d273b2ff96aebe3653f293f50e064b4d1943bdb145cd3d1bb",
+          "bytes": 1109,
+          "url": "https://github.com/Farama-Foundation/HighwayEnv/blob/f38d8aaee77d2c7d7ca8cb04b2e84141dfc5eb4a/LICENSE"
+        }
+      ],
+      "runtime_evaluation": "NOT_RUN",
+      "quality_gain": "UNMEASURED"
+    }
+  ],
+  "completed_at": "2026-11-15T12:01:50+08:00"
+}

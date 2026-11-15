@@ -1,9 +1,9 @@
 name: Repository catalog
 on:
   push:
-    paths: ['repo/**', 'paper/ai-infra/**', 'tests/test_repo_catalog.py', 'tests/test_ai_infra_release.py', '.github/workflows/repo-catalog.yml']
+    paths: ['repo/**', 'paper/ai-infra/**', 'tests/test_repo_catalog.py', 'tests/test_ai_infra_release.py', 'tests/test_cv_dl_rl_crosslist.py', '.github/workflows/repo-catalog.yml']
   pull_request:
-    paths: ['repo/**', 'paper/ai-infra/**', 'tests/test_repo_catalog.py', 'tests/test_ai_infra_release.py', '.github/workflows/repo-catalog.yml']
+    paths: ['repo/**', 'paper/ai-infra/**', 'tests/test_repo_catalog.py', 'tests/test_ai_infra_release.py', 'tests/test_cv_dl_rl_crosslist.py', '.github/workflows/repo-catalog.yml']
 permissions:
   contents: read
 jobs:
@@ -17,3 +17,5 @@ jobs:
           python-version: '3.11'
       - run: python -m unittest discover -s tests -p test_repo_catalog.py -v
       - run: python -m unittest discover -s tests -p test_ai_infra_release.py -v
+      - run: python -m unittest discover -s tests -p test_cv_dl_rl_crosslist.py -v
+      - run: python repo/cv-dl-rl/build_catalog.py --check

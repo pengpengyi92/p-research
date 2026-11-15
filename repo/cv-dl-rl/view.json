@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "project": "P-Research",
+  "profile": "research",
+  "title": "P-Research: CV / DL / RL research questions",
+  "imported_at": "2026-11-15T12:17:22+08:00",
+  "timezone": "Asia/Shanghai",
+  "status": "REFERENCE_ONLY / NOT_RUN",
+  "complete_ecosystem_inventory": false,
+  "provenance": {
+    "repository": "pengpengyi92/P-ML",
+    "commit": "f0492b80f9f97527926b7aa1cb1290c2ef73699b",
+    "path": "ml-repo/cv-dl-rl/snapshot.json",
+    "sha256": "2867982492edd317a0d0c6ce9bec1584e66acc11d946ac0e8d58deae2eaf9478",
+    "snapshot_url": "https://github.com/pengpengyi92/P-ML/blob/f0492b80f9f97527926b7aa1cb1290c2ef73699b/ml-repo/cv-dl-rl/snapshot.json",
+    "source_policy": "Byte-preserved public metadata only. Original upstream observations remain unchanged; import is not a new upstream review."
+  },
+  "entries": [
+    {
+      "repository": "opencv/opencv",
+      "question": "传统几何预处理对固定视觉任务是否有独立增益？",
+      "baseline": "不做预处理的相同冻结模型",
+      "measure": "固定holdout质量、预处理成本及消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "opencv/opencv_contrib",
+      "question": "额外特征组件相较核心基线是否值得复杂度？",
+      "baseline": "核心库同任务、同数据协议",
+      "measure": "质量/运行成本与失败案例",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "scikit-image/scikit-image",
+      "question": "传统分割能否成为深度模型的有效弱baseline？",
+      "baseline": "阈值/连通域的固定规则",
+      "measure": "IoU/Dice、结构误差与预算",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmpretrain",
+      "question": "预训练特征收益来自表征还是下游调参预算？",
+      "baseline": "冻结随机/简单特征及同预算线性探针",
+      "measure": "固定probe质量、seed方差与选择成本",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmpose",
+      "question": "姿态模型在未见主体/遮挡上能否稳健泛化？",
+      "baseline": "固定冻结模型与主体隔离",
+      "measure": "PCK/OKS口径、遮挡分层与置信区间",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmtracking",
+      "question": "时序关联的收益能否超过逐帧检测baseline？",
+      "baseline": "固定检测器和简单关联",
+      "measure": "IDF1/HOTA、身份切换与视频holdout",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/segment-anything",
+      "question": "模型表现如何依赖人工提示和提示预算？",
+      "baseline": "固定提示策略与简单分割",
+      "measure": "IoU、提示数和失败分层，非自动识别声明",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/sam2",
+      "question": "记忆模块是否在独立视频上提高跟踪分割？",
+      "baseline": "逐帧无记忆基线、相同提示预算",
+      "measure": "视频IoU、身份漂移、成本与记忆消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "IDEA-Research/GroundingDINO",
+      "question": "开放词汇定位对提示重写有多敏感？",
+      "baseline": "固定冻结模型、统一提示集",
+      "measure": "定位指标、提示方差及未见类别拆分",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmrotate",
+      "question": "旋转框建模收益是否仅来自评估口径变化？",
+      "baseline": "同数据的轴对齐参考与固定IoU定义",
+      "measure": "旋转mAP、边界案例及约定消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/pytorchvideo",
+      "question": "时序模型相较单帧特征改善来自哪里？",
+      "baseline": "单帧/简单池化、相同视频holdout",
+      "measure": "视频级质量、采样预算和顺序打乱负对照",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "isl-org/Open3D",
+      "question": "几何配准方法对噪声/遮挡的稳健性如何？",
+      "baseline": "固定简单配准、独立合成变换",
+      "measure": "几何误差、失败率及噪声分层",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/pytorch3d",
+      "question": "可微渲染是否比无梯度搜索更有效恢复参数？",
+      "baseline": "相同小场景、固定搜索预算",
+      "measure": "参数误差、视角holdout与计算成本",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "nerfstudio-project/nerfstudio",
+      "question": "新视角质量是否在严格相机holdout下保持？",
+      "baseline": "冻结已声明重建baseline",
+      "measure": "固定视角PSNR/SSIM、成本与失败视角",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "ultralytics/ultralytics",
+      "question": "检测/分割收益如何随数据域和阈值变化？",
+      "baseline": "同split/预算冻结模型，不跨任务拼分",
+      "measure": "任务指标、校准、跨域分层和失败事件",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "open-mmlab/mmdeploy",
+      "question": "压缩/部署改变是否形成可信质量-成本前沿？",
+      "baseline": "原模型同一固定测试集",
+      "measure": "质量、延迟、内存向量及精度消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "huggingface/accelerate",
+      "question": "训练封装是否在同预算下改变质量/复现性？",
+      "baseline": "显式循环、相同数据/token/step",
+      "measure": "holdout损失、seed方差、资源成本",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "deepspeedai/DeepSpeed",
+      "question": "并行/分片策略是否改善固定质量目标的成本？",
+      "baseline": "未分片参考、相同有效batch/token预算",
+      "measure": "质量、内存、通信和实际wall-time",
+      "existing_links": [
+        "../ai-infra/README.md"
+      ],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "meta-pytorch/torchtune",
+      "question": "微调配方收益能否隔离数据与选择预算？",
+      "baseline": "冻结基础模型/简单微调、相同split",
+      "measure": "固定holdout质量、成本、mask消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "pytorch/torchtitan",
+      "question": "扩大并行度是否改变质量-训练成本关系？",
+      "baseline": "相同模型/token预算的单规模参考",
+      "measure": "loss曲线、通信/内存和seed方差",
+      "existing_links": [
+        "../ai-infra/README.md"
+      ],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/xformers",
+      "question": "注意力实现优化能否不牺牲质量且降低实际成本？",
+      "baseline": "相同输入形状/精度的朴素实现",
+      "measure": "误差、热延迟、内存及形状分层",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/micrograd",
+      "question": "自动微分教学结构能否揭示训练失败原因？",
+      "baseline": "手算小函数及显式更新",
+      "measure": "已知梯度正确性和反例；学习收益另测",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/minGPT",
+      "question": "简化GPT在固定小语料上的泛化由哪些组件决定？",
+      "baseline": "简单语言模型和等token预算",
+      "measure": "holdout损失、mask/位置编码消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/nanoGPT",
+      "question": "旧实现的结果能否在严格预算下复现？",
+      "baseline": "固定版本和小语料、独立测试",
+      "measure": "损失/方差、总成本；保留deprecated限制",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "karpathy/nanochat",
+      "question": "端到端训练环节对固定任务效果各贡献多少？",
+      "baseline": "冻结或简单模型、相同选择预算",
+      "measure": "盲测质量、阶段消融、成本和数据污染审计",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "d2l-ai/d2l-en",
+      "question": "哪些最小实验能证伪对优化/泛化的常见直觉？",
+      "baseline": "OLS/dummy与固定合成条件",
+      "measure": "holdout误差、条件数/噪声消融，非学习收益声明",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "NVIDIA/Megatron-LM",
+      "question": "并行策略是否改变相同训练预算的有效性？",
+      "baseline": "相同模型/token/有效batch参考",
+      "measure": "损失、吞吐、成本向量及并行消融",
+      "existing_links": [
+        "../ai-infra/README.md"
+      ],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "pytorch/rl",
+      "question": "采样/回放设计改变能否稳定改善策略？",
+      "baseline": "固定算法、交互预算和环境种子",
+      "measure": "独立episode回报、方差和buffer消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/PettingZoo",
+      "question": "多智能体结果是否对对手池和角色分配稳健？",
+      "baseline": "随机/脚本策略与固定对手池",
+      "measure": "联合/个体回报、角色分层和未见对手",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/Minari",
+      "question": "离线RL成绩是否对轨迹来源/版本敏感？",
+      "baseline": "同数据behavior cloning参考",
+      "measure": "回报、覆盖、不确定性和版本消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/D4RL",
+      "question": "历史离线结论迁移到重建数据后是否仍成立？",
+      "baseline": "相同旧任务与明确迁移对照",
+      "measure": "任务内回报/方差及迁移差异",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/Minigrid",
+      "question": "策略是否泛化到未见布局而非记忆种子？",
+      "baseline": "随机/脚本策略、固定交互预算",
+      "measure": "未见布局成功率、方差；仅待核研究方案",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "openai/procgen",
+      "question": "程序化环境泛化是否受训练level数量限制？",
+      "baseline": "同预算随机/固定算法参考",
+      "measure": "未见level回报、成功率和level消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "rail-berkeley/rlkit",
+      "question": "研究组件组合收益能否在固定预算下复现？",
+      "baseline": "简单固定算法及相同buffer",
+      "measure": "回报/方差、组件消融和复现失败",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "takuseno/d3rlpy",
+      "question": "离线算法收益是否超过简单behavior cloning？",
+      "baseline": "相同轨迹/选择预算的BC",
+      "measure": "独立评估回报、不确定性和在线使用审计",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "tinkoff-ai/CORL",
+      "question": "原库基线成绩能否被独立复现？",
+      "baseline": "同数据和预算的简单离线算法",
+      "measure": "回报/方差/失败；原库archived，fork不混计",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/mbrl-lib",
+      "question": "模型式RL收益来自更好动力学还是更多计算？",
+      "baseline": "同真实交互预算的model-free/reference",
+      "measure": "回报、模型误差、不确定性和规划消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "facebookresearch/habitat-lab",
+      "question": "具身策略能否泛化到未见场景？",
+      "baseline": "脚本/简单策略与相同交互预算",
+      "measure": "未见场景成功率、碰撞和方差，非现实安全证明",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "google-deepmind/mujoco",
+      "question": "物理参数/仿真偏差对控制策略有多敏感？",
+      "baseline": "简单控制器、固定参数参考",
+      "measure": "控制误差、参数扰动与仿真到现实限制",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "google/brax",
+      "question": "加速训练收益能否区分吞吐和策略质量？",
+      "baseline": "同交互/质量目标与设备预算",
+      "measure": "回报/方差、实际wall-time和接口迁移消融",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "Unity-Technologies/ml-agents",
+      "question": "场景/agent配置变化是否影响策略泛化？",
+      "baseline": "固定脚本/随机策略与未见场景",
+      "measure": "成功/失败、seed方差和训练成本",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "google-deepmind/acme",
+      "question": "异步采样的收益能否排除交互预算差异？",
+      "baseline": "同步参考、相同真实交互预算",
+      "measure": "回报、滞后、方差和计算开销",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    },
+    {
+      "repository": "Farama-Foundation/HighwayEnv",
+      "question": "策略对未见交通密度/场景的鲁棒性如何？",
+      "baseline": "脚本策略与同交互预算",
+      "measure": "碰撞率、成功率、回报和场景分层，非现实驾驶验证",
+      "existing_links": [],
+      "result": "NOT_RUN",
+      "gain": "UNMEASURED"
+    }
+  ]
+}

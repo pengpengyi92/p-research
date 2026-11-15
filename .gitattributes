@@ -1,0 +1,2 @@
+repo/cv-dl-rl/* text eol=lf
+tests/test_cv_dl_rl_crosslist.py text eol=lf

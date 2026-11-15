@@ -6,6 +6,10 @@
 
 A public **AI-first research commons** for agents, RAG, memory, models, multimodal systems and rigorous evaluation. Quant × AI remains an application branch, not the organizing center of the new repository catalog. The existing arXiv/survey pipeline, quantitative examples and historical charter are preserved.
 
+[CV / DL / RL · 43个研究问题入口](repo/cv-dl-rl/README.md) — 表征、时序记忆、训练预算和策略
+泛化；逐项有可证伪问题、baseline和拟用指标，链接P-ML的116项总目录。已有AI Infra项目
+交叉引用不重复计数；新模型/策略实验均NOT_RUN / UNMEASURED。
+
 Start with the [12-repository AI research guide](repo/README.md): why each project
 matters for a research question, pinned implementation pointers and unrun study
 plans. [P-ML](https://github.com/pengpengyi92/P-ML/tree/main/ml-repo) focuses on

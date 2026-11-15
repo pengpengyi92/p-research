@@ -1,5 +1,15 @@
 # P-Research TODO
 
+## P0 - CV / DL / RL cross-list (2026-11-15)
+
+- [x] Import public43-project/89-source snapshot byte-for-byte, preserve original timestamps.
+- [x] Add43 research questions/baselines/metrics; link three existing AI Infra projects.
+- [x] Preserve rights/archives/clarification gates; no raw upstream or private data copied.
+- [x] New18 offline cross-list contracts pass; baseline94 Python tests retained.
+- [x] Full112-test Python suite and generator/preservation checks PASS; link/privacy contracts included.
+- [ ] Publish scoped files and verify remote Git blobs/CI.
+- [ ] P1: One pre-registered synthetic study, not a claim of model quality from curation.
+
 ## P0 - AI alpha literature and selected methods release (2026-11-15)
 
 - [x] Verify three papers against primary records; distinguish demo/preprints.

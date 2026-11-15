@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "project": "P-Research",
+  "profile": "research",
+  "status": "LOCAL_VALIDATION_PASS",
+  "timezone": "Asia/Shanghai",
+  "recorded_at": "2026-11-15T12:27:20+08:00",
+  "baseline_commit": "eec7a01c7670d58c306b52a21916fb7e9da514da",
+  "source": {
+    "repository": "pengpengyi92/P-ML",
+    "commit": "f0492b80f9f97527926b7aa1cb1290c2ef73699b",
+    "path": "ml-repo/cv-dl-rl/snapshot.json",
+    "sha256": "2867982492edd317a0d0c6ce9bec1584e66acc11d946ac0e8d58deae2eaf9478",
+    "imported_at": "2026-11-15T12:17:22+08:00",
+    "byte_preserved": true,
+    "original_observation_times_preserved": true
+  },
+  "counts": {
+    "crosslisted_primary": 43,
+    "cv": 16,
+    "dl": 11,
+    "rl": 16,
+    "pinned_source_links": 89,
+    "local_existing_ai_infra_overlaps": 3,
+    "not_a_global_unique_repository_count": true
+  },
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "environment": {
+        "PYTHONUTF8": "1"
+      },
+      "exit_code": 0,
+      "baseline_passed": 94,
+      "final_passed": 112,
+      "new_crosslist_tests": 18,
+      "raw_local_transcript_sha256": "eb55154c95079839587ac6ddcacb94e60abac5707d4e1fc1142f7d47ed6b0106"
+    },
+    {
+      "command": "python repo/cv-dl-rl/build_catalog.py --check",
+      "exit_code": 0,
+      "result": "All three generated pages byte-identical; offline standard-library-only"
+    }
+  ],
+  "code_config_sha256": {
+    "repo/cv-dl-rl/build_catalog.py": "50cfce28eb4fbfdfe3bc1d9532258a1e99d8a15d8645d972b0b66588fa69e3b6",
+    "tests/test_cv_dl_rl_crosslist.py": "31d73ae8a13d43898aa3803993332a5c04fe182d00130c206813b873a364d786",
+    "repo/cv-dl-rl/view.json": "8ced8f8a4ade902f5b236877529015b43f44244a704f40a7b429ce2ec7d0abb1"
+  },
+  "preserved": "Application/CLI, original source cards and catalog, AI Infra snapshot/papers, existing tests and data unchanged",
+  "raw_test_transcripts": "Ignored locally; hashes are provenance receipts, not public download links",
+  "upstream_runtime": "NOT_RUN",
+  "model_quality_and_cost_gain": "UNMEASURED",
+  "production_security": "NOT_ASSESSED",
+  "hosted_ci_for_this_commit": "NOT_OBSERVED",
+  "notes": "Existing harness deliberately exercises weak/reckless negative fixtures; printed fixture FAIL is expected, not a failing unit-test suite. Full suite112 PASS in UTF-8 mode."
+}

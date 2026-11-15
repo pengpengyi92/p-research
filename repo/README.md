@@ -6,6 +6,9 @@
 
 ## 分类路线
 
+- [CV / DL / RL · 研究假设与复现协议](cv-dl-rl/README.md) —43项目、89个固定来源入口；
+  独立holdout、提示/标注/训练预算、消融与策略泛化。链接P-ML116项总目录，既有AI Infra
+  三项交叉引用；目录验证不是复现或模型性能验证。
 - [AI Infra L1–L7 · 研究问题、可证伪假设与对照实验](ai-infra/README.md) — 每层四个固定版本的公开项目；原有项目卡保留。
 
 - [Agents, Harness & Memory / 智能体与研究工作流](agents-and-memory/README.md)

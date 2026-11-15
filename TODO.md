@@ -7,7 +7,8 @@
 - [x] Preserve rights/archives/clarification gates; no raw upstream or private data copied.
 - [x] New18 offline cross-list contracts pass; baseline94 Python tests retained.
 - [x] Full112-test Python suite and generator/preservation checks PASS; link/privacy contracts included.
-- [ ] Publish scoped files and verify remote Git blobs/CI.
+- [x] Publish content `f22fe4e`;20 remote blobs and3 key-file byte hashes match;
+  catalog CI43676894221 SUCCESS. App/Pages outcomes recorded separately.
 - [ ] P1: One pre-registered synthetic study, not a claim of model quality from curation.
 
 ## P0 - AI alpha literature and selected methods release (2026-11-15)

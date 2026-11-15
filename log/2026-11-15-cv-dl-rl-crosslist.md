@@ -17,7 +17,8 @@ Do not overwrite existing cards, inflate counts or create external discussion po
   Per-query source times remain original; import time is separately dated.
 - Three overlaps link existing AI Infra guide instead of new duplicate cards.
 - Preserve89 source pins, rights/maintenance/clarification notes; no raw upstream content,
-  models, data, private research or credentials copied. No deployments or external posts.
+  models, data, private research or credentials copied. No manual application deployments
+  or upstream posts; existing automatic Pages behavior is recorded separately.
 - Existing app/CLI/source cards, papers and data unchanged. Baseline Python suite:
   94 tests PASS. Full tests use PYTHONUTF8=1 for existing Windows subprocess fixtures.
 - Initial Git fetch timed out; read-only retry succeeded before any worktree edits.
@@ -37,3 +38,9 @@ FAIL labels while the unit suite passes; no new model result inferred.
 Final commands, test counts, hashes and remote/CI receipts are recorded only after execution.
 Raw test transcripts stay ignored locally. No upstream installation, GPU, training,
 simulation, model inference, paid service or real-world safety/quality claim.
+
+## Publication
+
+At `2026-11-15T12:28:32+08:00`, published content `f22fe4e4d175c7d7b940ebfff93f5c18c1152fd6` to main/task branch.
+All20 remote blobs match; source snapshot, view and index also match downloaded SHA256
+bytes. Catalog CI43676894221 SUCCESS. No source/code/model result promoted by publication.

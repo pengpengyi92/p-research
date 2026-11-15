@@ -36,7 +36,9 @@ options and Minigrid's license-clarification gate remain explicit. Code, data, w
 assets, dependencies and host/service terms require separate review.
 
 No upstream source, textbook content, README/license text, weights/data, private P University,
-PINF, P-Compute or PAT materials were migrated. No external posts or production changes.
+PINF, P-Compute or PAT materials were migrated. No upstream posts or manual application
+deployment/configuration changes. The owner's existing automatic Pages workflow is
+observed separately after the authorized repository push.
 The app/CLI, existing source cards, AI Infra snapshot, papers and data remain unchanged.
 
 ## Validation and next

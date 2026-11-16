@@ -1,6 +1,6 @@
 # HKU Computer Science (CS / CDS) — Research Group Distillation
 
-> Generated 2026-11-09 · scope: AI / Quant · 8 papers classified from 9 recent works.
+> Generated 2026-11-16 · scope: AI / Quant · 8 papers classified from 9 recent works.
 
 ## Method mix
 
@@ -8,8 +8,8 @@
 - VLM: 2
 - Deep Research: 1
 - Video Generation: 1
-- Chain-of-Thought: 1
 - Interpretability: 1
+- Chain-of-Thought: 1
 
 ## Top authors (on matched works; includes co-authors)
 
@@ -30,14 +30,14 @@
 
 ## Recent AI/Quant papers
 
-- **Causal Machine Learning: A Survey and Open Problems** (2025-06, cited 322) — RLVR / GRPO
-- **TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks** (2025-01, cited 319) — —
-- **Graph Neural Networks for Graphs With Heterophily: A Survey** (2026-04, cited 313) — —
-- **Large multimodal agents: a survey** (2025-11, cited 224) — VLM
-- **Large language models meet NLP: a survey** (2026-03, cited 203) — Deep Research
-- **Generative AI Based Secure Wireless Sensing for ISAC Networks** (2025-01, cited 192) — Video Generation
-- **T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT** (2025-01, cited 163) — RLVR / GRPO, Chain-of-Thought
-- **LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights** (2025-09, cited 153) — Interpretability, VLM
+- **Graph Neural Networks for Graphs With Heterophily: A Survey** (2026-04, cited 344) — —
+- **TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks** (2025-01, cited 333) — —
+- **Causal Machine Learning: A Survey and Open Problems** (2025-06, cited 331) — RLVR / GRPO
+- **Large multimodal agents: a survey** (2025-11, cited 239) — VLM
+- **Large language models meet NLP: a survey** (2026-03, cited 218) — Deep Research
+- **Generative AI Based Secure Wireless Sensing for ISAC Networks** (2025-01, cited 196) — Video Generation
+- **LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights** (2025-09, cited 168) — Interpretability, VLM
+- **T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT** (2025-01, cited 166) — RLVR / GRPO, Chain-of-Thought
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._

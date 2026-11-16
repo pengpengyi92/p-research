@@ -3,25 +3,25 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**1287 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-11-09
+**1361 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-11-16
 
 ## Latest papers
 
-- **Video-Coder: Reinforcing Agentic Coding for Video Generation** ([2611.09894v1](https://arxiv.org/abs/2611.09894v1)) — Multimodal / World Models
-- **On Agentic Manipulation Policies** ([2611.09892v1](https://arxiv.org/abs/2611.09892v1)) — Agentic AI / Deep Research Systems
-- **CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse** ([2611.09891v1](https://arxiv.org/abs/2611.09891v1)) — LLM Reasoning / Test-time Compute
-- **On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning** ([2611.09872v1](https://arxiv.org/abs/2611.09872v1)) — LLM Reasoning / Test-time Compute
-- **CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs** ([2611.09868v1](https://arxiv.org/abs/2611.09868v1)) — LLM Reasoning / Test-time Compute
-- **Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation** ([2611.09864v1](https://arxiv.org/abs/2611.09864v1)) — LLM Reasoning / Test-time Compute
-- **Flow-Guided Target-Space Alignment via Path Consistency** ([2611.09863v1](https://arxiv.org/abs/2611.09863v1)) — LLM Reasoning / Test-time Compute
-- **Fifty-Two Shades of Pig: What the UCR Archive Really Asks Classifiers to Do** ([2611.09843v1](https://arxiv.org/abs/2611.09843v1)) — RL / Alignment / Safety
+- **Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion** ([2611.18563v1](https://arxiv.org/abs/2611.18563v1)) — RL / Alignment / Safety
+- **Training Reasoning Models in Simulation to Natively Use Real Robots** ([2611.18562v1](https://arxiv.org/abs/2611.18562v1)) — LLM Reasoning / Test-time Compute
+- **FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices** ([2611.18561v1](https://arxiv.org/abs/2611.18561v1)) — RL / Alignment / Safety
+- **WeightBench: Evaluating Language Models as Weight-Space Programmers** ([2611.18553v1](https://arxiv.org/abs/2611.18553v1)) — Agentic AI / Deep Research Systems
+- **Restoring Diversity in Distilled Image and Video Generators by Probing Activations** ([2611.18550v1](https://arxiv.org/abs/2611.18550v1)) — Multimodal / World Models
+- **Imitation Bootstrapped Multi-Agent Reinforcement Learning** ([2611.18543v1](https://arxiv.org/abs/2611.18543v1)) — LLM Reasoning / Test-time Compute
+- **Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond** ([2611.18542v1](https://arxiv.org/abs/2611.18542v1)) — Multimodal / World Models
+- **ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL** ([2611.18533v1](https://arxiv.org/abs/2611.18533v1)) — LLM Reasoning / Test-time Compute
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W47](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W47.md)
 - [Frontier AI Weekly 2026-W46](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W46.md)
 - [Frontier AI Weekly 2026-W45](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W45.md)
 - [Frontier AI Weekly 2026-W44](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W44.md)
-- [Frontier AI Weekly 2026-W43](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W43.md)
 
 ## Publications
 

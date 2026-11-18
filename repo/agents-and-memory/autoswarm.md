@@ -1,5 +1,9 @@
 # AutoSwarm — p-research 视角
 
+> 历史卡（2026-11-14），原正文保留。当前 AI 分类见
+> [AutoSwarm 最新卡](../ai/agents-and-swarms/autoswarm.md)；
+> [原条目元数据](../ai/agents-and-swarms/autoswarm-history.json)已留档，旧证据不外推到新主线。
+
 **Last reviewed:** 2026-11-14 (Asia/Shanghai). **Profile:** research.
 
 [官方仓库](https://github.com/HKUDS/AutoSwarm) · [固定提交 README](https://github.com/HKUDS/AutoSwarm/blob/96f0b026300186f7a51bff787b204ecc7ce1db03/README.md).

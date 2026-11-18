@@ -4,7 +4,7 @@
 
 - [DeepTutor](deeptutor.md)：研究教学 Agent 的规划、工具、结构化响应和评估，避免以演示替代学习效果证据。
 - [AutoMemory](automemory.md)：研究 memory 的状态、来源、质量与改进 gate，保留真实 refine blocker 贡献线索。
-- [AutoSwarm](autoswarm.md)：作为多 Agent 编排候选研究对象，比较单 Agent baseline、交接可靠性和成本；不宣称本机联调成功。
+- [AutoSwarm · AI / Agent Swarms](../ai/agents-and-swarms/autoswarm.md)：当前主线与研究对照；[旧卡](autoswarm.md)保留为历史，不重复计数。
 - [smolagents](smolagents.md)：研究 tool use、执行边界和 baseline 评估，结合已有模型接口转发 PR。
 - [HELIX](helix.md)：研究 harness 组合、模型/环境协作与训练轨迹质量，关联已有公开文档契约修复。
 - [DeepCode](deepcode.md)：研究 research-to-code 的可复现交付与验证，而非把生成成功等同工程正确。

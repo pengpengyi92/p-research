@@ -1,0 +1,58 @@
+{
+  "description": "Prior public AutoSwarm entry preserved before refresh",
+  "source_repository": "pengpengyi92/p-research",
+  "source_commit": "e3369eb094dc4f11efde250ed97fd33a6da157c5",
+  "source_catalog_blob": "1ddce48fe316ad2ab27c527a562199b16c619e4a",
+  "captured_at": "2026-11-18T19:19:17.651011+08:00",
+  "entry": {
+    "slug": "autoswarm",
+    "title": "AutoSwarm",
+    "category": "agents-and-memory",
+    "card": "agents-and-memory/autoswarm.md",
+    "summary": "多 Agent 协作与任务交接工具。",
+    "inclusion_reason": "作为多 Agent 编排候选研究对象，比较单 Agent baseline、交接可靠性和成本；不宣称本机联调成功。",
+    "learning_question": "协作的收益是否超过协调成本？",
+    "planned_exercise": "先画 host/worker、上下文交接和失败恢复；本轮没有运行 Agent 或接入个人调度系统。",
+    "permission_status": "READ_UPSTREAM_TERMS",
+    "source": {
+      "repository": "HKUDS/AutoSwarm",
+      "requested_name": "HKUDS/AutoSwarm",
+      "url": "https://github.com/HKUDS/AutoSwarm",
+      "private": false,
+      "default_branch": "main",
+      "head": "96f0b026300186f7a51bff787b204ecc7ce1db03",
+      "archived": false,
+      "observed_at": "2026-11-14T15:35:36.755913+08:00",
+      "license_signal": "MIT",
+      "license_path": "LICENSE",
+      "readme_path": "README.md",
+      "tree_truncated": false,
+      "entry_paths": [
+        "src/autoswarm/cli.py",
+        "src/autoswarm/approvals.py"
+      ],
+      "missing_candidates": [
+        "autoswarm/cli.py"
+      ],
+      "contribution_search": {
+        "query": "repo:HKUDS/AutoSwarm author:pengpengyi92 is:pr is:public sort:updated-desc",
+        "total_count": 1,
+        "incomplete_results": false,
+        "detail_limit": 5
+      },
+      "contributions": [
+        {
+          "url": "https://github.com/HKUDS/AutoSwarm/pull/45",
+          "number": 45,
+          "title": "feat(mcp): scope servers and tools by runtime context",
+          "state": "OPEN",
+          "merged_at": null,
+          "author": "pengpengyi92",
+          "updated_at": "2026-08-25T17:47:30Z"
+        }
+      ],
+      "runtime_evaluation": "NOT RUN in this catalog task",
+      "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+    }
+  }
+}

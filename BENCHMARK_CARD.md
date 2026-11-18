@@ -1,3 +1,12 @@
+## AutoSwarm AI reference update - 2026-11-18
+
+Baseline: 112 Python tests and existing public catalogs. Change: pinned current
+AutoSwarm development source, AI category and research-specific question.
+Measure: source-object, role, version, PR-state/link contracts and regressions.
+Result: dated validation log; Agent/runtime/quality gains NOT RUN / UNMEASURED.
+Trade-off: reference curation is not software certification or provider budget.
+Next: one owner-approved fixed-fixture study; no automatic installation/model call.
+
 # P-Research Additive Import Benchmark
 
 ## CV / DL / RL cross-list - 2026-11-15

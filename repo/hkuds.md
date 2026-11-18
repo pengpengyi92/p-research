@@ -1,3 +1,9 @@
+## AutoSwarm focus - 2026-11-18
+
+[AI / Agent Swarms card](ai/agents-and-swarms/autoswarm.md) reviews a pinned
+current development source. The organization inventory below remains its dated
+snapshot, not a fresh full HKUDS inventory or runtime evaluation.
+
 # HKUDS community and repository guide
 
 Research guide · Research hypotheses, baselines and replicable outcomes.

@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-11-18T19:19:17.651011+08:00",
+  "project": "p-research",
+  "source": "HKUDS/AutoSwarm",
+  "head": "68463dd562640ada92a9dbbb1a1a5091b0811866",
+  "category": "AI / Multi-Agent / Agent Swarms",
+  "package_version": "2.0.0.dev0",
+  "release_claim": "DEVELOPMENT_SNAPSHOT_NOT_STABLE",
+  "verified_source_objects": 10,
+  "upstream_runtime_tests": "NOT RUN",
+  "agent_model_calls": "NOT INITIATED",
+  "baseline_python_tests": 112,
+  "python_command": "python -X utf8 -m unittest discover -s tests -p test_*.py -q",
+  "python_exit_code": 0,
+  "python_tests_passed": 116,
+  "new_catalog_contracts": 4,
+  "ci": "NOT RUN at record creation",
+  "runtime_installation": "NOT RUN",
+  "learning_performance_gains": "UNMEASURED",
+  "contribution": {
+    "number": 45,
+    "state": "OPEN",
+    "merged_at": null,
+    "is_new_contribution": false
+  },
+  "baseline_attempt_note": "Default Windows encoding baseline had one UnicodeDecodeError; rerun in UTF-8 mode passed112 tests without code changes"
+}

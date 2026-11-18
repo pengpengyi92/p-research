@@ -1,3 +1,9 @@
+## 2026-11-18 - HKUDS AutoSwarm under AI
+
+[AutoSwarm 收录卡](repo/ai/agents-and-swarms/autoswarm.md) · [AI 分类](repo/ai/README.md)。
+研究视角：单 Agent baseline、交接可靠性与协作成本。
+固定 `2.0.0.dev0` 开发快照；本轮未安装或运行上游 Agent。
+
 ## 2026-11-13 — HKUDS AgentPilot 9B Policy Learning DD
 
 [**Full technical research note**](docs/research/2026-11-13-hkuds-agentpilot-9b-policy-learning.md) — Qwen3.5-9B strategy proposer, UCB/Textual policy learning, held-out C benchmark reconciliation, VRAM/token economics, and a read-only local-first PFICC automation research proposal. Independent experiments NOT_RUN; private interactions excluded.

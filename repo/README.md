@@ -1,3 +1,9 @@
+## 2026-11-18 - AI / Agent Swarms
+
+[AI 分类](ai/README.md) · [HKUDS AutoSwarm](ai/agents-and-swarms/autoswarm.md)。
+更新既有研究卡，基础卡仍为12项，不重复新增。
+固定当前主线开发快照；其余来源时间与历史专题保留，本轮未安装或调用 Agent。
+
 # AI Research — Agent、RAG、Memory 与评价
 
 **Last reviewed:** 2026-11-14 (Asia/Shanghai). 首批 **12** 个项目视角档案；选题范围：AI 为主；Agent、RAG、多模态、记忆、模型和研究评价；Quant × AI 保留为应用分支。
@@ -27,7 +33,7 @@
 | VideoRAG | 把时间覆盖和证据时点作为多模态研究问题，连接已有 fractional-duration 案例。 | [阅读](retrieval-and-multimodal/videorag.md) |
 | DeepTutor | 研究教学 Agent 的规划、工具、结构化响应和评估，避免以演示替代学习效果证据。 | [阅读](agents-and-memory/deeptutor.md) |
 | AutoMemory | 研究 memory 的状态、来源、质量与改进 gate，保留真实 refine blocker 贡献线索。 | [阅读](agents-and-memory/automemory.md) |
-| AutoSwarm | 作为多 Agent 编排候选研究对象，比较单 Agent baseline、交接可靠性和成本；不宣称本机联调成功。 | [阅读](agents-and-memory/autoswarm.md) |
+| AutoSwarm | AI / Agent Swarms：单 Agent 对照、上下文交接与可测量的协调成本。 | [阅读](ai/agents-and-swarms/autoswarm.md) |
 | smolagents | 研究 tool use、执行边界和 baseline 评估，结合已有模型接口转发 PR。 | [阅读](agents-and-memory/smolagents.md) |
 | HELIX | 研究 harness 组合、模型/环境协作与训练轨迹质量，关联已有公开文档契约修复。 | [阅读](agents-and-memory/helix.md) |
 | DeepCode | 研究 research-to-code 的可复现交付与验证，而非把生成成功等同工程正确。 | [阅读](agents-and-memory/deepcode.md) |

@@ -1,3 +1,9 @@
+## P1 - AutoSwarm AI catalog, 2026-11-18
+
+- [x] Verify public source, MIT signal, development version and historical PR45 state.
+- [x] Add explicit AI / Multi-Agent / Agent Swarms category with a profile-specific card.
+- [ ] Run one separately authorized fixed-fixture study; NOT RUN / UNMEASURED.
+
 # P-Research TODO
 
 ## P0 - CV / DL / RL cross-list (2026-11-15)

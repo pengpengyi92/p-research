@@ -3,7 +3,8 @@
   "project": "p-research",
   "profile": "research",
   "catalog_root": "repo",
-  "last_reviewed": "2026-11-14",
+  "last_reviewed": "2026-11-18",
+  "last_update_scope": "AutoSwarm AI entry only; other source observations unchanged",
   "timezone": "Asia/Shanghai",
   "scope": "AI 为主；Agent、RAG、多模态、记忆、模型和研究评价；Quant × AI 保留为应用分支",
   "complete_ecosystem_inventory": false,
@@ -431,35 +432,96 @@
     {
       "slug": "autoswarm",
       "title": "AutoSwarm",
-      "category": "agents-and-memory",
-      "card": "agents-and-memory/autoswarm.md",
-      "summary": "多 Agent 协作与任务交接工具。",
-      "inclusion_reason": "作为多 Agent 编排候选研究对象，比较单 Agent baseline、交接可靠性和成本；不宣称本机联调成功。",
-      "learning_question": "协作的收益是否超过协调成本？",
-      "planned_exercise": "先画 host/worker、上下文交接和失败恢复；本轮没有运行 Agent 或接入个人调度系统。",
+      "category": "ai-agents-and-swarms",
+      "card": "ai/agents-and-swarms/autoswarm.md",
+      "tags": [
+        "AI",
+        "Multi-Agent",
+        "Agent Swarms",
+        "Context Sharing"
+      ],
+      "summary": "面向已有 Agent 原生 CLI 的协作与任务交接项目；主线含插件核心与 Desk 分层。",
+      "inclusion_reason": "研究多 Agent 协作相对单 Agent 的有效收益，分离上下文共享、任务分工和协调成本，并用固定任务集检验。",
+      "learning_question": "相同任务、模型与预算下，协作的正确率收益能否覆盖交接和资源成本？",
+      "planned_exercise": "预注册单 Agent、顺序交接、双 Agent 三组；固定公开或合成任务、模型版本、总调用/时间预算和盲评标准，保留负面结果。",
       "permission_status": "READ_UPSTREAM_TERMS",
       "source": {
         "repository": "HKUDS/AutoSwarm",
-        "requested_name": "HKUDS/AutoSwarm",
         "url": "https://github.com/HKUDS/AutoSwarm",
-        "private": false,
+        "head": "68463dd562640ada92a9dbbb1a1a5091b0811866",
         "default_branch": "main",
-        "head": "96f0b026300186f7a51bff787b204ecc7ce1db03",
+        "private": false,
         "archived": false,
-        "observed_at": "2026-11-14T15:35:36.755913+08:00",
+        "observed_at": "2026-11-18T19:19:17.651011+08:00",
         "license_signal": "MIT",
         "license_path": "LICENSE",
         "readme_path": "README.md",
         "tree_truncated": false,
         "entry_paths": [
+          "pyproject.toml",
+          "docs/architecture.md",
           "src/autoswarm/cli.py",
-          "src/autoswarm/approvals.py"
+          "src/autoswarm/engine.py",
+          "src/autoswarm/approvals.py",
+          "src/autoswarm/providers.py",
+          "tests/test_runtime.py",
+          "tests/test_approvals.py"
         ],
-        "missing_candidates": [
-          "autoswarm/cli.py"
-        ],
+        "verified_objects": {
+          "LICENSE": {
+            "git_blob": "10240b59567ecdfe064c5ffe9f0ed1130c5675ac",
+            "mode": "100644",
+            "bytes": 1072
+          },
+          "README.md": {
+            "git_blob": "034581ddf38ca14a0526b715cd6f8519bee0463e",
+            "mode": "100644",
+            "bytes": 12878
+          },
+          "docs/architecture.md": {
+            "git_blob": "2ada7e4b0f6756bddc380c610e72db9abb316cfe",
+            "mode": "100644",
+            "bytes": 34194
+          },
+          "pyproject.toml": {
+            "git_blob": "617af2a61bb9b56f4edca52ac1f7f215a7278745",
+            "mode": "100644",
+            "bytes": 707
+          },
+          "src/autoswarm/approvals.py": {
+            "git_blob": "645d9aeedeed65fe5453b5b62a9ff10b21042355",
+            "mode": "100644",
+            "bytes": 17319
+          },
+          "src/autoswarm/cli.py": {
+            "git_blob": "b370c645db02b8e203f09c034c1dd85e1c04e1a6",
+            "mode": "100644",
+            "bytes": 20411
+          },
+          "src/autoswarm/engine.py": {
+            "git_blob": "35b36aeed7904c977a11734b596c262a4dd612b9",
+            "mode": "100644",
+            "bytes": 14358
+          },
+          "src/autoswarm/providers.py": {
+            "git_blob": "d5474e5b4a91a476d6c2cdc2339e2c8830460646",
+            "mode": "100644",
+            "bytes": 11748
+          },
+          "tests/test_approvals.py": {
+            "git_blob": "496d58dcd62ce8c91a63705c190a259c98e709fd",
+            "mode": "100644",
+            "bytes": 12955
+          },
+          "tests/test_runtime.py": {
+            "git_blob": "3d7f1fe35f932f7211c273a1524a3404f1536cc0",
+            "mode": "100644",
+            "bytes": 30598
+          }
+        },
+        "missing_candidates": [],
         "contribution_search": {
-          "query": "repo:HKUDS/AutoSwarm author:pengpengyi92 is:pr is:public sort:updated-desc",
+          "query": "repo:HKUDS/AutoSwarm author:pengpengyi92 is:pr is:public",
           "total_count": 1,
           "incomplete_results": false,
           "detail_limit": 5
@@ -476,7 +538,9 @@
           }
         ],
         "runtime_evaluation": "NOT RUN in this catalog task",
-        "path_resolution": "Reviewed same pinned Git tree after initial layout candidates missed"
+        "package_version": "2.0.0.dev0",
+        "version_status": "DEVELOPMENT_SNAPSHOT_NOT_A_STABLE_RELEASE",
+        "requested_name": "HKUDS/AutoSwarm"
       }
     },
     {

@@ -1,3 +1,11 @@
+# P-Research: The Open AI Research Commons
+
+<p align="center">
+  <img src="assets/p-research-book-nap.webp" alt="Xiao G in a green bandana, peacefully napping on an open book among stacks of books" width="100%">
+</p>
+
+A public **AI-first research commons** for agents, RAG, memory, models, multimodal systems and rigorous evaluation. Quant × AI remains an application branch, not the organizing center of the new repository catalog. The existing arXiv/survey pipeline, quantitative examples and historical charter are preserved.
+
 ## 2026-11-18 - HKUDS AutoSwarm under AI
 
 [AutoSwarm 收录卡](repo/ai/agents-and-swarms/autoswarm.md) · [AI 分类](repo/ai/README.md)。
@@ -8,9 +16,7 @@
 
 [**Full technical research note**](docs/research/2026-11-13-hkuds-agentpilot-9b-policy-learning.md) — Qwen3.5-9B strategy proposer, UCB/Textual policy learning, held-out C benchmark reconciliation, VRAM/token economics, and a read-only local-first PFICC automation research proposal. Independent experiments NOT_RUN; private interactions excluded.
 
-# 🌲 P-Research
-
-A public **AI-first research commons** for agents, RAG, memory, models, multimodal systems and rigorous evaluation. Quant × AI remains an application branch, not the organizing center of the new repository catalog. The existing arXiv/survey pipeline, quantitative examples and historical charter are preserved.
+## Explore the research
 
 [CV / DL / RL · 43个研究问题入口](repo/cv-dl-rl/README.md) — 表征、时序记忆、训练预算和策略
 泛化；逐项有可证伪问题、baseline和拟用指标，链接P-ML的116项总目录。已有AI Infra项目

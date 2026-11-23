@@ -3,25 +3,25 @@
 A self-updating, continuously running frontier-AI research intelligence.
 Weekly arXiv sweeps · living paper database · growing systematic survey.
 
-**1361 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-11-16
+**1439 papers tracked** (92 full-text verified) across 6 pillars · last sweep 2026-11-23
 
 ## Latest papers
 
-- **Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion** ([2611.18563v1](https://arxiv.org/abs/2611.18563v1)) — RL / Alignment / Safety
-- **Training Reasoning Models in Simulation to Natively Use Real Robots** ([2611.18562v1](https://arxiv.org/abs/2611.18562v1)) — LLM Reasoning / Test-time Compute
-- **FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices** ([2611.18561v1](https://arxiv.org/abs/2611.18561v1)) — RL / Alignment / Safety
-- **WeightBench: Evaluating Language Models as Weight-Space Programmers** ([2611.18553v1](https://arxiv.org/abs/2611.18553v1)) — Agentic AI / Deep Research Systems
-- **Restoring Diversity in Distilled Image and Video Generators by Probing Activations** ([2611.18550v1](https://arxiv.org/abs/2611.18550v1)) — Multimodal / World Models
-- **Imitation Bootstrapped Multi-Agent Reinforcement Learning** ([2611.18543v1](https://arxiv.org/abs/2611.18543v1)) — LLM Reasoning / Test-time Compute
-- **Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond** ([2611.18542v1](https://arxiv.org/abs/2611.18542v1)) — Multimodal / World Models
-- **ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL** ([2611.18533v1](https://arxiv.org/abs/2611.18533v1)) — LLM Reasoning / Test-time Compute
+- **A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning** ([2611.27978v1](https://arxiv.org/abs/2611.27978v1)) — Quant × AI
+- **MemOnce: A Scalable Memory Architecture for Large Language Models** ([2611.27973v1](https://arxiv.org/abs/2611.27973v1)) — Efficient Training & Inference
+- **Non-penetrating World Models** ([2611.27963v1](https://arxiv.org/abs/2611.27963v1)) — Multimodal / World Models
+- **Model Carving: Training Transformers That Optimize Their Own Topology** ([2611.27962v1](https://arxiv.org/abs/2611.27962v1)) — Efficient Training & Inference
+- **Topology Hub Optimal Transport: Eliminating Long Context Dilution at Flash Speed** ([2611.27951v1](https://arxiv.org/abs/2611.27951v1)) — LLM Reasoning / Test-time Compute
+- **SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement** ([2611.27919v1](https://arxiv.org/abs/2611.27919v1)) — LLM Reasoning / Test-time Compute
+- **StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning** ([2611.27915v1](https://arxiv.org/abs/2611.27915v1)) — LLM Reasoning / Test-time Compute
+- **Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search** ([2611.27910v1](https://arxiv.org/abs/2611.27910v1)) — LLM Reasoning / Test-time Compute
 
 ## Weekly digests
 
+- [Frontier AI Weekly 2026-W48](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W48.md)
 - [Frontier AI Weekly 2026-W47](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W47.md)
 - [Frontier AI Weekly 2026-W46](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W46.md)
 - [Frontier AI Weekly 2026-W45](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W45.md)
-- [Frontier AI Weekly 2026-W44](https://github.com/pengpengyi92/p-research/blob/main/data/weekly/2026-W44.md)
 
 ## Publications
 

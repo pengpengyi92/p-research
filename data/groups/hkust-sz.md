@@ -1,6 +1,6 @@
 # HKUST Shenzhen Research Institute — Research Group Distillation
 
-> Generated 2026-11-16 · scope: AI / Quant · 1 papers classified from 2 recent works.
+> Generated 2026-11-23 · scope: AI / Quant · 1 papers classified from 1 recent works.
 
 ## Method mix
 
@@ -12,11 +12,6 @@
 - Y. Li: 1 works
 - Guojun Bu: 1 works
 - Xiao‐Fen Chen: 1 works
-- Yun Mi Song: 1 works
-- Charles B. Musgrave: 1 works
-- Jianjun Su: 1 works
-- Libei Huang: 1 works
-- Weihua Guo: 1 works
 
 ## Publication years (AI/quant)
 
@@ -24,7 +19,7 @@
 
 ## Recent AI/Quant papers
 
-- **TREM2 and sTREM2 in Alzheimer’s disease: from mechanisms to therapies** (2025-04, cited 92) — —
+- **TREM2 and sTREM2 in Alzheimer’s disease: from mechanisms to therapies** (2025-04, cited 97) — —
 
 ---
 _Distilled from OpenAlex affiliation search; institutional attribution follows each work's authorship metadata._
